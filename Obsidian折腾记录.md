@@ -44,9 +44,16 @@ iPhone上下载working copy软件
 
 ![IMG_0997.jpg](https://raw.githubusercontent.com/guchaolong/articleImgs/master/IMG_0997.jpg)
 
+放到 **我的iPhone**下的Obsidian目录下，（这个可以在**文件**app中看到）然后就可以用obsidian打开了
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230730060836.png)
 
 
+之后在working copy上同步到iPhone上
+点右下角这个图标，然后pull
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230730061313.png)
 
+
+![IMG_6EA169491203-1.jpeg](https://raw.githubusercontent.com/guchaolong/articleImgs/master/IMG_6EA169491203-1.jpeg)
 
 
 
