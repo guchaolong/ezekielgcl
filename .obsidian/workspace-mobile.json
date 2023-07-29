@@ -13,12 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-07-29.md",
-                "mode": "preview",
+                "file": "Obsidian使用.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
-            }
+            },
+            "group": "66299747a4bfd107"
           },
           {
             "id": "4a43c4e7caf57164",
@@ -27,6 +28,48 @@
               "type": "empty",
               "state": {}
             }
+          }
+        ]
+      },
+      {
+        "id": "62783d5b4ad4fed5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "586234e8f3545a84",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Obsidian使用.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "66299747a4bfd107"
           }
         ]
       }
@@ -53,7 +96,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:#Obsidian",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -82,7 +125,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "e6b69c6afe8c8214",
@@ -94,7 +137,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "2023-07-29.md",
+            "file": "Obsidian使用.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +154,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "2023-07-29.md",
+            "file": "Obsidian使用.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -123,7 +166,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "2023-07-29.md"
+            "file": "Obsidian使用.md"
           }
         }
       },
@@ -149,12 +192,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fc318e6d7f8777d5",
+  "active": "21e268827f82eb90",
   "lastOpenFiles": [
+    "2023-07-29.md",
     "未命名",
     "Obsidian使用.md",
     "2023-07-30.md",
-    "2023-07-29.md",
     "Untitled.md",
     "Obsidian.md"
   ]
