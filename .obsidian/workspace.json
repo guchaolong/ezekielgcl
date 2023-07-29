@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日记/2023-07-30-周日.md",
+                "file": "Daily/2023-07-30_周日.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记/2023-07-30-周日.md",
+                "file": "Daily/2023-07-30_周日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记/2023-07-30-周日.md",
+                "file": "Daily/2023-07-30_周日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记/2023-07-30-周日.md"
+                "file": "Daily/2023-07-30_周日.md"
               }
             }
           },
@@ -157,9 +157,10 @@
   },
   "active": "ffa4bf2d77fb86ed",
   "lastOpenFiles": [
-    "Template/未命名.md",
+    "Daily",
+    "Template/riji.md",
     "日记/2023-07-30-周日.md",
-    "日记/2023-07-29-周六.md",
+    "Daily/2023-07-30_周日.md",
     "日记/Template.md",
     "Obsidian使用.md",
     "Template/b.md",
@@ -170,7 +171,6 @@
     "Daily/2023/07/07-30.md",
     "Daily/2023/07",
     "Daily/2023",
-    "Daily",
     "未命名.md",
     "未命名 1.md",
     "日记/2023-07-30.md",
