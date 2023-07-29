@@ -25,8 +25,9 @@
 
 
 # 设置
-## 日记
-⚠️upload failed, check dev console
+## 日记模版和存放位置
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230730043916.png)
+
 
 
 
@@ -36,5 +37,4 @@
 
 # 快捷键
 插入链接：`command + k`，()中是url, \[\]中是显示的文字
-
 
