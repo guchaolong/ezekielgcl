@@ -32,7 +32,7 @@ Obsidian打开已有仓库
 
 
 方法二：使用working copy软件
-Mac上弄好github后
+Mac上弄好github
 iPhone上下载working copy软件
 点+号，`Clone repository`
 长按仓库，点`Share`
