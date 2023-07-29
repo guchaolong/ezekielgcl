@@ -23,6 +23,8 @@
 
 ios同步：
 方法一：iCloud同步
+开启obsidian使用iCloud云盘Apple ID->iCloud->iCloud云盘->同步至iCloud云盘的App
+
 现在iPhone端创建仓库，勾选iCloud同步
 然后mac上
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230730055640.png)
