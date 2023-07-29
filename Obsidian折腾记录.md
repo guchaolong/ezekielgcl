@@ -32,10 +32,18 @@ Obsidian打开已有仓库
 
 
 方法二：使用working copy软件
-Mac上弄好github
+参考 [使用 working copy 同步笔记到obsidian](https://segmentfault.com/a/1190000041888141)
+Mac上弄好GitHub仓库
 iPhone上下载working copy软件
-点+号，`Clone repository`
-长按仓库，点`Share`
+Obsidian创建一个仓库`ezekielgcl`,不勾iCloud，并且设置配置文件为`.obsidian.mobile`
+`
+在**文件**app中就可以看到
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230730064102.png)
+
+
+working copy中点+号，`Clone repository`把GitHub上的仓库克隆下来
+
+长按仓库，点`Share`-> `Link Repository to Folder`
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230730060618.png)
 
 
