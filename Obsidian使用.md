@@ -21,4 +21,8 @@
 使用Obsidian git插件备份到GitHub
 
 
+<<<<<<< HEAD
 # 设置
+=======
+# 设置
+>>>>>>> origin/main

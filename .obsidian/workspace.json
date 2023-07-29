@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5a8c52739b7eccb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian使用.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian使用.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian使用.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -154,11 +167,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ffa4bf2d77fb86ed",
+  "active": "541ed70ecd2e9b7a",
   "lastOpenFiles": [
-    "未命名",
-    "conflict-files-obsidian-git.md",
     "Obsidian使用.md",
+    "conflict-files-obsidian-git.md",
+    "未命名",
     "2023-07-30.md",
     "2023-07-29.md",
     "test222222.md",
