@@ -1,8 +1,8 @@
 #Obsidian #工具 #笔记 #效率
 
 # 主题
-* vue主题
-* Blue Topaz主题
+* vue
+* Blue Topaz
 
 # 插件
 * calendar
@@ -15,7 +15,7 @@
   **同步**到GitHub，现在github默认分支是main，需要设置一下
 
 * Templater插件
-  设置一些模版，用到
+  设置一些模版
 
 # 备份和同步
 现在iPhone端创建仓库，勾选iCloud同步
