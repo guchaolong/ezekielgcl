@@ -15,6 +15,7 @@ let createTime = tp.file.creation_date()
 // 获取当前文件修改时间
 let modificationDate = tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss")
 -%>
+
 // 上述内容，运行后不会显示，下面的内容会显示，且变量值来自于上述代码
 ---
 create time : <% createTime %>

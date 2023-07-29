@@ -13,13 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023-07-30_周日.md",
+                "file": "template用法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d387071e0ab849c8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6d0e42468247d7ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日记/2023-07-30_周日.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023-07-30_周日.md",
+                "file": "日记/2023-07-30_周日.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023-07-30_周日.md",
+                "file": "日记/2023-07-30_周日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023-07-30_周日.md"
+                "file": "日记/2023-07-30_周日.md"
               }
             }
           },
@@ -155,14 +176,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ffa4bf2d77fb86ed",
+  "active": "6d0e42468247d7ad",
   "lastOpenFiles": [
-    "Daily",
-    "Template/riji.md",
     "日记/2023-07-30-周日.md",
+    "日记/2023-07-30_周日.md",
+    "template用法.md",
+    "Obsidian折腾记录.md",
+    "Template/日记.md",
     "Daily/2023-07-30_周日.md",
     "日记/Template.md",
-    "Obsidian使用.md",
+    "Daily",
     "Template/b.md",
     "2023-07-30-周日.md",
     "Daily/Invalid date/Invalid date/Invalid date.md",
@@ -171,7 +194,6 @@
     "Daily/2023/07/07-30.md",
     "Daily/2023/07",
     "Daily/2023",
-    "未命名.md",
     "未命名 1.md",
     "日记/2023-07-30.md",
     "Template",
