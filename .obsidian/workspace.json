@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "15f380a0aaef12af",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4109981b093ab53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffa4bf2d77fb86ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian使用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "545e13d4341af908",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Testgit.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9b517e0bc06aa742",
+    "type": "split",
+    "children": [
+      {
+        "id": "48afc631826f7b01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "435d8e411d59a363",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0d93416e9d626ad0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "38db0b065d0167fa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "1c96c6369c5a413a",
+    "type": "split",
+    "children": [
+      {
+        "id": "04cfaff127385825",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98b30e29fa8ab3a3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Testgit.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d45b58af78bd9984",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Testgit.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7daba78745522b8b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "541ed70ecd2e9b7a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Testgit.md"
+              }
+            }
+          },
+          {
+            "id": "dae53a968ffcd37e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 217.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "545e13d4341af908",
+  "lastOpenFiles": [
+    "Obsidian使用.md",
+    "Testgit.md",
+    "Untitled.md"
+  ]
+}
