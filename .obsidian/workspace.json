@@ -11,8 +11,12 @@
             "id": "ffa4bf2d77fb86ed",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian使用.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Obsidian使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Obsidian使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Obsidian使用.md"
+              }
             }
           },
           {
@@ -143,17 +151,28 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "ffa4bf2d77fb86ed",
   "lastOpenFiles": [
-    "日记/2023-07-30.md",
-    "日记",
+    "Daily/Invalid date/Invalid date/Invalid date.md",
+    "Daily/Invalid date/Invalid date",
+    "Daily/Invalid date",
+    "Daily/2023/07/07-30.md",
     "Obsidian使用.md",
+    "Daily/2023/07",
+    "Daily/2023",
+    "Daily",
+    "未命名.md",
+    "未命名 1.md",
+    "日记/2023-07-30.md",
+    "日记/2023-07-29-周六.md",
+    "Template",
+    "日记",
     "dfs.md",
     "().md",
-    "日记/2023-07-29.md",
     "conflict-files-obsidian-git.md",
     "test222222.md",
     "Testgit.md",
