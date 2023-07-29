@@ -43,17 +43,7 @@ Obsidian创建一个仓库`ezekielgcl`,不勾iCloud，并且设置配置文件�
 
 working copy中点+号，`Clone repository`把GitHub上的仓库克隆下来
 
-长按仓库，点`Share`-> `Link Repository to Folder`
-![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230730060618.png)
-
-
-选择`Save to Files`
-
-
-![IMG_0997.jpg](https://raw.githubusercontent.com/guchaolong/articleImgs/master/IMG_0997.jpg)
-
-放到 **我的iPhone**下的Obsidian目录下，（这个可以在**文件**app中看到）然后就可以用obsidian打开了
-![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230730060836.png)
+长按仓库，点`Share`-> `Link Repository to Folder`，选择我的iPhone下的Obsidian下的刚创建的仓库
 
 
 之后在working copy上同步到iPhone上
