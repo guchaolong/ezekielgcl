@@ -5,10 +5,10 @@
 
 
 # 插件
-1. calendar
-2. Image auto upload Plugin
-3. Obsidian git
-   同步到github
+* calendar
 
+* Image auto upload Plugin
 
-# 快捷键
+* Obsidian git
+  同步到github，现在github默认分支是main，需要设置一下
+
