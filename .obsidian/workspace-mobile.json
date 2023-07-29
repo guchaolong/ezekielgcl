@@ -11,8 +11,13 @@
             "id": "21e268827f82eb90",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2023-07-29.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           },
           {
@@ -63,7 +68,7 @@
         "state": {
           "type": "tag",
           "state": {
-            "sortOrder": "frequency",
+            "sortOrder": "frequencyReverse",
             "useHierarchy": true
           }
         }
@@ -76,7 +81,8 @@
           "state": {}
         }
       }
-    ]
+    ],
+    "currentTab": 0
   },
   "right": {
     "id": "e6b69c6afe8c8214",
@@ -88,6 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "2023-07-29.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -104,6 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "2023-07-29.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +122,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "2023-07-29.md"
+          }
         }
       },
       {
@@ -130,6 +140,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -138,11 +149,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "21e268827f82eb90",
+  "active": "fc318e6d7f8777d5",
   "lastOpenFiles": [
-    "2023-07-30.md",
-    "Obsidian使用.md",
     "未命名",
+    "Obsidian使用.md",
+    "2023-07-30.md",
     "2023-07-29.md",
     "Untitled.md",
     "Obsidian.md"

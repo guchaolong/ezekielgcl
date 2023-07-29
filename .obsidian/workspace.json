@@ -151,15 +151,17 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "435d8e411d59a363",
+  "active": "ffa4bf2d77fb86ed",
   "lastOpenFiles": [
+    "未命名",
+    "conflict-files-obsidian-git.md",
     "Obsidian使用.md",
     "2023-07-30.md",
     "2023-07-29.md",
-    "未命名",
     "test222222.md",
     "Testgit.md",
     "Untitled.md"
