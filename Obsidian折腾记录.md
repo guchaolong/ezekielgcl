@@ -19,9 +19,24 @@
   设置一些模版
 
 # 备份和同步
+在github新建仓库，使用Obsidian git插件备份到GitHub
+
+ios同步：
+方法一：iCloud同步
 现在iPhone端创建仓库，勾选iCloud同步
-然后mac上打开已有仓库（在iCloud云盘中）
-使用Obsidian git插件备份到GitHub
+然后mac上
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230730055640.png)
+
+Obsidian打开已有仓库
+
+
+
+方法二：使用working copy软件
+iphone上下载working copy软件
+
+
+
+
 
 
 # 设置
