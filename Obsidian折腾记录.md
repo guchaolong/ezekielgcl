@@ -14,6 +14,8 @@
 * Obsidian git
   **同步**到GitHub，现在github默认分支是main，需要设置一下
 
+* Templater插件
+  设置一些模版，用到
 
 # 备份和同步
 现在iPhone端创建仓库，勾选iCloud同步
