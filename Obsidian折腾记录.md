@@ -25,6 +25,8 @@
 
 
 # 设置
+## 日记
+⚠️upload failed, check dev console
 
 
 
