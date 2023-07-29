@@ -11,12 +11,8 @@
             "id": "ffa4bf2d77fb86ed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian使用.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Obsidian使用.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,11 +148,13 @@
   },
   "active": "ffa4bf2d77fb86ed",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "日记/2023-07-30.md",
+    "日记",
     "Obsidian使用.md",
-    "未命名",
-    "2023-07-30.md",
-    "2023-07-29.md",
+    "dfs.md",
+    "().md",
+    "日记/2023-07-29.md",
+    "conflict-files-obsidian-git.md",
     "test222222.md",
     "Testgit.md",
     "Untitled.md"

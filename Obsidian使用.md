@@ -25,3 +25,10 @@
 
 
 
+# 文章推荐
+[Obsidian 一周使用心得（配置、主题和插件）](https://zhuanlan.zhihu.com/p/534185171)
+
+
+# 快捷键
+插入链接：`command + k`，()中是url, \[\]中是显示的文字
+
