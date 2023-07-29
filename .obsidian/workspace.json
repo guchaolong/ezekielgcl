@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "545e13d4341af908",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Testgit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testgit.md",
+                "file": "Obsidian使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Testgit.md",
+                "file": "Obsidian使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Testgit.md"
+                "file": "Obsidian使用.md"
               }
             }
           },
@@ -167,10 +154,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "545e13d4341af908",
+  "active": "ffa4bf2d77fb86ed",
   "lastOpenFiles": [
-    "Obsidian使用.md",
     "Testgit.md",
+    "Obsidian使用.md",
     "Untitled.md"
   ]
 }
