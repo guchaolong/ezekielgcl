@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian使用.md",
+                "file": "日记/Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian使用.md",
+                "file": "日记/Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian使用.md",
+                "file": "日记/Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian使用.md"
+                "file": "日记/Template.md"
               }
             }
           },
@@ -157,18 +157,22 @@
   },
   "active": "ffa4bf2d77fb86ed",
   "lastOpenFiles": [
+    "日记/2023-07-29-周六.md",
+    "日记/Template.md",
+    "日记/2023-07-30-周日.md",
+    "Obsidian使用.md",
+    "Template/b.md",
+    "2023-07-30-周日.md",
     "Daily/Invalid date/Invalid date/Invalid date.md",
     "Daily/Invalid date/Invalid date",
     "Daily/Invalid date",
     "Daily/2023/07/07-30.md",
-    "Obsidian使用.md",
     "Daily/2023/07",
     "Daily/2023",
     "Daily",
     "未命名.md",
     "未命名 1.md",
     "日记/2023-07-30.md",
-    "日记/2023-07-29-周六.md",
     "Template",
     "日记",
     "dfs.md",
