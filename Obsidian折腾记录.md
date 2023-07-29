@@ -13,7 +13,6 @@
 
 * Obsidian git
   **同步**到GitHub，现在github默认分支是main，需要设置一下
-  gitignore
 
 
 * Templater插件
@@ -35,4 +34,5 @@
 
 # 快捷键
 插入链接：`command + k`，()中是url, \[\]中是显示的文字
+
 
