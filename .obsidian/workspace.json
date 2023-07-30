@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Obsidian折腾之路.md",
+                "file": "Index/HomePage.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#正能量",
+                "query": "chart",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Obsidian折腾之路.md",
+                "file": "Index/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Obsidian折腾之路.md",
+                "file": "Index/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Obsidian折腾之路.md"
+                "file": "Index/HomePage.md"
               }
             }
           },
@@ -157,18 +158,20 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
+    "ITNote/Linux学习笔记.md",
+    "Index/HomePage.md",
+    "ITNote/前端.md",
+    "工具/Obsidian折腾之路.md",
     "Daily/2023-07-30-周日.md",
     "阅读/时间从来不语，却回答了所有问题.md",
     "Daily/2023-07-29-周六.md",
     "Daily/Template.md",
-    "Index/HomePage.md",
     "Index/index-日记.md",
     "Index/index-ITNote.md",
     "Index/index-movielist.md",
     "Index/index-readlist.md",
     "ITNote/代码大全.md",
     "ITNote/排序算法.md",
-    "ITNote/前端.md",
     "ITNote/设计模式.md",
     "ITNote/项目架构.md",
     "ITNote/消息中间件 RocketMQ.md",
@@ -178,9 +181,7 @@
     "ITNote/Zookeeper.md",
     "ITNote/Tomcat.md",
     "ITNote/Redis.md",
-    "ITNote/Linux学习笔记.md",
     "ITNote/Java开发手册.md",
-    "工具/Obsidian折腾之路.md",
     "工具/Markdown语法.md",
     "工具/chartview/chart view-all.md",
     "工具/附件素材/头图/tunisia-g92f2bf537_1920.jpg",
