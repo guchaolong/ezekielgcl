@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2018-11-22-Markdown语法.md",
-                "mode": "preview",
+                "file": "blog/2018-11-17-Git总结.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/2018-11-22-Markdown语法.md",
+                "file": "blog/2018-11-17-Git总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/2018-11-22-Markdown语法.md",
+                "file": "blog/2018-11-17-Git总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/2018-11-22-Markdown语法.md"
+                "file": "blog/2018-11-17-Git总结.md"
               }
             }
           },
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 226.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,29 +155,29 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "541ed70ecd2e9b7a",
+  "active": "9d275286dc275eb3",
   "lastOpenFiles": [
-    "blog/2020-10-08-设计模式.md",
+    "blog/2020-10-12-IO、NIO、AIO、Netty.md",
+    "blog/2020-11-27-Tomcat.md",
+    "blog/2023-07-26.md",
+    "blog/2019-08-01-缓存.md",
+    "blog/2019-07-21-前端.md",
+    "blog/排序算法.md",
     "blog/2018-12-09-Java基础知识.md",
+    "blog/2018-11-25-Axon Framework.md",
+    "blog/2018-12-09-jvm.jpg",
+    "blog/2018-11-22-Markdown语法.md",
+    "blog/2020-10-08-设计模式.md",
     "blog/2020-04-05-Java开发手册.md",
     "blog/2018-11-17-Git总结.md",
     "Obsidian折腾记录.md",
-    "blog/2023-07-26.md",
-    "blog/2020-11-27-Tomcat.md",
-    "blog/2020-10-12-IO、NIO、AIO、Netty.md",
     "blog/2020-09-23-Zookeeper.md",
     "blog/2020-01-05-深入理解Java虚拟机.md",
     "blog/2019-09-01-EnglishWord.md",
     "blog/2019-08-11-项目架构.md",
     "blog/2019-08-06-代码大全.md",
-    "blog/2019-08-01-缓存.md",
     "blog/2019-07-31-消息中间件.md",
-    "blog/2019-07-21-前端.md",
-    "blog/2019-06-06-排序算法.md",
     "blog/2019-01-22-Linux学习笔记.md",
-    "blog/2018-12-09-jvm.jpg",
-    "blog/2018-11-25-Axon Framework.md",
-    "blog/2018-11-22-Markdown语法.md",
     "blog",
     "Daily/2023-07-30-周日.md",
     "未命名.canvas",
@@ -185,7 +185,6 @@
     "Daily/2023-07-29-周六.md",
     "conflict-files-obsidian-git.md",
     "Obsidian使用.md",
-    "日记/2023-07-30_周日.md",
     "Daily",
     "Daily/Invalid date/Invalid date",
     "Daily/Invalid date",
