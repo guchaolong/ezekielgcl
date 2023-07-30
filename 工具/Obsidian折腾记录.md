@@ -87,10 +87,16 @@ working copy中点+号，`Clone repository`把GitHub上的仓库克隆下来
 > [!info] 信息
 > 这是一个info块
 
->
+
+
+
 ### note
 > [!note] 注意
 > 这是一个注意块
+
+> [!info]- 折叠的info块
+> 使用`> [!info]-`  + 空格 + 提示字，就会默认折叠下面的内容
+
 
 ### abstract, summary, tldr
 
@@ -106,6 +112,8 @@ working copy中点+号，`Clone repository`把GitHub上的仓库克隆下来
 ### question, help, faq
 > [!question] 问题， 帮助， 常见问题
 
+> [!FAQ]- 标注是否可折叠？  
+> 是的！在可折叠标注中，内容在展开之前一直处于隐藏状态。
 
 ### warning, caution, attention
 > [!warning] 警告，谨慎，注意
