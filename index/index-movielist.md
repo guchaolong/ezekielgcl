@@ -6,7 +6,7 @@ banner_y: 0.53039
 banner_icon: 🎥
 ---
 
-- [u]	[[HomePage|返回主页]] | [[index-B|返回文献笔记]]  | [[豆瓣电影]] |
+- [u]	[[HomePage|返回主页]] | [[index-ITNote|IT笔记]] | [[index-readlist|阅读清单]] | [[index-日记|日记]] |
 
 ---
 
