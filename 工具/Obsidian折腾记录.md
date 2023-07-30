@@ -79,3 +79,30 @@ working copy中点+号，`Clone repository`把GitHub上的仓库克隆下来
 插入链接：`command + k`，()中是url, \[\]中是显示的文字
 切换编辑模式和阅读模式：`command + e`
 
+
+
+# 语法
+## 标注
+### info
+> [!info] 信息
+> 这是一个info块
+
+> [!note] 注意
+> 这是一个注意块
+
+
+
+
+### note
+> [!note]注意
+> 这是一个note块
+
+
+> [!abstract]
+> 	s
+
+
+
+
+
+
