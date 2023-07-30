@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2018-12-09-Java基础知识.md",
-                "mode": "source",
+                "file": "blog/Java基础知识.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/2018-12-09-Java基础知识.md",
+                "file": "blog/Java基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/2018-12-09-Java基础知识.md",
+                "file": "blog/Java基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/2018-12-09-Java基础知识.md"
+                "file": "blog/Java基础知识.md"
               }
             }
           },
@@ -158,7 +158,7 @@
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
     "blog/前端.md",
-    "blog/2018-12-09-Java基础知识.md",
+    "blog/Java基础知识.md",
     "blog/IO、NIO、AIO、Netty.md",
     "blog/Git总结.md",
     "blog/设计模式.md",

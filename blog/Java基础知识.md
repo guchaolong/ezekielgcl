@@ -498,14 +498,22 @@ public class FruitGenerator implements Generator<String> {
   __peek()__  peek接收一个没有返回值的λ表达式，可以做一些输出，外部处理等。map接收一个有返回值的λ表达式，之后Stream的泛型类型将转换为map参数λ表达式返回的类型
 
   __reduce()__  对所有数据进行处理得到一个结果  如下 输出Optional\[my|name|is|faker]  13 0是初始值
+```java
+Optional<String> reduce = Stream.of(str.split(" ")).reduce((s1, s2) -> s1 + "|" + s2);  
+System.out.println(reduce);  
   
-  __Stream操作机制__ :1.所有操作都是链式调用，如 要迭代A B C三个元素，操作有a b c三个，对A执行a b c，然后对B执行a b c,不会对A执行a后就对B执行a
+Integer reduce1 = Stream.of(str.split(" ")).map(s -> s.length()).reduce(0, (L1, L2) -> L1 + L2);  
+System.out.println(reduce1);
+```
+ 
+> __Stream操作机制__ :
+> 所有操作都是链式调用，如 要迭代A B C三个元素，操作有a b c三个，对A执行a b c，然后对B执行a b c,不会对A执行a后就对B执行a
 
 
 ## 8.3 JDK9的Reactive Stream
 Jdk9的引入的一套标准，是基于发布订阅模式数据处理的规范，和Jdk8的Stream没关系，代码也没有耦合  
-在JDK9里面其实叫Flow API
 
+在JDK9里面其实叫Flow API
 - 背压  
   发布者和订阅者之间的互动，订阅者可以告诉发布者 需要多少数据，起到一个调节数据流量的作用  
   例子：自来水公司（发布者）、家庭（订阅者） 被动接受，有了背压（水龙头），需要就打开，不需要就关闭
@@ -531,5 +539,4 @@ Jdk9的引入的一套标准，是基于发布订阅模式数据处理的规范�
         Mono 0-1个元素  
         Flux 0-n 个元素
 
-     
 
