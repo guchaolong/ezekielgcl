@@ -4,20 +4,24 @@
 * vue
 * Blue Topaz
 
-# 插件
+# 插件相关
 ## calendar
-  右侧显示日历栏
+右侧显示日历栏
 
 ##  Image auto upload Plugin
-  配合PicGo，图片自动上传到图床，转换成连接形式
+配合PicGo，图片自动上传到图床，转换成连接形式
 
 ## Obsidian git
-  **同步**到GitHub，现在github默认分支是main，需要设置一下
+**同步**到GitHub，现在github默认分支是main，需要设置一下
   `git branch -M main`
 
 
 ## Templater
-  设置一些模版
+设置一些模版
+
+## 闪念想法收集
+使用插件memos、quick add
+
 
 
 # 备份和同步
