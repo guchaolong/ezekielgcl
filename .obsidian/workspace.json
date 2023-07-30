@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index/HomePage.md",
-                "mode": "preview",
+                "file": "工具/Obsidian折腾之路.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:MarkDown",
+                "query": "tag:代码设计",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index/HomePage.md",
+                "file": "工具/Obsidian折腾之路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index/HomePage.md",
+                "file": "工具/Obsidian折腾之路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index/HomePage.md"
+                "file": "工具/Obsidian折腾之路.md"
               }
             }
           },
@@ -158,8 +157,9 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
-    "工具/Obsidian折腾之路.md",
+    "ITNote/代码大全.md",
     "Index/HomePage.md",
+    "工具/Obsidian折腾之路.md",
     "ITNote/Linux学习笔记.md",
     "ITNote/前端.md",
     "Daily/2023-07-30-周日.md",
@@ -170,7 +170,6 @@
     "Index/index-ITNote.md",
     "Index/index-movielist.md",
     "Index/index-readlist.md",
-    "ITNote/代码大全.md",
     "ITNote/排序算法.md",
     "ITNote/设计模式.md",
     "ITNote/项目架构.md",

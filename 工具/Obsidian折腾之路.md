@@ -5,25 +5,27 @@
 * Blue Topaz
 
 # 插件相关
-## calendar
+## 日历——calendar
 右侧显示日历栏
 
-##  Image auto upload Plugin
+##  PicGo图床——Image auto upload Plugin
 配合PicGo，图片自动上传到图床，转换成连接形式
 
-## Obsidian git
+## 备份到GitHub——Obsidian git
 **同步**到GitHub，现在github默认分支是main，需要设置一下
   `git branch -M main`
 
 
-## Templater
-设置一些模版
+## 模版——Templater
 
-## 闪念想法收集
-- [ ] 使用插件memos、quick add
 
-## 隐藏界面图标、工具栏、状态栏
-Hider
+## 闪念想法收集——memos、quick add
+
+
+## 隐藏界面图标、工具栏、状态栏——Hider
+
+
+## 文章封面图——Banners
 
 
 
