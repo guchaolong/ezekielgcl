@@ -13,12 +13,14 @@
 
 * Obsidian git
   **同步**到GitHub，现在github默认分支是main，需要设置一下
+  `git branch -M main`
 
 
 * Templater插件
   设置一些模版
 
 # 备份和同步
+备份：
 在github新建仓库，使用Obsidian git插件备份到GitHub
 
 ios同步：
