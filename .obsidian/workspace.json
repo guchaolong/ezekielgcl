@@ -11,8 +11,13 @@
             "id": "5e86c6510bfef354",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "工具/Obsidian折腾之路.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "工具/Obsidian折腾之路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "工具/Obsidian折腾之路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "工具/Obsidian折腾之路.md"
+              }
             }
           },
           {
@@ -150,6 +158,8 @@
   },
   "active": "5e86c6510bfef354",
   "lastOpenFiles": [
+    "Index/HomePage.md",
+    "工具/Obsidian折腾之路.md",
     "ITNote/代码大全.md",
     "Daily/Template.md",
     "工具/Markdown语法.md",
@@ -158,12 +168,10 @@
     "工具/附件素材/头图/animals-g79ee9ab76_1920.jpg",
     "工具/附件素材/头图/banner-982162_1280.jpg",
     "ITNote/Linux学习笔记.md",
-    "Index/HomePage.md",
     "工具/附件素材/头图/space-19070_1280.jpg",
     "工具/附件素材/头图/keyboard-1385706_1280.jpg",
     "工具/附件素材/头图/banner-2143659_1280.jpg",
     "工具/附件素材/头图/space-1572212_1280.png",
-    "工具/Obsidian折腾之路.md",
     "工具/附件素材/头图/flamingo-ga87497c9f_1920.jpg",
     "工具/附件素材/头图/road-g946886d61_1920.jpg",
     "Index/index-日记.md",
