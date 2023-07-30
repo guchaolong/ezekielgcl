@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Obsidian折腾之路.md",
+                "file": "Index/HomePage.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Obsidian折腾之路.md",
+                "file": "Index/HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Obsidian折腾之路.md",
+                "file": "Index/HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Obsidian折腾之路.md"
+                "file": "Index/HomePage.md"
               }
             }
           },
@@ -157,18 +157,29 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
+    "工具/附件素材/头图/banner-2143659_1280.jpg",
+    "工具/附件素材/头图/banner-982162_1280.jpg",
+    "工具/附件素材/头图/space-1572212_1280.png",
+    "工具/Obsidian折腾之路.md",
+    "工具/附件素材/头图/flamingo-ga87497c9f_1920.jpg",
+    "工具/附件素材/头图/road-g946886d61_1920.jpg",
+    "工具/附件素材/头图/sunset-gf5a677a8a_1920.jpg",
+    "工具/附件素材/头图/panorama-gdd28ee541_1920.jpg",
+    "工具/附件素材/头图/brain-g7d2c74ab7_1920.jpg",
+    "工具/附件素材/头图/field-g2adb79480_1920.jpg",
+    "工具/附件素材/头图/books-g156f242fd_1920.jpg",
+    "工具/附件素材/头图/movies.jpg",
+    "Index/index-日记.md",
     "ITNote/排序算法.md",
     "Index/HomePage.md",
     "Daily/2023-07-31-周一.md",
     "Daily/2023-07-30-周日.md",
     "Daily/2023-07-29-周六.md",
-    "Index/index-日记.md",
     "Index/index-readlist.md",
     "ITNote/代码大全.md",
     "Index/index-ITNote.md",
     "Index/index-movielist.md",
     "阅读/时间从来不语，却回答了所有问题.md",
-    "工具/Obsidian折腾之路.md",
     "ITNote/Linux学习笔记.md",
     "ITNote/前端.md",
     "Daily/Template.md",
@@ -182,20 +193,9 @@
     "ITNote/Tomcat.md",
     "ITNote/Redis.md",
     "ITNote/Java开发手册.md",
-    "工具/Markdown语法.md",
-    "工具/附件素材/头图/tunisia-g92f2bf537_1920.jpg",
-    "工具/附件素材/头图/swans-g2e489b0e9_1920.jpg",
-    "工具/附件素材/头图/snowdrift-gecf51e07f_1920.jpg",
-    "工具/附件素材/头图/field-g2adb79480_1920.jpg",
-    "工具/附件素材/头图/books-g156f242fd_1920.jpg",
-    "工具/附件素材/头图/book1.jpg",
-    "附件素材/截屏2023-03-30 21.20.44.png",
     "阅读",
     "未命名",
     "电影",
-    "工具/附件素材/头图/sunset-gf5a677a8a_1920.jpg",
-    "工具/附件素材/头图/animals-g16eb45d7e_1920.jpg",
-    "工具/附件素材/头图/animals-g2ab66e819_1920.jpg",
     "index/iframe",
     "Index",
     "工具/dataview",
