@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index/震撼我的电影.md",
+                "file": "index/书架上的神明.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index/震撼我的电影.md",
+                "file": "index/书架上的神明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index/震撼我的电影.md",
+                "file": "index/书架上的神明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index/震撼我的电影.md"
+                "file": "index/书架上的神明.md"
               }
             }
           },
@@ -169,15 +169,21 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
-    "index/index-0.md",
-    "index/index-H.md",
+    "index/震撼我的电影.md",
+    "index/书架上的神明.md",
+    "阅读",
+    "未命名",
+    "电影",
+    "index/index-ITNote.md",
+    "index/index-日记.md",
+    "HomePage.md",
+    "index/index-3.md",
     "index/index-G.md",
+    "index/index-H.md",
+    "index/index-0.md",
+    "index/index-B.md",
     "index/index-F.md",
     "index/index-E.md",
-    "HomePage.md",
-    "index/index-日记.md",
-    "index/index-ITNote.md",
-    "index/书架上的神明.md",
     "index/关键词漫游.md",
     "dataview/文件创建时间-日历视图.md",
     "dataview/所有标签汇集.md",
@@ -194,12 +200,8 @@
     "index-C.md",
     "index/index-2.md",
     "index/index-D.md",
-    "index/index-3.md",
     "index/index-C.md",
-    "index/index-B.md",
-    "index/震撼我的电影.md",
     "index/iframe/豆瓣电影.md",
-    "index/iframe/豆瓣音乐.md",
     "index/iframe",
     "index",
     "dataview",
@@ -212,9 +214,6 @@
     "附件素材/头图",
     "附件素材",
     "工具",
-    "BlogNote",
-    "未命名.canvas",
-    "Daily",
-    "Daily/Invalid date/Invalid date"
+    "未命名.canvas"
   ]
 }
