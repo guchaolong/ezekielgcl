@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index-C.md",
+                "file": "index/index-H.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dataview/文件创建时间-日历视图.md",
+                "file": "index/index-H.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dataview/文件创建时间-日历视图.md",
+                "file": "index/index-H.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dataview/文件创建时间-日历视图.md"
+                "file": "index/index-H.md"
               }
             }
           },
@@ -168,13 +167,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "23267776a877a81a",
+  "active": "9d275286dc275eb3",
   "lastOpenFiles": [
+    "HomePage.md",
+    "dataview/文件创建时间-日历视图.md",
     "dataview/所有标签汇集.md",
+    "chartview/chart view-all.md",
+    "chartview/chart view-柱状图.md",
+    "chartview/charts-6种静态图表.md",
+    "附件素材/文章头图汇总.md",
+    "附件素材/截屏2023-03-30 21.20.44.png",
+    "附件素材/头图/sunset-gf5a677a8a_1920.jpg",
+    "附件素材/头图/animals-g16eb45d7e_1920.jpg",
+    "附件素材/头图/animals-g2ab66e819_1920.jpg",
+    "附件素材/头图/africa-gecdb6d7cd_1920.jpg",
+    "dataview/search.md",
     "index/书架上的神明.md",
     "index/index-0.md",
     "index-C.md",
-    "HomePage.md",
     "index/index-A.md",
     "index/index-E.md",
     "index/index-2.md",
@@ -190,12 +200,6 @@
     "index/iframe/豆瓣电影.md",
     "index/iframe/豆瓣音乐.md",
     "index/iframe/豆瓣读书.md",
-    "index/iframe/每日一文.md",
-    "index/iframe/时空地图.md",
-    "index/iframe/找书.md",
-    "index/iframe/文本处理.md",
-    "index/iframe/必应搜索.md",
-    "index/iframe/微信读书.md",
     "index/iframe",
     "index",
     "dataview",
@@ -203,13 +207,8 @@
     "附件素材/头图/animals-g79ee9ab76_1920.jpg",
     "附件素材/头图/sunset-ge28cf669b_1920.jpg",
     "附件素材/头图/tunisia-g92f2bf537_1920.jpg",
-    "附件素材/头图/animals-g2ab66e819_1920.jpg",
-    "附件素材/头图/animals-g16eb45d7e_1920.jpg",
     "附件素材/头图/mountains-g610ac2764_1280.jpg",
     "附件素材/头图/mountains-g8e2992e4d_1920.jpg",
-    "附件素材/头图/panorama-gdd28ee541_1920.jpg",
-    "附件素材/头图/flamingo-ga87497c9f_1920.jpg",
-    "附件素材/头图/books-g156f242fd_1920.jpg",
     "附件素材/头图",
     "附件素材",
     "工具",
