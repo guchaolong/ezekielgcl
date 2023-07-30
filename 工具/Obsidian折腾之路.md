@@ -28,7 +28,8 @@
 ## 文章封面图——Banners
 你找不到好看的头图？给你一个链接 https://pixabay.com/images/search/banner/
 
-
+## 单词自动补全——various complements
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731020019.png)
 
 
 
