@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
+                "file": "index/index-movielist.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "index/index-movielist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "index/index-movielist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "index/index-movielist.md"
               }
             }
           },
@@ -169,6 +169,11 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
+    "index/index-ITNote.md",
+    "index/index-movielist.md",
+    "index/index-日记.md",
+    "index/index-readlist.md",
+    "HomePage.md",
     "附件素材/头图/tunisia-g92f2bf537_1920.jpg",
     "附件素材/文章头图汇总.md",
     "附件素材/头图/swans-g2e489b0e9_1920.jpg",
@@ -176,17 +181,12 @@
     "附件素材/头图/field-g2adb79480_1920.jpg",
     "附件素材/头图/books-g156f242fd_1920.jpg",
     "附件素材/头图/book1.jpg",
-    "index/震撼我的电影.md",
     "附件素材/截屏2023-03-30 21.20.44.png",
-    "index/书架上的神明.md",
-    "HomePage.md",
     "阅读/时间从来不语，却回答了所有问题.md",
     "电影/楚门的世界 The Truman Show.md",
     "阅读",
     "未命名",
     "电影",
-    "index/index-ITNote.md",
-    "index/index-日记.md",
     "index/index-3.md",
     "index/index-G.md",
     "index/index-H.md",

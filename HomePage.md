@@ -1,5 +1,5 @@
 
-# 站内导航  | [[index-ITNote|IT笔记]]  | [[index-日记|日记]] | [[index-C|永久笔记]] |---| [[项目看板|项目看板]] | [[index-D|落叶寻枝]] | [[index-E|初稿汇聚]] | [[index-F|编辑校对]] |---| [[关键词漫游|找灵感]] | [[index-H|帮助]] |  
+# 站内导航  | [[index-ITNote|IT笔记]]  | [[index-日记|日记]] | [[index-readlist|阅读清单]] |---| [[index-movielist|电影]] | 
 
 
 

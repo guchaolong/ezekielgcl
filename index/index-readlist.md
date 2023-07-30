@@ -1,12 +1,11 @@
 ---
 cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
 banner: "![[book1.jpg]]"
-banner_y: 0.53039
+banner_y: 0.596
 banner_icon: 📙
 ---
 
-- [u]	[[home|返回主页]]  | [[index-B|返回文献笔记]]  | [[豆瓣读书]] |  [[视频嵌入演示|图书分类]]| 
-
+- [u]	[[HomePage|返回主页]]  | [[index-ITNote|IT笔记]]  | [[index-movielist|电影清单]] |[[index-日记|日记]]
 ---
 
 `button-shuying`  说明：升级版，输入书籍名称或ISBN、新建笔记。默认状态(status) 为”想读“ 。

@@ -14,7 +14,7 @@ progress:
 banner_y: 0.356
 ---
 
-[[震撼我的电影|电影清单]]
+[[index-movielist|电影清单]]
 
 ---
 
