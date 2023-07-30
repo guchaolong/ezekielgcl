@@ -32,6 +32,15 @@
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731020019.png)
 
 
+## 主题的样式设置——Style Setting
+例如，当前的blue topaz主题，md文件前有图标，可以在style setting中去掉
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731024313.png)
+
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731024601.png)
+
+
+
+
 
 # 备份和同步
 备份：
