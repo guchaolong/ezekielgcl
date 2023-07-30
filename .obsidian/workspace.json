@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2018-11-17-Git总结.md",
+                "file": "blog/设计模式.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/2018-11-17-Git总结.md",
+                "file": "blog/设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/2018-11-17-Git总结.md",
+                "file": "blog/设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/2018-11-17-Git总结.md"
+                "file": "blog/设计模式.md"
               }
             }
           },
@@ -157,8 +157,12 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
-    "blog/2020-10-12-IO、NIO、AIO、Netty.md",
+    "Obsidian折腾记录.md",
+    "blog/设计模式.md",
+    "blog/2020-09-23-Zookeeper.md",
     "blog/2020-11-27-Tomcat.md",
+    "blog/IO、NIO、AIO、Netty.md",
+    "blog/Git总结.md",
     "blog/2023-07-26.md",
     "blog/2019-08-01-缓存.md",
     "blog/2019-07-21-前端.md",
@@ -167,11 +171,7 @@
     "blog/2018-11-25-Axon Framework.md",
     "blog/2018-12-09-jvm.jpg",
     "blog/2018-11-22-Markdown语法.md",
-    "blog/2020-10-08-设计模式.md",
     "blog/2020-04-05-Java开发手册.md",
-    "blog/2018-11-17-Git总结.md",
-    "Obsidian折腾记录.md",
-    "blog/2020-09-23-Zookeeper.md",
     "blog/2020-01-05-深入理解Java虚拟机.md",
     "blog/2019-09-01-EnglishWord.md",
     "blog/2019-08-11-项目架构.md",
