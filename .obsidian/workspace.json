@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -156,7 +155,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7daba78745522b8b",
+  "active": "541ed70ecd2e9b7a",
   "lastOpenFiles": [
     "BlogNote/设计模式.md",
     "BlogNote/Linux学习笔记.md",
