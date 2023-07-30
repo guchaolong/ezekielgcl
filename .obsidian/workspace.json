@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index/index-H.md",
+                "file": "index/震撼我的电影.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index/index-H.md",
+                "file": "index/震撼我的电影.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index/index-H.md",
+                "file": "index/震撼我的电影.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index/index-H.md"
+                "file": "index/震撼我的电影.md"
               }
             }
           },
@@ -169,7 +169,16 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
+    "index/index-0.md",
+    "index/index-H.md",
+    "index/index-G.md",
+    "index/index-F.md",
+    "index/index-E.md",
     "HomePage.md",
+    "index/index-日记.md",
+    "index/index-ITNote.md",
+    "index/书架上的神明.md",
+    "index/关键词漫游.md",
     "dataview/文件创建时间-日历视图.md",
     "dataview/所有标签汇集.md",
     "chartview/chart view-all.md",
@@ -182,24 +191,15 @@
     "附件素材/头图/animals-g2ab66e819_1920.jpg",
     "附件素材/头图/africa-gecdb6d7cd_1920.jpg",
     "dataview/search.md",
-    "index/书架上的神明.md",
-    "index/index-0.md",
     "index-C.md",
-    "index/index-A.md",
-    "index/index-E.md",
     "index/index-2.md",
     "index/index-D.md",
     "index/index-3.md",
-    "index/index-G.md",
     "index/index-C.md",
     "index/index-B.md",
-    "index/index-F.md",
-    "index/index-1.md",
     "index/震撼我的电影.md",
-    "index/关键词漫游.md",
     "index/iframe/豆瓣电影.md",
     "index/iframe/豆瓣音乐.md",
-    "index/iframe/豆瓣读书.md",
     "index/iframe",
     "index",
     "dataview",

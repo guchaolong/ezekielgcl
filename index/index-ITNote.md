@@ -1,30 +1,26 @@
 ---
 cssClasses: table-numbers, table-tabular, table-nowrap, table-small, table-lines, row-lines, col-lines, row-alt, table-max
-banner: "![[pyramids-g2b942ed19_1920.jpg]]"
-banner_y: 0.328
+banner: "![[mount-fuji-g707b221b0_1920.jpg]]"
+banner_y: 0.428
 banner_icon: 🍋
 tags: index
 ---
 
-- [u]	[[home|返回主页]]
+- [u]	[[HomePage|返回主页]] | [[index-日记|日记]] |
 
 ---
 
-`button-rj`
+`button-lingan`   `button-sn` 
 
 ---
 
-# 日记   
-
-
+# IT笔记
 
 ```dataview 
 
 table tags,keyword,date
-from "1-日记" and !#index
+from "BlogNote" and !#index
 sort file.name asc
 
 ```
-
 ---
-- [u] [[#日记|一键回到顶部]]
