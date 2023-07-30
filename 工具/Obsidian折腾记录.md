@@ -82,25 +82,50 @@ working copy中点+号，`Clone repository`把GitHub上的仓库克隆下来
 
 
 # 语法
-## 标注
+## 标注块
 ### info
 > [!info] 信息
 > 这是一个info块
 
+>
+### note
 > [!note] 注意
 > 这是一个注意块
 
+### abstract, summary, tldr
+
+> [!abstract] 摘要， 摘要， tldr
+
+### tip, hint, important
+> [!TIP] 提示，提示，重要
+
+### success, check, done
+> [!success] 成功，检查，完成
 
 
-
-### note
-> [!note]注意
-> 这是一个note块
+### question, help, faq
+> [!question] 问题， 帮助， 常见问题
 
 
-> [!abstract]
-> 	s
+### warning, caution, attention
+> [!warning] 警告，谨慎，注意
 
+### failure, fail, missing
+> [!failure] 失败、失败、缺失
+
+### danger, error
+> [!error] 危险，错误
+
+### bug
+> [!bug] 错误
+
+
+### example
+> [!example] 例
+
+
+### quote, cite
+> [!quote] 引用，引用
 
 
 
