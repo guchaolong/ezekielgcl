@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BlogNote/消息中间件 RocketMQ.md",
-                "mode": "preview",
+                "file": "工具/Obsidian折腾记录.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Java",
+                "query": "tag:#笔记",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BlogNote/消息中间件 RocketMQ.md",
+                "file": "工具/Obsidian折腾记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BlogNote/消息中间件 RocketMQ.md",
+                "file": "工具/Obsidian折腾记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BlogNote/消息中间件 RocketMQ.md"
+                "file": "工具/Obsidian折腾记录.md"
               }
             }
           },
@@ -138,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -155,14 +156,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9d275286dc275eb3",
+  "active": "7daba78745522b8b",
   "lastOpenFiles": [
-    "BlogNote/项目架构.md",
     "BlogNote/设计模式.md",
+    "BlogNote/Linux学习笔记.md",
+    "BlogNote/Git总结.md",
+    "BlogNote/项目架构.md",
     "BlogNote/前端.md",
     "BlogNote/排序算法.md",
     "BlogNote/代码大全.md",
-    "BlogNote/Git总结.md",
+    "BlogNote/消息中间件 RocketMQ.md",
     "工具/Markdown语法.md",
     "工具/Obsidian折腾记录.md",
     "工具",
@@ -172,9 +175,7 @@
     "BlogNote/Java基础知识.md",
     "BlogNote/IO、NIO、AIO、Netty.md",
     "BlogNote/Java开发手册.md",
-    "BlogNote/消息中间件 RocketMQ.md",
     "blog/2018-11-25-Axon Framework.md",
-    "BlogNote/Linux学习笔记.md",
     "BlogNote/Redis.md",
     "blog/2020-01-05-深入理解Java虚拟机.md",
     "blog/2023-07-26.md",
