@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index/HomePage.md",
+                "file": "工具/Markdown语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index/HomePage.md",
+                "file": "工具/Markdown语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index/HomePage.md",
+                "file": "工具/Markdown语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index/HomePage.md"
+                "file": "工具/Markdown语法.md"
               }
             }
           },
@@ -157,21 +157,22 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
-    "工具/附件素材/头图/banner-2143659_1280.jpg",
+    "工具/附件素材/头图/alpine-gbdddb9210_1920.jpg",
+    "工具/附件素材/头图/africa-gecdb6d7cd_1920.jpg",
+    "工具/附件素材/头图/animals-g79ee9ab76_1920.jpg",
     "工具/附件素材/头图/banner-982162_1280.jpg",
+    "ITNote/Linux学习笔记.md",
+    "Index/HomePage.md",
+    "工具/附件素材/头图/space-19070_1280.jpg",
+    "工具/附件素材/头图/keyboard-1385706_1280.jpg",
+    "工具/附件素材/头图/banner-2143659_1280.jpg",
     "工具/附件素材/头图/space-1572212_1280.png",
     "工具/Obsidian折腾之路.md",
     "工具/附件素材/头图/flamingo-ga87497c9f_1920.jpg",
     "工具/附件素材/头图/road-g946886d61_1920.jpg",
     "工具/附件素材/头图/sunset-gf5a677a8a_1920.jpg",
-    "工具/附件素材/头图/panorama-gdd28ee541_1920.jpg",
-    "工具/附件素材/头图/brain-g7d2c74ab7_1920.jpg",
-    "工具/附件素材/头图/field-g2adb79480_1920.jpg",
-    "工具/附件素材/头图/books-g156f242fd_1920.jpg",
-    "工具/附件素材/头图/movies.jpg",
     "Index/index-日记.md",
     "ITNote/排序算法.md",
-    "Index/HomePage.md",
     "Daily/2023-07-31-周一.md",
     "Daily/2023-07-30-周日.md",
     "Daily/2023-07-29-周六.md",
@@ -180,7 +181,6 @@
     "Index/index-ITNote.md",
     "Index/index-movielist.md",
     "阅读/时间从来不语，却回答了所有问题.md",
-    "ITNote/Linux学习笔记.md",
     "ITNote/前端.md",
     "Daily/Template.md",
     "ITNote/设计模式.md",

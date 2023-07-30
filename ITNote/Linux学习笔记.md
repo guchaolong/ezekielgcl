@@ -9,6 +9,8 @@ catalog: true
 category: 操作系统
 tags:
        - Linux
+banner_y: 0.008
+banner_x: 0.5
 ---
 > 每天学一点Linux
 
