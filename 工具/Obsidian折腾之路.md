@@ -20,7 +20,13 @@
 设置一些模版
 
 ## 闪念想法收集
-使用插件memos、quick add
+- [ ] 使用插件memos、quick add
+
+## 隐藏界面图标、工具栏、状态栏
+Hider
+
+
+
 
 
 
