@@ -11,12 +11,8 @@
             "id": "9d275286dc275eb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/2018-12-09-Java基础知识.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/2018-12-09-Java基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/2018-12-09-Java基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "blog/2018-12-09-Java基础知识.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,8 +149,11 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
+    "blog/Markdown语法.md",
+    "blog/消息中间件 RocketMQ.md",
+    "blog/2018-11-25-Axon Framework.md",
     "blog/Linux学习笔记.md",
-    "blog/2019-07-31-消息中间件.md",
+    "blog/2018-12-09-Java基础知识.md",
     "blog/2020-11-27-Tomcat.md",
     "blog/前端.md",
     "blog/代码大全.md",
@@ -174,10 +169,7 @@
     "blog/IO、NIO、AIO、Netty.md",
     "blog/Git总结.md",
     "blog/2023-07-26.md",
-    "blog/2018-12-09-Java基础知识.md",
-    "blog/2018-11-25-Axon Framework.md",
     "blog/2018-12-09-jvm.jpg",
-    "blog/2018-11-22-Markdown语法.md",
     "blog",
     "Daily/2023-07-30-周日.md",
     "未命名.canvas",
