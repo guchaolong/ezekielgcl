@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
+                "file": "dataview/文件创建时间-日历视图.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "dataview/文件创建时间-日历视图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "dataview/文件创建时间-日历视图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "dataview/文件创建时间-日历视图.md"
               }
             }
           },
@@ -168,15 +168,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "435d8e411d59a363",
+  "active": "23267776a877a81a",
   "lastOpenFiles": [
+    "dataview/所有标签汇集.md",
+    "index/书架上的神明.md",
+    "index/index-0.md",
     "index-C.md",
-    "index-A.md",
     "HomePage.md",
-    "关键词漫游.md",
-    "index-B.md",
-    "home.md",
-    "工具/Obsidian折腾之路.md",
+    "index/index-A.md",
+    "index/index-E.md",
+    "index/index-2.md",
+    "index/index-D.md",
+    "index/index-3.md",
+    "index/index-G.md",
+    "index/index-C.md",
+    "index/index-B.md",
+    "index/index-F.md",
+    "index/index-1.md",
+    "index/震撼我的电影.md",
+    "index/关键词漫游.md",
+    "index/iframe/豆瓣电影.md",
+    "index/iframe/豆瓣音乐.md",
+    "index/iframe/豆瓣读书.md",
+    "index/iframe/每日一文.md",
+    "index/iframe/时空地图.md",
+    "index/iframe/找书.md",
+    "index/iframe/文本处理.md",
+    "index/iframe/必应搜索.md",
+    "index/iframe/微信读书.md",
+    "index/iframe",
+    "index",
+    "dataview",
+    "chartview",
     "附件素材/头图/animals-g79ee9ab76_1920.jpg",
     "附件素材/头图/sunset-ge28cf669b_1920.jpg",
     "附件素材/头图/tunisia-g92f2bf537_1920.jpg",
@@ -187,35 +210,12 @@
     "附件素材/头图/panorama-gdd28ee541_1920.jpg",
     "附件素材/头图/flamingo-ga87497c9f_1920.jpg",
     "附件素材/头图/books-g156f242fd_1920.jpg",
-    "附件素材/文章头图汇总.md",
     "附件素材/头图",
     "附件素材",
-    "Daily/2023-07-29-周六.md",
-    "工具/Markdown语法.md",
-    "BlogNote/设计模式.md",
-    "BlogNote/Linux学习笔记.md",
-    "BlogNote/Git总结.md",
-    "BlogNote/项目架构.md",
-    "BlogNote/前端.md",
-    "BlogNote/排序算法.md",
-    "BlogNote/代码大全.md",
-    "BlogNote/消息中间件 RocketMQ.md",
     "工具",
-    "blog/单词本.md",
-    "BlogNote/Tomcat.md",
-    "BlogNote/Zookeeper.md",
-    "BlogNote/Java基础知识.md",
-    "BlogNote/IO、NIO、AIO、Netty.md",
-    "BlogNote/Java开发手册.md",
-    "blog/2018-11-25-Axon Framework.md",
-    "BlogNote/Redis.md",
     "BlogNote",
     "未命名.canvas",
     "Daily",
-    "Daily/Invalid date/Invalid date",
-    "Daily/Invalid date",
-    "Daily/2023/07",
-    "Daily/2023",
-    "Template"
+    "Daily/Invalid date/Invalid date"
   ]
 }
