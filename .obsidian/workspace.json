@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Obsidian折腾之路.md",
+                "file": "index-C.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
+                "file": "index-B.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Git",
+                "query": "tag:Java",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "index-C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "index-C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "index-C.md"
               }
             }
           },
@@ -169,10 +167,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "23267776a877a81a",
+  "active": "9d275286dc275eb3",
   "lastOpenFiles": [
-    "附件素材/头图/animals-g79ee9ab76_1920.jpg",
     "HomePage.md",
+    "home.md",
+    "index-C.md",
+    "index-B.md",
+    "index-A.md",
+    "关键词漫游.md",
+    "工具/Obsidian折腾之路.md",
+    "附件素材/头图/animals-g79ee9ab76_1920.jpg",
     "附件素材/头图/sunset-ge28cf669b_1920.jpg",
     "附件素材/头图/tunisia-g92f2bf537_1920.jpg",
     "附件素材/头图/animals-g2ab66e819_1920.jpg",
@@ -185,7 +189,6 @@
     "附件素材/文章头图汇总.md",
     "附件素材/头图",
     "附件素材",
-    "工具/Obsidian折腾之路.md",
     "Daily/2023-07-29-周六.md",
     "工具/Markdown语法.md",
     "BlogNote/设计模式.md",
@@ -205,12 +208,8 @@
     "BlogNote/Java开发手册.md",
     "blog/2018-11-25-Axon Framework.md",
     "BlogNote/Redis.md",
-    "blog/2020-01-05-深入理解Java虚拟机.md",
-    "blog/2023-07-26.md",
     "BlogNote",
-    "Daily/2023-07-30-周日.md",
     "未命名.canvas",
-    "Daily/Template.md",
     "Daily",
     "Daily/Invalid date/Invalid date",
     "Daily/Invalid date",
