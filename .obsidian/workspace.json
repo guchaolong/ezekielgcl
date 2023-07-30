@@ -11,12 +11,8 @@
             "id": "9d275286dc275eb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/Java基础知识.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/Java基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/Java基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "blog/Java基础知识.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,25 +149,25 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
+    "blog/设计模式.md",
     "blog/前端.md",
+    "blog/排序算法.md",
+    "blog/代码大全.md",
+    "blog/单词本.md",
+    "blog/Tomcat.md",
+    "blog/Zookeeper.md",
+    "blog/Markdown语法.md",
     "blog/Java基础知识.md",
     "blog/IO、NIO、AIO、Netty.md",
     "blog/Git总结.md",
-    "blog/设计模式.md",
     "Obsidian折腾记录.md",
     "blog/Java开发手册.md",
-    "blog/2020-11-27-Tomcat.md",
     "blog/项目架构.md",
-    "blog/Markdown语法.md",
     "blog/消息中间件 RocketMQ.md",
     "blog/2018-11-25-Axon Framework.md",
     "blog/Linux学习笔记.md",
-    "blog/代码大全.md",
-    "blog/Zookeeper.md",
     "blog/Redis.md",
-    "blog/单词本.md",
     "blog/2020-01-05-深入理解Java虚拟机.md",
-    "blog/排序算法.md",
     "blog/2023-07-26.md",
     "blog/2018-12-09-jvm.jpg",
     "blog",
