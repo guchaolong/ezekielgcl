@@ -70,4 +70,5 @@ working copy中点+号，`Clone repository`把GitHub上的仓库克隆下来
 
 # 快捷键
 插入链接：`command + k`，()中是url, \[\]中是显示的文字
+切换编辑模式和阅读模式：`command + e`
 
