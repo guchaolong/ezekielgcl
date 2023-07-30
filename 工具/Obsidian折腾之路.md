@@ -42,6 +42,11 @@
 ## 图表——charts view和Dataview
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731040724.png)
 
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731041215.png)
+
+
+
+
 
 
 

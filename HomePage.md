@@ -1,6 +1,7 @@
 ---
 cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
-banner: "![[animals-g79ee9ab76_1920.jpg]]"
+# banner: "![[animals-g79ee9ab76_1920.jpg]]"
+banner: "![[keyboard-1385706_1280.jpg]]"
 banner_y: 0.157
 banner_icon: 🌴
 tags: index
