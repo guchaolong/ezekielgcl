@@ -153,8 +153,8 @@ vi runserver.sh
 ```
 
 * 参考设置：
+`JAVA_OPT="${JAVA_OPT} -server -Xms256m -Xmx256m -Xmn128m -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m"`
 
-```JAVA_OPT="${JAVA_OPT} -server -Xms256m -Xmx256m -Xmn128m -XX:MetaspaceSize=128m  -XX:MaxMetaspaceSize=320m"```
 
 ## 2.4 测试RocketMQ
 
