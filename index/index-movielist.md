@@ -7,7 +7,7 @@ banner_icon: 🎥
 tags: index
 ---
 
-- [u]	[[HomePage|返回主页]] | [[index-ITNote|IT笔记]] | [[index-readlist|阅读清单]] | [[index-日记|日记]] |
+- [[HomePage|返回主页]] | [[index-ITNote|IT笔记]] | [[index-readlist|阅读清单]] | [[index-日记|日记]] |
 
 ---
 

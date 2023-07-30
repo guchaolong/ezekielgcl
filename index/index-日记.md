@@ -6,7 +6,7 @@ banner_icon: 🍋
 tags: index
 ---
 
-- [z]	[[HomePage|返回主页]]  | [[index-ITNote|IT笔记]]  | [[index-readlist|阅读清单]] | [[index-movielist|电影清单]] |
+- [[HomePage|返回主页]]  | [[index-ITNote|IT笔记]]  | [[index-readlist|阅读清单]] | [[index-movielist|电影清单]] |
 ---
 
 `button-rj`
@@ -24,4 +24,4 @@ sort file.name asc
 ```
 
 ---
-- [u] [[#日记|一键回到顶部]]
+- [[#日记|一键回到顶部]]
