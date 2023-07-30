@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Obsidian折腾记录.md",
+                "file": "工具/Obsidian折腾之路.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Obsidian折腾记录.md",
+                "file": "工具/Obsidian折腾之路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Obsidian折腾记录.md",
+                "file": "工具/Obsidian折腾之路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Obsidian折腾记录.md"
+                "file": "工具/Obsidian折腾之路.md"
               }
             }
           },
@@ -137,12 +137,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 226.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,8 +155,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "541ed70ecd2e9b7a",
+  "active": "9d275286dc275eb3",
   "lastOpenFiles": [
+    "Daily/2023-07-29-周六.md",
+    "工具/Obsidian折腾之路.md",
+    "工具/Markdown语法.md",
     "BlogNote/设计模式.md",
     "BlogNote/Linux学习笔记.md",
     "BlogNote/Git总结.md",
@@ -165,8 +168,6 @@
     "BlogNote/排序算法.md",
     "BlogNote/代码大全.md",
     "BlogNote/消息中间件 RocketMQ.md",
-    "工具/Markdown语法.md",
-    "工具/Obsidian折腾记录.md",
     "工具",
     "blog/单词本.md",
     "BlogNote/Tomcat.md",
@@ -183,7 +184,6 @@
     "Daily/2023-07-30-周日.md",
     "未命名.canvas",
     "Daily/Template.md",
-    "Daily/2023-07-29-周六.md",
     "conflict-files-obsidian-git.md",
     "Obsidian使用.md",
     "Daily",
