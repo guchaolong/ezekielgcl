@@ -56,7 +56,7 @@ style:
 ```
 
 
----
+
 
 ## 所有标签
 ```dataviewjs
@@ -66,7 +66,7 @@ dv.paragraph(
 )
 ```
 
----
+
 ## 文件创建时间-日历视图
 
 ```dataview
@@ -76,7 +76,7 @@ calendar file.ctime
 
 ```
 
----
+
 ## 笔记排行榜
 ```chartsview
 #-----------------#
@@ -114,7 +114,7 @@ options:
 
 ```
 
----
+
 ## 柱状图
 ```chartsview
 #-----------------#
@@ -155,6 +155,40 @@ options:
   meta:
     count:
       alias: "文件数量" 
+```
+
+
+## 饼状图-文件数量
+
+```chartsview
+#-----------------#
+#- chart type    -#
+#-----------------#
+type: Pie
+
+#-----------------#
+#- chart data    -#
+#-----------------#
+data: |
+  dataviewjs:
+  return dv.pages()
+           .groupBy(p => p.file.folder)
+           .map(p => ({folder: p.key || "ROOT", count: p.rows.length}))
+           .array();
+
+#-----------------#
+#- chart options -#
+#-----------------#
+options:
+  angleField: "count"
+  colorField: "folder"
+  radius: 1
+  label:
+    type: "spider"
+    content: "{percentage}\n{name}"
+  legend:
+    layout: "horizontal"
+    position: "bottom"
 ```
 
 
