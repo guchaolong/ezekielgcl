@@ -1,5 +1,6 @@
 
 
+## 标签云
 ```chartsview
 #-----------------#
 #- chart type    -#
@@ -42,3 +43,88 @@ style:
   wordStyle:
     rotation: 0
 ```
+
+
+
+## 笔记排行榜
+```chartsview
+#-----------------#
+#- chart type    -#
+#-----------------#
+type: Bar
+
+#-----------------#
+#- chart data    -#
+#-----------------#
+data: | 
+  dataviewjs:
+  return dv.pages()
+           .groupBy(p => p.file.folder)
+           .sort(p => p.rows.length)
+           .map(p => ({folder: p.key || "ROOT", count: p.rows.length}) )
+           .array()
+           .reverse();
+
+#-----------------#
+#- chart options -#
+#-----------------#
+options:
+  xField: "count"
+  yField: "folder"
+  padding: auto
+  height: 400
+  color: "#ff2d51"
+  enableSearchInteraction:
+    field: "folder"
+    operator: "path"
+  meta:
+    count:
+      alias: "数量"
+
+```
+
+## 柱状图
+```chartsview
+#-----------------#
+#- chart type    -#
+#-----------------#
+type: Column
+
+#-----------------#
+#- chart data    -#
+#-----------------#
+data: |
+  dataviewjs:
+  return dv.pages()
+           .groupBy(p => p.file.folder)
+           .map(p => ({folder: p.key || "ROOT", count: p.rows.length}))
+           .array();
+
+#-----------------#
+#- chart options -#
+#-----------------#
+options:
+  xField: "folder"
+  yField: "count"
+  padding: auto
+  color: "#801dae"
+  enableSearchInteraction:
+    field: "folder"
+    operator: "path"
+  columnStyle:
+    fillOpacity: 1
+    lineWidth: 0.9
+    strokeOpacity: 1.7
+    shadowColor: "grey"
+    shadowBlur: 5
+    shadowOffsetX: 5
+    shadowOffsetY: 5
+  
+  meta:
+    count:
+      alias: "文件数量" 
+```
+
+
+
+<div style="background-color:#53a9d7;text-align:center;">我是有底线的</div>

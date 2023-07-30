@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "HomePage.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#笔记",
+                "query": "tag:Git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
