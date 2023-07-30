@@ -153,7 +153,9 @@ vi runserver.sh
 ```
 
 * 参考设置：
-`JAVA_OPT="${JAVA_OPT} -server -Xms256m -Xmx256m -Xmn128m -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m"`
+```bash
+JAVA_OPT="${JAVA_OPT} -server -Xms256m -Xmx256m -Xmn128m -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m"
+```
 
 
 ## 2.4 测试RocketMQ
@@ -655,7 +657,8 @@ vi /usr/local/rocketmq/bin/runbroker.sh
 JAVA_OPT="${JAVA_OPT} -server -Xms256m -Xmx256m -Xmn128m"
 ```
 
-####2）runserver.sh
+
+#### 2）runserver.sh
 
 ```sh
 vim /usr/local/rocketmq/bin/runserver.sh
@@ -731,9 +734,9 @@ tail -500f ~/logs/rocketmqlogs/broker.log
 
 进入RocketMQ安装位置，在bin目录下执行```./mqadmin {command} {args}``` 
 
-###3.4.2 命令介绍
+### 3.4.2 命令介绍
 
-####1）Topic相关
+#### 1）Topic相关
 
 <table border=0 cellpadding=0 cellspacing=0 width=714>
  <col width=177>
@@ -969,7 +972,7 @@ tail -500f ~/logs/rocketmqlogs/broker.log
 </table>
 
 
-####2）集群相关
+#### 2）集群相关
 
 <table border=0 cellpadding=0 cellspacing=0 width=714>
  <col width=177>
@@ -1044,7 +1047,7 @@ tail -500f ~/logs/rocketmqlogs/broker.log
 </table>
 
 
-####3）Broker相关
+#### 3）Broker相关
 
 <table border=0 cellpadding=0 cellspacing=0 width=714>
  <col width=177>
@@ -1226,7 +1229,7 @@ tail -500f ~/logs/rocketmqlogs/broker.log
 </table>
 
 
-####4）消息相关
+#### 4）消息相关
 
 <table border=0 cellpadding=0 cellspacing=0 width=714>
  <col width=177>
@@ -2414,7 +2417,7 @@ public class ScheduledMessageProducer {
 }
 ```
 
-###4.3.3 验证
+### 4.3.3 验证
 
 您将会看到消息的消费比存储时间晚10秒
 
@@ -2596,7 +2599,7 @@ consumer.start();
 
 ## 4.6 事务消息
 
-###4.6.1 流程分析
+### 4.6.1 流程分析
 
 ![](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/rocketmq/事务消息.png)
 
@@ -2604,7 +2607,7 @@ consumer.start();
 
 上图说明了事务消息的大致方案，其中分为两个流程：正常事务消息的发送及提交、事务消息的补偿流程。
 
-####1）事务消息发送及提交
+#### 1）事务消息发送及提交
 
 (1) 发送消息（half消息）。
 
@@ -2632,7 +2635,7 @@ consumer.start();
 * TransactionStatus.RollbackTransaction: 回滚事务，它代表该消息将被删除，不允许被消费。
 * TransactionStatus.Unknown: 中间状态，它代表需要检查消息队列来确定状态。
 
-###4.6.1 发送事务消息
+### 4.6.1 发送事务消息
 
 #### 1) 创建事务性生产者
 
@@ -2716,7 +2719,7 @@ public class TransactionListenerImpl implements TransactionListener {
 
 模拟电商网站购物场景中的【下单】和【支付】业务
 
-###1）下单
+### 1）下单
 
 ![](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/rocketmq/下单组件图.png)
 
@@ -2729,7 +2732,7 @@ public class TransactionListenerImpl implements TransactionListener {
 
 ------
 
-###2）支付
+### 2）支付
 
 ![](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/rocketmq/支付组件图.png)
 
@@ -2754,7 +2757,7 @@ public class TransactionListenerImpl implements TransactionListener {
 
 ![](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/rocketmq/下单时序图(2).png)
 
-###问题2
+### 问题2
 
 用户通过第三方支付平台（支付宝、微信）支付成功后，第三方支付平台要通过回调API异步通知商家支付系统用户支付结果，支付系统根据支付结果修改订单状态、记录支付日志和给用户增加积分。
 
@@ -3303,7 +3306,7 @@ public class UserController {
 | msg_status  | int(1) NULL           | 0:未处理;1:已经处理 |
 | create_time | timestamp NOT NULL    | 记录时间            |
 
-###9）MQ消息消费表
+### 9）MQ消息消费表
 
 | Field              | Type                  | Comment                          |
 | ------------------ | --------------------- | -------------------------------- |
@@ -3350,7 +3353,7 @@ shop系统基于Maven进行项目管理
 
 使用Mybatis逆向工程针对数据表生成CURD持久层代码
 
-###2）代码导入
+### 2）代码导入
 
 * 将实体类导入到shop-pojo工程
 * 在服务层工程中导入对应的Mapper类和对应配置文件
@@ -3396,7 +3399,7 @@ public interface IOrderService {
 }
 ```
 
-###2）业务类实现
+### 2）业务类实现
 
 ```java
 @Slf4j
@@ -3431,7 +3434,7 @@ public class OrderServiceImpl implements IOrderService {
 }
 ```
 
-###3）校验订单
+### 3）校验订单
 
 ![](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/rocketmq/校验订单(2).png)
 
@@ -3464,7 +3467,7 @@ private void checkOrder(TradeOrder order) {
 }
 ```
 
-###4）生成预订单
+### 4）生成预订单
 
 ![](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/rocketmq/生成预订单.png)
 
@@ -3545,7 +3548,7 @@ private Long savePreOrder(TradeOrder order) {
 }
 ```
 
-###5）扣减库存
+### 5）扣减库存
 
 * 通过dubbo调用商品服务完成扣减库存
 
