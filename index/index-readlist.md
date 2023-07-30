@@ -3,6 +3,7 @@ cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-co
 banner: "![[book1.jpg]]"
 banner_y: 0.596
 banner_icon: 📙
+tags: index
 ---
 
 - [u]	[[HomePage|返回主页]]  | [[index-ITNote|IT笔记]]  | [[index-movielist|电影清单]] |[[index-日记|日记]]

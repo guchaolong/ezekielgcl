@@ -19,7 +19,7 @@ tags: index
 ```dataview 
 
 table tags,keyword,date
-from "BlogNote" and !#index
+from "ITNote" and !#index
 sort file.name asc
 
 ```

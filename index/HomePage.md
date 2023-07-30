@@ -1,7 +1,15 @@
+---
+cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
+banner: "![[animals-g79ee9ab76_1920.jpg]]"
+banner_y: 0.157
+banner_icon: 🌴
+tags: index
+---
+
 
 # 站内导航  | [[index-ITNote|IT笔记]]  | [[index-日记|日记]] | [[index-readlist|阅读清单]] |---| [[index-movielist|电影]] | 
 
-
+---
 
 ## 标签云
 ```chartsview
@@ -48,7 +56,27 @@ style:
 ```
 
 
+---
 
+## 所有标签
+```dataviewjs
+// 生成所有的标签且以 | 分割，修改时只需要修改 join(" | ") 里面的内容。
+dv.paragraph(
+  dv.pages("").file.tags.distinct().map(t => {return `[${t}](${t})`}).array().join(" | ")
+)
+```
+
+---
+## 文件创建时间-日历视图
+
+```dataview
+
+calendar file.ctime
+
+
+```
+
+---
 ## 笔记排行榜
 ```chartsview
 #-----------------#
@@ -86,6 +114,7 @@ options:
 
 ```
 
+---
 ## 柱状图
 ```chartsview
 #-----------------#

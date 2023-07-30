@@ -4,6 +4,7 @@ cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-co
 banner: "![[movies.jpg]]"
 banner_y: 0.53039
 banner_icon: 🎥
+tags: index
 ---
 
 - [u]	[[HomePage|返回主页]] | [[index-ITNote|IT笔记]] | [[index-readlist|阅读清单]] | [[index-日记|日记]] |
