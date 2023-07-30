@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index-C.md",
+                "file": "HomePage.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Java",
+                "query": "tag:Git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index-C.md",
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index-C.md",
+                "file": "HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index-C.md"
+                "file": "HomePage.md"
               }
             }
           },
@@ -167,11 +168,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9d275286dc275eb3",
+  "active": "0d93416e9d626ad0",
   "lastOpenFiles": [
+    "index-C.md",
     "HomePage.md",
     "home.md",
-    "index-C.md",
     "index-B.md",
     "index-A.md",
     "关键词漫游.md",
