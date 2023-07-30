@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index/index-ITNote.md",
+                "file": "Index/index-日记.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:代码设计",
+                "query": "tag:index",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index/index-ITNote.md",
+                "file": "Index/index-日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index/index-ITNote.md",
+                "file": "Index/index-日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index/index-ITNote.md"
+                "file": "Index/index-日记.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,18 +158,18 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
+    "Index/HomePage.md",
     "Index/index-日记.md",
+    "Index/index-readlist.md",
+    "Daily/2023-07-29-周六.md",
+    "ITNote/代码大全.md",
     "Index/index-ITNote.md",
     "Index/index-movielist.md",
-    "Index/index-readlist.md",
-    "Index/HomePage.md",
     "阅读/时间从来不语，却回答了所有问题.md",
-    "ITNote/代码大全.md",
     "工具/Obsidian折腾之路.md",
     "ITNote/Linux学习笔记.md",
     "ITNote/前端.md",
     "Daily/2023-07-30-周日.md",
-    "Daily/2023-07-29-周六.md",
     "Daily/Template.md",
     "ITNote/排序算法.md",
     "ITNote/设计模式.md",
