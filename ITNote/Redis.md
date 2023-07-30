@@ -8,7 +8,7 @@ header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 category: 缓存
 tags:
-       - 缓存
+       - Redis
 ---
 >缓存 Redis、MongoDB
 

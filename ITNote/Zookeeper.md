@@ -8,7 +8,7 @@ header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 category: Java
 tags:
-       - Java
+       - Zookeeper
 ---
 
 > Zookeeper **开源**的 为**分布式应用程序**提供**协调服务**的**apache项目**

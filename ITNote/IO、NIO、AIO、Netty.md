@@ -8,7 +8,9 @@ header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 category: 操作系统
 tags:
-       - Linux
+       - IO
+       - NIO
+       - Netty
 ---
 > IO NIO AIO Netty
 

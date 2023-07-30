@@ -9,6 +9,8 @@ catalog: true
 category: 消息中间件
 tags:
        - 消息中间件
+       - RocketMQ
+       - MQ
 ---
 >消息中间件 RocketMQ
 
