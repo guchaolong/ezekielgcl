@@ -11,8 +11,12 @@
             "id": "9d275286dc275eb3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "BlogNote/消息中间件 RocketMQ.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BlogNote/消息中间件 RocketMQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BlogNote/消息中间件 RocketMQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BlogNote/消息中间件 RocketMQ.md"
+              }
             }
           },
           {
@@ -149,28 +157,29 @@
   },
   "active": "9d275286dc275eb3",
   "lastOpenFiles": [
-    "blog/设计模式.md",
-    "blog/前端.md",
-    "blog/排序算法.md",
-    "blog/代码大全.md",
+    "BlogNote/项目架构.md",
+    "BlogNote/设计模式.md",
+    "BlogNote/前端.md",
+    "BlogNote/排序算法.md",
+    "BlogNote/代码大全.md",
+    "BlogNote/Git总结.md",
+    "工具/Markdown语法.md",
+    "工具/Obsidian折腾记录.md",
+    "工具",
     "blog/单词本.md",
-    "blog/Tomcat.md",
-    "blog/Zookeeper.md",
-    "blog/Markdown语法.md",
-    "blog/Java基础知识.md",
-    "blog/IO、NIO、AIO、Netty.md",
-    "blog/Git总结.md",
-    "Obsidian折腾记录.md",
-    "blog/Java开发手册.md",
-    "blog/项目架构.md",
-    "blog/消息中间件 RocketMQ.md",
+    "BlogNote/Tomcat.md",
+    "BlogNote/Zookeeper.md",
+    "BlogNote/Java基础知识.md",
+    "BlogNote/IO、NIO、AIO、Netty.md",
+    "BlogNote/Java开发手册.md",
+    "BlogNote/消息中间件 RocketMQ.md",
     "blog/2018-11-25-Axon Framework.md",
-    "blog/Linux学习笔记.md",
-    "blog/Redis.md",
+    "BlogNote/Linux学习笔记.md",
+    "BlogNote/Redis.md",
     "blog/2020-01-05-深入理解Java虚拟机.md",
     "blog/2023-07-26.md",
     "blog/2018-12-09-jvm.jpg",
-    "blog",
+    "BlogNote",
     "Daily/2023-07-30-周日.md",
     "未命名.canvas",
     "Daily/Template.md",
