@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
+                "file": "index-C.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index-B.md",
+                "file": "HomePage.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,14 +168,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0d93416e9d626ad0",
+  "active": "435d8e411d59a363",
   "lastOpenFiles": [
     "index-C.md",
-    "HomePage.md",
-    "home.md",
-    "index-B.md",
     "index-A.md",
+    "HomePage.md",
     "关键词漫游.md",
+    "index-B.md",
+    "home.md",
     "工具/Obsidian折腾之路.md",
     "附件素材/头图/animals-g79ee9ab76_1920.jpg",
     "附件素材/头图/sunset-ge28cf669b_1920.jpg",
