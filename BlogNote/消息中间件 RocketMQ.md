@@ -4314,9 +4314,7 @@ executorService.submit(new Runnable() {
 
 
 
-### 5.2.3 
-
-### 处理消息
+### 5.2.3 处理消息
 
 支付成功后，支付服务payService发送MQ消息，订单服务、用户服务、日志服务需要订阅消息进行处理
 
@@ -5848,7 +5846,7 @@ public RemotingCommand getRouteInfoByTopic(ChannelHandlerContext ctx,
   SendResult send(final Collection<Message> msgs) throws MQClientException, RemotingException, MQBrokerException,InterruptedException;
   ```
 
-####2）属性介绍
+#### 2）属性介绍
 
 ![](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/rocketmq/DefaultMQProducer属性.png)
 
@@ -7781,7 +7779,7 @@ public void truncateDirtyFiles(long offset) {
 }
 ```
 
-####3）异常恢复
+#### 3）异常恢复
 
 Broker异常停止文件恢复的实现为CommitLog#recoverAbnormally。异常文件恢复步骤与正常停止文件恢复流程基本相同，其主要差别有两个。首先，正常停止默认从倒数第三个文件开始进行恢复，而异常停止则需要从最后一个文件往前走，找到第一个消息存储正常的文件。其次，如果CommitLog目录没有消息文件，如果消息消费队列目录下存在文件，则需要销毁。
 
@@ -8156,7 +8154,7 @@ RocketMQ不会永久存储消息文件、消息消费队列文件，而是启动
 
 RocketMQ支持局部顺序消息消费，也就是保证同一个消息队列上的消息顺序消费。不支持消息全局顺序消费，如果要实现某一个主题的全局顺序消费，可以将该主题的队列数设置为1，牺牲高可用性。
 
-###2.5.2 消息消费初探
+### 2.5.2 消息消费初探
 
 **<u>消息推送模式</u>**
 
@@ -8373,7 +8371,7 @@ private void pullMessage(final PullRequest pullRequest) {
 }
 ```
 
-####2）ProcessQueue实现机制
+#### 2）ProcessQueue实现机制
 
 ProcessQueue是MessageQueue在消费端的重现、快照。PullMessageService从消息服务器默认每次拉取32条消息，按照消息的队列偏移量顺序存放在ProcessQueue中，PullMessageService然后将消息提交到消费者消费线程池，消息成功消费后从ProcessQueue中移除。
 
@@ -8501,7 +8499,7 @@ public void pullMessage(final PullRequest pullRequest) {
 }
 ```
 
-#####2.消息服务端Broker组装消息
+##### 2.消息服务端Broker组装消息
 
 ![](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/rocketmq/消息服务端Broker组装消息.png)
 
@@ -8649,7 +8647,7 @@ if (storeOffsetEnable) {
 }
 ```
 
-#####3.消息拉取客户端处理消息
+##### 3.消息拉取客户端处理消息
 
 ![](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/rocketmq/消息拉取客户端处理消息.png)
 
