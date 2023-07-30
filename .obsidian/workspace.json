@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/Obsidian折腾之路.md",
+                "file": "Index/index-ITNote.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 379.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/Obsidian折腾之路.md",
+                "file": "Index/index-ITNote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/Obsidian折腾之路.md",
+                "file": "Index/index-ITNote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/Obsidian折腾之路.md"
+                "file": "Index/index-ITNote.md"
               }
             }
           },
@@ -143,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 238.5
   },
   "left-ribbon": {
     "hiddenItems": {
