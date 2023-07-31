@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ITNote/Java基础知识.md",
-                "mode": "preview",
+                "file": "ITNote/Java/java基础.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ITNote/Java基础知识.md",
+                "file": "ITNote/Java/java基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ITNote/Java基础知识.md",
+                "file": "ITNote/Java/java基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ITNote/Java基础知识.md"
+                "file": "ITNote/Java/java基础.md"
               }
             }
           },
@@ -157,9 +157,12 @@
   },
   "active": "5e86c6510bfef354",
   "lastOpenFiles": [
+    "ITNote/Java/java基础.md",
+    "ITNote/Java/未命名.md",
+    "ITNote/Java基础知识.md",
+    "ITNote/Java",
     "ITNote/Java开发手册.md",
     "ITNote/Linux学习笔记.md",
-    "ITNote/Java基础知识.md",
     "HomePage.md",
     "Index/index-ITNote.md",
     "Index/index-日记.md",
@@ -191,8 +194,6 @@
     "ITNote/Git总结.md",
     "ITNote/IO、NIO、AIO、Netty.md",
     "ITNote/Zookeeper.md",
-    "ITNote/Tomcat.md",
-    "ITNote/Redis.md",
     "阅读",
     "未命名",
     "电影",
@@ -202,7 +203,6 @@
     "工具/chartview",
     "工具/附件素材/头图",
     "工具/附件素材",
-    "工具",
     "未命名.canvas"
   ]
 }
