@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ITNote/Java/语雀导出到Obsidian.md",
+                "file": "ITNote/设计模式.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 200
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ITNote/Java/语雀导出到Obsidian.md",
+                "file": "ITNote/设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ITNote/Java/语雀导出到Obsidian.md",
+                "file": "ITNote/设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ITNote/Java/语雀导出到Obsidian.md"
+                "file": "ITNote/设计模式.md"
               }
             }
           },
@@ -170,7 +170,13 @@
   },
   "active": "1bff521a4b3f3a77",
   "lastOpenFiles": [
+    "ITNote/Linux学习笔记.md",
+    "ITNote/IO、NIO、AIO、Netty.md",
+    "ITNote/Java/java基础.md",
+    "ITNote/消息中间件 RocketMQ.md",
+    "ITNote/代码大全.md",
     "Index/index-readlist.md",
+    "ITNote/Java/语雀导出到Obsidian.md",
     "Index/index-movielist.md",
     "Index/index-ITNote.md",
     "Index/index-日记.md",
@@ -178,14 +184,11 @@
     "工具/Markdown语法.md",
     "工具/Obsidian折腾之路.md",
     "电影/楚门的世界 The Truman Show.md",
-    "ITNote/Java/语雀导出到Obsidian.md",
-    "ITNote/Java/java基础.md",
     "未命名",
     "ITNote/Java/未命名.md",
     "ITNote/Java基础知识.md",
     "ITNote/Java",
     "ITNote/Java开发手册.md",
-    "ITNote/Linux学习笔记.md",
     "工具/附件素材/头图/keyboard-1385706_1280.jpg",
     "工具/附件素材/头图/mount-fuji-g707b221b0_1920.jpg",
     "工具/附件素材/头图/mountains-g8e2992e4d_1920.jpg",
@@ -196,7 +199,6 @@
     "工具/附件素材/头图/pyramids-g2b942ed19_1920.jpg",
     "工具/附件素材/头图/road-g946886d61_1920.jpg",
     "工具/附件素材/头图/snowdrift-gecf51e07f_1920.jpg",
-    "ITNote/代码大全.md",
     "Daily/Template.md",
     "ITNote/排序算法.md",
     "Daily/2023-07-31-周一.md",
@@ -206,8 +208,6 @@
     "ITNote/前端.md",
     "ITNote/设计模式.md",
     "ITNote/项目架构.md",
-    "ITNote/消息中间件 RocketMQ.md",
-    "ITNote/Git总结.md",
     "阅读",
     "电影",
     "index/iframe",
