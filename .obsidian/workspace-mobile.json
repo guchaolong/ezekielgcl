@@ -31,7 +31,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ITNote/项目架构.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -126,7 +125,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ITNote/项目架构.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -143,7 +141,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "ITNote/项目架构.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -154,9 +151,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "ITNote/项目架构.md"
-          }
+          "state": {}
         }
       },
       {
@@ -183,6 +178,8 @@
   },
   "active": "fc318e6d7f8777d5",
   "lastOpenFiles": [
+    "ITNote/项目架构.md",
+    "Untitled.md",
     "ITNote/设计模式.md",
     "ITNote/代码大全.md",
     "工具/Obsidian折腾之路.md",
@@ -215,7 +212,6 @@
     "阅读/时间从来不语，却回答了所有问题.md",
     "阅读",
     "ITNote/排序算法.md",
-    "ITNote/项目架构.md",
     "ITNote/Zookeeper.md",
     "ITNote/IO、NIO、AIO、Netty.md",
     "ITNote/Git总结.md",
@@ -224,7 +220,6 @@
     "ITNote/Tomcat.md",
     "ITNote/Linux学习笔记.md",
     "ITNote/消息中间件 RocketMQ.md",
-    "ITNote/Java开发手册.md",
     "ITNote",
     "电影",
     "blog",
