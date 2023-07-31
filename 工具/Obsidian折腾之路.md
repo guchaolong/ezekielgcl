@@ -45,7 +45,8 @@
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731041215.png)
 
 
-
+## 图片查看(放大缩小)——Image Toolkit
+本来obsidian的图片是不能放大查看的，装了插件后，指针在图片上时后放大图标，点击进入，滚轮放大或缩小，
 
 
 
