@@ -8,10 +8,10 @@ header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 category: 缓存
 tags:
-       - Redis
+       - Redis 
 ---
->缓存 Redis、MongoDB
 
+>缓存 Redis、MongoDB
 
 # Redis
 
@@ -20,7 +20,7 @@ tags:
 ## Redis集群搭建
 > redis集群至少需要三个master节点，并且给每个master加一个slave节点,一共6个实例
 
-```java
+```sh
 
 mkdir -p /usr/local/redis-cluster
 cd redis-cluster/
@@ -50,14 +50,12 @@ vim redis.conf
 
 
 
-
-
 ```
 
 
 
 ## Redis命令
- ```java
+ ```sh
 
 PING
 

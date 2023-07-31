@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ITNote/Java/java基础.md",
+                "file": "工具/Obsidian折腾之路.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "1bff521a4b3f3a77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ITNote/Java基础知识.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 462.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ITNote/Java基础知识.md",
+                "file": "工具/Obsidian折腾之路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ITNote/Java基础知识.md",
+                "file": "工具/Obsidian折腾之路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +115,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ITNote/Java基础知识.md"
+                "file": "工具/Obsidian折腾之路.md"
               }
             }
           },
@@ -168,30 +155,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1bff521a4b3f3a77",
+  "active": "5e86c6510bfef354",
   "lastOpenFiles": [
-    "ITNote/Java/java基础.md",
-    "ITNote/设计模式.md",
-    "ITNote/排序算法.md",
-    "ITNote/前端.md",
-    "ITNote/代码大全.md",
+    "工具/附件素材/头图/africa-gecdb6d7cd_1920.jpg",
+    "工具/chartview/chart view-all.md",
     "工具/Markdown语法.md",
-    "工具/Obsidian折腾之路.md",
-    "ITNote/Java基础知识.md",
+    "ITNote/Java/java基础.md",
+    "工具/Template/未命名.md",
+    "Untitled.md",
     "ITNote/IO、NIO、AIO、Netty.md",
-    "ITNote/项目架构.md",
-    "ITNote/Java开发手册.md",
-    "ITNote/消息中间件 RocketMQ.md",
+    "HomePage.md",
+    "ITNote/Redis.md",
+    "未命名.canvas",
     "ITNote/Linux学习笔记.md",
+    "ITNote/Java开发手册.md",
+    "ITNote/Java基础知识.md",
+    "ITNote/代码大全.md",
+    "ITNote/Git总结.md",
+    "ITNote/前端.md",
+    "ITNote/设计模式.md",
+    "ITNote/消息中间件 RocketMQ.md",
+    "ITNote/Tomcat.md",
+    "ITNote/排序算法.md",
+    "工具/Obsidian折腾之路.md",
+    "ITNote/项目架构.md",
     "Index/index-readlist.md",
     "ITNote/Java/语雀导出到Obsidian.md",
     "Index/index-movielist.md",
     "Index/index-ITNote.md",
     "Index/index-日记.md",
-    "HomePage.md",
-    "电影/楚门的世界 The Truman Show.md",
     "未命名",
-    "ITNote/Java/未命名.md",
     "ITNote/Java",
     "工具/附件素材/头图/keyboard-1385706_1280.jpg",
     "工具/附件素材/头图/mount-fuji-g707b221b0_1920.jpg",
@@ -203,11 +196,6 @@
     "工具/附件素材/头图/pyramids-g2b942ed19_1920.jpg",
     "工具/附件素材/头图/road-g946886d61_1920.jpg",
     "工具/附件素材/头图/snowdrift-gecf51e07f_1920.jpg",
-    "Daily/Template.md",
-    "Daily/2023-07-31-周一.md",
-    "Daily/2023-07-30-周日.md",
-    "Daily/2023-07-29-周六.md",
-    "阅读/时间从来不语，却回答了所有问题.md",
     "阅读",
     "电影",
     "index/iframe",
@@ -215,7 +203,6 @@
     "工具/dataview",
     "工具/chartview",
     "工具/附件素材/头图",
-    "工具/附件素材",
-    "未命名.canvas"
+    "工具/附件素材"
   ]
 }

@@ -171,7 +171,7 @@ java运行状态下，对于任意一个类，都能知道类的属性和方法�
 ## 6.2 jvm 编译 运行         
 + 方法区：存放静态变量，静态方法，类代码信息，和常量，方法区是特殊的堆  
 
-类的加载：运行一个程序的时候，JVM启动，运行启动类加载器：bootstrap classloader用于加载java核心API（ExtClassLoader和AppClassLoader也在此时被加载），然后ExtClassLoader加载扩展API,AppClassLoader加载classpath下的API  
+类的加载：运行一个程序的时候，JVM启动，运行启动类加载器：bootstrap classloader用于加载java核心API（ExtClassLoader和AppClassLoader也在此时被加载），然后`ExtClassLoader`加载扩展API,`AppClassLoader`加载classpath下的API  
 
 在编译时.java文件被编译器编译成.class文件        
 
