@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1bff521a4b3f3a77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语雀导出到Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ITNote/Java/java基础.md",
+                "file": "语雀导出到Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ITNote/Java/java基础.md",
+                "file": "语雀导出到Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ITNote/Java/java基础.md"
+                "file": "语雀导出到Obsidian.md"
               }
             }
           },
@@ -155,9 +168,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5e86c6510bfef354",
+  "active": "1bff521a4b3f3a77",
   "lastOpenFiles": [
     "ITNote/Java/java基础.md",
+    "语雀导出到Obsidian.md",
+    "未命名",
     "ITNote/Java/未命名.md",
     "ITNote/Java基础知识.md",
     "ITNote/Java",
@@ -193,9 +208,7 @@
     "ITNote/消息中间件 RocketMQ.md",
     "ITNote/Git总结.md",
     "ITNote/IO、NIO、AIO、Netty.md",
-    "ITNote/Zookeeper.md",
     "阅读",
-    "未命名",
     "电影",
     "index/iframe",
     "Index",
