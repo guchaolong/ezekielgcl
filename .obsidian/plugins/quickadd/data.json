@@ -1,16 +1,40 @@
 {
-  "choices": [],
-  "macros": [
+  "choices": [
     {
-      "name": "test",
-      "id": "1863f880-9a10-41b4-bdca-bd8e34bece8f",
-      "commands": [],
-      "runOnStartup": false
+      "id": "98668f2e-c787-4945-a529-da6169459014",
+      "name": "阅读笔记",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Template/读书笔记.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE:name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "阅读"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
+  "macros": [],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "Template",
   "announceUpdates": true,
   "version": "1.2.1",
   "disableOnlineFeatures": true,

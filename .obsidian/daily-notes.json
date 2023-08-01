@@ -1,5 +1,5 @@
 {
   "format": "YYYY-MM-DD-ddd",
-  "folder": "Daily",
-  "template": "Daily/Template"
+  "folder": "D-日记",
+  "template": "D-日记/Template"
 }

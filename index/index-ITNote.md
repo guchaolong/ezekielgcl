@@ -1,6 +1,6 @@
 ---
 cssClasses: table-numbers, table-tabular, table-nowrap, table-small, table-lines, row-lines, col-lines, row-alt, table-max
-banner: "![[mount-fuji-g707b221b0_1920.jpg]]"
+banner: "![[keyboard-1385706_1280.jpg]]"
 banner_y: 0.428
 banner_icon: 🍋
 tags: index

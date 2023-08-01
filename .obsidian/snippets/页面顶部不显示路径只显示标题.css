@@ -1,0 +1,5 @@
+/* 页首不显示路径仅显示标题 */
+
+.view-header-title-parent{
+    display: none;
+}

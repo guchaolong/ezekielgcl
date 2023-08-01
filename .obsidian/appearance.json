@@ -1,7 +1,17 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
-  "cssTheme": "Typora-Vue",
+  "theme": "obsidian",
+  "cssTheme": "Blue Topaz",
   "baseFontSize": 16,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "interfaceFontFamily": "Andale Mono,Times",
+  "monospaceFontFamily": "Monaco",
+  "enabledCssSnippets": [
+    "linkstyle",
+    "Homepage",
+    "awesome-brain-manager",
+    "搜索框美化",
+    "taskspage",
+    "Dataview Card"
+  ]
 }

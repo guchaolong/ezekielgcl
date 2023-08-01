@@ -1,7 +1,8 @@
 ---
 cssClasses: table-numbers, table-tabular, table-nowrap, table-small, table-lines, row-lines, col-lines, row-alt, table-max
-banner: "![[pyramids-g2b942ed19_1920.jpg]]"
-banner_y: 0.328
+banner: "![[sunset-ge28cf669b_1920.jpg]]"
+banner_x: 0.996
+banner_y: 1
 banner_icon: 🍋
 tags: index
 banner_x: 0.5

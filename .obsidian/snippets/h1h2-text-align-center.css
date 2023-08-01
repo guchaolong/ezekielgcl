@@ -1,0 +1,13 @@
+/* 一级标题居中 */
+
+.markdown-preview-section h1 {
+
+    text-align: center;
+
+}
+
+.markdown-preview-section h2 {
+
+    text-align: center;
+
+}
