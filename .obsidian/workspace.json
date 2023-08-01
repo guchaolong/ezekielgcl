@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
+                "file": "个人成长/日记/日记-Template.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "个人成长/日记/日记-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "个人成长/日记/日记-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "个人成长/日记/日记-Template.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "e0101e5ed936f610",
   "lastOpenFiles": [
-    "未命名.canvas",
     "HomePage.md",
+    "未命名.canvas",
     "Index/index-电影清单.md",
     "Index/index-码农笔记.md",
     "码农笔记/A-Java基础/java基础.md",
