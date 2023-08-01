@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index/index-码农笔记.md",
+                "file": "HomePage.md",
                 "mode": "preview",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "index/index-码农笔记.md",
+                "file": "HomePage.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -85,7 +85,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:#日记",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -114,7 +114,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "e6b69c6afe8c8214",
@@ -126,7 +126,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "index/index-码农笔记.md",
+            "file": "HomePage.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "index/index-码农笔记.md",
+            "file": "HomePage.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -155,7 +155,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "index/index-码农笔记.md"
+            "file": "HomePage.md"
           }
         }
       },
@@ -184,11 +184,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6cf3b37de4665aae",
+  "active": "4a43c4e7caf57164",
   "lastOpenFiles": [
-    "码农笔记/B-设计模式/23个设计模式总结.md",
-    "index/index-码农笔记.md",
+    "个人成长/日记/2023-07-30-周日.md",
     "HomePage.md",
+    "index/index-码农笔记.md",
+    "码农笔记/B-设计模式/23个设计模式总结.md",
     "码农笔记/C-算法/排序算法.md",
     "index/index-阅读清单.md",
     "index/index-日记.md",
@@ -198,7 +199,6 @@
     "个人成长/日记/2023-07-31-周一.md",
     "个人成长/日记/2023-08-01-周二.md",
     "个人成长/日记/Template.md",
-    "个人成长/日记/2023-07-30-周日.md",
     "个人成长/日记/2023-07-29-周六.md",
     "个人成长/阅读",
     "个人成长/电影",
