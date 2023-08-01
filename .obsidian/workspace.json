@@ -172,8 +172,8 @@
       "templater-obsidian:Templater": false,
       "awesome-brain-manager:Awesome Brain Manager": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-memos:Memos": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "obsidian-memos:Memos": false
     }
   },
   "active": "021ce0109e2d84c2",
