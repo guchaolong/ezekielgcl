@@ -2,7 +2,7 @@
 cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
 # banner: "![[sunset-ge28cf669b_1920.jpg]]"
 banner: "![[sunset-ge28cf669b_1920.jpg]]"
-banner_x: 0.4569
+banner_x: 0.02235
 banner_y: 1
 banner_icon: 🌴
 tags: index
@@ -12,7 +12,7 @@ tags: index
 
 
 
-# 站内导航  | [[index-码农笔记|IT笔记]]  | [[index-日记|日记]] | [[index-阅读清单|阅读清单]] |---| [[index-电影清单|电影]] | 
+# 站内导航 | [[index-码农笔记|码农笔记]] | [[index-阅读清单|阅读]] | [[index-电影清单|电影]] | [[index-日记|日记]] |
 
 ---
 
@@ -198,6 +198,9 @@ options:
     position: "bottom"
 ```
 
+
+
+-  [[#站内导航 index-码农笔记 码农笔记 index-阅读清单 阅读 index-电影清单 电影 index-日记 日记|回到顶部]]
 
 
 <div style="background-color:#53a9d7;text-align:center;">我是有底线的</div>
