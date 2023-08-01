@@ -12,7 +12,7 @@ tags: index
 
 
 
-# 站内导航  | [[index-ITNote|IT笔记]]  | [[index-日记|日记]] | [[index-readlist|阅读清单]] |---| [[index-movielist|电影]] | 
+# 站内导航  | [[index-码农笔记|IT笔记]]  | [[index-日记|日记]] | [[index-阅读清单|阅读清单]] |---| [[index-电影清单|电影]] | 
 
 ---
 

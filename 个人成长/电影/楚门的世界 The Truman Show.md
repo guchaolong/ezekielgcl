@@ -14,7 +14,7 @@ progress:
 banner_y: 0.356
 ---
 
-[[index-movielist|电影清单]]
+[[index-电影清单|电影清单]]
 
 ---
 

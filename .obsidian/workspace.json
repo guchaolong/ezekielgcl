@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
+                "file": "Index/index-阅读清单.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "Index/index-阅读清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "Index/index-阅读清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "Index/index-阅读清单.md"
               }
             }
           },
@@ -166,44 +166,44 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "435d8e411d59a363",
+  "active": "f86eef2e59d51461",
   "lastOpenFiles": [
+    "home-phone.md",
+    "Index/index-阅读清单.md",
+    "Index/index-日记.md",
+    "Index/index-码农笔记.md",
+    "Index/index-电影清单.md",
+    "Template/读书笔记.md",
+    "码农人生/未命名.md",
+    "HomePage.md",
+    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
     "知识管理之路/Markdown语法.md",
     "知识管理之路/Obsidian折腾记录.md",
-    "Index/index-日记.md",
-    "码农人生/B-设计模式/23个设计模式总结.md",
-    "码农人生/E-前端/前端基础.md",
-    "码农人生/06-项目实战/项目架构演变.md",
-    "码农人生/04-分布式框架/Zookeeper.md",
-    "码农人生/03-性能调优/Tomcat.md",
-    "码农人生/07-互联网工具/Git总结.md",
-    "码农人生/04-分布式框架/Redis.md",
-    "码农人生/07-互联网工具",
+    "码农笔记/B-设计模式/23个设计模式总结.md",
+    "码农笔记/E-前端/前端基础.md",
+    "码农笔记/06-项目实战/项目架构演变.md",
+    "码农笔记/04-分布式框架/Zookeeper.md",
+    "码农笔记/03-性能调优/Tomcat.md",
+    "码农笔记/07-互联网工具/Git总结.md",
+    "码农笔记/04-分布式框架/Redis.md",
+    "码农笔记/07-互联网工具",
     "码农人生/未命名文件夹",
-    "码农人生/06-项目实战",
-    "码农人生/05-微服务系列",
-    "码农人生/04-分布式框架",
-    "码农人生/03-性能调优",
-    "码农人生/02-并发编程",
-    "码农人生/01-框架源码",
+    "码农笔记/06-项目实战",
+    "码农笔记/05-微服务系列",
+    "码农笔记/04-分布式框架",
+    "码农笔记/03-性能调优",
+    "码农笔记/02-并发编程",
+    "码农笔记/01-框架源码",
     "码农人生/框架源码",
     "码农人生/分布式框架",
-    "码农人生/06-项目实战/链式处理.md",
-    "HomePage.md",
+    "码农笔记/06-项目实战/链式处理.md",
     "个人成长/电影/楚门的世界 The Truman Show.md",
-    "Template/读书笔记.md",
     "码农人生/分布式框架/Redis.md",
-    "码农人生/A-Java基础/Java基础知识.md",
-    "码农人生/A-Java基础/IO、NIO、AIO、Netty.md",
-    "码农人生/04-分布式框架/RocketMQ.md",
-    "码农人生/C-算法/排序算法.md",
-    "Index/index-readlist.md",
+    "码农笔记/A-Java基础/Java基础知识.md",
+    "码农笔记/A-Java基础/IO、NIO、AIO、Netty.md",
+    "码农笔记/04-分布式框架/RocketMQ.md",
+    "码农笔记/C-算法/排序算法.md",
     "Excalidraw/Drawing 2023-08-01 10.20.07.excalidraw.md",
-    "Excalidraw/Drawing 2023-08-01 10.14.21.excalidraw.md",
-    "工具/chartview/chart view-all.md",
-    "未命名.md",
-    "Excalidraw/Drawing 2023-08-01 09.44.04.excalidraw.md",
-    "Excalidraw/Drawing 2023-08-01 09.44.32.excalidraw.md",
     "附件素材/banner_pic/img 0072.jpg",
     "附件素材/banner_pic/img 0032.jpg",
     "附件素材/banner_pic/mountains-g610ac2764_1280.jpg",

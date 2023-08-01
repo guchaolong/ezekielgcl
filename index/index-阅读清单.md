@@ -6,7 +6,7 @@ banner_icon: 📙
 tags: index
 ---
 
-- [[HomePage|返回主页]]  | [[index-ITNote|IT笔记]]  | [[index-movielist|电影清单]] |[[index-日记|日记]]
+- [[HomePage|返回主页]]  | [[index-码农笔记|IT笔记]]  | [[index-电影清单|电影清单]] |[[index-日记|日记]]
 ---
 
 `button-shuying`  说明：升级版，输入书籍名称或ISBN、新建笔记。默认状态(status) 为”想读“ 。
@@ -17,7 +17,7 @@ tags: index
 
 ```dataview
 table without id ("![](" + cover + ")") as Cover, file.link as Name, default(split(author," ")[1],author) as "Author"
-from "阅读"
+from "个人成长/阅读"
 where status = "想读" 
 sort file.cday asc 
 
@@ -28,7 +28,7 @@ sort file.cday asc
 
 ```dataview
 table without id ("![](" + cover + ")") as Cover, file.link as Name, default(split(author," ")[1],author) as "Author"
-from "阅读"  
+from "个人成长/阅读"  
 where  status="在读"
 sort file.cday asc 
 
@@ -39,7 +39,7 @@ sort file.cday asc
 
 ```dataview
 table without id ("![](" + cover + ")") as Cover, file.link as Name, default(split(author," ")[1],author) as "Author"
-from "阅读"  
+from "个人成长/阅读"  
 where  status="精读"
 sort file.cday asc 
 
@@ -50,7 +50,7 @@ sort file.cday asc
 
 ```dataview
 table without id ("![](" + cover + ")") as Cover, file.link as Name, default(split(author," ")[1],author) as "Author"
-from "阅读"  
+from "个人成长/阅读"  
 where  status="再读"
 sort file.cday asc 
 
@@ -61,7 +61,7 @@ sort file.cday asc
 
 ```dataview
 table without id ("![](" + cover + ")") as Cover, file.link as Name, default(split(author," ")[1],author) as "Author"
-from "阅读"  
+from "个人成长/阅读"  
 where  status="略读"
 sort file.cday asc 
 
@@ -72,7 +72,7 @@ sort file.cday asc
 
 ```dataview
 table without id ("![](" + cover + ")") as Cover, file.link as Name, default(split(author," ")[1],author) as "Author", ("**=="+(date(today)-date(EndDate)).days+"==**天前读完") as "Past", ("阅读周期==**"+(date(EndDate)-date(BeginDate)).days+"**==天") as "Period"
-from "阅读"  
+from "个人成长/阅读"  
 where EndDate!=none & date(EndDate).year=date(now).year
 sort BeginDate desc
 ```
@@ -82,7 +82,7 @@ sort BeginDate desc
 
 ```dataview
 table without id ("![](" + cover + ")") as Cover, file.link as Name, default(split(author," ")[1],author) as "Author", ("**=="+(date(today)-date(EndDate)).days+"==**天前读完") as "Past", ("阅读周期==**"+(date(EndDate)-date(BeginDate)).days+"**==天") as "Period"
-from "阅读"  
+from "个人成长/阅读"  
 where EndDate!=none & date(EndDate).year<date(now).year
 sort BeginDate desc
 ```
