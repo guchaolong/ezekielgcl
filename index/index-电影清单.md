@@ -18,7 +18,7 @@ tags: index
 #  想看
 
 ```dataview
-table without id ("![](" + cover + ")") as Cover, file.link as Name,year as Year, director as 导演,rating as 评分
+table without id ("![](" + cover + ")") as Cover, file.link as Name,tags as Tags, director as 导演,rating as 评分
 from  "个人成长/电影"
 where genre !=none & status="想看" 
 sort file.cday asc 
@@ -29,7 +29,7 @@ sort file.cday asc
 #  看完
 
 ```dataview
-table without id ("![](" + cover + ")") as Cover, file.link as Name,year as Year, director as 导演,rating as 评分
+table without id ("![](" + cover + ")") as Cover, file.link as Name,tags as Tags, director as 导演,rating as 评分
 from "个人成长/电影"
 where genre !=none & status="看完" 
 sort file.cday asc 
@@ -40,7 +40,7 @@ sort file.cday asc
 # 再看
 
 ```dataview
-table without id ("![](" + cover + ")") as Cover, file.link as Name,year as Year, director as 导演,rating as 评分
+table without id ("![](" + cover + ")") as Cover, file.link as Name,tags as Tags, director as 导演,rating as 评分
 from "个人成长/电影"
 where genre !=none & status="再看" 
 sort file.cday asc 

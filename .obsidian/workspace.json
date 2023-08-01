@@ -4,19 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0aef59d1d26d6e60",
+        "id": "49147f4f686e354e",
         "type": "tabs",
         "children": [
           {
-            "id": "856a80c883cc2765",
-            "type": "leaf",
-            "state": {
-              "type": "memos_view",
-              "state": {}
-            }
-          },
-          {
-            "id": "06de087d33de85fe",
+            "id": "8de2da437c250850",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,10 +48,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#非常不错的一本书",
+                "query": "tag:#好书",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -74,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 236.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -176,35 +168,34 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "435d8e411d59a363",
+  "active": "8de2da437c250850",
   "lastOpenFiles": [
-    "HomePage.md",
-    "conflict-files-obsidian-git.md",
-    "个人成长/日记/2023-08-01-周二.md",
-    "个人成长/日记/日记-Template.md",
     "未命名.canvas",
+    "码农笔记/03-性能调优/Tomcat.md",
+    "个人成长/日记/日记-Template.md",
+    "个人成长/日记/2023-08-01-周二.md",
+    "知识管理之路/Obsidian折腾记录.md",
+    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
+    "个人成长/阅读/卡片笔记写作法.md",
+    "HomePage.md",
+    "个人成长/日记/2023-08-02-周三.md",
     "Index/index-电影清单.md",
+    "个人成长/电影/楚门的世界 The Truman Show.md",
+    "个人成长/电影/海蒂和爷爷 Heidi.md",
+    "conflict-files-obsidian-git.md",
     "Index/index-码农笔记.md",
     "码农笔记/A-Java基础/java基础.md",
     "码农笔记/A-Java基础/Java基础知识.md",
-    "知识管理之路/Obsidian折腾记录.md",
     "个人成长/日记/delete.md",
-    "个人成长/电影/楚门的世界 The Truman Show.md",
     "Index/index-阅读清单.md",
-    "个人成长/阅读/卡片笔记写作法.md",
     "书架上的神明.md",
     "Index/index-日记.md",
-    "码农笔记/03-性能调优/Tomcat.md",
     "home-phone.md",
     "Template/读书笔记.md",
     "码农人生/未命名.md",
-    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
     "知识管理之路/Markdown语法.md",
     "码农笔记/B-设计模式/23个设计模式总结.md",
     "码农笔记/E-前端/前端基础.md",
-    "码农笔记/06-项目实战/项目架构演变.md",
-    "码农笔记/04-分布式框架/Zookeeper.md",
-    "码农笔记/07-互联网工具/Git总结.md",
     "码农笔记/07-互联网工具",
     "码农人生/未命名文件夹",
     "码农笔记/06-项目实战",
