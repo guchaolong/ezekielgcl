@@ -22,7 +22,7 @@
               "type": "markdown",
               "state": {
                 "file": "HomePage.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -156,11 +155,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {

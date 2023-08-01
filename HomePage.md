@@ -3,7 +3,7 @@ cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-co
 # banner: "![[sunset-ge28cf669b_1920.jpg]]"
 banner: "![[sunset-ge28cf669b_1920.jpg]]"
 banner_x: 0.02235
-banner_y: 1
+banner_y: 0.996
 banner_icon: 🌴
 tags: index
 ---
