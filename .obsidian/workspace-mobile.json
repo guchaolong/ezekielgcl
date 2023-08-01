@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ITNote/项目架构.md",
+                "file": "index/index-码农笔记.md",
                 "mode": "preview",
                 "source": false
               }
@@ -31,6 +31,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "index/index-码农笔记.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -84,7 +85,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#Obsidian",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -125,6 +126,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "index/index-码农笔记.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -141,6 +143,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "index/index-码农笔记.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -151,7 +154,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "index/index-码农笔记.md"
+          }
         }
       },
       {
@@ -167,62 +172,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "awesome-brain-manager:Awesome Brain Manager": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "fc318e6d7f8777d5",
+  "active": "6cf3b37de4665aae",
   "lastOpenFiles": [
-    "ITNote/项目架构.md",
-    "Untitled.md",
-    "ITNote/设计模式.md",
-    "ITNote/代码大全.md",
-    "工具/Obsidian折腾之路.md",
-    "ITNote/Java基础知识.md",
+    "码农笔记/B-设计模式/23个设计模式总结.md",
+    "index/index-码农笔记.md",
     "HomePage.md",
-    "index/index-ITNote.md",
+    "码农笔记/C-算法/排序算法.md",
+    "index/index-阅读清单.md",
     "index/index-日记.md",
+    "index/index-电影清单.md",
+    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
+    "个人成长/电影/楚门的世界 The Truman Show.md",
+    "个人成长/日记/2023-07-31-周一.md",
+    "个人成长/日记/2023-08-01-周二.md",
+    "个人成长/日记/Template.md",
+    "个人成长/日记/2023-07-30-周日.md",
+    "个人成长/日记/2023-07-29-周六.md",
+    "个人成长/阅读",
+    "个人成长/电影",
+    "个人成长/日记",
+    "个人成长",
+    "码农笔记/E-前端/前端基础.md",
+    "码农笔记/07-互联网工具/Git总结.md",
+    "码农笔记/04-分布式框架/Zookeeper.md",
+    "码农笔记/04-分布式框架/Redis.md",
+    "码农笔记/04-分布式框架/RocketMQ.md",
+    "码农笔记/06-项目实战/链式处理.md",
+    "码农笔记/06-项目实战/项目架构演变.md",
+    "码农笔记/A-Java基础/java基础.md",
+    "码农笔记/A-Java基础/IO、NIO、AIO、Netty.md",
+    "码农笔记/A-Java基础/Java基础知识.md",
+    "码农笔记/A-Java基础/Java开发手册.md",
+    "码农笔记/03-性能调优/Tomcat.md",
+    "码农笔记/C-算法",
+    "码农笔记/E-前端",
+    "码农笔记/B-设计模式",
+    "码农笔记/07-互联网工具",
+    "码农笔记/04-分布式框架",
+    "码农笔记/06-项目实战",
+    "附件素材/banner_pic/sunset-ge28cf669b_1920.jpg",
+    "附件素材/banner_pic/mountains-g610ac2764_1280.jpg",
+    "附件素材/banner_pic/img 0032.jpg",
+    "附件素材/banner_pic/books-g156f242fd_1920.jpg",
+    "附件素材/banner_pic/snowdrift-gecf51e07f_1920.jpg",
+    "附件素材/banner_pic/img 0072.jpg",
+    "附件素材/banner_pic/keyboard-1385706_1280.jpg",
+    "附件素材/banner_pic/movies.jpg",
     "工具/附件素材/头图/space-1572212_1280.png",
-    "工具/附件素材/头图/banner-2143659_1280.jpg",
-    "工具/附件素材/头图/banner-982162_1280.jpg",
-    "工具/附件素材/头图/keyboard-1385706_1280.jpg",
-    "Daily/2023-07-31-周一.md",
-    "index/HomePage.md",
-    "blog/2020-10-08-设计模式.md",
-    "工具/附件素材/头图/sunset-ge28cf669b_1920.jpg",
-    "工具/附件素材/头图/tunisia-g92f2bf537_1920.jpg",
-    "工具/附件素材/头图/animals-g2ab66e819_1920.jpg",
-    "工具/附件素材/头图/animals-g16eb45d7e_1920.jpg",
-    "工具/附件素材/头图/mountains-g610ac2764_1280.jpg",
-    "工具/附件素材/头图/animals-g79ee9ab76_1920.jpg",
-    "工具/chartview/chart view-all.md",
-    "工具/附件素材/头图",
-    "工具/chartview",
-    "工具/Markdown语法.md",
-    "工具/附件素材",
-    "工具",
-    "index/index-readlist.md",
-    "index/index-movielist.md",
-    "index",
-    "阅读/时间从来不语，却回答了所有问题.md",
-    "阅读",
-    "ITNote/排序算法.md",
-    "ITNote/Zookeeper.md",
-    "ITNote/IO、NIO、AIO、Netty.md",
-    "ITNote/Git总结.md",
-    "ITNote/前端.md",
-    "ITNote/Redis.md",
-    "ITNote/Tomcat.md",
-    "ITNote/Linux学习笔记.md",
-    "ITNote/消息中间件 RocketMQ.md",
-    "ITNote",
-    "电影",
-    "blog",
-    "Template"
+    "工具/附件素材/头图/banner-2143659_1280.jpg"
   ]
 }
