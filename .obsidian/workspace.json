@@ -4,22 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "de8b8e9b6ac6ed0c",
+        "id": "0aef59d1d26d6e60",
         "type": "tabs",
         "children": [
           {
-            "id": "e0101e5ed936f610",
+            "id": "856a80c883cc2765",
+            "type": "leaf",
+            "state": {
+              "type": "memos_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "021ce0109e2d84c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人成长/日记/日记-Template.md",
+                "file": "HomePage.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人成长/日记/日记-Template.md",
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人成长/日记/日记-Template.md",
+                "file": "HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "个人成长/日记/日记-Template.md"
+                "file": "HomePage.md"
               }
             }
           },
@@ -167,9 +177,11 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "e0101e5ed936f610",
+  "active": "021ce0109e2d84c2",
   "lastOpenFiles": [
     "HomePage.md",
+    "个人成长/日记/2023-08-01-周二.md",
+    "个人成长/日记/日记-Template.md",
     "未命名.canvas",
     "Index/index-电影清单.md",
     "Index/index-码农笔记.md",
@@ -177,7 +189,6 @@
     "码农笔记/A-Java基础/Java基础知识.md",
     "知识管理之路/Obsidian折腾记录.md",
     "个人成长/日记/delete.md",
-    "个人成长/日记/日记-Template.md",
     "个人成长/电影/楚门的世界 The Truman Show.md",
     "Index/index-阅读清单.md",
     "个人成长/阅读/卡片笔记写作法.md",
