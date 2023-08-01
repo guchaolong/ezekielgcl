@@ -1,4 +1,8 @@
 {
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "showLineNumber": false,
+  "attachmentFolderPath": "附件素材"
 }
