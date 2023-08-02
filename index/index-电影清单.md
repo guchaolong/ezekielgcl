@@ -3,11 +3,11 @@ status: 1
 cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
 banner: "![[movies.jpg]]"
 banner_y: 0.53039
-banner_icon: 🎥
+banner_icon: 📽️
 tags: index
 ---
 
-- [[HomePage|返回主页]] | [[index-码农笔记|IT笔记]] | [[index-阅读清单|阅读清单]] | [[index-日记|日记]] |
+- ## [[HomePage|返回主页]] | [[index-码农笔记|码农笔记]] | [[index-阅读清单|阅读]] | [[index-日记|日记]] |
 
 ---
 

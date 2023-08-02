@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
+                "file": "Index/index-日记.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#好书",
+                "query": "tag:index",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "Index/index-日记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "Index/index-日记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "Index/index-日记.md"
               }
             }
           },
@@ -170,6 +169,12 @@
   },
   "active": "8de2da437c250850",
   "lastOpenFiles": [
+    "Index/index-电影清单.md",
+    "Index/index-阅读清单.md",
+    "Index/index-码农笔记.md",
+    "HomePage.md",
+    "个人成长/电影/海蒂和爷爷 Heidi.md",
+    "Index/index-日记.md",
     "未命名.canvas",
     "码农笔记/03-性能调优/Tomcat.md",
     "个人成长/日记/日记-Template.md",
@@ -177,19 +182,13 @@
     "知识管理之路/Obsidian折腾记录.md",
     "个人成长/阅读/时间从来不语，却回答了所有问题.md",
     "个人成长/阅读/卡片笔记写作法.md",
-    "HomePage.md",
     "个人成长/日记/2023-08-02-周三.md",
-    "Index/index-电影清单.md",
     "个人成长/电影/楚门的世界 The Truman Show.md",
-    "个人成长/电影/海蒂和爷爷 Heidi.md",
     "conflict-files-obsidian-git.md",
-    "Index/index-码农笔记.md",
-    "码农笔记/A-Java基础/java基础.md",
-    "码农笔记/A-Java基础/Java基础知识.md",
+    "码农笔记/00-Java基础/java基础.md",
+    "码农笔记/00-Java基础/Java基础知识.md",
     "个人成长/日记/delete.md",
-    "Index/index-阅读清单.md",
     "书架上的神明.md",
-    "Index/index-日记.md",
     "home-phone.md",
     "Template/读书笔记.md",
     "码农人生/未命名.md",
