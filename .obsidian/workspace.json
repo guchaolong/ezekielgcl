@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人成长/电影/海蒂和爷爷 Heidi.md",
+                "file": "HomePage.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人成长/电影/海蒂和爷爷 Heidi.md",
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人成长/电影/海蒂和爷爷 Heidi.md",
+                "file": "HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "个人成长/电影/海蒂和爷爷 Heidi.md"
+                "file": "HomePage.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   },
   "active": "8de2da437c250850",
   "lastOpenFiles": [
+    "个人成长/电影/海蒂和爷爷 Heidi.md",
     "知识管理之路/Obsidian折腾记录.md",
     "码农笔记/D-Linux/Linux学习笔记.md",
     "HomePage.md",
@@ -177,7 +178,6 @@
     "Index/index-电影清单.md",
     "Index/index-阅读清单.md",
     "Index/index-码农笔记.md",
-    "个人成长/电影/海蒂和爷爷 Heidi.md",
     "未命名.canvas",
     "码农笔记/03-性能调优/Tomcat.md",
     "个人成长/日记/日记-Template.md",
