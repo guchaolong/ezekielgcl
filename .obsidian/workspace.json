@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "49147f4f686e354e",
+        "id": "dfb88586f473a3dc",
         "type": "tabs",
         "children": [
           {
-            "id": "8de2da437c250850",
+            "id": "3b4c931fc4199350",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
+                "file": "个人成长/日记/2023-08-02-周三.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "个人成长/日记/2023-08-02-周三.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "个人成长/日记/2023-08-02-周三.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "个人成长/日记/2023-08-02-周三.md"
               }
             }
           },
@@ -167,24 +167,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8de2da437c250850",
+  "active": "3b4c931fc4199350",
   "lastOpenFiles": [
+    "个人成长/日记/2023-08-03-周四.md",
+    "个人成长/日记/2023-08-02-周三.md",
+    "Index/index-码农笔记.md",
+    "HomePage.md",
+    "Index/index-阅读清单.md",
     "个人成长/电影/海蒂和爷爷 Heidi.md",
     "知识管理之路/Obsidian折腾记录.md",
     "码农笔记/D-Linux/Linux学习笔记.md",
-    "HomePage.md",
     "知识管理之路/Markdown语法.md",
     "Index/index-日记.md",
     "Index/index-电影清单.md",
-    "Index/index-阅读清单.md",
-    "Index/index-码农笔记.md",
     "未命名.canvas",
     "码农笔记/03-性能调优/Tomcat.md",
     "个人成长/日记/日记-Template.md",
     "个人成长/日记/2023-08-01-周二.md",
     "个人成长/阅读/时间从来不语，却回答了所有问题.md",
     "个人成长/阅读/卡片笔记写作法.md",
-    "个人成长/日记/2023-08-02-周三.md",
     "个人成长/电影/楚门的世界 The Truman Show.md",
     "conflict-files-obsidian-git.md",
     "码农笔记/00-Java基础/java基础.md",
@@ -195,7 +196,6 @@
     "Template/读书笔记.md",
     "码农人生/未命名.md",
     "码农笔记/B-设计模式/23个设计模式总结.md",
-    "码农笔记/E-前端/前端基础.md",
     "码农笔记/07-互联网工具",
     "码农人生/未命名文件夹",
     "码农笔记/06-项目实战",
