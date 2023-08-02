@@ -6,17 +6,67 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:码农笔记",
+      "color": {
+        "a": 1,
+        "rgb": 10506976
+      }
+    },
+    {
+      "query": "path:个人成长/思考",
+      "color": {
+        "a": 1,
+        "rgb": 7462994
+      }
+    },
+    {
+      "query": "path:个人成长/日记",
+      "color": {
+        "a": 1,
+        "rgb": 13230162
+      }
+    },
+    {
+      "query": "path:个人成长/电影",
+      "color": {
+        "a": 1,
+        "rgb": 5420768
+      }
+    },
+    {
+      "query": "path:个人成长/阅读",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Index",
+      "color": {
+        "a": 1,
+        "rgb": 14703442
+      }
+    },
+    {
+      "query": "path:",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -0.4,
+  "nodeSizeMultiplier": 0.780774806701031,
+  "lineSizeMultiplier": 0.566084085051546,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
+  "centerStrength": 0.501449742268041,
+  "repelStrength": 9.37661082474227,
+  "linkStrength": 0.579735824742268,
+  "linkDistance": 159,
   "scale": 0.5359795996225932,
   "close": true
 }

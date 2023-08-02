@@ -11,12 +11,8 @@
             "id": "3b4c931fc4199350",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人成长/日记/2023-08-03-周四.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -65,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人成长/日记/2023-08-03-周四.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人成长/日记/2023-08-03-周四.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "个人成长/日记/2023-08-03-周四.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,14 +162,14 @@
   },
   "active": "3b4c931fc4199350",
   "lastOpenFiles": [
+    "HomePage.md",
+    "个人成长/日记/2023-08-03-周四.md",
     "个人成长/日记/2023-08-02-周三.md",
     "个人成长/日记/2023-08-01-周二.md",
     "个人成长/日记/2023-07-31-周一.md",
     "个人成长/日记/2023-07-30-周日.md",
     "个人成长/日记/2023-07-29-周六.md",
-    "个人成长/日记/2023-08-03-周四.md",
     "Index/index-码农笔记.md",
-    "HomePage.md",
     "Index/index-阅读清单.md",
     "个人成长/电影/海蒂和爷爷 Heidi.md",
     "知识管理之路/Obsidian折腾记录.md",
