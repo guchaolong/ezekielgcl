@@ -1,7 +1,7 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
-  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
+  "cssTheme": "",
   "baseFontSize": 16,
   "baseFontSizeAction": false,
   "interfaceFontFamily": "Andale Mono,Times",
@@ -9,9 +9,13 @@
   "enabledCssSnippets": [
     "linkstyle",
     "Homepage",
-    "awesome-brain-manager",
     "搜索框美化",
     "taskspage",
-    "nav-labels-zh"
-  ]
+    "nav-labels-zh",
+    "h1h2-text-align-center",
+    "表格着色"
+  ],
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "translucency": false
 }

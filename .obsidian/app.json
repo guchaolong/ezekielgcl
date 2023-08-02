@@ -4,5 +4,6 @@
   "readableLineLength": true,
   "strictLineBreaks": true,
   "showLineNumber": false,
-  "attachmentFolderPath": "附件素材"
+  "attachmentFolderPath": "附件素材",
+  "showIndentGuide": true
 }

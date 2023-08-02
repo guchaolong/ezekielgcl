@@ -1,12 +1,24 @@
 {
-  "blue-topaz-theme@@remove-file-icons": true,
   "floating-toc-styles@@toggle-floating-toc-header-color": true,
   "floating-toc-styles@@floating-toc-response-time": 0.5,
   "floating-toc-styles@@enable-heading-nowrap": false,
-  "floating-toc-styles@@floating-toc-hover-color@@light": "#D62072",
   "floating-toc-styles@@floating-toc-font-size": 0.8,
   "floating-toc-styles@@floating-toc-position": 0,
   "floating-toc-styles@@enable-bar-icon": false,
   "floating-toc-styles@@enable-outline-style": "default-outline-style",
-  "floating-toc-styles@@floating-toc-highlight-color": "#78E95C"
+  "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-gruvbox-light",
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-light": false,
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": true,
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": false,
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-frappe",
+  "anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended": "ctp-gruvbox-dark",
+  "floating-toc-styles@@floating-toc-highlight-color": "#9900FF",
+  "blue-topaz-theme@@colorful-ordered-list": false,
+  "blue-topaz-theme@@rainbow-ordered-list": false,
+  "blue-topaz-theme@@remove-file-icons": true,
+  "blue-topaz-theme@@outline-style": "default-outline-style",
+  "blue-topaz-theme@@tab-head-style": "default-tab",
+  "blue-topaz-theme@@toggle-calendar-shadow": true,
+  "blue-topaz-theme@@dark-background-file": false,
+  "blue-topaz-theme@@unmuted-collapsed-folder": false
 }

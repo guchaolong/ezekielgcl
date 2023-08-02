@@ -9,6 +9,9 @@
 # 主题
 * vue
 * Blue Topaz
+* AnuPpuccin
+  这个插件本来是英文的，我使用的是一个up主汉化过的
+
 
 # 插件相关
 ## 日历——calendar
@@ -89,6 +92,12 @@ memos在左边栏的小灯泡,memos删除的内容，以及查询条件会放在
 选中文字，然后右键，highlight，设置颜色
 和editing toolbar中的设置高亮重复，但是这个更符合操作习惯
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230803042526.png)
+
+
+## 命令设置——commander
+可以设置左边栏的命令，状态栏等等
+也可以自定义宏，比如，打开style setting ,然后用hover edit转换为悬浮窗口，然后cmd + p，输入fss，就能直接调用这两个命令了，或者也可以给设置快捷键
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230803051502.png)
 
 
 # 备份和同步
