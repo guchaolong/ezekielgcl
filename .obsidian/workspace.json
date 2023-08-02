@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人成长/日记/2023-08-02-周三.md",
+                "file": "个人成长/日记/2023-08-03-周四.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人成长/日记/2023-08-02-周三.md",
+                "file": "个人成长/日记/2023-08-03-周四.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人成长/日记/2023-08-02-周三.md",
+                "file": "个人成长/日记/2023-08-03-周四.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "个人成长/日记/2023-08-02-周三.md"
+                "file": "个人成长/日记/2023-08-03-周四.md"
               }
             }
           },
@@ -169,8 +169,12 @@
   },
   "active": "3b4c931fc4199350",
   "lastOpenFiles": [
-    "个人成长/日记/2023-08-03-周四.md",
     "个人成长/日记/2023-08-02-周三.md",
+    "个人成长/日记/2023-08-01-周二.md",
+    "个人成长/日记/2023-07-31-周一.md",
+    "个人成长/日记/2023-07-30-周日.md",
+    "个人成长/日记/2023-07-29-周六.md",
+    "个人成长/日记/2023-08-03-周四.md",
     "Index/index-码农笔记.md",
     "HomePage.md",
     "Index/index-阅读清单.md",
@@ -183,7 +187,6 @@
     "未命名.canvas",
     "码农笔记/03-性能调优/Tomcat.md",
     "个人成长/日记/日记-Template.md",
-    "个人成长/日记/2023-08-01-周二.md",
     "个人成长/阅读/时间从来不语，却回答了所有问题.md",
     "个人成长/阅读/卡片笔记写作法.md",
     "个人成长/电影/楚门的世界 The Truman Show.md",
@@ -193,9 +196,6 @@
     "个人成长/日记/delete.md",
     "书架上的神明.md",
     "home-phone.md",
-    "Template/读书笔记.md",
-    "码农人生/未命名.md",
-    "码农笔记/B-设计模式/23个设计模式总结.md",
     "码农笔记/07-互联网工具",
     "码农人生/未命名文件夹",
     "码农笔记/06-项目实战",
