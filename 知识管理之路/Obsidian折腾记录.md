@@ -44,7 +44,8 @@ memos在左边栏的小灯泡,memos删除的内容，以及查询条件会放在
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731020019.png)
 
 
-## 主题的样式设置——Style Setting
+## 样式设置——Style Setting
+可以设置悬浮目录，按钮等的样式，也可以针对当前主题的样式进行设置
 例如，当前的blue topaz主题，md文件前有图标，可以在style setting中去掉
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731024313.png)
 
@@ -77,6 +78,17 @@ memos在左边栏的小灯泡,memos删除的内容，以及查询条件会放在
 
 ## 分词插件-Word Splitting...
 编辑模式下，双击默认是选中整句话，使用插件，可以选中单词
+
+## Minimal Theme setting
+设置Minimal主题的风格
+
+## 悬浮目录——floating toc
+开启后，在style setting中设置风格样式，但是因为我关闭了**缩减栏宽**，悬浮目录不好看，所以不开启
+
+## 设置文本高亮颜色——Highlight
+选中文字，然后右键，highlight，设置颜色
+和editing toolbar中的设置高亮重复，但是这个更符合操作习惯
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230803042526.png)
 
 
 # 备份和同步

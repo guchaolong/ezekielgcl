@@ -1,0 +1,17 @@
+{
+  "showStatusBarItem": true,
+  "filterSettings": {
+    "FeaturedFirst": false,
+    "StrictSearch": false,
+    "HighlightCustom": false,
+    "HighlightDuplicates": false,
+    "DisplayWOhotkeys": false,
+    "DisplayIDs": false
+  },
+  "featuredCommandIDs": [
+    "graph:open",
+    "global-search:open",
+    "editor:insert-link",
+    "markdown:toggle-preview"
+  ]
+}

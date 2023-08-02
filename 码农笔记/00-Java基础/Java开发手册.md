@@ -46,8 +46,8 @@ tags:
 
 9. 接口和实现类
 
-   1. 对于Service和DAO类，基于SOA的理念，暴露出来的服务一定是接口，内部实现类用**Impl的后缀**与接口区别，如CacheServiceImpl implements CacheService
-   2. 如果是**形容能力**的接口名称，去对应的形容词做接口名（通常是**-able**的形式），如AbstractIranslator implements Translatable
+   1. 对于Service和DAO类，基于SOA的理念，暴露出来的服务一定是接口，内部实现类用**Impl的后缀**与接口区别，如`CacheServiceImpl implements CacheService`
+   2. 如果是**形容能力**的接口名称，去对应的形容词做接口名（通常是**-able**的形式），如`AbstractIranslator implements Translatable`
 
 10. **常量**，全部**大写**，单词间用**下划线**隔开，力求表达完整清楚，不嫌长
 

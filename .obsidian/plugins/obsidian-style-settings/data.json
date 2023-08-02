@@ -1,3 +1,12 @@
 {
-  "blue-topaz-theme@@remove-file-icons": true
+  "blue-topaz-theme@@remove-file-icons": true,
+  "floating-toc-styles@@toggle-floating-toc-header-color": true,
+  "floating-toc-styles@@floating-toc-response-time": 0.5,
+  "floating-toc-styles@@enable-heading-nowrap": false,
+  "floating-toc-styles@@floating-toc-hover-color@@light": "#D62072",
+  "floating-toc-styles@@floating-toc-font-size": 0.8,
+  "floating-toc-styles@@floating-toc-position": 0,
+  "floating-toc-styles@@enable-bar-icon": false,
+  "floating-toc-styles@@enable-outline-style": "default-outline-style",
+  "floating-toc-styles@@floating-toc-highlight-color": "#78E95C"
 }

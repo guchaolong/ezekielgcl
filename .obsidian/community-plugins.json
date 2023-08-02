@@ -17,5 +17,10 @@
   "obsidian-memos",
   "obsidian-kanban",
   "obsidian-excalidraw-plugin",
-  "cm-chs-patch"
+  "cm-chs-patch",
+  "obsidian-minimal-settings",
+  "keyboard-analyzer",
+  "cmdr",
+  "floating-toc",
+  "highlightr-plugin"
 ]
