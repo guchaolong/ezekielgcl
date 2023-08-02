@@ -16,5 +16,6 @@
   "awesome-brain-manager",
   "obsidian-memos",
   "obsidian-kanban",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "cm-chs-patch"
 ]

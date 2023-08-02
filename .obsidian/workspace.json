@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
-                "mode": "source",
+                "file": "知识管理之路/Obsidian折腾记录.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "知识管理之路/Obsidian折腾记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "知识管理之路/Obsidian折腾记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "知识管理之路/Obsidian折腾记录.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -169,9 +169,10 @@
   },
   "active": "8de2da437c250850",
   "lastOpenFiles": [
+    "码农笔记/D-Linux/Linux学习笔记.md",
+    "HomePage.md",
     "知识管理之路/Obsidian折腾记录.md",
     "知识管理之路/Markdown语法.md",
-    "HomePage.md",
     "Index/index-日记.md",
     "Index/index-电影清单.md",
     "Index/index-阅读清单.md",
