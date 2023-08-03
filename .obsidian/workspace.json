@@ -4,17 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "165711f8df489754",
+        "id": "301f3ae239b59dbf",
         "type": "tabs",
         "children": [
           {
-            "id": "55a8591726846583",
+            "id": "850ac6f4b38937a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "HomePage.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ceed96e27f581ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/06-项目实战/链式处理.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#算法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 200
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -146,11 +158,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 290.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,29 +179,36 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "55a8591726846583",
+  "active": "435d8e411d59a363",
   "lastOpenFiles": [
+    "附件素材/dataview/dataview.md",
+    "HomePage.md",
+    "Template/码农笔记——Template.md",
+    "附件素材/dataview",
+    "码农笔记/06-项目实战/链式处理.md",
+    "个人成长/日记/2023-07-31-周一.md",
+    "个人成长/日记/2023-08-01-周二.md",
+    "个人成长/电影/海蒂和爷爷 Heidi.md",
+    "码农笔记/00-Java基础/GC和GC Tuning.md",
+    "码农笔记/00-Java基础/Java开发手册.md",
+    "码农笔记/00-Java基础/Java基础知识.md",
+    "码农笔记/06-项目实战/超简单的6种防止数据重复提交的方法.md",
+    "码农笔记/Z-面试/问题汇总.md",
+    "码农笔记/02-并发编程/并发编程.md",
+    "码农笔记/B-设计模式/23个设计模式总结.md",
+    "码农笔记/E-Docker/Docker.md",
+    "Index/index-阅读清单.md",
+    "未命名.canvas",
+    "Index/index-码农笔记.md",
     "码农笔记/00-Java基础/JVM基础.md",
     "码农笔记/03-性能调优/Tomcat/Tomcat专题.md",
-    "HomePage.md",
     "知识管理之路/Obsidian折腾记录.md",
     "知识管理之路/Markdown语法.md",
     "宇宙万物/宽带 网速 光猫 路由器 网速 .......md",
     "宇宙万物/科学上网翻墙VPN机场外网.md",
-    "Template/码农笔记——Template.md",
     "Untitled.md",
     "titletestsssss.md",
     "Javasss.md",
-    "adsgdsag.md",
-    "Template/banners.md",
-    "Template/嵌入网页.md",
-    "Template/00日记模版.md",
-    "Template/BookNote.md",
-    "Template/mind-basic.md",
-    "Template/mind-rich.md",
-    "TTTTTT.md",
-    "宇宙万物/Win------DIY PC.md",
-    "titledsfs.md",
     "附件素材/banner_pic/img 0032.jpg",
     "附件素材/banner_pic/books-g156f242fd_1920.jpg",
     "附件素材/banner_pic/sunset-ge28cf669b_1920.jpg",
@@ -198,11 +217,6 @@
     "附件素材/banner_pic/mountains-g610ac2764_1280.jpg",
     "附件素材/banner_pic/keyboard-1385706_1280.jpg",
     "附件素材/banner_pic/img 0072.jpg",
-    "Template/MovieNote.md",
-    "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
-    "码农笔记/00-Java基础/java基础.md",
-    "码农笔记/D-Linux/Kali Linux.md",
-    "码农笔记/06-项目实战/链式处理.md",
     "附件素材/04-VIP-JVM垃圾收集器详解.pdf",
     "码农笔记/04-分布式框架/Redis",
     "附件素材/并发编程之定时任务&定时线程池.pdf",
@@ -212,8 +226,6 @@
     "附件素材/并发编程之Executor线程池原理与源码解读.pdf",
     "附件素材/未确认 108536.crdownload",
     "附件素材/杨过-教你透彻了解红黑树.pdf",
-    "附件素材/未确认 954927.crdownload",
-    "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "附件素材/banner_pic/book1.jpg",

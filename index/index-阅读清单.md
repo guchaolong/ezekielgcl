@@ -1,7 +1,7 @@
 ---
 cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
 banner: "![[books-g156f242fd_1920.jpg]]"
-banner_y: 0.596
+banner_y: 0.344
 banner_icon: 📙
 tags: index
 ---
@@ -34,28 +34,7 @@ sort file.cday asc
 
 ```
 ---
-#  读完
-## 精读
 
-```dataview
-table without id ("![](" + cover + ")") as Cover, file.link as Name, default(split(author," ")[1],author) as "Author"
-from "个人成长/阅读"  
-where  status="精读"
-sort file.cday asc 
-
-```
----
-
-## 再读
-
-```dataview
-table without id ("![](" + cover + ")") as Cover, file.link as Name, default(split(author," ")[1],author) as "Author"
-from "个人成长/阅读"  
-where  status="再读"
-sort file.cday asc 
-
-```
----
 
 ## 略读
 

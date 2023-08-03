@@ -5,7 +5,7 @@ subtitle:
 author: ezekielgcl
 date: {{DATE}}
 aliases: 
-tags: {{VALUE:tags}}
+tags: 
 keyword: 码农笔记
 catalog: true
 category: 码农笔记
