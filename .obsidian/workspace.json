@@ -160,11 +160,7 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false,
-      "awesome-brain-manager:Awesome Brain Manager": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "workspaces:管理工作区布局": false,
-      "obsidian-memos:Memos": false
+      "workspaces:管理工作区布局": false
     }
   },
   "active": "8d7f6982c14b871e",
