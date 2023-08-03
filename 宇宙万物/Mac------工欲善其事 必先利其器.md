@@ -1,3 +1,5 @@
+#Mac 
+
 > 新入手一台MacBook Pro（Apple M1 Pro芯片）
 > 记录软件安装和开发环境搭建的过程
 

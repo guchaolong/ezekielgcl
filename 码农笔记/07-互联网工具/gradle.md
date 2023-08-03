@@ -1,3 +1,5 @@
+#Gradle
+
 # 安装、配置
 下载，解压，设置环境变量，在.zshrc文件中添加下面两行，然后`source ~/.zshrc`
 **export GRADLE_HOME=/Users/ezekiel/DevTool/gradle-7.6**

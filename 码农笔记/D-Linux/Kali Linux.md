@@ -1,3 +1,6 @@
+#Linux #Kali
+
+
 # Linux
 Unix/Linux/Linux发行版:
 Linux 是一个类似 Unix 的操作系统，Unix 要早于 Linux，Linux 的初衷就是要替代 UNIX，并在功能和用户体验上进行优化，所以 Linux 模仿了 UNIX（但并没有抄袭 UNIX 的源码），使得 Linux 在外观和交互上与 UNIX 非常类似。

@@ -1,4 +1,6 @@
 
+#Redis 
+
 ## 文档：01-VIP-Redis核心数据结构与高性能原理
 链接：[http://note.youdao.com/noteshare?id=365d3825d9e54c432fd841107877c8ba&sub=D3EC0D6255E64FF5BA9811B83D3E7E35](http://note.youdao.com/noteshare?id=365d3825d9e54c432fd841107877c8ba&sub=D3EC0D6255E64FF5BA9811B83D3E7E35)
 

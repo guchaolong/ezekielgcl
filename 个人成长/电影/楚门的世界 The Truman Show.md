@@ -9,7 +9,7 @@ year: 1998-06-05(美国)
 genre: 剧情
 banner_icon: 🎞
 banner: "https://img2.doubanio.com/view/photo/1/public/p479682972.webp"
-status: 再看
+status: 看完
 progress: 
 banner_y: 0.356
 ---

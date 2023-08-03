@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#算法",
+                "query": "tag:#ZSH",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 328.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -158,7 +158,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -179,36 +179,36 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "435d8e411d59a363",
+  "active": "850ac6f4b38937a4",
   "lastOpenFiles": [
-    "附件素材/dataview/dataview.md",
-    "HomePage.md",
-    "Template/码农笔记——Template.md",
-    "附件素材/dataview",
-    "码农笔记/06-项目实战/链式处理.md",
-    "个人成长/日记/2023-07-31-周一.md",
-    "个人成长/日记/2023-08-01-周二.md",
-    "个人成长/电影/海蒂和爷爷 Heidi.md",
-    "码农笔记/00-Java基础/GC和GC Tuning.md",
-    "码农笔记/00-Java基础/Java开发手册.md",
-    "码农笔记/00-Java基础/Java基础知识.md",
-    "码农笔记/06-项目实战/超简单的6种防止数据重复提交的方法.md",
-    "码农笔记/Z-面试/问题汇总.md",
-    "码农笔记/02-并发编程/并发编程.md",
-    "码农笔记/B-设计模式/23个设计模式总结.md",
-    "码农笔记/E-Docker/Docker.md",
-    "Index/index-阅读清单.md",
-    "未命名.canvas",
     "Index/index-码农笔记.md",
-    "码农笔记/00-Java基础/JVM基础.md",
-    "码农笔记/03-性能调优/Tomcat/Tomcat专题.md",
+    "Index/index-电影清单.md",
     "知识管理之路/Obsidian折腾记录.md",
+    "宇宙万物/Win------DIY PC.md",
+    "码农笔记/Z-面试/问题汇总.md",
+    "码农笔记/Y-前端/前端基础.md",
+    "码农笔记/E-Docker/Docker.md",
+    "码农笔记/D-Linux/Mac zsh Item2命令.md",
     "知识管理之路/Markdown语法.md",
+    "宇宙万物/Win------装机必备软件.md",
+    "宇宙万物/Mac------工欲善其事 必先利其器.md",
+    "宇宙万物/起名.md",
     "宇宙万物/宽带 网速 光猫 路由器 网速 .......md",
     "宇宙万物/科学上网翻墙VPN机场外网.md",
-    "Untitled.md",
-    "titletestsssss.md",
-    "Javasss.md",
+    "码农笔记/D-Linux/Linux学习笔记.md",
+    "码农笔记/D-Linux/Linux命令积累.md",
+    "码农笔记/D-Linux/Linux.md",
+    "码农笔记/D-Linux/Kali Linux.md",
+    "码农笔记/D-Linux/速学150个Linux常用命令.md",
+    "码农笔记/C-算法与数据结构/小技巧.md",
+    "码农笔记/C-算法与数据结构/数据结构介绍.md",
+    "码农笔记/C-算法与数据结构/排序算法.md",
+    "码农笔记/C-算法与数据结构/常用算法.md",
+    "码农笔记/B-设计模式/23个设计模式总结.md",
+    "码农笔记/07-互联网工具/VSCode.md",
+    "码农笔记/07-互联网工具/Gradle.md",
+    "附件素材/dataview",
+    "未命名.canvas",
     "附件素材/banner_pic/img 0032.jpg",
     "附件素材/banner_pic/books-g156f242fd_1920.jpg",
     "附件素材/banner_pic/sunset-ge28cf669b_1920.jpg",

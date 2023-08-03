@@ -1,3 +1,6 @@
+
+#VSCode
+
 # command + shift + p 打开命令控制台
 > `command + shift + p `
 > 就会显示vscode的一些功能，最近使用的排在前面

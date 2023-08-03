@@ -1,3 +1,5 @@
+#GC #JVM垃圾回收
+
 作者：马士兵教育 [http://mashibing.com](http://mashibing.com)
 
 ### GC的基础知识
