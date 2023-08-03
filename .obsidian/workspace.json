@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a6e86d6d49be5f32",
+        "id": "9478407a8e461173",
         "type": "tabs",
         "children": [
           {
-            "id": "5fbb96135ff37d19",
+            "id": "7521e888a39dfca0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "HomePage.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 347.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -103,7 +103,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "HomePage.md",
-                "linksCollapsed": false,
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -167,17 +167,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5fbb96135ff37d19",
+  "active": "7521e888a39dfca0",
   "lastOpenFiles": [
-    "Index/index-电影清单.md",
-    "HomePage.md",
-    "Index/index-阅读清单.md",
-    "个人成长/日记/2023-08-03-周四.md",
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+    "码农笔记/00-Java基础/垃圾收集器.md",
+    "码农笔记/00-Java基础/JVM基础.md",
+    "附件素材/04-VIP-JVM垃圾收集器详解.pdf",
+    "Index/index-电影清单.md",
+    "码农笔记/02-并发编程/4、Atomic&Unsafe魔法类详解.md",
+    "码农笔记/02-并发编程/3、Tools&CountDownLatch&Semaphore原理与应用.md",
+    "码农笔记/02-并发编程/2、synchronized&Lock&AQS详解(1).md",
+    "码农笔记/02-并发编程/1、JMM&synchronized&volatile详解.md",
+    "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
+    "码农笔记/00-Java基础/GC和GC Tuning.md",
+    "HomePage.md",
+    "个人成长/日记/2023-08-03-周四.md",
+    "Index/index-阅读清单.md",
     "码农笔记/E-Docker/Docker.md",
     "宇宙万物/起名.md",
     "码农笔记/00-Java基础/java基础.md",
-    "码农笔记/00-Java基础/GC和GC Tuning.md",
     "对象分配过程详解.png.md",
     "码农笔记/07-互联网工具/gradle.md",
     "码农笔记/B-设计模式/23个设计模式总结.md",
@@ -191,20 +199,12 @@
     "码农笔记/02-并发编程/8、定时任务&定时线程池.md",
     "附件素材/并发编程之定时任务&定时线程池.pdf",
     "附件素材/未确认 452392.crdownload",
-    "码农笔记/02-并发编程/2、synchronized&Lock&AQS详解(1).md",
-    "码农笔记/02-并发编程/3、Tools&CountDownLatch&Semaphore原理与应用.md",
-    "码农笔记/02-并发编程/1、JMM&synchronized&volatile详解.md",
-    "码农笔记/02-并发编程/4、Atomic&Unsafe魔法类详解.md",
-    "码农笔记/02-并发编程/5、HashMap、红黑树.md",
-    "码农笔记/02-并发编程/6、Executor线程池原理与源码解读.md",
-    "码农笔记/02-并发编程/7、Future&Fork&Join框架原理分析.md",
     "附件素材/编发编程之Future&Fork&Join框架原理分析.pdf",
     "附件素材/未确认 374035.crdownload",
     "附件素材/并发编程之Executor线程池原理与源码解读.pdf",
     "附件素材/未确认 108536.crdownload",
     "附件素材/杨过-教你透彻了解红黑树.pdf",
     "附件素材/未确认 954927.crdownload",
-    "附件素材/并发编程之Atomic&Unsafe魔法类详解-图灵杨过.pdf",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
