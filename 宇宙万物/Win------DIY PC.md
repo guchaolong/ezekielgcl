@@ -1,3 +1,8 @@
+#Diy
+#硬件
+
+
+
 > PC硬件知识，本文以Intel、NVIDIA的作主要介绍
 
 # CPU

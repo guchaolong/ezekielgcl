@@ -1,1 +1,10 @@
-{}
+{
+  "quickadd:choice:0226b9b4-404f-4e7d-803a-1ccae6b0a51a": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Insert"
+    }
+  ]
+}

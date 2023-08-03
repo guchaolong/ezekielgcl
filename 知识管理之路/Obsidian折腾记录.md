@@ -30,7 +30,10 @@
 
 
 ## 闪念想法收集——memos、quick add
-memos在左边栏的小灯泡,memos删除的内容，以及查询条件会放在Daily目录下，名称分别为delete、query
+memos在左边栏的小灯泡,memos删除的内容，以及查询条件会放在日记目录下，名称分别为delete、query
+
+设置了一个快速添加码农笔记的quick add,设置了快捷键`cmd + insert`
+
 
 ## 隐藏界面图标、工具栏、状态栏——Hider
 

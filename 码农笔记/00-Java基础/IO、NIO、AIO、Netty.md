@@ -1,6 +1,6 @@
 ---
-layout:     post
-title:      IO NIO AIO Netty
+layout: post
+title: IO NIO AIO Netty
 subtitle:   
 date:       2019-05-31
 author:     guchaolong
