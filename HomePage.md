@@ -67,7 +67,6 @@ style:
 
 // 生成所有的标签且以 | 分割，修改时只需要修改 join(" | ") 里面的内容。
 dv.paragraph(
-// 生成所有的标签且以 | 分割，修改时只需要修改 join(" | ") 里面的内容。
   dv.pages("").file.tags.distinct().map(t => {return `[${t}](${t})`}).array().join("  ")
 )
 

@@ -141,6 +141,12 @@ working copy中点+号，`Clone repository`把GitHub上的仓库克隆下来
 
 
 # 设置
+
+## 严格换行
+markdown语法中，换行是两个空格+回车
+
+如果开启了严格换行，编辑的时候，一个回车（换行）在阅读模式下就不起作用，关掉严格换行就好
+
 ## 日记模版和存放位置
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230730043916.png)
 

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "74804a8ee1a2afb0",
+        "id": "d595dd3f5dadd152",
         "type": "tabs",
         "children": [
           {
-            "id": "78376d427910e863",
+            "id": "a7abe42d279367b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/00-Java基础/Java基础知识.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bfe5851a69e939a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/Java开发手册.md",
+                "file": "HomePage.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 200
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/00-Java基础/Java开发手册.md",
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/00-Java基础/Java开发手册.md",
+                "file": "HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/00-Java基础/Java开发手册.md"
+                "file": "HomePage.md"
               }
             }
           },
@@ -180,48 +167,48 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bfe5851a69e939a6",
+  "active": "a7abe42d279367b5",
   "lastOpenFiles": [
-    "知识管理之路/Markdown语法.md",
+    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
     "HomePage.md",
-    "知识管理之路/Obsidian折腾记录.md",
-    "码农笔记/04-分布式框架/Zookeeper.md",
-    "码农笔记/00-Java基础/Java基础知识.md",
-    "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
-    "Index/index-阅读清单.md",
-    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
-    "个人成长/日记/2023-08-03-周四.md",
-    "码农笔记/04-分布式框架/Redis.md",
-    "码农笔记/03-性能调优/Tomcat.md",
+    "码农笔记/E-Docker/Docker.md",
+    "宇宙万物/起名.md",
     "码农笔记/00-Java基础/java基础.md",
-    "码农笔记/A-数据库",
+    "码农笔记/00-Java基础/GC和GC Tuning.md",
+    "对象分配过程详解.png.md",
+    "码农笔记/07-互联网工具/gradle.md",
+    "码农笔记/B-设计模式/23个设计模式总结.md",
+    "码农笔记/C-算法与数据结构/小技巧.md",
+    "码农笔记/C-算法与数据结构/常用算法.md",
+    "码农笔记/C-算法与数据结构/数据结构介绍.md",
+    "码农笔记/C-算法与数据结构/排序算法.md",
+    "码农笔记/04-分布式框架/Redis/tiling-3-vip-Redis.md",
+    "码农笔记/04-分布式框架/Redis/Redis.md",
+    "码农笔记/04-分布式框架/Redis",
+    "码农笔记/02-并发编程/8、定时任务&定时线程池.md",
+    "附件素材/并发编程之定时任务&定时线程池.pdf",
+    "附件素材/未确认 452392.crdownload",
+    "码农笔记/02-并发编程/2、synchronized&Lock&AQS详解(1).md",
+    "码农笔记/02-并发编程/3、Tools&CountDownLatch&Semaphore原理与应用.md",
+    "码农笔记/02-并发编程/1、JMM&synchronized&volatile详解.md",
+    "码农笔记/02-并发编程/4、Atomic&Unsafe魔法类详解.md",
+    "码农笔记/02-并发编程/5、HashMap、红黑树.md",
+    "码农笔记/02-并发编程/6、Executor线程池原理与源码解读.md",
+    "码农笔记/02-并发编程/7、Future&Fork&Join框架原理分析.md",
+    "附件素材/编发编程之Future&Fork&Join框架原理分析.pdf",
+    "附件素材/未确认 374035.crdownload",
+    "附件素材/并发编程之Executor线程池原理与源码解读.pdf",
+    "附件素材/未确认 108536.crdownload",
+    "附件素材/杨过-教你透彻了解红黑树.pdf",
+    "附件素材/未确认 954927.crdownload",
+    "附件素材/并发编程之Atomic&Unsafe魔法类详解-图灵杨过.pdf",
+    "码农笔记/02-并发编程/并发编程.md",
+    "码农笔记/Z-面试/问题汇总.md",
+    "码农笔记/06-项目实战/链式处理.md",
     "未命名.canvas",
-    "Index/index-码农笔记.md",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "附件素材/banner_pic/img 0032.jpg",
-    "码农笔记/D-Linux/Linux学习笔记.md",
-    "码农笔记/06-项目实战/链式处理.md",
-    "码农笔记/07-互联网工具/Git总结.md",
-    "码农笔记/C-算法与数据结构/排序算法.md",
-    "码农笔记/B-设计模式/23个设计模式总结.md",
-    "码农笔记/00-Java基础/Java开发手册.md",
-    "Excalidraw/Drawing 2023-08-03 06.49.25.excalidraw.md",
-    "Index/index-电影清单.md",
-    "码农笔记/04-分布式框架/RocketMQ.md",
-    "个人成长/日记/2023-07-29-周六.md",
-    "个人成长/日记/2023-08-02-周三.md",
-    "个人成长/日记/2023-08-01-周二.md",
-    "个人成长/日记/2023-07-31-周一.md",
-    "码农笔记/07-互联网工具",
-    "码农人生/未命名文件夹",
-    "码农笔记/06-项目实战",
-    "码农笔记/05-微服务系列",
-    "码农笔记/04-分布式框架",
-    "码农笔记/03-性能调优",
-    "码农笔记/02-并发编程",
-    "码农笔记/01-框架源码",
-    "码农人生/框架源码",
     "附件素材/banner_pic/img 0072.jpg",
     "附件素材/banner_pic/mountains-g610ac2764_1280.jpg",
     "附件素材/banner_pic/keyboard-1385706_1280.jpg",
