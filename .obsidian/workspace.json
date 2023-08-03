@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d595dd3f5dadd152",
+        "id": "a6e86d6d49be5f32",
         "type": "tabs",
         "children": [
           {
-            "id": "a7abe42d279367b5",
+            "id": "5fbb96135ff37d19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "HomePage.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -167,10 +167,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a7abe42d279367b5",
+  "active": "5fbb96135ff37d19",
   "lastOpenFiles": [
-    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+    "Index/index-电影清单.md",
     "HomePage.md",
+    "Index/index-阅读清单.md",
+    "个人成长/日记/2023-08-03-周四.md",
+    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
     "码农笔记/E-Docker/Docker.md",
     "宇宙万物/起名.md",
     "码农笔记/00-Java基础/java基础.md",
@@ -202,9 +205,6 @@
     "附件素材/杨过-教你透彻了解红黑树.pdf",
     "附件素材/未确认 954927.crdownload",
     "附件素材/并发编程之Atomic&Unsafe魔法类详解-图灵杨过.pdf",
-    "码农笔记/02-并发编程/并发编程.md",
-    "码农笔记/Z-面试/问题汇总.md",
-    "码农笔记/06-项目实战/链式处理.md",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas",
