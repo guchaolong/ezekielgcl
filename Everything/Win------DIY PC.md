@@ -14,12 +14,12 @@ link:
 BeginDate: {{DATE}}
 EndDate: 
 header-img: img/post-bg-re-vs-ng2.jpg
-banner: "![[wallhavencpu.jpeg]]"
+banner: "![[cpu.jpeg]]"
 banner_y: 0.40239
 banner_icon: 💻
 ---
 
-#DIY装机 #显卡
+#DIY装机 #硬件/显卡
 #硬件
 
 

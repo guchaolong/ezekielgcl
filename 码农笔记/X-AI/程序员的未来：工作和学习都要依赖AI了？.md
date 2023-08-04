@@ -19,6 +19,6 @@ banner_y: 0.40239
 banner_icon: 📚
 ---
 
-#AI #ChatGPT #Copilot
+#AI #AI/ChatGPT #AI/Copilot
 
 
