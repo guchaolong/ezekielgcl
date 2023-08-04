@@ -4,15 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "df4f965a33750c21",
+        "id": "eabdf2db99354f52",
         "type": "tabs",
         "children": [
           {
-            "id": "1f7c2095f35b0121",
+            "id": "10878145b193c017",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HomePage.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a0a2ffe6ece2bcf7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/03-性能调优/Tomcat/Tomcat是一个Servlet容器？.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "169e10bc8308ff00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index/index-电影清单.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d5779f11aa3a53e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index/index-码农笔记.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "0032",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 200
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -81,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "HomePage.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +162,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "HomePage.md"
+              }
             }
           },
           {
@@ -138,11 +184,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,54 +205,54 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1f7c2095f35b0121",
+  "active": "10878145b193c017",
   "lastOpenFiles": [
+    "附件素材/banner/sunset.jpg",
     "HomePage.md",
-    "附件素材/banner_pic/sunset.jpg",
-    "Template/码农笔记——Template.md",
-    "Index/index-阅读清单.md",
-    "Index/index-日记.md",
     "Index/index-码农笔记.md",
     "Index/index-电影清单.md",
-    "附件素材/banner_pic/cpu.jpeg",
-    "附件素材/banner_pic/wirte.jpeg",
-    "附件素材/banner_pic/wall4.jpg",
-    "附件素材/banner_pic/wall1.jpeg",
-    "附件素材/banner_pic/keyboard.jpg",
-    "附件素材/banner_pic/numbers.jpeg",
-    "附件素材/banner_pic/mud.jpeg",
-    "附件素材/banner_pic/wall3.jpeg",
-    "附件素材/banner_pic/wall2.jpeg",
+    "码农笔记/03-性能调优/Tomcat/Tomcat是一个Servlet容器？.md",
+    "码农笔记/03-性能调优/Tomcat/Tomcat专题.md",
+    "个人成长/日记/2023-08-04-周五.md",
+    "Template/码农笔记——Template.md",
+    "附件素材/banner/numbers.jpeg",
+    "附件素材/banner/pen.jpeg",
+    "附件素材/banner/sunlight.jpeg",
+    "附件素材/banner/sunrise.jpeg",
+    "附件素材/banner/movie.jpeg",
+    "附件素材/banner/movie2.jpeg",
+    "个人成长/电影/楚门的世界 The Truman Show.md",
+    "附件素材/banner/mud.jpeg",
+    "附件素材/banner/movies.jpg",
+    "附件素材/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf",
+    "附件素材/GitHub 上标星 115k+ 的 Java 教程.pdf",
+    "附件素材/并发编程之synchronized&Lock&AQS详解(1).pdf",
+    "附件素材/并发编程之JMM&synchronized&volatile详解.pdf",
+    "附件素材/并发编程之Executor线程池原理与源码解读.pdf",
+    "附件素材/并发编程之Atomic&Unsafe魔法类详解-图灵杨过.pdf",
+    "附件素材/并发编程之定时任务&定时线程池.pdf",
+    "附件素材/编发编程之Future&Fork&Join框架原理分析.pdf",
+    "附件素材/Tomcat 专题.pdf",
+    "附件素材/dataview/dataview.md",
+    "码农笔记/00-Java基础/GC和GC Tuning.md",
+    "码农笔记/06-项目实战/链式处理.md",
+    "Index/index-阅读清单.md",
+    "Index/index-日记.md",
+    "附件素材/banner/cpu.jpeg",
     "附件素材/04-VIP-JVM垃圾收集器详解.pdf",
     "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md",
     "个人成长/电影/海蒂和爷爷 Heidi.md",
-    "个人成长/电影/楚门的世界 The Truman Show.md",
     "码农笔记/D-Linux/Linux学习笔记.md",
     "宇宙万物/科学上网翻墙VPN机场外网.md",
     "个人成长/日记/日记-Template.md",
-    "个人成长/日记/2023-08-04-周五.md",
     "个人成长/日记/2023-08-03-周四.md",
     "个人成长/日记/2023-08-02-周三.md",
     "个人成长/日记/2023-08-01-周二.md",
     "个人成长/日记/2023-07-30-周日.md",
     "个人成长/日记/2023-07-29-周六.md",
     "宇宙万物/Win------DIY PC.md",
-    "码农笔记/X-AI",
-    "码农笔记/06-项目实战/链式处理.md",
     "知识管理之路/Obsidian折腾记录.md",
-    "码农笔记/Z-面试/问题汇总.md",
-    "码农笔记/Y-前端/前端基础.md",
-    "码农笔记/E-Docker/Docker.md",
-    "码农笔记/D-Linux/Mac zsh Item2命令.md",
-    "附件素材/dataview",
     "未命名.canvas",
-    "码农笔记/04-分布式框架/Redis",
-    "附件素材/并发编程之定时任务&定时线程池.pdf",
-    "附件素材/未确认 452392.crdownload",
-    "附件素材/编发编程之Future&Fork&Join框架原理分析.pdf",
-    "附件素材/未确认 374035.crdownload",
-    "附件素材/并发编程之Executor线程池原理与源码解读.pdf",
-    "附件素材/未确认 108536.crdownload",
     "未命名 2.canvas",
     "未命名 1.canvas"
   ]
