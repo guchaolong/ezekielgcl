@@ -22,65 +22,19 @@
             }
           },
           {
-            "id": "a0a2ffe6ece2bcf7",
+            "id": "e83be2f9e9eef7eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/03-性能调优/Tomcat/Tomcat是一个Servlet容器？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "169e10bc8308ff00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index/index-电影清单.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d5779f11aa3a53e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index/index-码农笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "992f73e5e65b9b5c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
-              }
-            }
-          },
-          {
-            "id": "a475cfd9253288b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人成长/思考/Fuck The World.md",
+                "file": "HomePage.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人成长/思考/Fuck The World.md",
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人成长/思考/Fuck The World.md",
+                "file": "HomePage.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "个人成长/思考/Fuck The World.md"
+                "file": "HomePage.md"
               }
             }
           },
@@ -228,22 +182,24 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a475cfd9253288b7",
+  "active": "e83be2f9e9eef7eb",
   "lastOpenFiles": [
-    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
+    "Index/index-阅读清单.md",
+    "Index/index-日记.md",
+    "Index/index-码农笔记.md",
+    "Index/index-电影清单.md",
+    "HomePage.md",
+    "Everything/Mac------工欲善其事 必先利其器.md",
     "个人成长/思考/Fuck The World.md",
+    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
     "附件素材/码农/并发编程之Atomic&Unsafe魔法类详解-图灵杨过.pdf",
     "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
     "Template/码农笔记——Template.md",
-    "HomePage.md",
     "技能点/Ps.md",
     "附件素材/码农",
-    "Everything/Mac------工欲善其事 必先利其器.md",
     "Everything/Markdown语法.md",
     "Everything/Obsidian折腾记录.md",
     "附件素材/banner/sunset.jpg",
-    "Index/index-码农笔记.md",
-    "Index/index-电影清单.md",
     "码农笔记/03-性能调优/Tomcat/Tomcat是一个Servlet容器？.md",
     "码农笔记/03-性能调优/Tomcat/Tomcat专题.md",
     "个人成长/日记/2023-08-04-周五.md",
@@ -266,8 +222,6 @@
     "附件素材/dataview/dataview.md",
     "码农笔记/00-Java基础/GC和GC Tuning.md",
     "码农笔记/06-项目实战/链式处理.md",
-    "Index/index-阅读清单.md",
-    "Index/index-日记.md",
     "附件素材/banner/cpu.jpeg",
     "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md",
     "个人成长/电影/海蒂和爷爷 Heidi.md",

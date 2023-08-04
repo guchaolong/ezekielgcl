@@ -1,6 +1,5 @@
 ---
 cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
-# banner: "![[sunset-ge28cf669b_1920.jpg]]"
 banner: "![[cat.jpeg]]"
 banner_x: 0.02235
 banner_y: 0.784

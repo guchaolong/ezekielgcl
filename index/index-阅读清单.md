@@ -1,6 +1,5 @@
 ---
 cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
-# banner: "![[books-g156f242fd_1920.jpg]]"
 banner: "![[book2.jpeg]]"
 banner_y: 0.72
 banner_icon: 📙
