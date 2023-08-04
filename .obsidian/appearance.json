@@ -1,6 +1,6 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "cssTheme": "Minimal",
   "baseFontSize": 16,
   "baseFontSizeAction": false,
@@ -15,7 +15,6 @@
     "awesome-brain-manager",
     "h1h2-text-align-center",
     "代码块不自动换行",
-    "网格背景",
     "Dataview Card",
     "nav-labels-zh"
   ],

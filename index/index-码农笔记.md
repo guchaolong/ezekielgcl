@@ -1,7 +1,7 @@
 ---
 cssClasses: table-numbers, table-tabular, table-nowrap, table-small, table-lines, row-lines, col-lines, row-alt, table-max
-banner: "![[keyboard-1385706_1280.jpg]]"
-banner_y: 0.428
+banner: "![[code5.jpeg]]"
+banner_y: 0
 banner_icon: 💻
 tags: index
 ---

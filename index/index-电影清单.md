@@ -1,8 +1,8 @@
 ---
 status: 1
 cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
-banner: "![[movies.jpg]]"
-banner_y: 0.53039
+banner: "![[movie.jpeg]]"
+banner_y: 0.47039
 banner_icon: 📽️
 tags: index
 ---

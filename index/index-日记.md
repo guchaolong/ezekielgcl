@@ -1,8 +1,8 @@
 ---
 cssClasses: table-numbers, table-tabular, table-nowrap, table-small, table-lines, row-lines, col-lines, row-alt, table-max
-banner: "![[sunset-ge28cf669b_1920.jpg]]"
+banner: "![[pen.jpeg]]"
 banner_x: 0.5
-banner_y: 1
+banner_y: 0.748
 banner_icon: 🍋
 tags: index
 banner_x: 0.5

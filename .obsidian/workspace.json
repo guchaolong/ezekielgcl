@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "dbaef4a9b76fc00a",
+        "id": "df4f965a33750c21",
         "type": "tabs",
         "children": [
           {
-            "id": "8d7f6982c14b871e",
+            "id": "1f7c2095f35b0121",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HomePage.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ZSH",
+                "query": "0032",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 387.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "HomePage.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,48 +152,54 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false
+      "templater-obsidian:Templater": false,
+      "awesome-brain-manager:Awesome Brain Manager": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian-memos:Memos": false
     }
   },
-  "active": "8d7f6982c14b871e",
+  "active": "1f7c2095f35b0121",
   "lastOpenFiles": [
-    "码农笔记/06-项目实战/链式处理.md",
     "HomePage.md",
+    "附件素材/banner_pic/sunset.jpg",
+    "Template/码农笔记——Template.md",
+    "Index/index-阅读清单.md",
+    "Index/index-日记.md",
     "Index/index-码农笔记.md",
     "Index/index-电影清单.md",
-    "知识管理之路/Obsidian折腾记录.md",
+    "附件素材/banner_pic/cpu.jpeg",
+    "附件素材/banner_pic/wirte.jpeg",
+    "附件素材/banner_pic/wall4.jpg",
+    "附件素材/banner_pic/wall1.jpeg",
+    "附件素材/banner_pic/keyboard.jpg",
+    "附件素材/banner_pic/numbers.jpeg",
+    "附件素材/banner_pic/mud.jpeg",
+    "附件素材/banner_pic/wall3.jpeg",
+    "附件素材/banner_pic/wall2.jpeg",
+    "附件素材/04-VIP-JVM垃圾收集器详解.pdf",
+    "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md",
+    "个人成长/电影/海蒂和爷爷 Heidi.md",
+    "个人成长/电影/楚门的世界 The Truman Show.md",
+    "码农笔记/D-Linux/Linux学习笔记.md",
+    "宇宙万物/科学上网翻墙VPN机场外网.md",
+    "个人成长/日记/日记-Template.md",
+    "个人成长/日记/2023-08-04-周五.md",
+    "个人成长/日记/2023-08-03-周四.md",
+    "个人成长/日记/2023-08-02-周三.md",
+    "个人成长/日记/2023-08-01-周二.md",
+    "个人成长/日记/2023-07-30-周日.md",
+    "个人成长/日记/2023-07-29-周六.md",
     "宇宙万物/Win------DIY PC.md",
+    "码农笔记/X-AI",
+    "码农笔记/06-项目实战/链式处理.md",
+    "知识管理之路/Obsidian折腾记录.md",
     "码农笔记/Z-面试/问题汇总.md",
     "码农笔记/Y-前端/前端基础.md",
     "码农笔记/E-Docker/Docker.md",
     "码农笔记/D-Linux/Mac zsh Item2命令.md",
-    "知识管理之路/Markdown语法.md",
-    "宇宙万物/Win------装机必备软件.md",
-    "宇宙万物/Mac------工欲善其事 必先利其器.md",
-    "宇宙万物/起名.md",
-    "宇宙万物/宽带 网速 光猫 路由器 网速 .......md",
-    "宇宙万物/科学上网翻墙VPN机场外网.md",
-    "码农笔记/D-Linux/Linux学习笔记.md",
-    "码农笔记/D-Linux/Linux命令积累.md",
-    "码农笔记/D-Linux/Linux.md",
-    "码农笔记/D-Linux/Kali Linux.md",
-    "码农笔记/D-Linux/速学150个Linux常用命令.md",
-    "码农笔记/C-算法与数据结构/小技巧.md",
-    "码农笔记/C-算法与数据结构/数据结构介绍.md",
-    "码农笔记/C-算法与数据结构/排序算法.md",
-    "码农笔记/C-算法与数据结构/常用算法.md",
-    "码农笔记/B-设计模式/23个设计模式总结.md",
     "附件素材/dataview",
     "未命名.canvas",
-    "附件素材/banner_pic/img 0032.jpg",
-    "附件素材/banner_pic/books-g156f242fd_1920.jpg",
-    "附件素材/banner_pic/sunset-ge28cf669b_1920.jpg",
-    "附件素材/banner_pic/snowdrift-gecf51e07f_1920.jpg",
-    "附件素材/banner_pic/movies.jpg",
-    "附件素材/banner_pic/mountains-g610ac2764_1280.jpg",
-    "附件素材/banner_pic/keyboard-1385706_1280.jpg",
-    "附件素材/banner_pic/img 0072.jpg",
-    "附件素材/04-VIP-JVM垃圾收集器详解.pdf",
     "码农笔记/04-分布式框架/Redis",
     "附件素材/并发编程之定时任务&定时线程池.pdf",
     "附件素材/未确认 452392.crdownload",
@@ -209,10 +207,7 @@
     "附件素材/未确认 374035.crdownload",
     "附件素材/并发编程之Executor线程池原理与源码解读.pdf",
     "附件素材/未确认 108536.crdownload",
-    "附件素材/杨过-教你透彻了解红黑树.pdf",
     "未命名 2.canvas",
-    "未命名 1.canvas",
-    "附件素材/banner_pic/book1.jpg",
-    "附件素材/banner_pic/sunset-gf5a677a8a_1920.jpg"
+    "未命名 1.canvas"
   ]
 }
