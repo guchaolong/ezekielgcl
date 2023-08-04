@@ -56,8 +56,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "992f73e5e65b9b5c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
+              }
+            }
+          },
+          {
+            "id": "a475cfd9253288b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "个人成长/思考/Fuck The World.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -123,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "个人成长/思考/Fuck The World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "个人成长/思考/Fuck The World.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "个人成长/思考/Fuck The World.md"
               }
             }
           },
@@ -205,16 +228,25 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "10878145b193c017",
+  "active": "a475cfd9253288b7",
   "lastOpenFiles": [
-    "附件素材/banner/sunset.jpg",
+    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
+    "个人成长/思考/Fuck The World.md",
+    "附件素材/码农/并发编程之Atomic&Unsafe魔法类详解-图灵杨过.pdf",
+    "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
+    "Template/码农笔记——Template.md",
     "HomePage.md",
+    "技能点/Ps.md",
+    "附件素材/码农",
+    "Everything/Mac------工欲善其事 必先利其器.md",
+    "Everything/Markdown语法.md",
+    "Everything/Obsidian折腾记录.md",
+    "附件素材/banner/sunset.jpg",
     "Index/index-码农笔记.md",
     "Index/index-电影清单.md",
     "码农笔记/03-性能调优/Tomcat/Tomcat是一个Servlet容器？.md",
     "码农笔记/03-性能调优/Tomcat/Tomcat专题.md",
     "个人成长/日记/2023-08-04-周五.md",
-    "Template/码农笔记——Template.md",
     "附件素材/banner/numbers.jpeg",
     "附件素材/banner/pen.jpeg",
     "附件素材/banner/sunlight.jpeg",
@@ -224,34 +256,26 @@
     "个人成长/电影/楚门的世界 The Truman Show.md",
     "附件素材/banner/mud.jpeg",
     "附件素材/banner/movies.jpg",
-    "附件素材/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf",
+    "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf",
     "附件素材/GitHub 上标星 115k+ 的 Java 教程.pdf",
-    "附件素材/并发编程之synchronized&Lock&AQS详解(1).pdf",
-    "附件素材/并发编程之JMM&synchronized&volatile详解.pdf",
-    "附件素材/并发编程之Executor线程池原理与源码解读.pdf",
-    "附件素材/并发编程之Atomic&Unsafe魔法类详解-图灵杨过.pdf",
-    "附件素材/并发编程之定时任务&定时线程池.pdf",
-    "附件素材/编发编程之Future&Fork&Join框架原理分析.pdf",
-    "附件素材/Tomcat 专题.pdf",
+    "附件素材/码农/并发编程之synchronized&Lock&AQS详解(1).pdf",
+    "附件素材/码农/并发编程之JMM&synchronized&volatile详解.pdf",
+    "附件素材/码农/并发编程之Executor线程池原理与源码解读.pdf",
+    "附件素材/码农/并发编程之定时任务&定时线程池.pdf",
+    "附件素材/码农/编发编程之Future&Fork&Join框架原理分析.pdf",
     "附件素材/dataview/dataview.md",
     "码农笔记/00-Java基础/GC和GC Tuning.md",
     "码农笔记/06-项目实战/链式处理.md",
     "Index/index-阅读清单.md",
     "Index/index-日记.md",
     "附件素材/banner/cpu.jpeg",
-    "附件素材/04-VIP-JVM垃圾收集器详解.pdf",
     "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md",
     "个人成长/电影/海蒂和爷爷 Heidi.md",
     "码农笔记/D-Linux/Linux学习笔记.md",
-    "宇宙万物/科学上网翻墙VPN机场外网.md",
+    "Everything/科学上网翻墙VPN机场外网.md",
     "个人成长/日记/日记-Template.md",
     "个人成长/日记/2023-08-03-周四.md",
     "个人成长/日记/2023-08-02-周三.md",
-    "个人成长/日记/2023-08-01-周二.md",
-    "个人成长/日记/2023-07-30-周日.md",
-    "个人成长/日记/2023-07-29-周六.md",
-    "宇宙万物/Win------DIY PC.md",
-    "知识管理之路/Obsidian折腾记录.md",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
