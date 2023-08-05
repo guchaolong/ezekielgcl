@@ -20,5 +20,8 @@
   "blue-topaz-theme@@tab-head-style": "default-tab",
   "blue-topaz-theme@@toggle-calendar-shadow": true,
   "blue-topaz-theme@@dark-background-file": false,
-  "blue-topaz-theme@@unmuted-collapsed-folder": false
+  "blue-topaz-theme@@unmuted-collapsed-folder": false,
+  "blue-topaz-theme@@toggle-divider-lines": false,
+  "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": false,
+  "Blue-Topaz-Codebox-Highlight@@mute-code-indent-line": false
 }

@@ -2,7 +2,7 @@
 cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
 banner: "![[cat.jpeg]]"
 banner_x: 0.02235
-banner_y: 0.784
+banner_y: 0.7
 banner_icon: 🌴
 tags: index
 ---
@@ -60,7 +60,7 @@ style:
 ```
 
 
-# 所有标签
+## 所有标签
 
 ```dataviewjs
 // 生成所有的标签且以 | 分割，修改时只需要修改 join(" | ") 里面的内容。

@@ -1,6 +1,6 @@
 {
   "accentColor": "",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "cssTheme": "Minimal",
   "baseFontSize": 16,
   "baseFontSizeAction": false,
@@ -16,7 +16,8 @@
     "h1h2-text-align-center",
     "代码块不自动换行",
     "Dataview Card",
-    "nav-labels-zh"
+    "nav-labels-zh",
+    "网格背景"
   ],
   "nativeMenus": true,
   "showViewHeader": true,

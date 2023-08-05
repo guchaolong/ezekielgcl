@@ -7,7 +7,6 @@
   "obsidian-style-settings",
   "obsidian-chartsview-plugin",
   "dataview",
-  "obsidian-banners",
   "obsidian-hider",
   "various-complements",
   "buttons",
@@ -15,12 +14,12 @@
   "editing-toolbar",
   "awesome-brain-manager",
   "obsidian-memos",
-  "obsidian-kanban",
   "obsidian-excalidraw-plugin",
   "cm-chs-patch",
   "obsidian-minimal-settings",
-  "keyboard-analyzer",
   "cmdr",
   "obsidian-hover-editor",
-  "highlightr-plugin"
+  "highlightr-plugin",
+  "obsidian-banners",
+  "recent-files-obsidian"
 ]

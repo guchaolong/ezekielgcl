@@ -9,8 +9,6 @@ tags: index
 - ## [[HomePage|返回主页]] | [[index-码农笔记|码农笔记]] | [[index-电影清单|电影]] | [[index-日记|日记]]
 ---
 
-`button-shuying`  说明：升级版，输入书籍名称或ISBN、新建笔记。默认状态(status) 为”想读“ 。
- 
 ---
  
 #  想读/待读

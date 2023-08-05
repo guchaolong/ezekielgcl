@@ -80,7 +80,15 @@ memos在左边栏的小灯泡,memos删除的内容，以及查询条件会放在
 可以选中一个==任务==或==文本==，然后右键==规划一个番茄钟==，番茄钟面板就会出现任务，可以选择开始、删除等，没开始的任务是==TODO==，点击开始后就会开始倒计时，该任务状态变成==ING==，可以选中暂停删除
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230801045701.png)
 
-## 看板——看板
+## 按钮——Button
+
+```button
+name To the Forum Batman!
+type link
+action https://forum.obsidian.md/
+```
+^button-forum
+
 
 ## 分词插件-Word Splitting...
 编辑模式下，双击默认是选中整句话，使用插件，可以选中单词
@@ -99,7 +107,7 @@ memos在左边栏的小灯泡,memos删除的内容，以及查询条件会放在
 
 ## 命令设置——commander
 可以设置左边栏的命令，状态栏等等
-也可以自定义宏，比如，打开style setting ,然后用hover edit转换为悬浮窗口，然后cmd + p，输入fss，就能直接调用这两个命令了，或者也可以给设置快捷键
+也可以自定义宏，比如，打开style setting ,然后用<mark style="background: #BBFABBA6;">hover edit</mark>转换为悬浮窗口，然后cmd + p，输入fss，就能直接调用这两个命令了，或者也可以给设置快捷键
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230803051502.png)
 
 
@@ -168,6 +176,10 @@ markdown语法中，换行是两个空格+回车
 # 快捷键
 插入链接：`command + k`，()中是url, \[\]中是显示的文字
 切换编辑模式和阅读模式：`command + e`
+
+quick add添加码农笔记的命令：`cmd + insert `
+
+
 
 # 语法
 ## 标注块

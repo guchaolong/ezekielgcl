@@ -11,8 +11,6 @@ banner_x: 0.5
 - ## [[HomePage|返回主页]]  | [[index-码农笔记|码农笔记]]  | [[index-阅读清单|阅读]] | [[index-电影清单|电影]] |
 ---
 
-`button-rj`
-
 ---
 
 # 日记   

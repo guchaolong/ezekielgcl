@@ -4,24 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "eabdf2db99354f52",
+        "id": "459fca2456c785f9",
         "type": "tabs",
         "children": [
           {
-            "id": "10878145b193c017",
+            "id": "17c592c7bf99ba3a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "HomePage.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true
             }
+          },
+          {
+            "id": "3802e521f9a900e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Everything/Obsidian折腾记录.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "597e322f92525372",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index/index-阅读清单.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -33,6 +58,7 @@
       {
         "id": "48afc631826f7b01",
         "type": "tabs",
+        "dimension": 57.12765957446808,
         "children": [
           {
             "id": "435d8e411d59a363",
@@ -50,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Tomcat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -67,12 +93,26 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "41111949b8b524e5",
+        "type": "tabs",
+        "dimension": 42.87234042553191,
+        "children": [
+          {
+            "id": "c11aea843ae89c3d",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 259.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -88,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "Index/index-阅读清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,9 +145,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
+                "file": "Index/index-阅读清单.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -128,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "Index/index-阅读清单.md"
               }
             }
           },
@@ -149,11 +189,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,36 +210,44 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "10878145b193c017",
+  "active": "597e322f92525372",
   "lastOpenFiles": [
-    "Everything/Win------DIY PC.md",
-    "Index/index-阅读清单.md",
     "Index/index-日记.md",
+    "Index/index-阅读清单.md",
     "Index/index-码农笔记.md",
     "Index/index-电影清单.md",
+    "Everything/Obsidian折腾记录.md",
     "HomePage.md",
-    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
     "Template/码农笔记——Template.md",
-    "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md",
+    "个人成长/日记/2023-08-05-周六.md",
+    "个人成长/日记/日记-Template.md",
+    "未命名看板.md",
+    "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
     "Everything/Mac------工欲善其事 必先利其器.md",
+    "Everything/宽带 网速 光猫 路由器 网速 .......md",
+    "Everything/科学上网翻墙VPN机场外网.md",
+    "码农笔记/00-Java基础/java基础.md",
+    "码农笔记/00-Java基础/Java基础知识.md",
     "个人成长/思考/Fuck The World.md",
+    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+    "码农笔记/03-性能调优/Tomcat/Tomcat 性能调优.md",
+    "码农笔记/03-性能调优/Tomcat/Tomcat.md",
+    "码农笔记/02-并发编程/并发编程.md",
+    "Everything/Win------DIY PC.md",
+    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
+    "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md",
     "附件素材/码农/并发编程之Atomic&Unsafe魔法类详解-图灵杨过.pdf",
     "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
     "技能点/Ps.md",
     "附件素材/码农",
     "Everything/Markdown语法.md",
-    "Everything/Obsidian折腾记录.md",
     "附件素材/banner/sunset.jpg",
-    "码农笔记/03-性能调优/Tomcat/Tomcat是一个Servlet容器？.md",
-    "码农笔记/03-性能调优/Tomcat/Tomcat专题.md",
-    "个人成长/日记/2023-08-04-周五.md",
     "附件素材/banner/numbers.jpeg",
     "附件素材/banner/pen.jpeg",
     "附件素材/banner/sunlight.jpeg",
     "附件素材/banner/sunrise.jpeg",
     "附件素材/banner/movie.jpeg",
     "附件素材/banner/movie2.jpeg",
-    "个人成长/电影/楚门的世界 The Truman Show.md",
     "附件素材/banner/mud.jpeg",
     "附件素材/banner/movies.jpg",
     "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf",
@@ -209,15 +257,7 @@
     "附件素材/码农/并发编程之Executor线程池原理与源码解读.pdf",
     "附件素材/码农/并发编程之定时任务&定时线程池.pdf",
     "附件素材/码农/编发编程之Future&Fork&Join框架原理分析.pdf",
-    "附件素材/dataview/dataview.md",
-    "码农笔记/00-Java基础/GC和GC Tuning.md",
-    "码农笔记/06-项目实战/链式处理.md",
     "附件素材/banner/cpu.jpeg",
-    "个人成长/电影/海蒂和爷爷 Heidi.md",
-    "码农笔记/D-Linux/Linux学习笔记.md",
-    "Everything/科学上网翻墙VPN机场外网.md",
-    "个人成长/日记/日记-Template.md",
-    "个人成长/日记/2023-08-03-周四.md",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
