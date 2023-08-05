@@ -111,6 +111,9 @@ action https://forum.obsidian.md/
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230803051502.png)
 
 
+## 链接自动填充标题——Auto link Title
+插入一个文章链接，会自动提取到该文章的标题
+
 # 备份和同步
 ==备份==：
 在github新建仓库，使用Obsidian git插件备份到GitHub

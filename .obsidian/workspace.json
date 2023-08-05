@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index/index-阅读清单.md",
+                "file": "Everything/Obsidian折腾记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index/index-阅读清单.md",
+                "file": "Everything/Obsidian折腾记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index/index-阅读清单.md",
+                "file": "Everything/Obsidian折腾记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index/index-阅读清单.md"
+                "file": "Everything/Obsidian折腾记录.md"
               }
             }
           },
@@ -212,8 +212,11 @@
   },
   "active": "597e322f92525372",
   "lastOpenFiles": [
-    "Index/index-日记.md",
+    "码农笔记/04-分布式框架/Redis/tiling-3-vip-Redis.md",
+    "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
+    "码农笔记/04-分布式框架/Redis/Redis.md",
     "Index/index-阅读清单.md",
+    "Index/index-日记.md",
     "Index/index-码农笔记.md",
     "Index/index-电影清单.md",
     "Everything/Obsidian折腾记录.md",
@@ -235,12 +238,9 @@
     "码农笔记/02-并发编程/并发编程.md",
     "Everything/Win------DIY PC.md",
     "个人成长/阅读/时间从来不语，却回答了所有问题.md",
-    "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md",
     "附件素材/码农/并发编程之Atomic&Unsafe魔法类详解-图灵杨过.pdf",
     "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
-    "技能点/Ps.md",
     "附件素材/码农",
-    "Everything/Markdown语法.md",
     "附件素材/banner/sunset.jpg",
     "附件素材/banner/numbers.jpeg",
     "附件素材/banner/pen.jpeg",
