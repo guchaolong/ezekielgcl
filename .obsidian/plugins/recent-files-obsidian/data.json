@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "dataview",
+      "path": "附件素材/dataview/dataview.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
+      "basename": "Obsidian折腾记录",
+      "path": "Everything/Obsidian折腾记录.md"
+    },
+    {
+      "basename": "index-码农笔记",
+      "path": "Index/index-码农笔记.md"
+    },
+    {
       "basename": "index-日记",
       "path": "Index/index-日记.md"
     },
@@ -23,10 +39,6 @@
     {
       "basename": "码农笔记——Template",
       "path": "Template/码农笔记——Template.md"
-    },
-    {
-      "basename": "HomePage",
-      "path": "HomePage.md"
     },
     {
       "basename": "index-电影清单",
@@ -81,16 +93,8 @@
       "path": "Index/index-阅读清单.md"
     },
     {
-      "basename": "index-码农笔记",
-      "path": "Index/index-码农笔记.md"
-    },
-    {
       "basename": "Redis",
       "path": "码农笔记/04-分布式框架/Redis/Redis.md"
-    },
-    {
-      "basename": "Obsidian折腾记录",
-      "path": "Everything/Obsidian折腾记录.md"
     },
     {
       "basename": "tiling-3-vip-Redis",

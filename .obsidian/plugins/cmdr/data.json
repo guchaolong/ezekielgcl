@@ -16,6 +16,12 @@
       "icon": "book",
       "name": "QuickAdd: 码农笔记",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-style-settings:show-style-settings-leaf",
+      "icon": "activity",
+      "name": "Style Settings: Show style settings view",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

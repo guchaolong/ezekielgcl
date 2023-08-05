@@ -59,6 +59,7 @@ memos在左边栏的小灯泡,memos删除的内容，以及查询条件会放在
 
 
 ## 图表——charts view和Dataview
+参考[[dataview]]
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731040724.png)
 
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230731041215.png)
