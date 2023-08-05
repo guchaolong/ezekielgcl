@@ -63,7 +63,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index/index-码农笔记.md",
+                "file": "码农笔记/04-分布式框架/Redis/Redis.md",
                 "mode": "preview",
                 "source": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index/index-码农笔记.md",
+                "file": "码农笔记/04-分布式框架/Redis/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index/index-码农笔记.md",
+                "file": "码农笔记/04-分布式框架/Redis/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index/index-码农笔记.md"
+                "file": "码农笔记/04-分布式框架/Redis/Redis.md"
               }
             }
           },
@@ -224,7 +224,6 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
@@ -232,14 +231,16 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "workspaces:管理工作区布局": false,
       "obsidian-memos:Memos": false,
-      "cmdr:Theme Picker: Open Theme Picker": false
+      "cmdr:Theme Picker: Open Theme Picker": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "cmdr:QuickAdd: 码农笔记": false
     }
   },
   "active": "08ceb9bae9325fe1",
   "lastOpenFiles": [
-    "HomePage.md",
     "Everything/Obsidian折腾记录.md",
     "Index/index-码农笔记.md",
+    "HomePage.md",
     "码农笔记/04-分布式框架/Redis/tiling-3-vip-Redis.md",
     "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
     "码农笔记/04-分布式框架/Redis/Redis.md",

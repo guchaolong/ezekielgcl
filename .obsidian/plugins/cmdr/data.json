@@ -10,6 +10,12 @@
       "icon": "box",
       "name": "Theme Picker: Open Theme Picker",
       "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:0226b9b4-404f-4e7d-803a-1ccae6b0a51a",
+      "icon": "book",
+      "name": "QuickAdd: 码农笔记",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],
@@ -40,7 +46,14 @@
   "explorer": [],
   "hide": {
     "statusbar": [],
-    "leftRibbon": []
+    "leftRibbon": [
+      "新建白板",
+      "插入模板",
+      "打开命令面板",
+      "新建 Excalidraw 绘图",
+      "管理工作区布局",
+      "Templater"
+    ]
   },
   "spacing": "8",
   "advancedToolbar": {
