@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Redis",
-      "path": "码农笔记/04-分布式框架/Redis/Redis.md"
+      "basename": "HomePage",
+      "path": "HomePage.md"
     },
     {
-      "basename": "Obsidian折腾记录",
-      "path": "Everything/Obsidian折腾记录.md"
+      "basename": "2023-08-05-周六",
+      "path": "个人成长/日记/2023-08-05-周六.md"
+    },
+    {
+      "basename": "RocketMQ",
+      "path": "码农笔记/04-分布式框架/RocketMQ.md"
+    },
+    {
+      "basename": "码农笔记——Template",
+      "path": "Template/码农笔记——Template.md"
+    },
+    {
+      "basename": "index-阅读清单",
+      "path": "Index/index-阅读清单.md"
     },
     {
       "basename": "index-码农笔记",
       "path": "Index/index-码农笔记.md"
     },
     {
-      "basename": "HomePage",
-      "path": "HomePage.md"
+      "basename": "Redis",
+      "path": "码农笔记/04-分布式框架/Redis/Redis.md"
+    },
+    {
+      "basename": "Obsidian折腾记录",
+      "path": "Everything/Obsidian折腾记录.md"
     },
     {
       "basename": "tiling-3-vip-Redis",
@@ -25,24 +41,12 @@
       "path": "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md"
     },
     {
-      "basename": "index-阅读清单",
-      "path": "Index/index-阅读清单.md"
-    },
-    {
       "basename": "index-日记",
       "path": "Index/index-日记.md"
     },
     {
       "basename": "index-电影清单",
       "path": "Index/index-电影清单.md"
-    },
-    {
-      "basename": "码农笔记——Template",
-      "path": "Template/码农笔记——Template.md"
-    },
-    {
-      "basename": "2023-08-05-周六",
-      "path": "个人成长/日记/2023-08-05-周六.md"
     },
     {
       "basename": "日记-Template",
