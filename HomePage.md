@@ -1,8 +1,8 @@
 ---
 cssClasses: cards, cards-align-bottom, cards-cover,cards-1-1, table-max,cards-cols-8
-banner: "![[cat.jpeg]]"
+banner: "![[localhost.png]]"
 banner_x: 0.02235
-banner_y: 0.7
+banner_y: 0.284
 banner_icon: 🌴
 tags: index
 ---
