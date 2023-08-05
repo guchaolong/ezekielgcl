@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "index-码农笔记",
+      "path": "Index/index-码农笔记.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
       "basename": "Obsidian折腾记录",
       "path": "Everything/Obsidian折腾记录.md"
     },
@@ -25,16 +33,8 @@
       "path": "Index/index-日记.md"
     },
     {
-      "basename": "index-码农笔记",
-      "path": "Index/index-码农笔记.md"
-    },
-    {
       "basename": "index-电影清单",
       "path": "Index/index-电影清单.md"
-    },
-    {
-      "basename": "HomePage",
-      "path": "HomePage.md"
     },
     {
       "basename": "码农笔记——Template",

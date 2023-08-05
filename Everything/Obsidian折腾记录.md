@@ -114,6 +114,11 @@ action https://forum.obsidian.md/
 ## 链接自动填充标题——Auto link Title
 插入一个文章链接，会自动提取到该文章的标题
 
+## 快速切换主题——Them Picker
+直接打开命令面板，或者配合commander插件直接添加到左侧边栏，这样以后就不需要点开设置-外观...
+
+
+
 # 备份和同步
 ==备份==：
 在github新建仓库，使用Obsidian git插件备份到GitHub
