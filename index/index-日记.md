@@ -17,7 +17,7 @@ banner_x: 0.5
 
 ```dataview 
 
-table tags,keyword,date
+table keyword
 from "个人成长/日记" and !#index
 sort file.name asc
 

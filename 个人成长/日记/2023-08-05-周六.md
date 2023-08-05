@@ -1,3 +1,12 @@
+---
+date: {{DATE}}
+tags: 日记
+keyword: 虚度
+banner: "![[book6.jpeg]]"
+banner_y: 0.40239
+banner_icon: 📚
+---
+
 #日记 
 
 
