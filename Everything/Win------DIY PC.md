@@ -32,8 +32,8 @@ banner_icon: 💻
 
 ## Intel酷睿系列cpu命名后缀
 > 无后缀：不可超频，有核显
-> K：不锁超频，增加了超频能力
-> F：不带核显，价格会更便宜，现在多数都会配独立显卡，核显使用的概率较小，这种cpu比较有性价比
+> K：不锁超频，增加了<mark style="background: #FF5582A6;">超频</mark>能力
+> F：<mark style="background: #FFF3A3A6;">不带核显</mark>，价格会更便宜，现在多数都会配独立显卡，核显使用的概率较小，这种cpu比较有性价比
 > KF：可超频，无核显
 > X：酷睿最高级别的系列，性能毁天灭地
 > S：特别版，i9-9900KS，S指的特别版本，可以理解为精挑细选出来体质更为优秀的CPU，相较9900K具有更强的超频属性
@@ -43,17 +43,17 @@ banner_icon: 💻
 物理CPU/CPU
 物理CPU内核/核心数/Core
 逻辑CPU/逻辑处理器/Processor
-> 一个物理CPU可以有1个或者多个物理内核
-> 一个物理内核可以作为1个或者2个逻辑CPU
+> 一个物理CPU可以有<mark style="background: #D2B3FFA6;">1个或者多个</mark>物理内核
+> 一个物理内核可以作为<mark style="background: #ABF7F7A6;">1个或者2个</mark>逻辑CPU
 > 没有开启超线程时，逻辑CPU的个数就是总的CPU物理内核数
 > 开启超线程后，逻辑CPU的个数就是总的CPU物理内核数的两倍
 > 有多少个逻辑处理器，就说明你的cpu可以同时处理几个线程(**线程数=逻辑处理器个数)**
 
 
 ## 13代的P-CORE和E-CORE
-> 最新一代的英特尔CPU采用了性能核心(P-CORE)＋能效核心(E-CORE)的混合架构设计
-> P-CORE又称为性能核/大核，专门负责强化单线程处理能力，在游戏、生产力创作中都可以提供超强性能
-> E-CORE又称为效率核/小核主要加强多线程处理能力，可以应对大吞吐量负载，并针对后台应用进行优化
+> 最新一代的英特尔CPU采用了<mark style="background: #BBFABBA6;">性能核心(P-CORE)</mark>＋<mark style="background: #ADCCFFA6;">能效核心(E-CORE)</mark>的混合架构设计
+> P-CORE又称为性能核/大核，专门负责强化<mark style="background: #ABF7F7A6;">单线程</mark>处理能力，在<mark style="background: #BBFABBA6;">游戏、生产力</mark>创作中都可以提供超强性能
+> E-CORE又称为效率核/小核主要加强<mark style="background: #BBFABBA6;">多线程</mark>处理能力，可以应对大吞吐量负载，并针对<mark style="background: #FFF3A3A6;">后台应用</mark>进行优化
 
 
 ## 主频、外频、倍频系数
@@ -61,19 +61,20 @@ banner_icon: 💻
 
 我们平时看到的4.0GHZ、3.0GHZ等指的就是CPU主频，即每秒可以产生40亿、30亿个脉冲信号
 早期的CPU运行速度还不快，CPU和系统总线的工作频率是一样的，但随着技术的发展，CPU的性能快速提升，而其他设备无法承受更高的频率，CPU的频率很快就超过了系统总线的频率，于是就出现了倍频。
-倍频是为了解决系统总线频率跟不上CPU的速度而出现的，通过在CPU内部设置锁相环频率发生器，将系统输入的信号进行分频处理，按照设定的比例提高外频的频率，提高之后的频率就是CPU的主频，而设定的这个比率就是倍频系数。
+倍频是为了解决系统总线频率跟不上CPU的速度而出现的，通过在CPU内部设置<mark style="background: #BBFABBA6;">锁相环频率发生器</mark>，将系统输入的信号进行分频处理，按照设定的比例提高外频的频率，提高之后的频率就是CPU的主频，而设定的这个比率就是倍频系数。
 ![](https://cdn.nlark.com/yuque/0/2023/jpeg/663445/1686784199745-4102c701-0673-4fe4-aa64-891333dbf56c.jpeg#averageHue=%23f9f9f9&clientId=u5dbafcce-ea1e-4&from=paste&id=ufcc636c0&originHeight=188&originWidth=600&originalType=url&ratio=1&rotation=0&showTitle=false&status=done&style=none&taskId=u07014664-a403-44ec-b1e7-3eff9ef6c48&title=)
 举个简单的例子，当外频是100MHz的时候（目前大多数平台的外频都是100MHz），设置一个37的倍频系数，就可以得到CPU的主频=100MHz x 37=3.7GHz了。
-CPU厂商对主频的设置较为保守，而用户对高频率又有一定的需求，这也是超频的背景。知道了主频=外频×倍频系数，就可以发现，不管提升外频还是提升倍频都可以起到提升主频的效果，这也就是超频的几种方式。
+CPU厂商对主频的设置较为保守，而用户对高频率又有一定的需求，这也是超频的背景。知道了<mark style="background: #D2B3FFA6;">主频=外频×倍频系数</mark>，就可以发现，不管提升外频还是提升倍频都可以起到提升主频的效果，这也就是超频的几种方式。
 我们经常说的锁倍频指的就是CPU中的锁相环频率发生器锁定倍频系数，也就是无法通过提升倍频的方式超频。
 
-目前英特尔的CPU只有K尾缀是不锁倍频的，且需要搭配Z系列主板才能超频；而AMD的CPU全系都不锁倍频，但也需要B系列或X系列的主板才能超频。
+<mark style="background: #BBFABBA6;">目前英特尔的CPU只有K尾缀是不锁倍频的，且需要搭配Z系列主板才能超频</mark>；而AMD的CPU全系都不锁倍频，但也需要B系列或X系列的主板才能超频。
 不过即使锁了倍频系数，也可以通过提升外频的方式进行超频。提升外频需要特定的主板支持，也需要玩家有一定的动手能力，不过英特尔的13代酷睿把外频也锁了，不带K的处理器就真的不能超频了。
 
 ## 默频、睿频、超频
 默认基础频率，是 CPU 标出的主频
-睿频 是采用 Intel 睿频加速技术可达到的更高频率，可以理解为自动超频。
-超频 是为了实现超过额定频率性能，人为调整各种指标（如电压、散热、外频、电源、BIOS等），属于手动超频。
+睿频 是采用 Intel 睿频加速技术可达到的更高频率，可以理解为<mark style="background: #CACFD9A6;">自动超频</mark>。
+超频 是为了实现超过额定频率性能，人为调整各种指标（如电压、散热、外频、电源、BIOS等），属于<mark style="background: #ADCCFFA6;">手动超频</mark>。
+
 由于强行超频对系统和硬件会产生负面影响，所以大厂们在CPU出厂时将其倍频锁定在一个固定的数值，使其倍频系数不能再任何变动，即锁频
 
 睿频和超频很像，都可以提升频率，提高性能，但两者还是有本质区别。
@@ -81,7 +82,7 @@ CPU厂商对主频的设置较为保守，而用户对高频率又有一定的�
 睿频是采用睿频加速技术（Intel的睿频技术为Turbo Boost Technology；AMD的睿频技术为TurboCore），依靠处理器的智能自主处理，使 CPU 主频可以在某一范围内根据处理数据需要自动调整主频
 
 ## CPU分类
-i3=办公、i5=游戏、i7=生产力、 i9=旗舰
+<mark style="background: #BBFABBA6;">i3=办公、i5=游戏、i7=生产力、 i9=旗舰</mark>
 
 办公家用（带核显就行）：i3-12100、i3-13100
 > i3-13100/F：适合家用、办公、网游，性能不俗，i3-12100F的马甲，领先幅度极小，目前行情不值得选购，建议考虑i3-12100F，两者价格差距在几十块再考虑选择i3-13100F
@@ -149,7 +150,7 @@ i3=办公、i5=游戏、i7=生产力、 i9=旗舰
 
 
 # 显卡
-做显卡核心的两大厂家：NVIDIA 和 AMD
+做<mark style="background: #ABF7F7A6;">显卡核心</mark>的两大厂家：NVIDIA 和 AMD
 > 以前 Intel做的显卡核心都放到自家CPU里了
 > 2022年3月30日，一直只有核显的**英特尔发布了自家的独立显卡**。名字叫做**Intel ARC**，中文名字叫做**“锐炫**
 > 现在除了英伟达和AMD外，终于有**第三家独立显卡**加入了竞争团队
@@ -171,8 +172,8 @@ NVIDIA：英伟达，品牌名、厂商
 Geforce：系列，有Geforce （更适合游戏）, Quadro，TIRAN……
 RTX：定位，RTX （光追高端）> GTX (高端） > GTS (中端） > GT (低端）
 40：代数，第40代，之前还有30、20、16、10...
-70：性能等级，50入门低端，60甜品，70中端，80高端，90旗舰
-Ti：后缀，Ti 性能加强版；S性能增强版；  OC超频版， 性能关系：Ti > Super > OC 
+70：性能等级，<mark style="background: #BBFABBA6;">50入门低端，60甜品，70中端，80高端，90旗舰</mark>
+Ti：后缀，Ti 性能加强版；S性能增强版；  <mark style="background: #FF5582A6;">OC超频版</mark>， 性能关系：<mark style="background: #D2B3FFA6;">Ti > Super > OC </mark>
 
 ## OC后缀
 
@@ -183,9 +184,9 @@ Ti：后缀，Ti 性能加强版；S性能增强版；  OC超频版， 性能关
 AI技术，DLSS可以在维持显示质量的同时显著提高游戏的性能
 
 ## RTX 30系
-显卡对于电脑性能的提高非常巨大，尤其是游戏方面，但是要看整体性能是否可以正常发挥，比如1080P分辨率的显示器，顶级显卡会浪费性能，有时候升级都不一定可以提升游戏体验，许多设备也要同步升级
+显卡对于电脑性能的提高非常巨大，**尤其是游戏方面**，但是要看整体性能是否可以正常发挥，比如1080P分辨率的显示器，顶级显卡会浪费性能，有时候升级都不一定可以提升游戏体验，许多设备也要同步升级
 
-目前电脑市场，显示器已经开始普及2K/4K+高刷，而市场的3A大作的特效表现也一年比一年精细，对于显卡的性能需求也变得更高，而我们在追求游戏体验的时候，会特别关注游戏的特效和帧数表现，特别是游戏高特效下的帧数表现，能玩(30FPS)、流畅（60FPS）、电竞（144FPS）、专业（240FPS）
+目前电脑市场，显示器已经开始普及<mark style="background: #FF5582A6;">2K/4K+高刷</mark>，而市场的3A大作的特效表现也一年比一年精细，对于显卡的性能需求也变得更高，而我们在追求游戏体验的时候，会特别关注游戏的特效和帧数表现，特别是游戏高特效下的帧数表现，<mark style="background: #D2B3FFA6;">能玩(30FPS)、流畅（60FPS）、电竞（144FPS）、专业（240FPS）</mark>
 RTX 30系列的中高端显卡(RTX 3070Ti、RTX 3080 Ti、RTX 3090Ti)，在目前许多大热门3A大作表现优异
 
 众所周知，二手显卡是极为不靠谱的，很多显卡可能经过了高负荷的锻炼后续翻新，既然都掏钱了，比较建议官方推荐的购买渠道，特别是这种高价位产品，直接上显卡品牌的京东自营店最靠谱
@@ -221,7 +222,7 @@ A卡
 > 游戏，尽量显卡好一点，大多数游戏对显卡要求比较高，可能cpu占用率不到50%，显卡占用率99%，显卡性能直接决定游戏FPS
 
 
-顶级显卡通常需要较好的CPU搭配才能更好发挥显卡的性能，12代酷睿处理器i5-12600KF和i9-12900K搭配RTX 3080 Ti，大概会产生10-20%的性能差距，其他的情况下，只要CPU性能不是太差配中端以上的显卡问题不大
+<mark style="background: #BBFABBA6;">顶级显卡通常需要较好的CPU搭配才能更好发挥显卡的性能</mark>，12代酷睿处理器i5-12600KF和i9-12900K搭配RTX 3080 Ti，大概会产生10-20%的性能差距，其他的情况下，只要CPU性能不是太差配中端以上的显卡问题不大
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686814380302-8c33f60a-7645-471c-bfaf-6a4244588155.png#averageHue=%2398ca50&clientId=u3f2a2254-babf-4&from=paste&height=635&id=u37b1c21a&originHeight=635&originWidth=1828&originalType=binary&ratio=1&rotation=0&showTitle=false&size=346050&status=done&style=none&taskId=ueb208ecb-e1d2-4aba-ac99-f38f1799f22&title=&width=1828)
 
@@ -232,8 +233,8 @@ i5-12600K 搭配 3080 及以下的显卡，超频可以带3080Ti
 ## 显示器1K 2K 4K不同画质下，各个显卡游戏性价比
 图中的参数是3A大作下的显卡参数，如果不玩游戏，显卡就不那么重要了
 图中包含N卡A卡，只谈N卡...
-能玩(30FPS)、流畅（60FPS）、电竞（144FPS）、专业（240FPS）
-横坐标，60FPS之后是能在当前画质下畅玩的显卡，纵坐标越高，性价比越高（价格越低）
+<mark style="background: #ADCCFFA6;">能玩(30FPS)、流畅（60FPS）、电竞（144FPS）、专业（240FPS）</mark>
+<mark style="background: #ABF7F7A6;"></mark>横坐标，60FPS之后是能在当前画质下畅玩的显卡，纵坐标越高，性价比越高（价格越低）
 
 1K中等画质：
 1650supper就能在60FPS以上
@@ -300,8 +301,8 @@ RTX 3080 Ti 的性能强悍(游戏表现与RTX 3090差不多)，但是购买RTX 
 之前虚拟货币兴起，一些人用显卡组成矿机，通过显卡的算力来挖矿
 2022年9月15号， 以太坊停止挖矿，现在挖矿已经结束了
 100%无矿：
-40系全系无矿卡
-**GDDR6X**显存的3060Ti，2022年10月上市的，100%无矿，目前性价比还行，怕矿卡可以考虑入手这张
+<mark style="background: #BBFABBA6;">40系全系无矿卡</mark>
+<mark style="background: #FFB8EBA6;">**GDDR6X**显存的3060Ti</mark>，2022年10月上市的，100%无矿，目前性价比还行，怕矿卡可以考虑入手这张
 3060 8G，2022年10月上市的，100%无矿，比3060 12GB弱近15%，性能十分拉跨，也就主打一个无矿
 3050，2023年1月上市的，基本无矿，性能也比较拉跨，挖矿性能也垃圾，没人拿他挖矿
 
@@ -313,27 +314,27 @@ RTX 3080 Ti 的性能强悍(游戏表现与RTX 3090差不多)，但是购买RTX 
 > 主板是电脑其他硬件的载体，所有的硬件都要安装或连接到主板上，主板本身并不提供性能，但主板能决定其他硬件性能，所以选择合适的主板就很重要了
 > 主板过低，跑不满CPU
 > 主板过高，不会有任何性能的提升
-> 小知识：双内存槽主板的内存超频能力强于四内存插槽主板，目前最强的超频主板Z790 APEX就是双槽主板
+> 小知识：<mark style="background: #FFB8EBA6;">双内存槽主板的内存超频能力强于四内存插槽主板</mark>，目前最强的超频主板Z790 APEX就是双槽主板
 
 ## 版型：
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686842677837-644c6491-e1bb-4748-a072-d298e7cc75e3.png#averageHue=%2353605f&clientId=u20a8a4d7-c497-4&from=paste&height=614&id=u16d88475&originHeight=614&originWidth=1895&originalType=binary&ratio=1&rotation=0&showTitle=false&size=936798&status=done&style=none&taskId=u6c7525bf-c92c-48ca-83db-2cb738967ca&title=&width=1895)
-> EATX：普遍应用于服务器领域，另外少量消费级主板也会采用EATX版型，如玩家国度Z690水冷
-> ATX：大版，普遍应用于高端芯片组，多数都是大版，如Z690
-> MATX：中版，普遍应用于中端芯片组，如B660，另外还有阉割的MATX版型，比MATX还小一些，叫小版，应用于低端芯片组，如H610
-> mini-ITX：小版
+> EATX：普遍应用于<mark style="background: #FF5582A6;">服务器</mark>领域，另外少量消费级主板也会采用EATX版型，如玩家国度Z690水冷
+> ATX：<mark style="background: #D2B3FFA6;">大版</mark>，普遍应用于高端芯片组，多数都是大版，如Z690
+> MATX：<mark style="background: #FFB8EBA6;">中版</mark>，普遍应用于中端芯片组，如B660，另外还有阉割的MATX版型，比MATX还小一些，叫小版，应用于低端芯片组，如H610
+> mini-ITX：<mark style="background: #D2B3FFA6;">小版</mark>
 
 
 ## PCI-E：
 全名叫**PCI Express**，简称**PCI-E**，官方简称**PCIe**，他是计算机内部的一种高速总线
 
 ### 通道/接口
-PCI-E既是通道，也是接口，
-当**PCI-E**接口／插槽形式存在的时候，就是我们主板上那长长的槽
+<mark style="background: #FF5582A6;">PCI-E既是通道，也是接口</mark>，
+当**PCI-E**<mark style="background: #D2B3FFA6;">接口／插槽</mark>形式存在的时候，就是我们主板上那长长的槽
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686840264670-aa516198-b8da-4080-9a12-32912888cac6.png#averageHue=%234d4d2c&clientId=u872c5211-e7ca-4&from=paste&height=405&id=u2ea92172&originHeight=670&originWidth=785&originalType=binary&ratio=1&rotation=0&showTitle=false&size=635477&status=done&style=none&taskId=u56eeba5a-1027-4916-9324-e9d34a99732&title=&width=475)
 目前的声卡和网卡都是主板集成了，不需要我们额外再插，所以**PCI-E插槽目前最大的作用就是插显卡**
 PCI-E接口也可以转接成很多接口，比如USB3.0，Type-c，雷电3，又或者U.2，M.2
 
-上面介绍的是PCI-E以接口形式存在，还有另一个情况，PCI-E以通道形式存在
+上面介绍的是PCI-E以接口形式存在，还有另一个情况，<mark style="background: #FFB8EBA6;">PCI-E以通道形式</mark>存<mark style="background: #BBFABBA6;"></mark>在
 传统的SATA3接口固态硬盘采用的是AHCI协议，比如金士顿A400，三星860EVO，intel545S使用的都是SATA3接口，这种接口速率上限的理论值是750MB/S，但是实际上就只有600MB/S左右，所以这种固态硬盘速度都不超过600MB/S，这就是被SATA3这个接口的带宽限制了。
 而为了摆脱限制，我们只能考虑换接口，PCI-E速率不是很快么，我们就用PCI-E好了，但是PCI-E体积太大怎么办，那么我们就缩小体积换个样子，这就是M.2接口，M.2接口你可以理解为他就是PCI-E接口，只是换了个形状而已。
 所以这个时候，接口就是M.2，PCI-E在这里的作用就是扮演传输数据的通道了，而不是直接以接口存在
@@ -347,7 +348,7 @@ PCI-E接口也可以转接成很多接口，比如USB3.0，Type-c，雷电3，�
 
 
 ### 南桥芯片组、直连PCI-E、绕道PCI-E
-我们不可能让所有的设备都直接去找CPU通讯，那我们就给CPU安排一个下手，显卡和内存由于对于延迟和带宽要求很高，还是由CPU来直接通讯，但是键盘鼠标，声卡网卡这些，就让这个下属去管，然后这个下属再给CPU汇报数据。这个用来交互数据的下属，就是主板南桥芯片组
+<mark style="background: #D2B3FFA6;">我们不可能让所有的设备都直接去找CPU通讯</mark>，那我们就给CPU安排一个下手，显卡和内存由于对于延迟和带宽要求很高，还是由CPU来直接通讯，但是键盘鼠标，声卡网卡这些，就让这个下属去管，然后这个下属再给CPU汇报数据。这个用来交互数据的下属，就是主板南桥芯片组
 CPU和南桥芯片组通过DMI总线（PCIe通道）交互
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686838115940-81c19217-6c81-46ee-ad18-b0bd22e0ddf9.png#averageHue=%23559933&clientId=u872c5211-e7ca-4&from=paste&height=818&id=uaedde507&originHeight=818&originWidth=1418&originalType=binary&ratio=1&rotation=0&showTitle=false&size=344452&status=done&style=none&taskId=ua14e360c-0733-4f93-ad9d-4132e0e4ae4&title=&width=1418)
 上图 南桥芯片组和CPU之间不过也就PCIE4.0x8或PCIE4.0x4的带宽，怎么敢扩展出那么多的PCIE3.0  PCIE4.0来呢？因为现实中不太可能出现连接芯片组的扩展一起跑满，拥堵DMI的情况
@@ -357,6 +358,7 @@ CPU和南桥芯片组通过DMI总线（PCIe通道）交互
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686836983546-8712520f-f287-43b7-b1c7-4ffb3bf62c04.png#averageHue=%233a3d2b&clientId=u872c5211-e7ca-4&from=paste&height=317&id=u8f23031c&originHeight=405&originWidth=467&originalType=binary&ratio=1&rotation=0&showTitle=false&size=227749&status=done&style=none&taskId=uad9cfa4f-5733-476a-a83a-0d26fa2a7e0&title=&width=366)
 这块主板有两个PCIE5.0 x16的插槽，都是直连CPU的，当把显卡插到第一个PCIE插槽时，就会把所有的x16带宽分配给显卡，但是，当再把任何PCIE设备，如显卡 声卡 网卡插到第二个PCIE插槽时，分配机制就变成了各自拥有x8的带宽，1X16变成2X8
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686836957207-f77f80df-5c26-4683-a99b-7227941a30a7.png#averageHue=%23616129&clientId=u872c5211-e7ca-4&from=paste&height=312&id=X6gjF&originHeight=391&originWidth=482&originalType=binary&ratio=1&rotation=0&showTitle=false&size=225546&status=done&style=none&taskId=ub9a576b7-e04a-4531-8363-34fdec350e3&title=&width=385)
+
 
 只有一个PCIEx16插槽，其他PCIE插槽都是通过南桥芯片组扩展出来的，例如：
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686837560931-197cfdea-391f-4775-bf44-b022d1d1a951.png#averageHue=%23277f7e&clientId=u872c5211-e7ca-4&from=paste&height=458&id=udb750236&originHeight=458&originWidth=955&originalType=binary&ratio=1&rotation=0&showTitle=false&size=493845&status=done&style=none&taskId=uf4b412fe-fa2b-4edb-abd0-5192e0116d1&title=&width=955)
@@ -370,7 +372,7 @@ CPU和南桥芯片组通过DMI总线（PCIe通道）交互
 高端芯片组Z系列：Z790
 中端芯片组B系列：B760
 低端芯片组H系列：H710
-H和B系列不支持CPU超频，只有Z系列支持CPU超频（要超频还得CPU带K）
+<mark style="background: #D2B3FFA6;">H和B系列不支持CPU超频，只有Z系列支持CPU超频（要超频还得CPU带K）</mark>
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686819946981-18f1b413-2d8e-4883-b275-91edb81343f4.png#averageHue=%23bbcdd6&clientId=u3f2a2254-babf-4&from=paste&height=1353&id=RaWS2&originHeight=1353&originWidth=693&originalType=binary&ratio=1&rotation=0&showTitle=false&size=514728&status=done&style=none&taskId=u88cb5056-c789-4dbc-83a4-a687f925de4&title=&width=693)
 
@@ -414,7 +416,7 @@ H和B系列不支持CPU超频，只有Z系列支持CPU超频（要超频还得CP
 ## 其他参数规格
 ### 内存插槽数量
 > 双内存槽、四内存插槽
-> 小知识：双内存槽主板的内存超频能力强于四内存插槽主板，目前最强的超频主板Z790 APEX就是双槽主板
+> 小知识：<mark style="background: #BBFABBA6;">双内存槽主板的内存超频能力强于四内存插槽主板</mark>，目前最强的超频主板Z790 APEX就是双槽主板
 
 
 ### PCIE插槽
@@ -528,7 +530,7 @@ i7-13700K/F、i9-13900K/F——Z790主板
 频率和时序，主要针对游戏玩家，如果只是办公，考虑容量即可
 
 ## 内存颗粒
-颗粒是内存上最重要，科技含量最高的组成成分，目前能制造内存颗粒的厂家全世界都不多，主要有三星、镁光、海力士、合肥长鑫等等，其中三星、镁光、海力士最为强悍，属于是内存颗粒界的御三家，加一起占了90%，像金士顿、芝奇、威刚这些内存厂商都要依赖御三家或者长鑫的内存颗粒，他们自己没有能力生产内存颗粒
+颗粒是内存上最重要，科技含量最高的组成成分，目前能制造内存颗粒的厂家全世界都不多，主要有<mark style="background: #FF5582A6;">三星、镁光、海力士、合肥长鑫</mark>等等，其中三星、镁光、海力士最为强悍，属于是内存颗粒界的御三家，加一起占了90%，像金士顿、芝奇、威刚这些内存厂商都要依赖御三家或者长鑫的内存颗粒，他们自己没有能力生产内存颗粒
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686942033042-adb5394d-0cfa-4408-8609-90e602104660.png#averageHue=%23292e38&clientId=u542c054f-1480-4&from=paste&height=422&id=u4419949d&originHeight=422&originWidth=1625&originalType=binary&ratio=1&rotation=0&showTitle=false&size=163089&status=done&style=none&taskId=u1a6c8fa6-6940-4451-a635-9727edd704e&title=&width=1625)
 
 颗粒不同，体质不同，最终会影响内存的频率和时序，颗粒越牛逼，越能超频
@@ -540,13 +542,13 @@ i7-13700K/F、i9-13900K/F——Z790主板
 ## XMP
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686943357280-b2fdea47-29b6-4435-a019-4cb29f8620d4.png#averageHue=%23fbfafa&clientId=u542c054f-1480-4&from=paste&height=525&id=u49b4e1f7&originHeight=525&originWidth=1070&originalType=binary&ratio=1&rotation=0&showTitle=false&size=48730&status=done&style=none&taskId=uae323b4b-dad0-4799-84d3-c73ae08f519&title=&width=1070)
 
-高频内存并不是天生的，内存厂商经过测速，将一套比较安全合理的频率和时序写到内存的SPD信息中，把内存买回来用的时候，需要进到主板BIOS里开启XMP功能，去读取厂商预设的这套高频数值，才能让高频内存生效
+高频内存并不是天生的，内存厂商经过测速，将一套比较安全合理的频率和时序写到内存的SPD信息中，把内存买回来用的时候，需要进到<mark style="background: #D2B3FFA6;">主板BIOS里开启XMP功能</mark>，去读取厂商预设的这套高频数值，才能让高频内存生效
 
 ## 内存通道/双通道优先24其次13
 主流消费级主板，CPU和内存之间都是双通道设计，如果是2个插槽，则每个插槽各是一个通道，如果是4个插槽，则每2个插槽一个通道
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686943819735-66d0d2bc-4764-4c7d-995f-a2b252a8e7f4.png#averageHue=%232a6e4b&clientId=u542c054f-1480-4&from=paste&height=667&id=u6e2406dc&originHeight=667&originWidth=1315&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1324114&status=done&style=none&taskId=udbf68719-12db-4527-849c-7e06240bec3&title=&width=1315)
-建议买内存的时候，能双不单，能2不4：
-如果只有1根内存，就只能走单通道，性能是完全不如双通道的，虽然现在DDR5内存可以实现但根内存走双通道，但本质上是残缺的双通道，仍然需要两根内存才能享受满血的双通道所以双8G比单根16G内存效能高很多
+建议买内存的时候，<mark style="background: #FFB8EBA6;">能双不单，能2不4：</mark>
+如果只有1根内存，就只能走单通道，性能是完全不如双通道的，虽然现在DDR5内存可以实现单根内存走双通道，但本质上是残缺的双通道，仍然需要两根内存才能享受满血的双通道所以双8G比单根16G内存效能高很多
 能2不4，对于追求高频或者手动超频的玩家，能插两根就尽量别插4根，比如要32G，建议买两根16G，不要买4根8G，因为内存数量越多，同步就越难，也就越难冲高频（玩灯除外）
 
 两根内存插在2 4或者1 3上形成双通道，24为优先插槽，其次是13
@@ -564,9 +566,9 @@ i7-13700K/F、i9-13900K/F——Z790主板
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686949774284-b5e5d4ff-ccb7-4050-b5af-75dda8dc51e6.png#averageHue=%23b9b7c0&clientId=u88f3de78-2c1b-4&from=paste&height=311&id=u0a7baca8&originHeight=311&originWidth=1524&originalType=binary&ratio=1&rotation=0&showTitle=false&size=600799&status=done&style=none&taskId=u9b53f98e-b39d-4ca0-bbb4-9b6aa02305f&title=&width=1524)
 
-在大部分用途中，双条内存这种选择更具有性价比，也是D-type布线表现更好的搭配
+在大部分用途中，<mark style="background: #FF5582A6;">双条内存这种选择更具有性价比</mark>，也是D-type布线表现更好的搭配
 
-双通道双内存条的主板更容易超频，因为没有残线产生的干扰，并且CPU到内存插槽的距离比4插槽的距离短一些，所以信号强度就比较高了
+双通道双内存条的主板<mark style="background: #FF5582A6;">更容易超频</mark>，因为没有残线产生的干扰，并且CPU到内存插槽的距离比4插槽的距离短一些，所以信号强度就比较高了
 
 ## 套条和连号内存
 超频爱好者可以关注，原因就是颗粒体质问题，套装和连号的内存条，套条可以保证这两根内存条体质差异很小，更易于超频，SN码连号，说明这两根内存大概率是前后脚从生产线上下来的，体质更接近
@@ -613,44 +615,44 @@ i7-13700K/F、i9-13900K/F——Z790主板
 
 
 # 关于超频
-> 一台电脑可以超频的硬件有CPU、显卡和内存，所以只有CPU超频、显卡超频、内存超频
+> 一台电脑可以超频的硬件有**CPU、显卡和内存**，所以只有CPU超频、显卡超频、内存超频
 
-> 人为的提高硬件的出厂频率，从而得到性能的提升，压榨硬件的性能
+> 人为的提高硬件的出厂频率，从而得到性能的提升，<mark style="background: #FF5582A6;">压榨</mark>硬件的性能
 > 以前的硬件超频后性能提升比较大，所以玩家热衷于超频，然而随着技术的发展，可超频的空间越来越小，厂商的官方自动超频技术越来越成熟，现在产品分级更细了，非生产力的性能已经过剩，超频后功耗会增加，为了那点很小的提升，还不如直接升级硬件，现在超频就是给有兴趣爱好的玩家折腾的，好玩有趣大于实用
 
 ## cpu超频：
-Intel芯片组，H和B系列不支持CPU超频，只有Z系列支持CPU超频。
+Intel芯片组，H和B系列不支持CPU超频，<mark style="background: #FF5582A6;">只有Z系列支持CPU超频</mark>。
 CPU超频需要CPU和主板同时支持才行。
 比方说i5 7500不能超频，配上z270支持超频的主板，还是不能超频。
 反过来，i5 7600k能超频，但配上不支持超频的b250主板，还是不能超频。
-只有主板和CPU两者同时支持超频时，才能超频
+<mark style="background: #FF5582A6;">只有主板和CPU两者同时支持超频时，才能超频</mark>
 
 ## 显卡超频：
-显卡超频跟主板无关
-显卡能不能超频？可以 , 但要看体质跟版本
-一般来说，OC版，非公版的都可以超
+<mark style="background: #FF5582A6;">显卡超频跟主板无关</mark>
+显卡能不能超频？可以 , 但要看<mark style="background: #FF5582A6;">体质</mark>跟版本
+一般来说，<mark style="background: #D2B3FFA6;">OC版</mark>，非公版的都可以超
 公版，高频版的都超不了多少就不能超了!
 显卡超频能力，和显卡自身体质，原厂工作频率超过公版频率多少，超频后的功耗、温度，还有电源额定功率有很大关系
 
 ## 内存超频：
-> 内存都会标注频率，2666MHz、3200MHz、3600MHz、4800MHz、5600MHz、6000MHz等，根据需求选。（注：高频内存需要进bios开启xmp，不然D4默频2666MHz运行，D5默认4800MHz运行）
+> 内存都会标注频率，2666MHz、3200MHz、3600MHz、4800MHz、5600MHz、6000MHz等，根据需求选。（注：高频内存需要进bios开启xmp，不然<mark style="background: #FF5582A6;">D4默频2666MHz运行，D5默认4800MHz运行</mark>）
 > （超频党是选内存颗粒，不超频就是直接选频率）
 
 内存在出厂的时候就会有一个默认内存频率，也就是我们买内存的时候看到标签上的频率参数。
 
-不同的CPU对内存频率的支持不同，例如i3-9350K支持的最大内存频率2400MHz，i7-8700支持的最大则可以达到2666MHz
+不同的<mark style="background: #ADCCFFA6;">CPU对内存频率的支持不同</mark>，<mark style="background: #ABF7F7A6;"></mark>例如i3-9350K支持的最大内存频率2400MHz，i7-8700支持的最大则可以达到2666MHz
 
-主板上同样有内存频率的限制
+<mark style="background: #BBFABBA6;">主板上同样有内存频率的限制</mark>
 
 CPU和主板，哪一个才是内存频率真正的主导者？
 这里分为两者情况——超频和不超频
-不超频，“最低原则”决定内存频率
-就是说在不超频的情况下，内存可以运行多高的频率，由CPU支持的最大频率、主板支持的最大频率、内存自身的默认频率三者中的最低频率决定
+<mark style="background: #FFB8EBA6;">不超频，“最低原则”决定内存频率</mark>
+就是说在不超频的情况下，内存可以运行多高的频率，由<mark style="background: #BBFABBA6;">CPU支持的最大频率</mark>、<mark style="background: #BBFABBA6;">主板支持的最大频率</mark>、<mark style="background: #BBFABBA6;">内存自身的默认频率</mark>三者中的最低频率决定
 假如内存默认频率2133MHz，CPU是i7-7700K（支持内存频率2400MHz）,主板是Z270（支持内存频率2400MHz）,那么内存频率只能运行在2133MHz；
 假如内存默认频率2400MHz，CPU是i7-7700K（支持内存频率2400MHz）,主板是Z170（支持内存频率2133MHz）,那么内存频率也只能运行在2133MHz；
 假如内存默认频率3600MHz，CPU是i9-9900K（支持内存频率2666MHz）,主板是Z390（支持内存频率2666MHz）,那么内存频率以CPU和主板支持的频率为准，即2666MHz
 
-超频，内存本身最大的频率和主板超频的最大频率决定内存频率
+<mark style="background: #D2B3FFA6;">超频，内存本身最大的频率和主板超频的最大频率决定内存频率</mark>
 我们以Intel平台为例。因为Intel平台的B系列和几乎全部的H系列主板无法对内存超频，就按以上的不超频，”最低原则“决定内存频率，能超频的基本是Z系列，如果想要使用高频内存或者超频，务必要配备Z系列主板。
 如果你的主板和内存都支持超频，那么内存的默认频率、主板支持的默认内存频率和CPU支持的默认内存频率都将被忽略不计。这时候限制条件只有2个：内存条最大频率和主板超频的最大频率。
 内存条最大频率很大程度上由内存体质决定。例如同样是DDR4-3600 8G*2内存，有些只能超到4000MHz，而有些可以超到4600MHz+（此处影驰HOF Ⅱ DDR4-3600 8G*2应该有掌声）。
@@ -686,7 +688,7 @@ CPU和主板，哪一个才是内存频率真正的主导者？
 
 
 # 电源
-> 电脑里两个吃电大户， cpu和显卡，电源的选择只要根据这两的功耗决定
+> 电脑里两个吃电大户， **cpu**和**显卡**，电源的选择只要根据这两的功耗决定
 > cpu和显卡占据了90%的功耗，（cpu功耗+显卡功耗+100）* 1.2 = 所需要的电源瓦数
 
 
@@ -714,7 +716,7 @@ CPU和主板，哪一个才是内存频率真正的主导者？
 
 ## 种类
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686637240365-bab238be-f0e2-438d-ad75-3d88a5e43d61.png#averageHue=%23737340&clientId=ubff19bce-2bb4-4&from=paste&height=728&id=u77e3394c&originHeight=728&originWidth=1868&originalType=binary&ratio=1&rotation=0&showTitle=false&size=496188&status=done&style=none&taskId=uca0f46be-9638-46f5-a47d-073a8bb55d7&title=&width=1868)
-> 散热器不等于风扇
+> <mark style="background: #FF5582A6;">散热器不等于风扇</mark>
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686849162197-880d264c-f548-40a1-bd01-2eb0ee657888.png#averageHue=%23cdd1d0&clientId=u271066e3-b1ee-4&from=paste&height=338&id=u34f3d287&originHeight=338&originWidth=1023&originalType=binary&ratio=1&rotation=0&showTitle=false&size=342649&status=done&style=none&taskId=u7d1d0eea-ffd9-4714-9def-fadbfd52036&title=&width=1023)
 ## CPU与散热器搭配
@@ -800,15 +802,15 @@ testufo网站[https://testufo.com/](https://testufo.com/)
 
 四内存槽：
 从左往右，第2 4为优先插槽，第1 3为次要插槽
-只有1根内存，插到第2槽内
-有2根内存，优先2，4插槽
-不推荐3根内存，有概率出现不稳定和无法开机的情况
-4根内存，插满就好
+只有1根内存，插到<mark style="background: #FF5582A6;">第2槽</mark>内
+有2根内存，优先<mark style="background: #D2B3FFA6;">2，4</mark>插槽
+<mark style="background: #BBFABBA6;">不推荐3根</mark>内存，有概率出现不稳定和无法开机的情况
+4根内存，<mark style="background: #ADCCFFA6;">插满</mark>就好
 
 ### 安装固态硬盘
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686638049175-e5a6cf30-6195-46d9-b783-0ac24e7bbaf3.png#averageHue=%23090908&clientId=ud5916679-300b-4&from=paste&height=865&id=ua56371d9&originHeight=865&originWidth=1664&originalType=binary&ratio=1&rotation=0&showTitle=false&size=219974&status=done&style=none&taskId=u60fa3204-996e-4a8b-8b07-42b8d71dc65&title=&width=1664)
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686638106474-dee78fc2-63eb-4f2b-a9f6-de7012e09481.png#averageHue=%232e2928&clientId=ud5916679-300b-4&from=paste&height=680&id=uaf7d2a8c&originHeight=680&originWidth=1203&originalType=binary&ratio=1&rotation=0&showTitle=false&size=820496&status=done&style=none&taskId=uab3d2136-1be9-4fe3-91a5-e121fedafd6&title=&width=1203)
-第一个M.2接口是和CPU直连的PCIe4.0 x4通道，有着所有M.2接口中最低的延迟和独立的带宽，将系统盘安装在这里
+第一个M.2接口是和<mark style="background: #FF5582A6;">CPU直连</mark>的PCIe4.0 x4通道，有着所有M.2接口中最低的延迟和独立的带宽，将<mark style="background: #FF5582A6;">系统盘</mark>安装在这里
 剩下的M.2接口来自南桥芯片组，共享南桥到CPU的总带宽的，延迟会比直连高
 另外，挂载在南桥上的M.2接口能承载的速率和协议也是不一样的
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1686851715955-22a256ac-2e95-41f6-8466-b6055404095e.png#averageHue=%239ea086&clientId=u271066e3-b1ee-4&from=paste&height=854&id=uf5e3fa72&originHeight=854&originWidth=1757&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1402010&status=done&style=none&taskId=u7cf29f46-0abc-404d-a0f4-b259ca78dda&title=&width=1757)
@@ -903,17 +905,17 @@ HDMI和DP都是用来传输视频和音频数据的，只要接口的带宽能�
 
 # 推荐文章和up主
 
-- CPU： [CPU选购指南及推荐](https://zhuanlan.zhihu.com/p/268642936)
-- 散热器： [散热器选购指南及推荐](https://zhuanlan.zhihu.com/p/258379061)
-- 主板： [主板选购攻略及推荐](https://zhuanlan.zhihu.com/p/344503535)
-- 显卡： [显卡选购指南及推荐](https://zhuanlan.zhihu.com/p/269635708)
-- 内存： [内存选购指南及推荐](https://zhuanlan.zhihu.com/p/183249476)
-- 固态硬盘：[固态硬盘性能及性价比推荐](https://zhuanlan.zhihu.com/p/165266063)
-- 机械硬盘：[机械硬盘选购指南及推荐](https://zhuanlan.zhihu.com/p/356118338)
-- 电源： [电源选购指南及推荐](https://zhuanlan.zhihu.com/p/179066013)
-- 机箱： [机箱选购指南及推荐](https://zhuanlan.zhihu.com/p/337206779)
-- 显示器： [显示器选购指南及推荐](https://zhuanlan.zhihu.com/p/194297824)
-- 散热风扇：[机箱散热风扇选购指南及推荐](https://zhuanlan.zhihu.com/p/259600857)
+- CPU： [2023年8月CPU选购指南及推荐 - 知乎](https://zhuanlan.zhihu.com/p/268642936)
+- 散热器： [2023年7月台式电脑CPU散热器选购指南 - 知乎](https://zhuanlan.zhihu.com/p/258379061)
+- 主板： [2023年8月主板推荐及选购攻略 - 知乎](https://zhuanlan.zhihu.com/p/344503535)
+- 显卡： [2023年8月显卡推荐及选购攻略 - 知乎](https://zhuanlan.zhihu.com/p/269635708)
+- 内存： [2023年8月电脑内存选购指南及推荐，如何选择性价比内存条（内存天梯） - 知乎](https://zhuanlan.zhihu.com/p/183249476)
+- 固态硬盘：[2023年8月固态硬盘推荐 - 知乎](https://zhuanlan.zhihu.com/p/165266063)
+- 机械硬盘：[2023年8月机械硬盘选购指南及推荐 - 知乎](https://zhuanlan.zhihu.com/p/356118338)
+- 电源： [2023年8月电脑电源选择指南与推荐 - 知乎](https://zhuanlan.zhihu.com/p/179066013)
+- 机箱： [2023年8月电脑机箱推荐 - 知乎](https://zhuanlan.zhihu.com/p/337206779)
+- 显示器： [2023年8月显示器选购指南 - 知乎](https://zhuanlan.zhihu.com/p/194297824)
+- 散热风扇：[2023年8月机箱散热风扇推荐及选购指南 - 知乎](https://zhuanlan.zhihu.com/p/259600857)
 
 
 # 配置单
@@ -940,13 +942,13 @@ HDMI和DP都是用来传输视频和音频数据的，只要接口的带宽能�
 | **i9-12900K/13900K** | 无/4899 | 4299 / 5999 |
 | **i9-12900KS/13900KS** | 无/6699 | 3999 / 无 |
 
-i7在 2000 以上，所以 CPU 考虑 i5
+<mark style="background: #D2B3FFA6;">i7在 2000 以上，所以 CPU 考虑 i5</mark>
 预算 1500 以内，考虑下面四个：
-i5-12400F/13400F、i5-12490F/13490F
-综合性价比，选 i5-13400F
+<mark style="background: #BBFABBA6;">i5-12400F/13400F、i5-12490F/13490F</mark>
+<mark style="background: #BBFABBA6;"></mark>综合性价比，选 <mark style="background: #BBFABBA6;">i5-13400F</mark>
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1687089045757-5684b4e7-e6ae-4e92-9711-2ec560250879.png#averageHue=%231f1e20&clientId=ud37dc73b-79af-4&from=paste&height=810&id=hhflV&originHeight=810&originWidth=1271&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1128341&status=done&style=none&taskId=u06b17df8-5cd7-4011-bf51-3da69cbf8ce&title=&width=1271)
 
-散热：雅俊 B3 ARGB
+散热：<mark style="background: #FF5582A6;">雅俊 B3 ARGB</mark>
 
 ## 显卡
 3060Ti 、3070 、3070Ti 、3080 、3080Ti 、4060 、4060Ti

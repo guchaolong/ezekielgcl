@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Win------DIY PC",
+      "path": "Everything/Win------DIY PC.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
+      "basename": "Obsidian折腾记录",
+      "path": "Everything/Obsidian折腾记录.md"
+    },
+    {
+      "basename": "Win------装机必备软件",
+      "path": "Everything/Win------装机必备软件.md"
+    },
+    {
+      "basename": "时间从来不语，却回答了所有问题",
+      "path": "个人成长/阅读/时间从来不语，却回答了所有问题.md"
+    },
+    {
+      "basename": "index-阅读清单",
+      "path": "Index/index-阅读清单.md"
+    },
+    {
       "basename": "5、HashMap、红黑树",
       "path": "码农笔记/02-并发编程/5、HashMap、红黑树.md"
     },
     {
       "basename": "Ps",
       "path": "技能点/Ps.md"
-    },
-    {
-      "basename": "HomePage",
-      "path": "HomePage.md"
     },
     {
       "basename": "海蒂和爷爷 Heidi",
@@ -21,24 +41,12 @@
       "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
     },
     {
-      "basename": "Win------装机必备软件",
-      "path": "Everything/Win------装机必备软件.md"
-    },
-    {
       "basename": "程序员的未来：工作和学习都要依赖AI了？",
       "path": "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md"
     },
     {
-      "basename": "Win------DIY PC",
-      "path": "Everything/Win------DIY PC.md"
-    },
-    {
       "basename": "dataview",
       "path": "附件素材/dataview/dataview.md"
-    },
-    {
-      "basename": "Obsidian折腾记录",
-      "path": "Everything/Obsidian折腾记录.md"
     },
     {
       "basename": "index-码农笔记",
@@ -59,10 +67,6 @@
     {
       "basename": "2023-08-06-周日",
       "path": "个人成长/日记/2023-08-06-周日.md"
-    },
-    {
-      "basename": "时间从来不语，却回答了所有问题",
-      "path": "个人成长/阅读/时间从来不语，却回答了所有问题.md"
     },
     {
       "basename": "码农笔记——Template",
@@ -111,10 +115,6 @@
     {
       "basename": "RocketMQ",
       "path": "码农笔记/04-分布式框架/RocketMQ.md"
-    },
-    {
-      "basename": "index-阅读清单",
-      "path": "Index/index-阅读清单.md"
     },
     {
       "basename": "Redis",

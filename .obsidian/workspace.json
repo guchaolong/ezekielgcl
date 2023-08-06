@@ -27,8 +27,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/02-并发编程/5、HashMap、红黑树.md",
-                "mode": "source",
+                "file": "Everything/Win------DIY PC.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:(\"个人成长/日记\")",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/02-并发编程/5、HashMap、红黑树.md",
+                "file": "Everything/Win------DIY PC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/02-并发编程/5、HashMap、红黑树.md",
+                "file": "Everything/Win------DIY PC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/02-并发编程/5、HashMap、红黑树.md"
+                "file": "Everything/Win------DIY PC.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -203,32 +203,32 @@
   },
   "active": "bbeba137786a0a04",
   "lastOpenFiles": [
-    "技能点/Ps.md",
     "HomePage.md",
+    "Everything/Win------DIY PC.md",
+    "Everything/Obsidian折腾记录.md",
+    "Everything/Win------装机必备软件.md",
+    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
+    "Index/index-阅读清单.md",
+    "码农笔记/02-并发编程/5、HashMap、红黑树.md",
+    "技能点/Ps.md",
     "个人成长/日记/2023-08-06-周日.md",
     "个人成长/电影/海蒂和爷爷 Heidi.md",
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
-    "Everything/Win------装机必备软件.md",
     "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md",
-    "Everything/Win------DIY PC.md",
     "附件素材/dataview/dataview.md",
     "个人成长/思考/Fuck The World.md",
     "Everything/Mac------工欲善其事 必先利其器.md",
-    "Everything/Obsidian折腾记录.md",
     "个人成长/日记/2023-07-29-周六.md",
     "Index/index-码农笔记.md",
     "Index/index-日记.md",
     "个人成长/日记/2023-08-05-周六.md",
     "个人成长/日记/日记-Template.md",
-    "个人成长/阅读/时间从来不语，却回答了所有问题.md",
     "Template/码农笔记——Template.md",
     "Index/index-电影清单.md",
     "个人成长/电影/楚门的世界 The Truman Show.md",
     "个人成长/日记/2023-07-30-周日.md",
     "个人成长/日记/2023-07-31-周一.md",
     "个人成长/日记/2023-08-01-周二.md",
-    "个人成长/日记/2023-08-02-周三.md",
-    "个人成长/日记/2023-08-03-周四.md",
     "附件素材/icons/Health & Medical/heart-fill.svg",
     "附件素材/icons/Finance/water-flash-line.svg",
     "附件素材/icons/Finance/water-flash-fill.svg",
