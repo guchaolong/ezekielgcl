@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
+                "file": "附件素材/dataview/dataview.md",
                 "mode": "preview",
                 "source": false
               }
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Java",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "41111949b8b524e5",
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "附件素材/dataview/dataview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "附件素材/dataview/dataview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "附件素材/dataview/dataview.md"
               }
             }
           },
@@ -203,8 +204,8 @@
   },
   "active": "58c84388bda91fb4",
   "lastOpenFiles": [
-    "个人成长/日记/2023-08-06-周日.md",
     "HomePage.md",
+    "个人成长/日记/2023-08-06-周日.md",
     "个人成长/思考/Fuck The World.md",
     "Everything/Mac------工欲善其事 必先利其器.md",
     "附件素材/dataview/dataview.md",
