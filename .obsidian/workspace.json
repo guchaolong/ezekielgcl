@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Everything/Win------DIY PC.md",
+                "file": "HomePage.md",
                 "mode": "preview",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/Win------DIY PC.md",
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/Win------DIY PC.md",
+                "file": "HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/Win------DIY PC.md"
+                "file": "HomePage.md"
               }
             }
           },
@@ -203,8 +203,11 @@
   },
   "active": "bbeba137786a0a04",
   "lastOpenFiles": [
-    "HomePage.md",
+    "Everything/Markdown语法.md",
+    "Everything/起名.md",
+    "Everything/宽带 网速 光猫 路由器 网速 .......md",
     "Everything/Win------DIY PC.md",
+    "HomePage.md",
     "Everything/Obsidian折腾记录.md",
     "Everything/Win------装机必备软件.md",
     "个人成长/阅读/时间从来不语，却回答了所有问题.md",
@@ -226,9 +229,6 @@
     "Template/码农笔记——Template.md",
     "Index/index-电影清单.md",
     "个人成长/电影/楚门的世界 The Truman Show.md",
-    "个人成长/日记/2023-07-30-周日.md",
-    "个人成长/日记/2023-07-31-周一.md",
-    "个人成长/日记/2023-08-01-周二.md",
     "附件素材/icons/Health & Medical/heart-fill.svg",
     "附件素材/icons/Finance/water-flash-line.svg",
     "附件素材/icons/Finance/water-flash-fill.svg",
