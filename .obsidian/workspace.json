@@ -31,9 +31,21 @@
                 "file": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
               }
             }
+          },
+          {
+            "id": "a9dead3148edf159",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/Java基础知识.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "b37e12b52cc18e81",
@@ -46,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+                "file": "码农笔记/00-Java基础/java基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+                "file": "码农笔记/00-Java基础/Java基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+                "file": "码农笔记/00-Java基础/Java基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
+                "file": "码农笔记/00-Java基础/Java基础知识.md"
               }
             }
           },
@@ -212,12 +224,14 @@
       "cmdr:左右分屏": false
     }
   },
-  "active": "779f987e3a685450",
+  "active": "a9dead3148edf159",
   "lastOpenFiles": [
-    "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
-    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
     "码农笔记/00-Java基础/java基础.md",
     "码农笔记/00-Java基础/Java基础知识.md",
+    "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
+    "码农笔记/00-Java基础/JVM基础.md",
+    "码农笔记/00-Java基础/Java开发手册.md",
+    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
     "HomePage.md",
     "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf",
     "Excalidraw/Drawing 2023-08-07 00.13.09.excalidraw.md",
@@ -227,8 +241,6 @@
     "码农笔记/04-分布式框架/RocketMQ.md",
     "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
-    "码农笔记/00-Java基础/JVM基础.md",
-    "码农笔记/00-Java基础/Java开发手册.md",
     "码农笔记/E-Docker/Docker.md",
     "个人成长/日记/2023-08-06-周日.md",
     "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",

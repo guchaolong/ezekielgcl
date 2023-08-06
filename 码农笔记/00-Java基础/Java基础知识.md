@@ -14,7 +14,7 @@ tags:
 >掌握好java的基础知识
 
 
-# 1. 基础知识
+# 1.基础知识
 
 ## 概述
 
@@ -23,6 +23,7 @@ tags:
 
 2. jdk、jre、jvm
 运行一个java程序，就相当于启动了一个jvm进程，也就是一个jvm实例，jvm可以运行main方法，一台机器上可以运行多个jvm实例，每个jvm实例都有一套jmm，好比一台完整的机器，有内存、磁盘等，jvm实例之间共享那一台机器的内存空间
+
 classpath:也就是.class文件所在的路径，jvm运行的时候，需要去加载.class文件，classpath告诉jvm去哪里加载.class
 
 如果使用java的javac、java命令，就会去当前目录以及环境变量classpath中查找.class文件加载
@@ -35,15 +36,19 @@ eclipse中由.classpath文件指定；IDEA中moudle->excluded folder指定编译
 ## 类型转换  
 
 ```java
-byte b1=3,b2=4,b;  
+byte b1=3,b2=4,b; 
+
 b=3+4;//3和4都是常量，所以java在编译时期会检查该常量的和是否超出byte类型的范围。如果没有可以赋值  
+
 b=b1+b2;//编译出错,因为b1和b2是变量，因为变量的值会变化，不确定具体的值，所以默认使用int类型进行存储
+
 b1 = b1 +1;//出错，b1是变量，会转换为int类型  
+
 b1 += 1; //可以完成自动类型转换
 ```
 
 ## 访问控制
-(主要是一个可见性，可见就是可以用，“用”：同一个类内部，直接调，类外部，通过obj.xxx）
+(主要是一个<mark style="background: #FF5582A6;">可见性</mark>，可见就是<mark style="background: #FF5582A6;">可以用</mark>，“用”：同一个类内部，直接调，类外部，通过obj.xxx）
 **private**:  只有在类内部才能用（只能在内部直接使用，类外不无法用，即obj.xxx是不行的）
 **默认**：    内部（直接用）、同包下（obj.xxx)
 **procted** : 内部、同包、子类中
@@ -56,7 +61,7 @@ java比较两个对象是否相同的标准方法是equals()方法，继承来�
 如果要实现自己的比较的逻辑，就需要重写equals方法
 
 但为什么有了标准的equals了还要有hashCode呢？
-因为equals往往比较复杂，执行效率不高，hashCode方法效率高
+因为<mark style="background: #FF5582A6;">equals</mark>往往比较<mark style="background: #FF5582A6;">复杂</mark>，执行<mark style="background: #FF5582A6;">效率不高</mark>，<mark style="background: #D2B3FFA6;">hashCode方法效率高</mark>
 为什么hashCode效率高，为什么还要有equals呢？
 因为hashCode不一定准确，如果hashCode相等，equals不一定相等
 
@@ -74,7 +79,7 @@ put:先算出hashCode值，用hashCode值进行hash计算得到索引位置，�
 如果不相等，则使用“链地址”法，生成一个链表
 
 
-# 2. 集合  
+# 2.集合  
 数组，但是初始化之后尺寸固定，只能通过索引取出，所以要用到集合，删除某个元素之后，需要移动
 后续元素  
 1. Collection 集合类的跟接口
@@ -97,7 +102,7 @@ take    移除并返回队列头部的元素 如果队列为空，则阻塞
 ```
 
 
-# 3. IO
+# 3.IO
 输入（input）：把数据读到内存，如读硬盘上某个文件 从网络读取  
 输出（output）：从内存输出到外部，如写到硬盘上的某个文件  
 IO流：二进制数据最小以byte（字节流）为单位；字符流传输的最小数据单位时char,字符流输出的byte取决于编码方式  
@@ -120,9 +125,9 @@ Class对象的getResourceAsStream("")可以从classpath中读取资源（需要�
 序列化  
 把一个java对象变成二进制内容（byte[]），然后就可以把该数组保存在文件中 或在网络中传输
 
-# 4. Java异常处理  
+# 4.Java异常处理  
 
-# 5. 多线程、并发
+# 5.多线程、并发
 ## 5.1 多核并发缓存架构：  
 ![Image text](https://raw.githubusercontent.com/guchaolong/guchaolong.github.io/master/_posts_img/cpu_mode.png)  
 
@@ -163,7 +168,7 @@ jvm实例也是运行在机器的内存中的，只不过在jvm内部又存在jm
 * lock 锁定：将主存变量加锁，标识为线程独占状态
 * unlock 解锁：将主存变量解锁，其他线程可以锁定该变量
 
-# 6. Java反射与泛型
+# 6.Java反射与泛型
 > **java的反射机制是框架设计的灵魂，反射是框架的基础** 
 ## 6.1 反射
 java运行状态下，对于任意一个类，都能知道类的属性和方法；对于任意一个对象，都能调用它的任意属性和方法，这种动态获取信息和动态调用对象方法的机制叫做反射     
@@ -214,7 +219,7 @@ ArrayList底层使用数组存储元素，元素的类型是Object,如果把不�
 Object类是所有类的根类，所以都可以向上转换为Object类型的引用，使用的时候再向下转换，运行期间可能报转换异常，但是使用了泛型标识之后，在实际使用时，类型就已经确定了，不需要在进项强制类型转换
 
 * 特性
-泛型只在编译期有效，编译之后会进行类型擦除（编译期间正确检验泛型结果后，将泛型相关信息擦除）
+<mark style="background: #FF5582A6;">泛型只在编译期有效，编译之后会进行类型擦除</mark>（编译期间正确检验泛型结果后，将泛型相关信息擦除）
 ```java
     List<String> l1 = new ArrayList<String>();
     List<Integer> l2 = new ArrayList<Integer>();
@@ -388,7 +393,7 @@ public class FruitGenerator implements Generator<String> {
 ```
 
 
-# 7. 网络编程
+# 7.网络编程
 ## Socket
 + 是一个抽象概念  
 + 一个应用程序通过一个Socket来建立一个远程连接  
@@ -449,7 +454,7 @@ public class FruitGenerator implements Generator<String> {
     }
     ```
 
-# 8. JAVA8、JAVA9
+# 8.JAVA8、JAVA9
 ## 8.1 函数式编程  
 
 和面向对象编程、面向过程编程类似，函数式编程是另一种编程范式、思想、方法论  

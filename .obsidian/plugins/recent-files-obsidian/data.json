@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "二进制、原码、反码、补码",
-      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
-    },
-    {
-      "basename": "GitHub 上标星 115k+ 的 Java 教程",
-      "path": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
+      "basename": "Java基础知识",
+      "path": "码农笔记/00-Java基础/Java基础知识.md"
     },
     {
       "basename": "java基础",
       "path": "码农笔记/00-Java基础/java基础.md"
     },
     {
-      "basename": "Java基础知识",
-      "path": "码农笔记/00-Java基础/Java基础知识.md"
+      "basename": "GitHub 上标星 115k+ 的 Java 教程",
+      "path": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
+    },
+    {
+      "basename": "JVM基础",
+      "path": "码农笔记/00-Java基础/JVM基础.md"
+    },
+    {
+      "basename": "Java开发手册",
+      "path": "码农笔记/00-Java基础/Java开发手册.md"
+    },
+    {
+      "basename": "二进制、原码、反码、补码",
+      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
     },
     {
       "basename": "HomePage",
@@ -51,14 +59,6 @@
     {
       "basename": "二哥的 Java 进阶之路暗黑版",
       "path": "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf"
-    },
-    {
-      "basename": "JVM基础",
-      "path": "码农笔记/00-Java基础/JVM基础.md"
-    },
-    {
-      "basename": "Java开发手册",
-      "path": "码农笔记/00-Java基础/Java开发手册.md"
     },
     {
       "basename": "Docker",
