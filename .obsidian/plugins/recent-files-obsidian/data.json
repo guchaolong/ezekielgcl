@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "dataview",
-      "path": "附件素材/dataview/dataview.md"
+      "basename": "5、HashMap、红黑树",
+      "path": "码农笔记/02-并发编程/5、HashMap、红黑树.md"
+    },
+    {
+      "basename": "Ps",
+      "path": "技能点/Ps.md"
     },
     {
       "basename": "HomePage",
       "path": "HomePage.md"
+    },
+    {
+      "basename": "海蒂和爷爷 Heidi",
+      "path": "个人成长/电影/海蒂和爷爷 Heidi.md"
+    },
+    {
+      "basename": "二进制、原码、反码、补码",
+      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
+    },
+    {
+      "basename": "Win------装机必备软件",
+      "path": "Everything/Win------装机必备软件.md"
+    },
+    {
+      "basename": "程序员的未来：工作和学习都要依赖AI了？",
+      "path": "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md"
+    },
+    {
+      "basename": "Win------DIY PC",
+      "path": "Everything/Win------DIY PC.md"
+    },
+    {
+      "basename": "dataview",
+      "path": "附件素材/dataview/dataview.md"
     },
     {
       "basename": "Obsidian折腾记录",
@@ -43,10 +71,6 @@
     {
       "basename": "index-电影清单",
       "path": "Index/index-电影清单.md"
-    },
-    {
-      "basename": "海蒂和爷爷 Heidi",
-      "path": "个人成长/电影/海蒂和爷爷 Heidi.md"
     },
     {
       "basename": "楚门的世界 The Truman Show",
