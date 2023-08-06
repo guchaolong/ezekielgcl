@@ -22,6 +22,12 @@
       "icon": "activity",
       "name": "Style Settings: Show style settings view",
       "mode": "any"
+    },
+    {
+      "id": "workspace:split-vertical",
+      "icon": "lucide-separator-vertical",
+      "name": "左右分屏",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

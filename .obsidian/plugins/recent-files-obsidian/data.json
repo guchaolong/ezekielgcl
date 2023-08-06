@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "HomePage",
-      "path": "HomePage.md"
-    },
-    {
-      "basename": "二哥的 Java 进阶之路亮白版",
-      "path": "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf"
+      "basename": "二进制、原码、反码、补码",
+      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
     },
     {
       "basename": "GitHub 上标星 115k+ 的 Java 教程",
       "path": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
     },
     {
+      "basename": "java基础",
+      "path": "码农笔记/00-Java基础/java基础.md"
+    },
+    {
       "basename": "Java基础知识",
       "path": "码农笔记/00-Java基础/Java基础知识.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
+      "basename": "二哥的 Java 进阶之路亮白版",
+      "path": "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf"
     },
     {
       "basename": "Drawing 2023-08-07 00.13.09.excalidraw",
@@ -35,10 +43,6 @@
     {
       "basename": "RocketMQ",
       "path": "码农笔记/04-分布式框架/RocketMQ.md"
-    },
-    {
-      "basename": "java基础",
-      "path": "码农笔记/00-Java基础/java基础.md"
     },
     {
       "basename": "04-VIP-JVM垃圾收集器详解",
@@ -71,10 +75,6 @@
     {
       "basename": "GC和GC Tuning",
       "path": "码农笔记/00-Java基础/GC和GC Tuning.md"
-    },
-    {
-      "basename": "二进制、原码、反码、补码",
-      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
     },
     {
       "basename": "楚门的世界 The Truman Show",

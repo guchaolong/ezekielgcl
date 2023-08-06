@@ -6,6 +6,7 @@
       {
         "id": "459fca2456c785f9",
         "type": "tabs",
+        "dimension": 62.66937669376694,
         "children": [
           {
             "id": "17c592c7bf99ba3a",
@@ -22,18 +23,6 @@
             }
           },
           {
-            "id": "29b0a7879d5ea22c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f44eddbc546e259b",
             "type": "leaf",
             "state": {
@@ -45,6 +34,25 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "b37e12b52cc18e81",
+        "type": "tabs",
+        "dimension": 37.330623306233065,
+        "children": [
+          {
+            "id": "779f987e3a685450",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -126,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
               }
             }
           },
@@ -183,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,33 +205,34 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "workspaces:管理工作区布局": false,
       "daily-notes:打开/创建今天的日记": false,
+      "obsidian-memos:Memos": false,
       "cmdr:Theme Picker: Open Theme Picker": false,
       "cmdr:QuickAdd: 码农笔记": false,
       "cmdr:Style Settings: Show style settings view": false,
-      "obsidian-memos:Memos": false
+      "cmdr:左右分屏": false
     }
   },
-  "active": "29b0a7879d5ea22c",
+  "active": "779f987e3a685450",
   "lastOpenFiles": [
-    "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf",
     "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
+    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+    "码农笔记/00-Java基础/java基础.md",
     "码农笔记/00-Java基础/Java基础知识.md",
+    "HomePage.md",
+    "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf",
     "Excalidraw/Drawing 2023-08-07 00.13.09.excalidraw.md",
     "码农笔记/06-项目实战/项目架构演变.md",
     "码农笔记/06-项目实战/链式处理.md",
     "码农笔记/06-项目实战/超简单的6种防止数据重复提交的方法.md",
     "码农笔记/04-分布式框架/RocketMQ.md",
-    "码农笔记/00-Java基础/java基础.md",
     "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "码农笔记/00-Java基础/JVM基础.md",
     "码农笔记/00-Java基础/Java开发手册.md",
     "码农笔记/E-Docker/Docker.md",
-    "HomePage.md",
     "个人成长/日记/2023-08-06-周日.md",
     "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
     "码农笔记/00-Java基础/GC和GC Tuning.md",
-    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
     "个人成长/电影/楚门的世界 The Truman Show.md",
     "Everything/Mac------工欲善其事 必先利其器.md",
     "个人成长/阅读/时间从来不语，却回答了所有问题.md",
