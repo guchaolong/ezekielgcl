@@ -8,31 +8,108 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#Java",
+      "query": "path:码农笔记/00-Java基础",
       "color": {
         "a": 1,
-        "rgb": 12599820
+        "rgb": 6084269
       }
     },
     {
-      "query": "tag:#设计模式",
+      "query": "path:码农笔记/01-框架源码",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 6073814
       }
     },
     {
-      "query": "tag:#工具",
+      "query": "path:码农笔记/02-并发编程",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 6053078
       }
     },
     {
-      "query": "path:码农笔记",
+      "query": "path:码农笔记/03-性能调优",
       "color": {
         "a": 1,
-        "rgb": 5526240
+        "rgb": 11361494
+      }
+    },
+    {
+      "query": "path:码农笔记/04-分布式框架",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
+    },
+    {
+      "query": "path:码农笔记/05-微服务系列",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:码农笔记/06-项目实战",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "path:码农笔记/07-互联网工具",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "path:码农笔记/A-数据库",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
+    },
+    {
+      "query": "path:码农笔记/B-设计模式",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "path:码农笔记/C-算法与数据结构",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
+    },
+    {
+      "query": "path:码农笔记/D-Linux",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "path:码农笔记/E-Docker",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "path:码农笔记/Y-前端",
+      "color": {
+        "a": 1,
+        "rgb": 6053037
+      }
+    },
+    {
+      "query": "path:码农笔记/Z-面试",
+      "color": {
+        "a": 1,
+        "rgb": 6052956
       }
     }
   ],
@@ -46,6 +123,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.40366829179255864,
+  "scale": 0.40366829179255836,
   "close": true
 }
