@@ -1,12 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Docker",
-      "path": "码农笔记/E-Docker/Docker.md"
-    },
-    {
       "basename": "HomePage",
       "path": "HomePage.md"
+    },
+    {
+      "basename": "二哥的 Java 进阶之路亮白版",
+      "path": "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf"
+    },
+    {
+      "basename": "GitHub 上标星 115k+ 的 Java 教程",
+      "path": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
+    },
+    {
+      "basename": "Java基础知识",
+      "path": "码农笔记/00-Java基础/Java基础知识.md"
+    },
+    {
+      "basename": "Drawing 2023-08-07 00.13.09.excalidraw",
+      "path": "Excalidraw/Drawing 2023-08-07 00.13.09.excalidraw.md"
+    },
+    {
+      "basename": "项目架构演变",
+      "path": "码农笔记/06-项目实战/项目架构演变.md"
+    },
+    {
+      "basename": "链式处理",
+      "path": "码农笔记/06-项目实战/链式处理.md"
+    },
+    {
+      "basename": "超简单的6种防止数据重复提交的方法",
+      "path": "码农笔记/06-项目实战/超简单的6种防止数据重复提交的方法.md"
+    },
+    {
+      "basename": "RocketMQ",
+      "path": "码农笔记/04-分布式框架/RocketMQ.md"
+    },
+    {
+      "basename": "java基础",
+      "path": "码农笔记/00-Java基础/java基础.md"
+    },
+    {
+      "basename": "04-VIP-JVM垃圾收集器详解",
+      "path": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
+    },
+    {
+      "basename": "二哥的 Java 进阶之路暗黑版",
+      "path": "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf"
+    },
+    {
+      "basename": "JVM基础",
+      "path": "码农笔记/00-Java基础/JVM基础.md"
+    },
+    {
+      "basename": "Java开发手册",
+      "path": "码农笔记/00-Java基础/Java开发手册.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "码农笔记/E-Docker/Docker.md"
     },
     {
       "basename": "2023-08-06-周日",
@@ -137,10 +189,6 @@
       "path": "个人成长/思考/Fuck The World.md"
     },
     {
-      "basename": "RocketMQ",
-      "path": "码农笔记/04-分布式框架/RocketMQ.md"
-    },
-    {
       "basename": "Redis",
       "path": "码农笔记/04-分布式框架/Redis/Redis.md"
     },
@@ -151,14 +199,6 @@
     {
       "basename": "IO、NIO、AIO、Netty",
       "path": "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md"
-    },
-    {
-      "basename": "Mac------工欲善其事 必先利其器",
-      "path": "Everything/Mac------工欲善其事 必先利其器.md"
-    },
-    {
-      "basename": "科学上网翻墙VPN机场外网",
-      "path": "Everything/科学上网翻墙VPN机场外网.md"
     }
   ],
   "omittedPaths": [],
