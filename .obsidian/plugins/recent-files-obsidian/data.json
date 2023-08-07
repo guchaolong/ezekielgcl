@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "GitHub 上标星 115k+ 的 Java 教程",
-      "path": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
+      "basename": "Java内存区域和内存模型（JMM）",
+      "path": "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md"
+    },
+    {
+      "basename": "二哥的 Java 进阶之路亮白版",
+      "path": "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf"
+    },
+    {
+      "basename": "java基础",
+      "path": "码农笔记/00-Java基础/java基础.md"
     },
     {
       "basename": "Java基础知识",
       "path": "码农笔记/00-Java基础/Java基础知识.md"
     },
     {
-      "basename": "java基础",
-      "path": "码农笔记/00-Java基础/java基础.md"
+      "basename": "GitHub 上标星 115k+ 的 Java 教程",
+      "path": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
+    },
+    {
+      "basename": "二哥的 Java 进阶之路暗黑版",
+      "path": "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf"
+    },
+    {
+      "basename": "2023-08-07-周一",
+      "path": "个人成长/日记/2023-08-07-周一.md"
     },
     {
       "basename": "JVM基础",
@@ -27,10 +43,6 @@
     {
       "basename": "HomePage",
       "path": "HomePage.md"
-    },
-    {
-      "basename": "二哥的 Java 进阶之路亮白版",
-      "path": "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf"
     },
     {
       "basename": "Drawing 2023-08-07 00.13.09.excalidraw",
@@ -55,10 +67,6 @@
     {
       "basename": "04-VIP-JVM垃圾收集器详解",
       "path": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
-    },
-    {
-      "basename": "二哥的 Java 进阶之路暗黑版",
-      "path": "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf"
     },
     {
       "basename": "Docker",
@@ -191,14 +199,6 @@
     {
       "basename": "Redis",
       "path": "码农笔记/04-分布式框架/Redis/Redis.md"
-    },
-    {
-      "basename": "tiling-3-vip-Redis",
-      "path": "码农笔记/04-分布式框架/Redis/tiling-3-vip-Redis.md"
-    },
-    {
-      "basename": "IO、NIO、AIO、Netty",
-      "path": "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md"
     }
   ],
   "omittedPaths": [],

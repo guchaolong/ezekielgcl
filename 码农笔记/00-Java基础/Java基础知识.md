@@ -33,6 +33,12 @@ eclipse中由.classpath文件指定；IDEA中moudle->excluded folder指定编译
 服务器上，安装jdk后，配置环境变量JAVA_HOME、JRE_HOME  。然后tomcat是用java写的，也依赖与jre,启动tomcat可以通过运行bin下的startup.bat，startup.bat会调用catalina.bat文件，而catalina.bat会调用setclasspath.bat文件来获取JAVA_HOME和JRE_HOME这两个环境变量的值
 ```
 
+## 数据类型
+基本数据类型：byte short int long float double char boolean
+int 的取值范围在 -2,147,483,648（-2 ^ 31）和 2,147,483,647（2 ^ 31 -1）
+
+引用类型：除基本数据类型以外的，都是引用类型，<mark style="background: #FF5582A6;">数组</mark>也是引用类型
+
 ## 类型转换  
 
 ```java
@@ -103,9 +109,8 @@ put     添加一个元素             如果队列满，则阻塞
 take    移除并返回队列头部的元素 如果队列为空，则阻塞
 ```
 
-## 源码分析
+## ArrayList
 > jdk1.8
-### ArrayList
 基于<mark style="background: #FF5582A6;">数组</mark>实现，RandomAccess接口标识支持快速随机访问，默认容量<mark style="background: #FF5582A6;">10</mark>
 
 扩容：
@@ -126,7 +131,7 @@ Vector：
 1. 可以使用Collections.synchronizedList()得到一个线程安全的ArrayList
 2. concurrent并发包下的CopyOnWriteArrayList
 
-### CopyOnWriteArrayList
+## CopyOnWriteArrayList
 读写分离，互不影响，写操作在一个复制的数组上进行，读操作还是在原来的数组中进行
 
 写操作需要加锁，防止并发写入时导致写入数据丢失，写操作结束后需要把原始数组指向新的复制数组
@@ -139,12 +144,26 @@ Vector：
 2. 数据不一致：读操作不能读取实时性数据，因为部分写操作还未同步到读数组中
 所有不适合内存敏感以及对实时性要求高的场景
 
-### LinkedList
+## LinkedList
 基于双向链表实现
 
 
-### HashMap
+## HashMap
 
+> jdk1.7
+
+数组 + 单链表
+Entry
+头插法（此代码作者认为，后进来的被访问的可能性更大，头插，提高查询效率，rehash，多线程可能形成环链表）
+
+> jdk1.8 
+
+数组 + 链表/红黑树
+
+HashMap 的长度为什么是 2 的幂次方？
+**取余(%)操作中如果除数是 2 的幂次则等价于与其除数减一的与(&)操作（也就是说 hash%length==hash&(length-1)的前提是 length 是 2 的 n 次方；）
+
+**采用二进制位操作 &，相对于%能够提高运算效率**
 
 
 
