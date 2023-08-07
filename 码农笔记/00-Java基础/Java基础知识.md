@@ -15,7 +15,7 @@ tags:
 
 
 # 1.基础知识
-
+补充：[[java基础]]
 ## 概述
 
 ```
@@ -80,14 +80,16 @@ put:先算出hashCode值，用hashCode值进行hash计算得到索引位置，�
 
 
 # 2.集合  
-数组，但是初始化之后尺寸固定，只能通过索引取出，所以要用到集合，删除某个元素之后，需要移动
-后续元素  
-1. Collection 集合类的跟接口
+数组，初始化之后<mark style="background: #FFB8EBA6;">尺寸固定</mark>，只能通过<mark style="background: #BBFABBA6;">索引取出</mark>，所以要用到集合，删除某个元素之后，需要<mark style="background: #FFB8EBA6;">移动</mark>后续元素  
+注意分两类：
+1. Collection 集合类的根接口
     - List 有序可重复
     - Set 无序 不可重复
+    - queue  先进先出，跟排队一样，在队尾加入，队头处理完就移除
 2. Map 键值对
-3. queue  先进先出，跟排队一样，在队尾加入，队头处理完就移除
 
+
+queue:
 ```
 add     添加               如果队列已满，则抛出一个IIIegaISlabEepeplian异常
 remove  移除并返回头部的元素  如果队列为空，则抛出一个NoSuchElementException异常
@@ -100,6 +102,50 @@ peek    返回队列头部的元素       如果队列为空，则返回null
 put     添加一个元素             如果队列满，则阻塞
 take    移除并返回队列头部的元素 如果队列为空，则阻塞
 ```
+
+## 源码分析
+> jdk1.8
+### ArrayList
+基于<mark style="background: #FF5582A6;">数组</mark>实现，RandomAccess接口标识支持快速随机访问，默认容量<mark style="background: #FF5582A6;">10</mark>
+
+扩容：
+oldCapacity + (oldCapacity >> 1),即<mark style="background: #FF5582A6;">1.5倍</mark>
+扩容操作要调用Arrays.copyOf()方法，复制整个数组到新数组，这个操作代价很高，因此，最好创建ArrayList对象时就指定容量大小，减少扩容次数
+
+删除元素：
+要移动后面的元素，代价很高
+
+Fail-Fast:
+modCount用来记录ArrayList结构发生变化的次数。结构发生变化是指<mark style="background: #FF5582A6;">添加</mark>或者<mark style="background: #FF5582A6;">删除</mark>至少一个元素的所有操作，或者调整内部数组的<mark style="background: #FF5582A6;">大小</mark>，仅仅是设置元素的值不算结构发生变化
+进行序列化或者迭代操作时，需要比较操作前后modCount是否改变，如果改变了需要抛出ConcurrentModificationException异常
+
+Vector：
+使用了synchronized同步，每次扩容为<mark style="background: #FF5582A6;">2倍</mark>
+
+替代方案：
+1. 可以使用Collections.synchronizedList()得到一个线程安全的ArrayList
+2. concurrent并发包下的CopyOnWriteArrayList
+
+### CopyOnWriteArrayList
+读写分离，互不影响，写操作在一个复制的数组上进行，读操作还是在原来的数组中进行
+
+写操作需要加锁，防止并发写入时导致写入数据丢失，写操作结束后需要把原始数组指向新的复制数组
+
+适用场景：
+读多写少的应用场景
+
+缺点：
+1. 内存占用：复制数组，2倍左右
+2. 数据不一致：读操作不能读取实时性数据，因为部分写操作还未同步到读数组中
+所有不适合内存敏感以及对实时性要求高的场景
+
+### LinkedList
+基于双向链表实现
+
+
+### HashMap
+
+
 
 
 # 3.IO
