@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#JMM",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -180,7 +180,7 @@
       "cmdr:左右分屏": false
     }
   },
-  "active": "17c592c7bf99ba3a",
+  "active": "435d8e411d59a363",
   "lastOpenFiles": [
     "码农笔记/02-并发编程/并发编程专题-图灵三期.md",
     "附件素材/码农/并发编程之JMM&synchronized&volatile详解.pdf",
