@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/02-并发编程/并发编程——汇总.md",
+                "file": "码农笔记/07-互联网工具/IDEA.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27bd2d01898185c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/02-并发编程/并发编程-马士兵.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -80,7 +92,7 @@
       {
         "id": "48afc631826f7b01",
         "type": "tabs",
-        "dimension": 64.9122807017544,
+        "dimension": 79.61264016309887,
         "children": [
           {
             "id": "435d8e411d59a363",
@@ -120,7 +132,7 @@
       {
         "id": "41111949b8b524e5",
         "type": "tabs",
-        "dimension": 35.08771929824561,
+        "dimension": 20.38735983690112,
         "children": [
           {
             "id": "c11aea843ae89c3d",
@@ -150,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/02-并发编程/并发编程——汇总.md",
+                "file": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/02-并发编程/并发编程——汇总.md",
+                "file": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -190,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/02-并发编程/并发编程——汇总.md"
+                "file": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
               }
             }
           },
@@ -227,13 +239,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4e86ba42471e9ec1",
+  "active": "ab8aabd820bed27e",
   "lastOpenFiles": [
-    "码农笔记/02-并发编程/并发编程-马士兵.md",
-    "码农笔记/02-并发编程/并发编程——汇总.md",
-    "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/02-并发编程/并发编程专题-图灵三期.md",
     "码农笔记/07-互联网工具/IDEA.md",
+    "码农笔记/02-并发编程/并发编程——汇总.md",
+    "码农笔记/02-并发编程/并发编程-马士兵.md",
+    "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf",
     "HomePage.md",
     "附件素材/码农/并发编程之JMM&synchronized&volatile详解.pdf",
