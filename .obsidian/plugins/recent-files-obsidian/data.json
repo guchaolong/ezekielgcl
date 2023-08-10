@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "JVM之 方法区、永久代、元空间三者的区别",
-      "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
-    },
-    {
       "basename": "并发编程专题-图灵三期",
       "path": "码农笔记/02-并发编程/并发编程专题-图灵三期.md"
     },
     {
-      "basename": "IDEA",
-      "path": "码农笔记/07-互联网工具/IDEA.md"
+      "basename": "并发编程之synchronized&Lock&AQS详解(1)",
+      "path": "附件素材/码农/并发编程之synchronized&Lock&AQS详解(1).pdf"
+    },
+    {
+      "basename": "并发编程之JMM&synchronized&volatile详解",
+      "path": "附件素材/码农/并发编程之JMM&synchronized&volatile详解.pdf"
     },
     {
       "basename": "并发编程——汇总",
@@ -21,20 +21,28 @@
       "path": "码农笔记/02-并发编程/并发编程-马士兵.md"
     },
     {
-      "basename": "二哥的 Java 进阶之路亮白版",
-      "path": "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf"
-    },
-    {
       "basename": "HomePage",
       "path": "HomePage.md"
     },
     {
-      "basename": "并发编程之JMM&synchronized&volatile详解",
-      "path": "附件素材/码农/并发编程之JMM&synchronized&volatile详解.pdf"
+      "basename": "2023-08-07-周一",
+      "path": "个人成长/日记/2023-08-07-周一.md"
     },
     {
-      "basename": "并发编程之synchronized&Lock&AQS详解(1)",
-      "path": "附件素材/码农/并发编程之synchronized&Lock&AQS详解(1).pdf"
+      "basename": "2023-08-10-周四",
+      "path": "个人成长/日记/2023-08-10-周四.md"
+    },
+    {
+      "basename": "JVM之 方法区、永久代、元空间三者的区别",
+      "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
+    },
+    {
+      "basename": "IDEA",
+      "path": "码农笔记/07-互联网工具/IDEA.md"
+    },
+    {
+      "basename": "二哥的 Java 进阶之路亮白版",
+      "path": "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf"
     },
     {
       "basename": "Java内存区域和内存模型（JMM）",
@@ -83,10 +91,6 @@
     {
       "basename": "二哥的 Java 进阶之路暗黑版",
       "path": "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf"
-    },
-    {
-      "basename": "2023-08-07-周一",
-      "path": "个人成长/日记/2023-08-07-周一.md"
     },
     {
       "basename": "Java开发手册",
