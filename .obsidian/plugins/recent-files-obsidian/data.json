@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "04-VIP-JVM垃圾收集器详解",
+      "path": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
+    },
+    {
+      "basename": "垃圾收集器",
+      "path": "码农笔记/00-Java基础/垃圾收集器.md"
+    },
+    {
+      "basename": "GC和GC Tuning",
+      "path": "码农笔记/00-Java基础/GC和GC Tuning.md"
+    },
+    {
+      "basename": "JVM之 方法区、永久代、元空间三者的区别",
+      "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
+      "basename": "并发编程——汇总",
+      "path": "码农笔记/02-并发编程/并发编程——汇总.md"
+    },
+    {
       "basename": "并发编程专题-图灵三期",
       "path": "码农笔记/02-并发编程/并发编程专题-图灵三期.md"
     },
@@ -13,16 +37,8 @@
       "path": "附件素材/码农/并发编程之JMM&synchronized&volatile详解.pdf"
     },
     {
-      "basename": "并发编程——汇总",
-      "path": "码农笔记/02-并发编程/并发编程——汇总.md"
-    },
-    {
       "basename": "并发编程-马士兵",
       "path": "码农笔记/02-并发编程/并发编程-马士兵.md"
-    },
-    {
-      "basename": "HomePage",
-      "path": "HomePage.md"
     },
     {
       "basename": "2023-08-07-周一",
@@ -31,10 +47,6 @@
     {
       "basename": "2023-08-10-周四",
       "path": "个人成长/日记/2023-08-10-周四.md"
-    },
-    {
-      "basename": "JVM之 方法区、永久代、元空间三者的区别",
-      "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
     },
     {
       "basename": "IDEA",
@@ -69,16 +81,8 @@
       "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
     },
     {
-      "basename": "垃圾收集器",
-      "path": "码农笔记/00-Java基础/垃圾收集器.md"
-    },
-    {
       "basename": "主内存与工作内存",
       "path": "码农笔记/00-Java基础/主内存与工作内存.md"
-    },
-    {
-      "basename": "GC和GC Tuning",
-      "path": "码农笔记/00-Java基础/GC和GC Tuning.md"
     },
     {
       "basename": "Java基础知识",
@@ -111,10 +115,6 @@
     {
       "basename": "RocketMQ",
       "path": "码农笔记/04-分布式框架/RocketMQ.md"
-    },
-    {
-      "basename": "04-VIP-JVM垃圾收集器详解",
-      "path": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
     },
     {
       "basename": "Docker",
