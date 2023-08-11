@@ -11,62 +11,11 @@
             "id": "8d3e2fcf4ebebde3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "932edfb5937a0ee2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d1f2c5afcd160f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/GC和GC Tuning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "faee5248341312f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/垃圾收集器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a84114f44a13f22b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -187,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -225,19 +170,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a84114f44a13f22b",
+  "active": "8d3e2fcf4ebebde3",
   "lastOpenFiles": [
-    "码农笔记/00-Java基础/垃圾收集器.md",
-    "码农笔记/00-Java基础/GC和GC Tuning.md",
-    "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
+    "个人成长/日记/2023-08-11-周五.md",
+    "个人成长/日记/2023-08-10-周四.md",
     "HomePage.md",
+    "附件素材/dataview/dataview.md",
+    "码农笔记/00-Java基础/GC和GC Tuning.md",
+    "码农笔记/00-Java基础/垃圾收集器.md",
+    "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
+    "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/02-并发编程/并发编程——汇总.md",
     "码农笔记/02-并发编程/并发编程专题-图灵三期.md",
     "附件素材/码农/并发编程之synchronized&Lock&AQS详解(1).pdf",
     "附件素材/码农/并发编程之JMM&synchronized&volatile详解.pdf",
     "码农笔记/02-并发编程/并发编程-马士兵.md",
     "个人成长/日记/2023-08-07-周一.md",
-    "个人成长/日记/2023-08-10-周四.md",
     "码农笔记/07-互联网工具/IDEA.md",
     "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf",
     "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
@@ -256,10 +204,8 @@
     "码农笔记/C-算法与数据结构/排序算法.md",
     "码农笔记/00-Java基础/java基础.md",
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
-    "码农笔记/00-Java基础/主内存与工作内存.md",
     "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
-    "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
     "附件素材/icons/Health & Medical/heart-fill.svg",
     "附件素材/icons/Finance/water-flash-line.svg",
     "附件素材/icons/Finance/water-flash-fill.svg",

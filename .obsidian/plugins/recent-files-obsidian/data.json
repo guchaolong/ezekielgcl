@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "04-VIP-JVM垃圾收集器详解",
-      "path": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
+      "basename": "2023-08-11-周五",
+      "path": "个人成长/日记/2023-08-11-周五.md"
     },
     {
-      "basename": "垃圾收集器",
-      "path": "码农笔记/00-Java基础/垃圾收集器.md"
+      "basename": "2023-08-10-周四",
+      "path": "个人成长/日记/2023-08-10-周四.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
+      "basename": "dataview",
+      "path": "附件素材/dataview/dataview.md"
     },
     {
       "basename": "GC和GC Tuning",
       "path": "码农笔记/00-Java基础/GC和GC Tuning.md"
     },
     {
-      "basename": "JVM之 方法区、永久代、元空间三者的区别",
-      "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
+      "basename": "垃圾收集器",
+      "path": "码农笔记/00-Java基础/垃圾收集器.md"
     },
     {
-      "basename": "HomePage",
-      "path": "HomePage.md"
+      "basename": "04-VIP-JVM垃圾收集器详解",
+      "path": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
+    },
+    {
+      "basename": "JVM之 方法区、永久代、元空间三者的区别",
+      "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
     },
     {
       "basename": "并发编程——汇总",
@@ -43,10 +55,6 @@
     {
       "basename": "2023-08-07-周一",
       "path": "个人成长/日记/2023-08-07-周一.md"
-    },
-    {
-      "basename": "2023-08-10-周四",
-      "path": "个人成长/日记/2023-08-10-周四.md"
     },
     {
       "basename": "IDEA",
@@ -175,10 +183,6 @@
     {
       "basename": "程序员的未来：工作和学习都要依赖AI了？",
       "path": "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md"
-    },
-    {
-      "basename": "dataview",
-      "path": "附件素材/dataview/dataview.md"
     },
     {
       "basename": "index-码农笔记",
