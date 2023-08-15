@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "JVM——类加载过程",
-      "path": "码农笔记/00-Java基础/JVM——类加载过程.md"
+      "basename": "问题汇总",
+      "path": "码农笔记/Z-面试/问题汇总.md"
+    },
+    {
+      "basename": "宽带 网速 光猫 路由器 网速 ......",
+      "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
+    },
+    {
+      "basename": "JVM基础——马士兵",
+      "path": "码农笔记/00-Java基础/JVM基础——马士兵.md"
+    },
+    {
+      "basename": "Java开发手册",
+      "path": "码农笔记/00-Java基础/Java开发手册.md"
+    },
+    {
+      "basename": "JVM之 类加载过程",
+      "path": "码农笔记/00-Java基础/JVM之 类加载过程.md"
+    },
+    {
+      "basename": "Java内存区域和内存模型（JMM）",
+      "path": "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md"
     },
     {
       "basename": "java基础",
@@ -15,10 +35,6 @@
     {
       "basename": "JVM之 方法区、永久代、元空间三者的区别",
       "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
-    },
-    {
-      "basename": "JVM基础",
-      "path": "码农笔记/00-Java基础/JVM基础.md"
     },
     {
       "basename": "IO、NIO、AIO、Netty",
@@ -67,10 +83,6 @@
     {
       "basename": "Git总结",
       "path": "码农笔记/07-互联网工具/Git总结.md"
-    },
-    {
-      "basename": "Java开发手册",
-      "path": "码农笔记/00-Java基础/Java开发手册.md"
     },
     {
       "basename": "2023-08-13-周日",
@@ -149,10 +161,6 @@
       "path": "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf"
     },
     {
-      "basename": "Java内存区域和内存模型（JMM）",
-      "path": "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md"
-    },
-    {
       "basename": "Win------DIY PC",
       "path": "Everything/Win------DIY PC.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Spring bean的生命周期",
       "path": "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md"
-    },
-    {
-      "basename": "楚门的世界 The Truman Show",
-      "path": "个人成长/电影/楚门的世界 The Truman Show.md"
-    },
-    {
-      "basename": "时间从来不语，却回答了所有问题",
-      "path": "个人成长/阅读/时间从来不语，却回答了所有问题.md"
     }
   ],
   "omittedPaths": [],

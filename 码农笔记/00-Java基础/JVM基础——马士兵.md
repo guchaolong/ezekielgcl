@@ -37,6 +37,9 @@ hotspot从8开始，不再支持免费升级了，要进行收费了
 `javap`是jdk自带的反解析工具。它的作用就是根据class字节码文件，反解析出当前类对应的code区（汇编指令）、本地变量表、异常表和代码行偏移量映射表、常量池等等信息。
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1682019838056-588da14f-bd76-405a-878d-3ce69d590eae.png#averageHue=%23303030&clientId=u70bc0c89-c77e-4&from=paste&height=362&id=u0d40baa7&originHeight=724&originWidth=1727&originalType=binary&ratio=2&rotation=0&showTitle=false&size=158293&status=done&style=none&taskId=uf43e51a9-cb78-4f17-84f7-1807298ed2b&title=&width=863.5)
 
+
+Class文件结构采用类似C语言的结构体来存储数据的，主要有两类数据项，<mark style="background: #FF5582A6;">无符号数</mark>和<mark style="background: #FF5582A6;">表</mark>，无符号数用来表述数字，索引引用以及字符串等，比如 u1，u2，u4，u8分别代表1个字节，2个字节，4个字节，8个字节的无符号数，而表是有多个无符号数以及其它的表组成的复合结构，习惯地以_info结尾。表用于描述有层次关系的符合结构的数据，整个Class文件本质上就是一张表
+
 Java虚拟机规定用u1、u2、u4三种数据结构来表示1、2、4字节无符号整数，相同类型的若干条数据集合用表（table）的形式来存储。
 ```c
 classFile{
@@ -153,21 +156,18 @@ attributes_count、attribute_info表示属性的个数和属性集合。
    2. 准备preparation
    3. 解析resolution
 > 验证verification：验证文件是否符合JVM规定，看是否符合class文件的标准，魔数，CA FE BA BE
+> 
 > 准备preparation：为静态变量赋默认值，如：static int num = 5; 这里将int设置为0，5的值会在初始化时赋值，对于final static修饰的变量，编译阶段就分配了
+> 
 > 解析：将类、方法、属性等符号引用解析为直接引用，常量池中的各种符号引用解析为指针、偏移量等内存地址的直接引用
 
 3. 初始化initializing
-4. 使用
-5. 卸载
+   > 
+5. 使用
+6. 卸载
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1682023718065-217aaea8-3aa1-433c-9ac5-5cc45043683c.png#averageHue=%230b0d0a&clientId=u70bc0c89-c77e-4&from=paste&height=359&id=u1581385d&originHeight=718&originWidth=1674&originalType=binary&ratio=2&rotation=0&showTitle=false&size=949796&status=done&style=none&taskId=ue6394e1e-3655-44b8-8f8d-c47bd2d1a47&title=&width=837)
-> 验证verification：验证文件是否符合JVM规定，看是否符合class文件的标准，魔数，CA FE BA BE
-> 
-> 准备preparation：为静态变量赋默认值，如：static int num = 5; 这里将int设置为0，5的值会在初始化时赋值，对于final static修饰的变量，编译阶段就分配了
-> 
-> 解析：将类、方法、属性等符号引用解析为直接引用，常量池中的各种符号引用解析为指针、偏移量等内存地址的直接引用
-> 
-> 初始化：调用类的初始化代码<clinit>，给静态成员变量赋初始值
+
 
 
 ```bash
