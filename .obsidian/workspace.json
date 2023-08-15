@@ -4,71 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "237d75b5ecd5e4c0",
+        "id": "8820b9a05ce0708a",
         "type": "tabs",
         "children": [
           {
-            "id": "8d3e2fcf4ebebde3",
+            "id": "1b17d3c534a95200",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人成长/日记/2023-08-12-周六.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "eb0ce70a072d98b4",
+            "id": "7fa7ea5ccb339e60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人成长/日记/日记-Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "117a9f0dbddf208b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HomePage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4061d0fd6b500394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/E-Docker/Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e0d697ef22495d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index/index-日记.md",
-                "mode": "source",
+                "file": "码农笔记/D-Linux/Mac zsh Item2命令.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:(\"码农笔记/00-Java基础\")",
+                "query": "tag:iTerm2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -150,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/E-Docker/Docker.md",
+                "file": "码农笔记/D-Linux/Mac zsh Item2命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/E-Docker/Docker.md",
+                "file": "码农笔记/D-Linux/Mac zsh Item2命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -190,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/E-Docker/Docker.md"
+                "file": "码农笔记/D-Linux/Mac zsh Item2命令.md"
               }
             }
           },
@@ -227,9 +187,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4061d0fd6b500394",
+  "active": "435d8e411d59a363",
   "lastOpenFiles": [
     "HomePage.md",
+    "码农笔记/D-Linux/Kali Linux.md",
+    "码农笔记/D-Linux/速学150个Linux常用命令.md",
+    "码农笔记/C-算法与数据结构/常用算法.md",
+    "码农笔记/B-设计模式/23个设计模式总结.md",
+    "码农笔记/07-互联网工具/Git总结.md",
+    "码农笔记/00-Java基础/Java开发手册.md",
+    "个人成长/日记/2023-08-13-周日.md",
+    "码农笔记/E-Docker/Docker.md",
     "Index/index-日记.md",
     "个人成长/日记/日记-Template.md",
     "个人成长/日记/2023-08-12-周六.md",
@@ -251,15 +219,7 @@
     "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf",
     "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
     "Everything/Win------DIY PC.md",
-    "码农笔记/00-Java基础/JVM基础.md",
-    "Excalidraw/Drawing 2023-08-07 00.13.09.excalidraw.md",
-    "码农笔记/02-并发编程/2、synchronized&Lock&AQS详解(1).md",
-    "码农笔记/02-并发编程/8、定时任务&定时线程池.md",
-    "码农笔记/02-并发编程/7、Future&Fork&Join框架原理分析.md",
     "附件素材/码农/并发编程之Executor线程池原理与源码解读.pdf",
-    "码农笔记/02-并发编程/6、Executor线程池原理与源码解读.md",
-    "码农笔记/02-并发编程/5、HashMap、红黑树.md",
-    "码农笔记/02-并发编程/4、Atomic&Unsafe魔法类详解.md",
     "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf",
     "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",

@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Docker",
-      "path": "码农笔记/E-Docker/Docker.md"
+      "basename": "Mac zsh Item2命令",
+      "path": "码农笔记/D-Linux/Mac zsh Item2命令.md"
     },
     {
       "basename": "HomePage",
       "path": "HomePage.md"
+    },
+    {
+      "basename": "Kali Linux",
+      "path": "码农笔记/D-Linux/Kali Linux.md"
+    },
+    {
+      "basename": "速学150个Linux常用命令",
+      "path": "码农笔记/D-Linux/速学150个Linux常用命令.md"
+    },
+    {
+      "basename": "常用算法",
+      "path": "码农笔记/C-算法与数据结构/常用算法.md"
+    },
+    {
+      "basename": "23个设计模式总结",
+      "path": "码农笔记/B-设计模式/23个设计模式总结.md"
+    },
+    {
+      "basename": "Git总结",
+      "path": "码农笔记/07-互联网工具/Git总结.md"
+    },
+    {
+      "basename": "Java开发手册",
+      "path": "码农笔记/00-Java基础/Java开发手册.md"
+    },
+    {
+      "basename": "2023-08-13-周日",
+      "path": "个人成长/日记/2023-08-13-周日.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "码农笔记/E-Docker/Docker.md"
     },
     {
       "basename": "index-日记",
@@ -125,10 +157,6 @@
       "path": "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf"
     },
     {
-      "basename": "Java开发手册",
-      "path": "码农笔记/00-Java基础/Java开发手册.md"
-    },
-    {
       "basename": "项目架构演变",
       "path": "码农笔记/06-项目实战/项目架构演变.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Markdown语法",
       "path": "Everything/Markdown语法.md"
-    },
-    {
-      "basename": "起名",
-      "path": "Everything/起名.md"
-    },
-    {
-      "basename": "宽带 网速 光猫 路由器 网速 ......",
-      "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
-    },
-    {
-      "basename": "Obsidian折腾记录",
-      "path": "Everything/Obsidian折腾记录.md"
-    },
-    {
-      "basename": "Win------装机必备软件",
-      "path": "Everything/Win------装机必备软件.md"
-    },
-    {
-      "basename": "index-阅读清单",
-      "path": "Index/index-阅读清单.md"
-    },
-    {
-      "basename": "程序员的未来：工作和学习都要依赖AI了？",
-      "path": "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md"
-    },
-    {
-      "basename": "index-码农笔记",
-      "path": "Index/index-码农笔记.md"
     }
   ],
   "omittedPaths": [],
