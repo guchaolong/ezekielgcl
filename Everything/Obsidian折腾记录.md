@@ -188,6 +188,9 @@ markdown语法中，换行是两个空格+回车
 
 quick add添加码农笔记的命令：`cmd + insert `
 
+插入代码块，复制进去后没有缩进怎么办？`cmd + shift + v`
+
+
 
 
 # 语法

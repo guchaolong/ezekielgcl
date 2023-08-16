@@ -4,11 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "12e8da91d5b9804d",
+        "id": "4d26cc3bb78a76c7",
         "type": "tabs",
         "children": [
           {
-            "id": "87166a1fdd0f91a0",
+            "id": "485b6714c9fbd331",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf"
+              }
+            }
+          },
+          {
+            "id": "9d80cd3c17c7de84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/H-计算机网络/计算机网络.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a90dc0c4d69f7dc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +40,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2ee1b71331bc0f47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/C-算法与数据结构/数据结构基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e71134de5f3597e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d12d093da54bf607",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/C-算法与数据结构/排序算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "388b78e9e911d9cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/C-算法与数据结构/常用算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4e8d8c914617308",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/C-算法与数据结构/小技巧.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 376.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -101,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/C-算法与数据结构/数据结构介绍.md",
+                "file": "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/C-算法与数据结构/数据结构介绍.md",
+                "file": "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -141,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/C-算法与数据结构/数据结构介绍.md"
+                "file": "码农笔记/C-算法与数据结构/左神算法视频笔记.md"
               }
             }
           },
@@ -178,13 +261,32 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "87166a1fdd0f91a0",
+  "active": "e71134de5f3597e5",
   "lastOpenFiles": [
+    "码农笔记/C-算法与数据结构/排序算法.md",
+    "码农笔记/C-算法与数据结构/数据结构介绍.md",
+    "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
+    "码农笔记/C-算法与数据结构/数据结构基础.md",
+    "Everything/Obsidian折腾记录.md",
+    "Everything/宽带 网速 光猫 路由器 网速 .......md",
+    "Everything/Markdown语法.md",
+    "md/algorithm/alg-basic-overview.html.md",
+    "md/algorithm",
+    "md",
+    "码农笔记/C-算法与数据结构/常用算法.md",
+    "码农笔记/C-算法与数据结构/小技巧.md",
+    "码农笔记/H-计算机网络/计算机网络.md",
+    "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf",
+    "附件素材/码农/数据结构.xmind",
+    "H-计算机网路",
+    "码农笔记/H-计算机网络",
+    "附件素材/dataview/dataview.md",
+    "技能点/Ps.md",
+    "码农笔记/D-Linux/Mac zsh Item2命令.md",
     "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
     "码农笔记/00-Java基础/垃圾收集器.md",
     "码农笔记/00-Java基础/java基础.md",
     "码农笔记/Z-面试/问题汇总.md",
-    "Everything/宽带 网速 光猫 路由器 网速 .......md",
     "码农笔记/00-Java基础/JVM基础——马士兵.md",
     "码农笔记/00-Java基础/Java开发手册.md",
     "码农笔记/00-Java基础/JVM之 类加载过程.md",
@@ -194,25 +296,9 @@
     "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
     "码农笔记/00-Java基础/主内存与工作内存.md",
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
-    "码农笔记/B-设计模式/23个设计模式总结.md",
-    "HomePage.md",
-    "个人成长/日记/2023-08-15-周二.md",
-    "码农笔记/D-Linux/Kali Linux.md",
-    "码农笔记/D-Linux/速学150个Linux常用命令.md",
-    "码农笔记/C-算法与数据结构/常用算法.md",
-    "码农笔记/07-互联网工具/Git总结.md",
-    "个人成长/日记/2023-08-13-周日.md",
-    "码农笔记/E-Docker/Docker.md",
-    "Index/index-日记.md",
-    "个人成长/日记/日记-Template.md",
-    "个人成长/日记/2023-08-12-周六.md",
     "附件素材/码农/并发编程之synchronized&Lock&AQS详解(1).pdf",
     "附件素材/码农/并发编程之JMM&synchronized&volatile详解.pdf",
     "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf",
-    "附件素材/码农/并发编程之Executor线程池原理与源码解读.pdf",
-    "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf",
-    "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
-    "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "附件素材/icons/Health & Medical/heart-fill.svg",
     "附件素材/icons/Finance/water-flash-line.svg",
     "附件素材/icons/Finance/water-flash-fill.svg",
@@ -223,8 +309,6 @@
     "附件素材/icons/Finance/wallet-2-line.svg",
     "附件素材/icons/Finance/wallet-2-fill.svg",
     "附件素材/icons/Finance/vip-line.svg",
-    "附件素材/icons/Finance",
-    "附件素材/icons/Weather",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"

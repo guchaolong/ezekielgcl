@@ -15,12 +15,12 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 3 验证：
-```shell
+```zsh
 brew -v
 brew install tree
 ```
 4 切换到bash后，提示-bash: brew: command not found，执行：
-```shell
+```zsh
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
@@ -28,7 +28,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew安装完成后，brew-cask也会随着自动安装，并不需要手动重新安装brew-cask
 
 6 使用
-```shell
+```zsh
 brew update              # 更新brew软件自身
 
 brew list                # 列出本机通过brew安装的所有软件
@@ -69,7 +69,7 @@ export HOMEBREW_NO_INSTALL_CLEANU=TRUE  防止自动清理
 删除系统现有的CommandLineTools：`sudo rm -rf /Library/Developer/CommandLineTools`
 
 # 装X命令
-```shell
+```zsh
 蒸汽火车
 brew install sl
 sl
@@ -114,7 +114,7 @@ top
 # find 查找
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1689270934310-3b83c7a7-2e7d-4585-9147-8898988a0674.png#averageHue=%230f313a&clientId=u5089caa5-8bdf-4&from=paste&height=169&id=u12b32f54&originHeight=162&originWidth=593&originalType=binary&ratio=2&rotation=0&showTitle=false&size=64643&status=done&style=none&taskId=udee89a11-7e32-481e-b1de-d34fbca1691&title=&width=617.5)
 macos下，根据 name 查询，如果有通配符，要在‘’内
-```markdown
+```zsh
 find . -name '*.log'|grep hello	当前目录及子目录下，查找后缀为log且文件中包含hello字样的文件
 find ./ -name f2.txt			当前目录下查找名称为f2.txt的文件
 find / -user zeki				根目录下查找属于zeki这个用户的文件

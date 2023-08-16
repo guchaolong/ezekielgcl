@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "左神算法视频笔记",
+      "path": "码农笔记/C-算法与数据结构/左神算法视频笔记.md"
+    },
+    {
+      "basename": "排序算法",
+      "path": "码农笔记/C-算法与数据结构/排序算法.md"
+    },
+    {
       "basename": "数据结构介绍",
       "path": "码农笔记/C-算法与数据结构/数据结构介绍.md"
+    },
+    {
+      "basename": "数据结构基础",
+      "path": "码农笔记/C-算法与数据结构/数据结构基础.md"
+    },
+    {
+      "basename": "Obsidian折腾记录",
+      "path": "Everything/Obsidian折腾记录.md"
+    },
+    {
+      "basename": "常用算法",
+      "path": "码农笔记/C-算法与数据结构/常用算法.md"
+    },
+    {
+      "basename": "小技巧",
+      "path": "码农笔记/C-算法与数据结构/小技巧.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "码农笔记/H-计算机网络/计算机网络.md"
+    },
+    {
+      "basename": "并发编程之Tools&CountDownLatch&Semaphore原理与应用",
+      "path": "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf"
+    },
+    {
+      "basename": "dataview",
+      "path": "附件素材/dataview/dataview.md"
+    },
+    {
+      "basename": "Ps",
+      "path": "技能点/Ps.md"
+    },
+    {
+      "basename": "Mac zsh Item2命令",
+      "path": "码农笔记/D-Linux/Mac zsh Item2命令.md"
     },
     {
       "basename": "04-VIP-JVM垃圾收集器详解",
@@ -73,20 +117,12 @@
       "path": "个人成长/日记/2023-08-15-周二.md"
     },
     {
-      "basename": "Mac zsh Item2命令",
-      "path": "码农笔记/D-Linux/Mac zsh Item2命令.md"
-    },
-    {
       "basename": "Kali Linux",
       "path": "码农笔记/D-Linux/Kali Linux.md"
     },
     {
       "basename": "速学150个Linux常用命令",
       "path": "码农笔记/D-Linux/速学150个Linux常用命令.md"
-    },
-    {
-      "basename": "常用算法",
-      "path": "码农笔记/C-算法与数据结构/常用算法.md"
     },
     {
       "basename": "Git总结",
@@ -123,10 +159,6 @@
     {
       "basename": "2023-08-10-周四",
       "path": "个人成长/日记/2023-08-10-周四.md"
-    },
-    {
-      "basename": "dataview",
-      "path": "附件素材/dataview/dataview.md"
     },
     {
       "basename": "GC和GC Tuning",
@@ -167,38 +199,6 @@
     {
       "basename": "Win------DIY PC",
       "path": "Everything/Win------DIY PC.md"
-    },
-    {
-      "basename": "排序算法",
-      "path": "码农笔记/C-算法与数据结构/排序算法.md"
-    },
-    {
-      "basename": "GitHub 上标星 115k+ 的 Java 教程",
-      "path": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
-    },
-    {
-      "basename": "二哥的 Java 进阶之路暗黑版",
-      "path": "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf"
-    },
-    {
-      "basename": "项目架构演变",
-      "path": "码农笔记/06-项目实战/项目架构演变.md"
-    },
-    {
-      "basename": "链式处理",
-      "path": "码农笔记/06-项目实战/链式处理.md"
-    },
-    {
-      "basename": "超简单的6种防止数据重复提交的方法",
-      "path": "码农笔记/06-项目实战/超简单的6种防止数据重复提交的方法.md"
-    },
-    {
-      "basename": "RocketMQ",
-      "path": "码农笔记/04-分布式框架/RocketMQ.md"
-    },
-    {
-      "basename": "2023-08-06-周日",
-      "path": "个人成长/日记/2023-08-06-周日.md"
     }
   ],
   "omittedPaths": [],
