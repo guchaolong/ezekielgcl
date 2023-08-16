@@ -4,199 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8820b9a05ce0708a",
+        "id": "12e8da91d5b9804d",
         "type": "tabs",
         "children": [
           {
-            "id": "1b17d3c534a95200",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "7fa7ea5ccb339e60",
+            "id": "87166a1fdd0f91a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人成长/日记/2023-08-15-周二.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1268ff755c7ca79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/B-设计模式/23个设计模式总结.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "322fb45055805414",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a605f97dba86ab3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/垃圾收集器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94d6ee30ba28522c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/主内存与工作内存.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4ccae28651964a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a955764d2ac7b718",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/JVM基础——马士兵.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c36f395db16e02cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/宽带 网速 光猫 路由器 网速 .......md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4688ca40989abe89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/Z-面试/问题汇总.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0c3a3131995c430",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/Java开发手册.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b30d06e23f9ba902",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec938387e5849465",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/JVM之 类加载过程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed4d9056bce4324b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08048354927f8d90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/Java基础知识.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fe0057eaa250180",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/java基础.md",
+                "file": "码农笔记/C-算法与数据结构/数据结构介绍.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -278,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/Z-面试/问题汇总.md",
+                "file": "码农笔记/C-算法与数据结构/数据结构介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/Z-面试/问题汇总.md",
+                "file": "码农笔记/C-算法与数据结构/数据结构介绍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -318,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/Z-面试/问题汇总.md"
+                "file": "码农笔记/C-算法与数据结构/数据结构介绍.md"
               }
             }
           },
@@ -355,19 +178,21 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4688ca40989abe89",
+  "active": "87166a1fdd0f91a0",
   "lastOpenFiles": [
+    "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
+    "码农笔记/00-Java基础/垃圾收集器.md",
+    "码农笔记/00-Java基础/java基础.md",
+    "码农笔记/Z-面试/问题汇总.md",
     "Everything/宽带 网速 光猫 路由器 网速 .......md",
     "码农笔记/00-Java基础/JVM基础——马士兵.md",
     "码农笔记/00-Java基础/Java开发手册.md",
     "码农笔记/00-Java基础/JVM之 类加载过程.md",
     "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
-    "码农笔记/00-Java基础/java基础.md",
     "码农笔记/00-Java基础/Java基础知识.md",
     "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
     "码农笔记/00-Java基础/主内存与工作内存.md",
-    "码农笔记/00-Java基础/垃圾收集器.md",
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
     "码农笔记/B-设计模式/23个设计模式总结.md",
     "HomePage.md",
@@ -381,9 +206,6 @@
     "Index/index-日记.md",
     "个人成长/日记/日记-Template.md",
     "个人成长/日记/2023-08-12-周六.md",
-    "Everything/Mac------工欲善其事 必先利其器.md",
-    "个人成长/日记/2023-08-11-周五.md",
-    "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf",
     "附件素材/码农/并发编程之synchronized&Lock&AQS详解(1).pdf",
     "附件素材/码农/并发编程之JMM&synchronized&volatile详解.pdf",
     "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf",
