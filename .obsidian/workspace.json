@@ -4,57 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4d26cc3bb78a76c7",
+        "id": "bd506a278920b691",
         "type": "tabs",
         "children": [
           {
-            "id": "485b6714c9fbd331",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf"
-              }
-            }
-          },
-          {
-            "id": "9d80cd3c17c7de84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H-计算机网络/计算机网络.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a90dc0c4d69f7dc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/C-算法与数据结构/数据结构介绍.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ee1b71331bc0f47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/C-算法与数据结构/数据结构基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e71134de5f3597e5",
+            "id": "821122a045ce66e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d12d093da54bf607",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/C-算法与数据结构/排序算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "388b78e9e911d9cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/C-算法与数据结构/常用算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4e8d8c914617308",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/C-算法与数据结构/小技巧.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -261,10 +178,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e71134de5f3597e5",
+  "active": "435d8e411d59a363",
   "lastOpenFiles": [
-    "码农笔记/C-算法与数据结构/排序算法.md",
     "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
+    "码农笔记/C-算法与数据结构/排序算法.md",
     "码农笔记/C-算法与数据结构/数据结构介绍.md",
     "码农笔记/C-算法与数据结构/数据结构基础.md",
     "Everything/Obsidian折腾记录.md",
