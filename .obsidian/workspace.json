@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "09f3e0d3205ff4b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/C-算法与数据结构/数据结构介绍.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09e1cfb3c0a156c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/C-算法与数据结构/数据结构基础.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "77360cf612cd8372",
             "type": "leaf",
             "state": {
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
+                "file": "码农笔记/C-算法与数据结构/数据结构基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
+                "file": "码农笔记/C-算法与数据结构/数据结构基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/C-算法与数据结构/左神算法视频笔记.md"
+                "file": "码农笔记/C-算法与数据结构/数据结构基础.md"
               }
             }
           },
@@ -190,13 +215,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "821122a045ce66e1",
+  "active": "09e1cfb3c0a156c3",
   "lastOpenFiles": [
-    "码农笔记/07-互联网工具/IDEA.md",
+    "码农笔记/C-算法与数据结构/数据结构介绍.md",
     "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
+    "码农笔记/07-互联网工具/IDEA.md",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "码农笔记/C-算法与数据结构/排序算法.md",
-    "码农笔记/C-算法与数据结构/数据结构介绍.md",
     "码农笔记/C-算法与数据结构/数据结构基础.md",
     "Everything/Obsidian折腾记录.md",
     "Everything/宽带 网速 光猫 路由器 网速 .......md",
