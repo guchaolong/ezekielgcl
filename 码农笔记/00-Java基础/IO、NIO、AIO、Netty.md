@@ -618,7 +618,11 @@ epoll是在内核中开辟空间
 
 ## Netty 核心组件
 
-1. **Bootstrap、ServerBootstrap**
+核心代码其实就这3处，然后自己写NettyServerHandler
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230822032703.png)
+
+
+1. **Bootstrap（客户端）、ServerBootstrap（服务端）**
 
    > 一个 Netty 应用通常由一个 Bootstrap 开始，主要作用是**配置**整个 Netty 程序，**串联各个组件**，Netty 中 ```Bootstrap``` 类是客户端程序的**启动引导类**，```ServerBootstrap``` 是服务端**启动引导类**
 

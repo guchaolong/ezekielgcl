@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "复习计划",
+      "path": "码农笔记/Z-面试/复习计划.md"
+    },
+    {
+      "basename": "问题汇总",
+      "path": "码农笔记/Z-面试/问题汇总.md"
+    },
+    {
+      "basename": "23个设计模式总结",
+      "path": "码农笔记/B-设计模式/23个设计模式总结.md"
+    },
+    {
+      "basename": "Netty教程",
+      "path": "码农笔记/F-Netty/Netty教程.md"
+    },
+    {
       "basename": "IO、NIO、AIO、Netty",
       "path": "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md"
     },
@@ -35,10 +51,6 @@
     {
       "basename": "起名",
       "path": "Everything/起名.md"
-    },
-    {
-      "basename": "23个设计模式总结",
-      "path": "码农笔记/B-设计模式/23个设计模式总结.md"
     },
     {
       "basename": "左神算法视频笔记",
@@ -99,10 +111,6 @@
     {
       "basename": "java基础",
       "path": "码农笔记/00-Java基础/java基础.md"
-    },
-    {
-      "basename": "问题汇总",
-      "path": "码农笔记/Z-面试/问题汇总.md"
     },
     {
       "basename": "宽带 网速 光猫 路由器 网速 ......",
@@ -191,10 +199,6 @@
     {
       "basename": "GC和GC Tuning",
       "path": "码农笔记/00-Java基础/GC和GC Tuning.md"
-    },
-    {
-      "basename": "并发编程——汇总",
-      "path": "码农笔记/02-并发编程/并发编程——汇总.md"
     }
   ],
   "omittedPaths": [],
