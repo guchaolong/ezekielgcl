@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "IO、NIO、AIO、Netty",
+      "path": "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md"
+    },
+    {
+      "basename": "mysql梳理",
+      "path": "码农笔记/A-数据库/mysql梳理.md"
+    },
+    {
       "basename": "Hash索引",
       "path": "码农笔记/A-数据库/Hash索引.md"
     },
@@ -101,10 +109,6 @@
       "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
     },
     {
-      "basename": "IO、NIO、AIO、Netty",
-      "path": "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md"
-    },
-    {
       "basename": "主内存与工作内存",
       "path": "码农笔记/00-Java基础/主内存与工作内存.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2023-08-07-周一",
       "path": "个人成长/日记/2023-08-07-周一.md"
-    },
-    {
-      "basename": "二哥的 Java 进阶之路亮白版",
-      "path": "附件素材/码农/二哥的 Java 进阶之路亮白版.pdf"
     }
   ],
   "omittedPaths": [],
