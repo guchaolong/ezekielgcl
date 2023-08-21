@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
+      "basename": "楚门的世界 The Truman Show",
+      "path": "个人成长/电影/楚门的世界 The Truman Show.md"
+    },
+    {
+      "basename": "2023-08-21-周一",
+      "path": "个人成长/日记/2023-08-21-周一.md"
+    },
+    {
+      "basename": "海蒂和爷爷 Heidi",
+      "path": "个人成长/电影/海蒂和爷爷 Heidi.md"
+    },
+    {
+      "basename": "Ps",
+      "path": "技能点/Ps.md"
+    },
+    {
+      "basename": "起名",
+      "path": "Everything/起名.md"
+    },
+    {
+      "basename": "23个设计模式总结",
+      "path": "码农笔记/B-设计模式/23个设计模式总结.md"
+    },
+    {
       "basename": "IO、NIO、AIO、Netty",
       "path": "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md"
     },
@@ -57,10 +85,6 @@
       "path": "附件素材/dataview/dataview.md"
     },
     {
-      "basename": "Ps",
-      "path": "技能点/Ps.md"
-    },
-    {
       "basename": "Mac zsh Item2命令",
       "path": "码农笔记/D-Linux/Mac zsh Item2命令.md"
     },
@@ -115,14 +139,6 @@
     {
       "basename": "二进制、原码、反码、补码",
       "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
-    },
-    {
-      "basename": "23个设计模式总结",
-      "path": "码农笔记/B-设计模式/23个设计模式总结.md"
-    },
-    {
-      "basename": "HomePage",
-      "path": "HomePage.md"
     },
     {
       "basename": "2023-08-15-周二",
@@ -183,22 +199,6 @@
     {
       "basename": "并发编程专题-图灵三期",
       "path": "码农笔记/02-并发编程/并发编程专题-图灵三期.md"
-    },
-    {
-      "basename": "并发编程之synchronized&Lock&AQS详解(1)",
-      "path": "附件素材/码农/并发编程之synchronized&Lock&AQS详解(1).pdf"
-    },
-    {
-      "basename": "并发编程之JMM&synchronized&volatile详解",
-      "path": "附件素材/码农/并发编程之JMM&synchronized&volatile详解.pdf"
-    },
-    {
-      "basename": "并发编程-马士兵",
-      "path": "码农笔记/02-并发编程/并发编程-马士兵.md"
-    },
-    {
-      "basename": "2023-08-07-周一",
-      "path": "个人成长/日记/2023-08-07-周一.md"
     }
   ],
   "omittedPaths": [],

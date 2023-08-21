@@ -3,7 +3,7 @@
   "search": "",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -95,14 +95,14 @@
       "query": "path:码农笔记/E-Docker",
       "color": {
         "a": 1,
-        "rgb": 6053078
+        "rgb": 14062428
       }
     },
     {
       "query": "path:码农笔记/Y-前端",
       "color": {
         "a": 1,
-        "rgb": 6053037
+        "rgb": 11544250
       }
     },
     {
@@ -115,14 +115,14 @@
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1,
-  "nodeSizeMultiplier": 0.827742513020833,
-  "lineSizeMultiplier": 0.761831507731959,
+  "textFadeMultiplier": -1.8,
+  "nodeSizeMultiplier": 0.995621744791667,
+  "lineSizeMultiplier": 1.0031982421875,
   "collapse-forces": false,
-  "centerStrength": 0.67529296875,
+  "centerStrength": 0.677164713541667,
   "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 53,
-  "scale": 0.1899698591271522,
+  "linkDistance": 131,
+  "scale": 0.186735768004184,
   "close": true
 }
