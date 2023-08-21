@@ -21,7 +21,6 @@ tags:
 [JDK10都发布了，nio你了解多少？](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484235&idx=1&sn=4c3b6d13335245d4de1864672ea96256&chksm=ebd7424adca0cb5cb26eb51bca6542ab816388cf245d071b74891dd3f598ccd825f8611ca20c&scene=21#wechat_redirect)
 
 
-
 # kernel
 
 > 操作系统内核
@@ -57,31 +56,20 @@ tags:
 
 I/O就是 数据从**内核空间**到**用户空间** 的相互拷贝
 
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230822012933.png)
 
 
 # BIO
 
-
-
 应用程序必然是要和内核交互的，对内核进行系统调用，
-
-对于服务端，要新建一个Socket，绑定端口
-
+对于服务端，要新建一个ServerSocket，绑定端口
 > 对应到内核中有:
->
-> socket() 返回一个文件描述符 比如3、
->
-> bind(3，8090)绑定端口、
->
+> socket() 返回一个文件描述符fd, 比如3
+> bind(3，8090)绑定端口
 > listen()开启监听
->
 > ...
->
-> accept(3,			（会阻塞）
->
-> recv(5,					(也会阻塞)
-
-
+> accept(3,	（会阻塞）
+> recv(5,		 (也会阻塞)
 
 ```java
 
@@ -98,7 +86,6 @@ public class ServerSocketBIO {
             //服务端开启ServerSocket之后，kernel会开启一个socket，绑定端口，并进行监听
             ServerSocket serverSocket = new ServerSocket(8090);
             System.out.println("Tcp server ready");
-
 
             while (true) {
                 //阻塞1，等待客户端来连接,如果没有客户端连接过来，则一直等待在这，下面的代码不会执行
@@ -123,22 +110,16 @@ public class ServerSocketBIO {
                             writer.write("sorry?\n");
                             writer.flush();
                         }
-
                         client.close();
                         serverSocket.close();
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
                 }).start();
-
-
             }
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }
 ```
@@ -147,16 +128,15 @@ public class ServerSocketBIO {
 
 因此，传统的最古老的网络编程是：**每连接对应每线程**
 
+怎么改进呢？
 循环，accept一个连接之后，创建一个线程，在自己的线程中read，读取的时候阻塞也是发生在它自己的现场中
 
 问题：如果有10000个连接来了，那我就要创建10000个线程去处理，很消耗资源
-
-
+这就是<mark style="background: #FF5582A6;">C10K</mark>问题
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230822013216.png)
 
 # NIO
-
 > 因为是进行系统调用，而内核对应的调用是阻塞的，所以是否阻塞，受制于内核
->
 > 所以需要内核提供非阻塞的系统调用
 
 new io是指java.nio包下提供的一些新的接口，必如ByteBuffer，Channel，Selector， SocketChannel， ServerSocketChannel，比如，可以通过ServerSocketChannel.open()开启一个服务端socket，并绑定端口，最主要的是可以配置是否阻塞，设置非阻塞之后其实就对应到了操作系统内核中的NONBLOCKING，非阻塞，就是调方法不会停住，绝对会有返回，可以根据返回值判断，是否有连接进来，或者或者是否有数据可读，我的方法是不会停下的，传统的BIO的话，我需要对每个连接都新建一个线程去读取对应连接的数据，因为BIO读取的时候也是会阻塞的，NIO的话，一个线程就可以把所有的活都干了，我只要不断的轮询，内核每次都会给我返回，弊端是每次都询问内核，如果有10000个连接，只有1个发了数据，那9999次都是无意义的
@@ -233,23 +213,19 @@ public class ServerSocketNIO {
 >
 > epoll
 
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230822012812.png)
+
 int select(int nfds, fd_set *readfds, fd_set *writefds,
                   fd_set *exceptfds, struct timeval *timeout);
 
-允许程序监控多个文件描述符，
-
-
+允许程序监控多个文件描述符（ServerSocketChannel和SocketChannel的实例）
 
 **如果是程序自己读取IO,那么这个IO模型，无论是BIO,NIO,多路复用器，它都是同步IO模型**，多路复用器只是会给你返回一个状态，具体读写还是你要自己去做，只不过在同步里面有阻塞和非阻塞
 
-
-
 优势：
-
 通过一次系统调用，把fds传递给内核，内核自己进行遍历，减少了系统调用的次数
 
 弊端：
-
 1. 传递重复的fds,解决方案，内核开辟空间保留fd
 2. 每次select poll都要重新遍历全量的fd
 
@@ -264,7 +240,6 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.Set;
-
 /**
  * Description: 单线程版多路复用
  *
@@ -409,15 +384,10 @@ public class SocketMultiplexingSingleThreadV1 {
         }
     }
 }
-
-
 ```
 
 
-
 > 多线程版多路复用
-
-
 
 ```java
 
