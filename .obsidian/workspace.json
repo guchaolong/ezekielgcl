@@ -74,7 +74,7 @@
               "type": "markdown",
               "state": {
                 "file": "码农笔记/B-设计模式/23个设计模式总结.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/Z-面试/复习计划.md",
+                "file": "码农笔记/B-设计模式/23个设计模式总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/Z-面试/复习计划.md",
+                "file": "码农笔记/B-设计模式/23个设计模式总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/Z-面试/复习计划.md"
+                "file": "码农笔记/B-设计模式/23个设计模式总结.md"
               }
             }
           },
@@ -251,10 +251,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bff6eb4c63bab6a7",
+  "active": "63db490c57573b3d",
   "lastOpenFiles": [
-    "码农笔记/Z-面试/问题汇总.md",
     "码农笔记/Z-面试/复习计划.md",
+    "码农笔记/Z-面试/问题汇总.md",
     "码农笔记/B-设计模式/23个设计模式总结.md",
     "码农笔记/F-Netty/Netty教程.md",
     "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
