@@ -80,6 +80,18 @@
             }
           },
           {
+            "id": "ffe4634b015c2485",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/Z-面试/找工作更多的是技巧.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bff6eb4c63bab6a7",
             "type": "leaf",
             "state": {
@@ -251,11 +263,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "63db490c57573b3d",
+  "active": "435d8e411d59a363",
   "lastOpenFiles": [
+    "码农笔记/Z-面试/找工作更多的是技巧.md",
+    "码农笔记/B-设计模式/23个设计模式总结.md",
     "码农笔记/Z-面试/复习计划.md",
     "码农笔记/Z-面试/问题汇总.md",
-    "码农笔记/B-设计模式/23个设计模式总结.md",
     "码农笔记/F-Netty/Netty教程.md",
     "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
     "码农笔记/00-Java基础/JVM之 类加载过程.md",
@@ -282,7 +295,6 @@
     "md/algorithm/alg-basic-overview.html.md",
     "md/algorithm",
     "md",
-    "码农笔记/C-算法与数据结构/常用算法.md",
     "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf",
     "附件素材/码农/数据结构.xmind",
     "H-计算机网路",

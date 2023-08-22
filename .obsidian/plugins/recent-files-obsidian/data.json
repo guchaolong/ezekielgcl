@@ -5,6 +5,10 @@
       "path": "码农笔记/B-设计模式/23个设计模式总结.md"
     },
     {
+      "basename": "找工作更多的是技巧",
+      "path": "码农笔记/Z-面试/找工作更多的是技巧.md"
+    },
+    {
       "basename": "复习计划",
       "path": "码农笔记/Z-面试/复习计划.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2023-08-10-周四",
       "path": "个人成长/日记/2023-08-10-周四.md"
-    },
-    {
-      "basename": "GC和GC Tuning",
-      "path": "码农笔记/00-Java基础/GC和GC Tuning.md"
     }
   ],
   "omittedPaths": [],
