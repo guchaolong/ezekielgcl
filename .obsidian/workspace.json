@@ -68,12 +68,12 @@
             }
           },
           {
-            "id": "63db490c57573b3d",
+            "id": "6f800982bec4aaa4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/B-设计模式/23个设计模式总结.md",
+                "file": "码农笔记/B-设计模式/快速总结.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,9 +102,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "72d19db93131da4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/B-设计模式/快速总结.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33912241331288f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/B-设计模式/Spring框架中的设计模式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9452649000d3e080",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "个人成长/日记/2023-08-23-周三.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -186,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/B-设计模式/23个设计模式总结.md",
+                "file": "个人成长/日记/2023-08-23-周三.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/B-设计模式/23个设计模式总结.md",
+                "file": "个人成长/日记/2023-08-23-周三.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -226,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/B-设计模式/23个设计模式总结.md"
+                "file": "个人成长/日记/2023-08-23-周三.md"
               }
             }
           },
@@ -263,11 +299,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "435d8e411d59a363",
+  "active": "9452649000d3e080",
   "lastOpenFiles": [
-    "码农笔记/Z-面试/找工作更多的是技巧.md",
     "码农笔记/B-设计模式/23个设计模式总结.md",
+    "个人成长/日记/2023-08-23-周三.md",
+    "码农笔记/B-设计模式/快速总结.md",
+    "码农笔记/Z-面试/找工作更多的是技巧.md",
     "码农笔记/Z-面试/复习计划.md",
+    "码农笔记/B-设计模式/Spring框架中的设计模式.md",
     "码农笔记/Z-面试/问题汇总.md",
     "码农笔记/F-Netty/Netty教程.md",
     "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
@@ -290,9 +329,6 @@
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "码农笔记/C-算法与数据结构/排序算法.md",
     "Everything/Obsidian折腾记录.md",
-    "Everything/宽带 网速 光猫 路由器 网速 .......md",
-    "Everything/Markdown语法.md",
-    "md/algorithm/alg-basic-overview.html.md",
     "md/algorithm",
     "md",
     "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf",
