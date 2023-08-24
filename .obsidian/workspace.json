@@ -4,95 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "6e0c33105dcc8649",
+        "id": "65278f77bc046cb4",
         "type": "tabs",
         "children": [
           {
-            "id": "261381e37854ae39",
+            "id": "5afff9599c273213",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "HomePage.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bb6e326ee4814d8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/A-数据库/Hash索引.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79e60174dd1c3e6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/A-数据库/mysql梳理.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32150b6a331e93ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72f7f2cc2575c71a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/F-Netty/Netty教程.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6f800982bec4aaa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/B-设计模式/快速总结.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ffe4634b015c2485",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/Z-面试/找工作更多的是技巧.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bff6eb4c63bab6a7",
+            "id": "cd59bbe52f0832bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -102,45 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "72d19db93131da4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/B-设计模式/快速总结.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33912241331288f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/B-设计模式/Spring框架中的设计模式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9452649000d3e080",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人成长/日记/2023-08-23-周三.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人成长/日记/2023-08-23-周三.md",
+                "file": "码农笔记/Z-面试/复习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人成长/日记/2023-08-23-周三.md",
+                "file": "码农笔记/Z-面试/复习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -262,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "个人成长/日记/2023-08-23-周三.md"
+                "file": "码农笔记/Z-面试/复习计划.md"
               }
             }
           },
@@ -299,14 +191,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9452649000d3e080",
+  "active": "cd59bbe52f0832bd",
   "lastOpenFiles": [
-    "码农笔记/B-设计模式/23个设计模式总结.md",
+    "HomePage.md",
+    "码农笔记/B-设计模式/Spring框架中的设计模式.md",
     "个人成长/日记/2023-08-23-周三.md",
+    "码农笔记/B-设计模式/23个设计模式总结.md",
     "码农笔记/B-设计模式/快速总结.md",
     "码农笔记/Z-面试/找工作更多的是技巧.md",
     "码农笔记/Z-面试/复习计划.md",
-    "码农笔记/B-设计模式/Spring框架中的设计模式.md",
     "码农笔记/Z-面试/问题汇总.md",
     "码农笔记/F-Netty/Netty教程.md",
     "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
@@ -315,7 +208,6 @@
     "码农笔记/A-数据库/mysql梳理.md",
     "码农笔记/F-Netty",
     "码农笔记/A-数据库/Hash索引.md",
-    "HomePage.md",
     "个人成长/电影/楚门的世界 The Truman Show.md",
     "个人成长/日记/2023-08-21-周一.md",
     "个人成长/电影/海蒂和爷爷 Heidi.md",
