@@ -48,7 +48,7 @@ GradleWrapper 的执行流程：
 gradle-wrapper.properties 文件解读:
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1688773705419-f722a2f4-ff1d-4dd1-a836-48be2928a9d7.png#averageHue=%23525542&clientId=u0499adff-59f9-4&from=paste&height=161&id=iDWC1&originHeight=322&originWidth=1521&originalType=binary&ratio=2&rotation=0&showTitle=false&size=69145&status=done&style=none&taskId=u8b007560-f083-44e6-a18c-b59f5a0ee9b&title=&width=760.5)
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1688774470639-c8a50db8-00ff-4f37-ad79-daa3f36795a2.png#averageHue=%23f4f4f4&clientId=u0499adff-59f9-4&from=paste&height=190&id=uaf875440&originHeight=274&originWidth=1070&originalType=binary&ratio=2&rotation=0&showTitle=false&size=92888&status=done&style=none&taskId=u81f9cc7e-35a7-47e3-b0f9-a342c5c8686&title=&width=743)
-注意：前面提到的 GRALE_USER_HOME 环境变量用于这里的 Gradle Wrapper 下载的特定版本的 gradle 存储目录。如 果我们没有配置过 GRALE_USER_HOME 环境变量,默认在当前用户家目录下的.gradle 文件夹中。
+注意：前面提到的 GRALE_USER_HOME 环境变量用于这里的 Gradle Wrapper 下载的特定版本的 gradle 存储目录。如果我们没有配置过 GRALE_USER_HOME 环境变量,默认在当前用户家目录下的.gradle 文件夹中。
 
 
 那什么时候选择使用 gradle wrapper、 什么时候选择使用本地 gradle? 

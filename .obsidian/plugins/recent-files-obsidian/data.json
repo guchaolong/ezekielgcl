@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Gradle",
+      "path": "码农笔记/07-互联网工具/Gradle.md"
+    },
+    {
+      "basename": "Netty教程",
+      "path": "码农笔记/F-Netty/Netty教程.md"
+    },
+    {
+      "basename": "复习计划",
+      "path": "码农笔记/Z-面试/复习计划.md"
+    },
+    {
       "basename": "快速总结",
       "path": "码农笔记/B-设计模式/快速总结.md"
     },
     {
       "basename": "23个设计模式总结",
       "path": "码农笔记/B-设计模式/23个设计模式总结.md"
-    },
-    {
-      "basename": "复习计划",
-      "path": "码农笔记/Z-面试/复习计划.md"
     },
     {
       "basename": "HomePage",
@@ -31,10 +39,6 @@
     {
       "basename": "问题汇总",
       "path": "码农笔记/Z-面试/问题汇总.md"
-    },
-    {
-      "basename": "Netty教程",
-      "path": "码农笔记/F-Netty/Netty教程.md"
     },
     {
       "basename": "IO、NIO、AIO、Netty",
@@ -195,10 +199,6 @@
     {
       "basename": "日记-Template",
       "path": "个人成长/日记/日记-Template.md"
-    },
-    {
-      "basename": "2023-08-12-周六",
-      "path": "个人成长/日记/2023-08-12-周六.md"
     }
   ],
   "omittedPaths": [],
