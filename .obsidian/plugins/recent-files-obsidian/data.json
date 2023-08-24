@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
+      "basename": "2023-08-24-周四",
+      "path": "个人成长/日记/2023-08-24-周四.md"
+    },
+    {
+      "basename": "Spring bean的生命周期",
+      "path": "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md"
+    },
+    {
       "basename": "Gradle",
       "path": "码农笔记/07-互联网工具/Gradle.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "23个设计模式总结",
       "path": "码农笔记/B-设计模式/23个设计模式总结.md"
-    },
-    {
-      "basename": "HomePage",
-      "path": "HomePage.md"
     },
     {
       "basename": "Spring框架中的设计模式",
@@ -191,14 +199,6 @@
     {
       "basename": "Docker",
       "path": "码农笔记/E-Docker/Docker.md"
-    },
-    {
-      "basename": "index-日记",
-      "path": "Index/index-日记.md"
-    },
-    {
-      "basename": "日记-Template",
-      "path": "个人成长/日记/日记-Template.md"
     }
   ],
   "omittedPaths": [],
