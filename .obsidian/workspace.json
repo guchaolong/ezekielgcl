@@ -11,10 +11,18 @@
             "id": "0d748ffe3622ff8f",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "2d3741bfd1dd02f0",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
+                "file": "码农笔记/C-算法与数据结构/常用算法.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -49,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Spring",
+                "query": "tag:反码",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "41111949b8b524e5",
@@ -101,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,9 +147,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "HomePage.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,10 +185,12 @@
   },
   "active": "0d748ffe3622ff8f",
   "lastOpenFiles": [
+    "HomePage.md",
+    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+    "码农笔记/C-算法与数据结构/常用算法.md",
+    "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
     "个人成长/日记/2023-08-24-周四.md",
     "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
-    "HomePage.md",
-    "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
     "个人成长/日记/2023-08-10-周四.md",
     "Everything/Mac------工欲善其事 必先利其器.md",
     "个人成长/日记/2023-07-31-周一.md",
@@ -205,8 +212,6 @@
     "个人成长/电影/楚门的世界 The Truman Show.md",
     "个人成长/日记/2023-08-21-周一.md",
     "个人成长/电影/海蒂和爷爷 Heidi.md",
-    "技能点/Ps.md",
-    "Everything/起名.md",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "md/algorithm",
     "md",
