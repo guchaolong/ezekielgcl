@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "HomePage",
-      "path": "HomePage.md"
-    },
-    {
-      "basename": "二进制、原码、反码、补码",
-      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
+      "basename": "排序算法",
+      "path": "码农笔记/C-算法与数据结构/排序算法.md"
     },
     {
       "basename": "常用算法",
       "path": "码农笔记/C-算法与数据结构/常用算法.md"
+    },
+    {
+      "basename": "码农笔记——Template",
+      "path": "Template/码农笔记——Template.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
+      "basename": "index-电影清单",
+      "path": "Index/index-电影清单.md"
+    },
+    {
+      "basename": "index-码农笔记",
+      "path": "Index/index-码农笔记.md"
+    },
+    {
+      "basename": "2023-08-27-周日",
+      "path": "个人成长/日记/2023-08-27-周日.md"
+    },
+    {
+      "basename": "二进制、原码、反码、补码",
+      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
     },
     {
       "basename": "2023-08-24-周四",
@@ -105,10 +125,6 @@
       "path": "码农笔记/07-互联网工具/IDEA.md"
     },
     {
-      "basename": "排序算法",
-      "path": "码农笔记/C-算法与数据结构/排序算法.md"
-    },
-    {
       "basename": "Obsidian折腾记录",
       "path": "Everything/Obsidian折腾记录.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Kali Linux",
       "path": "码农笔记/D-Linux/Kali Linux.md"
-    },
-    {
-      "basename": "速学150个Linux常用命令",
-      "path": "码农笔记/D-Linux/速学150个Linux常用命令.md"
-    },
-    {
-      "basename": "Git总结",
-      "path": "码农笔记/07-互联网工具/Git总结.md"
-    },
-    {
-      "basename": "2023-08-13-周日",
-      "path": "个人成长/日记/2023-08-13-周日.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "码农笔记/E-Docker/Docker.md"
     }
   ],
   "omittedPaths": [],
