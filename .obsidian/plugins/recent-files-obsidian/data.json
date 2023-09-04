@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
       "basename": "排序算法",
       "path": "码农笔记/C-算法与数据结构/排序算法.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "码农笔记——Template",
       "path": "Template/码农笔记——Template.md"
-    },
-    {
-      "basename": "HomePage",
-      "path": "HomePage.md"
     },
     {
       "basename": "index-电影清单",

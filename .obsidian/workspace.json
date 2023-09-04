@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/C-算法与数据结构/排序算法.md",
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/C-算法与数据结构/排序算法.md",
+                "file": "HomePage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/C-算法与数据结构/排序算法.md"
+                "file": "HomePage.md"
               }
             }
           },
@@ -215,8 +214,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4529c1a7b8a5c24a",
+  "active": "b422397e3145215d",
   "lastOpenFiles": [
+    "码农笔记/C-算法与数据结构/排序算法.md",
     "码农笔记/C-算法与数据结构/常用算法.md",
     "Template/码农笔记——Template.md",
     "HomePage.md",
@@ -242,7 +242,6 @@
     "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
     "码农笔记/00-Java基础/JVM之 类加载过程.md",
     "码农笔记/F-Netty/IO BIO NIO.md",
-    "码农笔记/A-数据库/mysql梳理.md",
     "码农笔记/F-Netty",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "md/algorithm",
