@@ -7,6 +7,6 @@
   "attachmentFolderPath": "附件素材",
   "showIndentGuide": true,
   "legacyEditor": false,
-  "propertiesInDocument": "visible",
-  "defaultViewMode": "preview"
+  "propertiesInDocument": "hidden",
+  "defaultViewMode": "source"
 }

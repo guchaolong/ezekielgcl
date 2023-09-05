@@ -5,7 +5,7 @@
       "name": "码农笔记",
       "type": "Template",
       "command": true,
-      "templatePath": "Template/码农笔记——Template.md",
+      "templatePath": "Template/码农笔记——Template 2.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE:Title}}"

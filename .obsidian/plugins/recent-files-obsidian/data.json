@@ -1,36 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Spring",
-      "path": "码农笔记/01-框架源码/Spring/Spring.md"
+      "basename": "Spring知识梳理",
+      "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
     },
     {
       "basename": "HomePage",
       "path": "HomePage.md"
     },
     {
-      "basename": "Obsidian折腾记录",
-      "path": "Everything/Obsidian折腾记录.md"
+      "basename": "二进制、原码、反码、补码",
+      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
+    },
+    {
+      "basename": "Spring bean的生命周期",
+      "path": "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md"
+    },
+    {
+      "basename": "JVM之 方法区、永久代、元空间三者的区别",
+      "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
+    },
+    {
+      "basename": "Java内存区域和内存模型（JMM）",
+      "path": "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md"
+    },
+    {
+      "basename": "Java开发手册",
+      "path": "码农笔记/00-Java基础/Java开发手册.md"
+    },
+    {
+      "basename": "主内存与工作内存",
+      "path": "码农笔记/00-Java基础/主内存与工作内存.md"
+    },
+    {
+      "basename": "垃圾收集器",
+      "path": "码农笔记/00-Java基础/垃圾收集器.md"
+    },
+    {
+      "basename": "码农笔记——Template 2",
+      "path": "Template/码农笔记——Template 2.md"
     },
     {
       "basename": "码农笔记——Template",
       "path": "Template/码农笔记——Template.md"
     },
     {
-      "basename": "找工作更多的是技巧",
-      "path": "码农笔记/Z-面试/找工作更多的是技巧.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.md"
-    },
-    {
-      "basename": "index-日记",
-      "path": "Index/index-日记.md"
+      "basename": "index-电影清单",
+      "path": "Index/index-电影清单.md"
     },
     {
       "basename": "index-码农笔记",
       "path": "Index/index-码农笔记.md"
+    },
+    {
+      "basename": "Java基础知识",
+      "path": "码农笔记/00-Java基础/Java基础知识.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "码农笔记/E-Docker/Docker.md"
+    },
+    {
+      "basename": "GC和GC Tuning",
+      "path": "码农笔记/00-Java基础/GC和GC Tuning.md"
+    },
+    {
+      "basename": "2023-08-01-周二",
+      "path": "个人成长/日记/2023-08-01-周二.md"
+    },
+    {
+      "basename": "Obsidian折腾记录",
+      "path": "Everything/Obsidian折腾记录.md"
+    },
+    {
+      "basename": "找工作更多的是技巧",
+      "path": "码农笔记/Z-面试/找工作更多的是技巧.md"
+    },
+    {
+      "basename": "index-日记",
+      "path": "Index/index-日记.md"
     },
     {
       "basename": "Mac------工欲善其事 必先利其器",
@@ -53,10 +101,6 @@
       "path": "码农笔记/Z-面试/复习计划.md"
     },
     {
-      "basename": "Spring bean的生命周期",
-      "path": "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md"
-    },
-    {
       "basename": "左神算法视频笔记",
       "path": "码农笔记/C-算法与数据结构/左神算法视频笔记.md"
     },
@@ -77,16 +121,8 @@
       "path": "Everything/科学上网翻墙VPN机场外网.md"
     },
     {
-      "basename": "index-电影清单",
-      "path": "Index/index-电影清单.md"
-    },
-    {
       "basename": "2023-08-27-周日",
       "path": "个人成长/日记/2023-08-27-周日.md"
-    },
-    {
-      "basename": "二进制、原码、反码、补码",
-      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
     },
     {
       "basename": "2023-08-24-周四",
@@ -163,42 +199,6 @@
     {
       "basename": "小技巧",
       "path": "码农笔记/C-算法与数据结构/小技巧.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "码农笔记/H-计算机网络/计算机网络.md"
-    },
-    {
-      "basename": "并发编程之Tools&CountDownLatch&Semaphore原理与应用",
-      "path": "附件素材/码农/并发编程之Tools&CountDownLatch&Semaphore原理与应用.pdf"
-    },
-    {
-      "basename": "dataview",
-      "path": "附件素材/dataview/dataview.md"
-    },
-    {
-      "basename": "Mac zsh Item2命令",
-      "path": "码农笔记/D-Linux/Mac zsh Item2命令.md"
-    },
-    {
-      "basename": "04-VIP-JVM垃圾收集器详解",
-      "path": "附件素材/码农/04-VIP-JVM垃圾收集器详解.pdf"
-    },
-    {
-      "basename": "垃圾收集器",
-      "path": "码农笔记/00-Java基础/垃圾收集器.md"
-    },
-    {
-      "basename": "java基础",
-      "path": "码农笔记/00-Java基础/java基础.md"
-    },
-    {
-      "basename": "JVM基础——马士兵",
-      "path": "码农笔记/00-Java基础/JVM基础——马士兵.md"
-    },
-    {
-      "basename": "Java开发手册",
-      "path": "码农笔记/00-Java基础/Java开发手册.md"
     }
   ],
   "omittedPaths": [],

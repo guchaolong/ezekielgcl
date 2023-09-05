@@ -32,14 +32,156 @@
             }
           },
           {
-            "id": "f846d9c3940addeb",
+            "id": "86cfd23bc41d197a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/01-框架源码/Spring/Spring.md",
+                "file": "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
                 "mode": "preview",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "ef1f8bf77ceafa51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2618bf01a4ee7bd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/垃圾收集器.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3ada4e6478a301d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/主内存与工作内存.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3253327107db19e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/Java开发手册.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24a351f192d87ea5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99c0f52398c46ebe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af873a706e33c4bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96507ae44f0dbfda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/E-Docker/Docker.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b45cce189ba2b5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/Java基础知识.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0227bdd43b97946b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index/index-电影清单.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d523088e7ad33d96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Index/index-码农笔记.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84545dfdeb2ab30b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
               }
             }
           },
@@ -62,6 +204,18 @@
               "type": "markdown",
               "state": {
                 "file": "Template/码农笔记——Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fe9a0394f918eda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/码农笔记——Template 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +252,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#优雅的代码",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -150,7 +304,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/01-框架源码/Spring/Spring.md",
+                "file": "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +321,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/01-框架源码/Spring/Spring.md",
+                "file": "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -190,7 +344,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/01-框架源码/Spring/Spring.md"
+                "file": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
               }
             }
           },
@@ -203,12 +357,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,34 +381,34 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f846d9c3940addeb",
+  "active": "86cfd23bc41d197a",
   "lastOpenFiles": [
     "HomePage.md",
+    "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
+    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+    "未命名.md",
+    "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
+    "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
+    "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
+    "码农笔记/00-Java基础/Java开发手册.md",
+    "码农笔记/00-Java基础/主内存与工作内存.md",
+    "码农笔记/00-Java基础/垃圾收集器.md",
+    "Template/码农笔记——Template 2.md",
+    "Template/码农笔记——Template.md",
+    "Index/index-电影清单.md",
+    "Index/index-码农笔记.md",
+    "码农笔记/00-Java基础/Java基础知识.md",
+    "码农笔记/E-Docker/Docker.md",
+    "码农笔记/00-Java基础/GC和GC Tuning.md",
+    "未命名 1.md",
+    "bbbbb.md",
+    "Everything/十分丰富防守打法.md",
+    "个人成长/日记/2023-08-01-周二.md",
+    "码农笔记/01-框架源码/Spring/是的第三代.md",
     "码农笔记/01-框架源码/Spring/Spring.md",
     "Everything/Obsidian折腾记录.md",
-    "Template/码农笔记——Template.md",
     "码农笔记/Z-面试/找工作更多的是技巧.md",
-    "未命名.md",
     "Index/index-日记.md",
-    "Index/index-码农笔记.md",
-    "Everything/Mac------工欲善其事 必先利其器.md",
-    "个人成长/日记/2018-11-22-周四.md",
-    "Everything/Markdown语法.md",
-    "码农笔记/Z-面试/问题汇总.md",
-    "码农笔记/Z-面试/复习计划.md",
-    "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
-    "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
-    "码农笔记/C-算法与数据结构/排序算法.md",
-    "码农笔记/C-算法与数据结构/常用算法.md",
-    "Everything/宽带 网速 光猫 路由器 网速 .......md",
-    "Everything/科学上网翻墙VPN机场外网.md",
-    "Index/index-电影清单.md",
-    "个人成长/日记/2023-08-27-周日.md",
-    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
-    "个人成长/日记/2023-08-24-周四.md",
-    "个人成长/日记/2023-08-10-周四.md",
-    "个人成长/日记/2023-07-31-周一.md",
-    "码农笔记/07-互联网工具/Gradle.md",
     "码农笔记/F-Netty",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "md/algorithm",
