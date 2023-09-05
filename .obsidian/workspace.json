@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "610e8e89e11bff19",
+        "id": "3dcc242c00e111f3",
         "type": "tabs",
         "children": [
           {
-            "id": "b422397e3145215d",
+            "id": "2b843204bcf14577",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/Z-面试/找工作更多的是技巧.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69e6c0ed797cdbe1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +32,31 @@
             }
           },
           {
-            "id": "678a27a142c36135",
+            "id": "f846d9c3940addeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/01-框架源码/Spring/Spring.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f23062d7d9576179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Everything/Obsidian折腾记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13049d101d877ed5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,32 +66,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2b2844c223397e38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/C-算法与数据结构/常用算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4529c1a7b8a5c24a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/C-算法与数据结构/排序算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:反码",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -137,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HomePage.md",
+                "file": "码农笔记/01-框架源码/Spring/Spring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HomePage.md",
+                "file": "码农笔记/01-框架源码/Spring/Spring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -177,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md"
+                "file": "码农笔记/01-框架源码/Spring/Spring.md"
               }
             }
           },
@@ -194,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,34 +228,34 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b422397e3145215d",
+  "active": "f846d9c3940addeb",
   "lastOpenFiles": [
+    "HomePage.md",
+    "码农笔记/01-框架源码/Spring/Spring.md",
+    "Everything/Obsidian折腾记录.md",
+    "Template/码农笔记——Template.md",
+    "码农笔记/Z-面试/找工作更多的是技巧.md",
+    "未命名.md",
+    "Index/index-日记.md",
+    "Index/index-码农笔记.md",
+    "Everything/Mac------工欲善其事 必先利其器.md",
+    "个人成长/日记/2018-11-22-周四.md",
+    "Everything/Markdown语法.md",
+    "码农笔记/Z-面试/问题汇总.md",
+    "码农笔记/Z-面试/复习计划.md",
+    "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
+    "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
     "码农笔记/C-算法与数据结构/排序算法.md",
     "码农笔记/C-算法与数据结构/常用算法.md",
-    "Template/码农笔记——Template.md",
-    "HomePage.md",
+    "Everything/宽带 网速 光猫 路由器 网速 .......md",
+    "Everything/科学上网翻墙VPN机场外网.md",
     "Index/index-电影清单.md",
-    "Index/index-码农笔记.md",
     "个人成长/日记/2023-08-27-周日.md",
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
-    "码农笔记/C-算法与数据结构/左神算法视频笔记.md",
     "个人成长/日记/2023-08-24-周四.md",
-    "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
     "个人成长/日记/2023-08-10-周四.md",
-    "Everything/Mac------工欲善其事 必先利其器.md",
     "个人成长/日记/2023-07-31-周一.md",
     "码农笔记/07-互联网工具/Gradle.md",
-    "码农笔记/F-Netty/Netty教程.md",
-    "码农笔记/Z-面试/复习计划.md",
-    "码农笔记/B-设计模式/快速总结.md",
-    "码农笔记/B-设计模式/23个设计模式总结.md",
-    "码农笔记/B-设计模式/Spring框架中的设计模式.md",
-    "个人成长/日记/2023-08-23-周三.md",
-    "码农笔记/Z-面试/找工作更多的是技巧.md",
-    "码农笔记/Z-面试/问题汇总.md",
-    "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md",
-    "码农笔记/00-Java基础/JVM之 类加载过程.md",
-    "码农笔记/F-Netty/IO BIO NIO.md",
     "码农笔记/F-Netty",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "md/algorithm",

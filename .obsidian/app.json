@@ -5,5 +5,8 @@
   "strictLineBreaks": false,
   "showLineNumber": false,
   "attachmentFolderPath": "附件素材",
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "legacyEditor": false,
+  "propertiesInDocument": "visible",
+  "defaultViewMode": "preview"
 }

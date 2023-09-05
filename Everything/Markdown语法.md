@@ -1,14 +1,14 @@
 ---
-layout:     post
-title:      MarkDown语法
-subtitle:   开发积累
-date:       2018-11-22
-author:     guchaolong
+layout: post
+title: MarkDown语法
+subtitle: 开发积累
+date: 2018-11-22
+author: guchaolong
 header-img: img/post-bg-re-vs-ng2.jpg
-catalog: true
+catalog: false
 category: 工具
 tags:
-    - MarkDown
+  - MarkDown
 ---
 
 >markdown简单语法  
