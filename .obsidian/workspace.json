@@ -4,189 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "3dcc242c00e111f3",
+        "id": "34f9ea8a954590dd",
         "type": "tabs",
         "children": [
           {
-            "id": "2b843204bcf14577",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/Z-面试/找工作更多的是技巧.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69e6c0ed797cdbe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86cfd23bc41d197a",
+            "id": "7f9a855445878a85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ef1f8bf77ceafa51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2618bf01a4ee7bd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/垃圾收集器.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3ada4e6478a301d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/主内存与工作内存.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3253327107db19e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/Java开发手册.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24a351f192d87ea5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99c0f52398c46ebe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af873a706e33c4bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96507ae44f0dbfda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/E-Docker/Docker.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b45cce189ba2b5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/00-Java基础/Java基础知识.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0227bdd43b97946b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index/index-电影清单.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d523088e7ad33d96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index/index-码农笔记.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84545dfdeb2ab30b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
-              }
-            }
-          },
-          {
-            "id": "f23062d7d9576179",
+            "id": "e584e448ec776ed4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -196,33 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "13049d101d877ed5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/码农笔记——Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0fe9a0394f918eda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/码农笔记——Template 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -288,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 200
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -357,11 +166,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 268.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -381,13 +190,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "86cfd23bc41d197a",
+  "active": "7f9a855445878a85",
   "lastOpenFiles": [
-    "HomePage.md",
+    "Everything/Obsidian折腾记录.md",
     "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
+    "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
+    "HomePage.md",
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
     "未命名.md",
-    "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
     "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
     "码农笔记/00-Java基础/Java开发手册.md",
@@ -406,7 +216,6 @@
     "个人成长/日记/2023-08-01-周二.md",
     "码农笔记/01-框架源码/Spring/是的第三代.md",
     "码农笔记/01-框架源码/Spring/Spring.md",
-    "Everything/Obsidian折腾记录.md",
     "码农笔记/Z-面试/找工作更多的是技巧.md",
     "Index/index-日记.md",
     "码农笔记/F-Netty",

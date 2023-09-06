@@ -5,16 +5,16 @@
       "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
     },
     {
+      "basename": "Obsidian折腾记录",
+      "path": "Everything/Obsidian折腾记录.md"
+    },
+    {
       "basename": "HomePage",
       "path": "HomePage.md"
     },
     {
       "basename": "二进制、原码、反码、补码",
       "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
-    },
-    {
-      "basename": "Spring bean的生命周期",
-      "path": "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md"
     },
     {
       "basename": "JVM之 方法区、永久代、元空间三者的区别",
@@ -67,10 +67,6 @@
     {
       "basename": "2023-08-01-周二",
       "path": "个人成长/日记/2023-08-01-周二.md"
-    },
-    {
-      "basename": "Obsidian折腾记录",
-      "path": "Everything/Obsidian折腾记录.md"
     },
     {
       "basename": "找工作更多的是技巧",
