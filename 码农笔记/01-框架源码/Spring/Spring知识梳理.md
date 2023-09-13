@@ -13,10 +13,12 @@ Spring 框架是一个<mark style="background: #FF5582A6;">轻量级</mark>的�
 >在Spring Framework基础上，又诞生了Spring Boot、Spring Cloud、Spring Data、Spring Security等一系列基于Spring Framework的项目
 
 
-## Spring 的主要特性：
+## Spring 的主要特性和优势：
+
+从Spring 框架的**特性**来看：
 
 1. **轻量级和非侵入性**：Spring 框架的核心容器非常<mark style="background: #FF5582A6;">小巧</mark>，不会强制开发者遵循特定的编程模型。基于Spring开发的应用中的对象可以<mark style="background: #FF5582A6;">不依赖于Spring的API</mark>
-2. **控制反转**：IOC——Inversion of Control，指的是将<mark style="background: #FF5582A6;">对象的创建权</mark>交给 Spring 去创建。使用 Spring 之前，对象的创建都是由我们自己在代码中new创建。而使用 Spring 之后。对象的创建都是给了 Spring 框架
+2. **控制反转**：IOC——Inversion of Control，指的是将<mark style="background: #FF5582A6;">对象的创建权</mark>交给 <mark style="background: #FF5582A6;">Spring</mark> 去创建。使用 Spring 之前，对象的创建都是由我们自己在代码中new创建。而使用 Spring 之后。对象的创建都是给了 Spring 框架
 3. **依赖注入**：DI——Dependency Injection，是指依赖的对象不需要手动调用 setXX 方法去设置，而是<mark style="background: #FF5582A6;">通过配置</mark>赋值。通过<mark style="background: #FF5582A6;">依赖注入</mark>的方式<mark style="background: #FF5582A6;">管理对象之间的依赖关系</mark>，减少了类之间的耦合。
 4. **面向切面编程**：Spring 框架提供了 AOP（面向切面编程）的支持，可以在<mark style="background: #FF5582A6;">不修改业务逻辑的情况下实现横切关注点</mark>的功能。
 5. **事务管理**：Spring 框架提供了事务管理的支持，可以<mark style="background: #FF5582A6;">统一管理多个数据源的事务</mark>。
@@ -26,7 +28,16 @@ Spring 框架是一个<mark style="background: #FF5582A6;">轻量级</mark>的�
 9. **组件化**：Spring 实现了使用简单的组件配置组合成一个复杂的应用。在 Spring 中可以使用XML和Java注解组合这些对象。 
 10. **一站式**：在 IOC 和 AOP 的基础上可以整合各种企业应用的<mark style="background: #FF5582A6;">开源框架</mark>和优秀的<mark style="background: #FF5582A6;">第三方类库</mark>（实际上 Spring 自身也提供了表现层的 SpringMVC 和持久层的 Spring JDBC）
 
+从使用Spring 框架的**好处**看：
 
+- Spring 可以使开发人员使用 POJOs 开发企业级的应用程序。只使用 POJOs 的好处是你<mark style="background: #FF5582A6;">不需要一个 EJB 容器产品</mark>，比如一个应用程序服务器，但是你可以选择使用一个健壮的 servlet 容器，比如 Tomcat 或者一些商业产品。
+- Spring 在一个单元模式中是有组织的。即使包和类的数量非常大，你只要担心你需要的，而其它的就可以忽略了。
+- Spring 不会让你白费力气做<mark style="background: #FF5582A6;">重复工作</mark>，它真正的利用了一些现有的技术，像 ORM 框架、日志框架、JEE、Quartz 和 JDK 计时器，其他视图技术。
+- 测试一个用 Spring 编写的应用程序很容易，因为环境相关的代码被移动到这个框架中。此外，通过使用 JavaBean-style POJOs，它在使用依赖注入注入测试数据时变得更容易。
+- Spring 的 web 框架是一个设计良好的 web MVC 框架，它为比如 Structs 或者其他工程上的或者不怎么受欢迎的 web 框架提供了一个很好的供替代的选择。MVC 模式导致应用程序的不同方面(输入逻辑，业务逻辑和UI逻辑)分离，同时提供这些元素之间的松散耦合。模型(Model)封装了应用程序数据，通常它们将由 POJO 类组成。视图(View)负责渲染模型数据，一般来说它生成客户端浏览器可以解释 HTML 输出。控制器(Controller)负责处理用户请求并构建适当的模型，并将其传递给视图进行渲染。
+- Spring 对 <mark style="background: #FF5582A6;">JavaEE</mark> 开发中非常难用的一些 <mark style="background: #FF5582A6;">API</mark>（JDBC、JavaMail、远程调用等），都<mark style="background: #FF5582A6;">提供了封装</mark>，使这些API应用难度大大降低。
+- 轻量级的 IOC 容器往往是<mark style="background: #FF5582A6;">轻量</mark>级的，例如，特别是当与 EJB 容器相比的时候。这有利于在内存和 CPU 资源有限的计算机上开发和部署应用程序。
+- Spring 提供了一致的<mark style="background: #FF5582A6;">事务管理</mark>接口，可向下扩展到（使用一个单一的数据库，例如）本地事务并扩展到全局事务（例如，使用 JTA）
 
 
 
@@ -40,7 +51,8 @@ Spring Framework主要包括几个模块：
 
 
 ## Spring体系结构
-![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230906092617.png)
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913102000.png)
+
 
 
 ## 核心容器
@@ -124,15 +136,20 @@ ApplicationContext 是 BeanFactory 的子接口，也被称为 <mark style="bac
 
 ApplicationContext 是 spring 中<mark style="background: #FF5582A6;">较高级的容器</mark>。和 BeanFactory 类似，它可以加载配置文件中定义的 bean，将所有的 bean 集中在一起，当有请求的时候分配 bean。 另外，它增加了企业所需要的功能，比如，从属性文件中解析文本信息和将事件传递给所指定的监听器。
 
-<mark style="background: #FF5582A6;">ApplicationContext 包含 BeanFactory 所有的功能</mark>，一般情况下，相对于 BeanFactory，ApplicationContext 会更加优秀。当然，BeanFactory 仍可以在轻量级应用中使用，比如移动设备或者基于 applet 的应用程序。
+<mark style="background: #FF5582A6;">ApplicationContext 包含 BeanFactory 所有的功能</mark>，一般情况下，相对于 BeanFactory，ApplicationContext 会<mark style="background: #FF5582A6;">更加优秀</mark>。当然，BeanFactory 仍可以在轻量级应用中使用，比如移动设备或者基于 applet 的应用程序。
 
 最常被使用的 ApplicationContext 接口实现：
 
-- **FileSystemXmlApplicationContext**：该容器从 XML 文件中加载已被定义的 bean。在这里，你需要提供给构造器 XML 文件的完整路径。
+- **FileSystemXmlApplicationContext**：该容器从 <mark style="background: #FF5582A6;">XML 文件中</mark>加载已被定义的 bean。在这里，你需要提供给构造器 <mark style="background: #FF5582A6;">XML 文件的完整路径</mark>。
     
-- **ClassPathXmlApplicationContext**：该容器从 XML 文件中加载已被定义的 bean。在这里，你不需要提供 XML 文件的完整路径，只需正确配置 CLASSPATH 环境变量即可，因为，容器会从 CLASSPATH 中搜索 bean 配置文件。
+- **ClassPathXmlApplicationContext**：该容器从 <mark style="background: #FF5582A6;">XML 文件中</mark>加载已被定义的 bean。在这里，你不需要提供 XML 文件的完整路径，只需正确配置 <mark style="background: #FF5582A6;">CLASSPATH</mark> 环境变量即可，因为，容器会从 CLASSPATH 中搜索 bean 配置文件。
     
-- **XmlWebApplicationContext**：该容器会在一个 web 应用程序的范围内加载在 XML 文件中已被定义的 bean。
+- **XmlWebApplicationContext**：该容器会在一个 <mark style="background: #FF5582A6;">web 应用程序</mark>的范围内加载在 XML 文件中已被定义的 bean。
+
+## BeanFactory和ApplicationContext的区别
+
+`BeanFactory`和`ApplicationContext`的区别在于，`BeanFactory`的实现是<mark style="background: #FF5582A6;">按需创建</mark>，即<mark style="background: #FF5582A6;">第一次获取Bean时才创建这个Bean</mark>，而`ApplicationContext`会<mark style="background: #FF5582A6;">一次性创建所有的Bean</mark>。实际上，`ApplicationContext`接口是从`BeanFactory`接口继承而来的，并且，`ApplicationContext`提供了一些<mark style="background: #FF5582A6;">额外的功能</mark>，包括<mark style="background: #FF5582A6;">国际化支持</mark>、<mark style="background: #FF5582A6;">事件</mark>和<mark style="background: #FF5582A6;">通知机制</mark>等。通常情况下，我们总是使用`ApplicationContext`，很少会考虑使用`BeanFactory`
+
 
 ## Bean 定义
 三个方法把配置元数据提供给 Spring 容器：
@@ -203,7 +220,7 @@ Bean 后置处理器允许在调用<mark style="background: #FF5582A6;">初始�
 
 ### 1. 基于 field 注入
 
-所谓基于 field 注入，就是在bean的变量上使用注解进行依赖注入。本质上是通过反射的方式直接注入到field。这是我平常开发中看的最多也是最熟悉的一种方式，同时，也正是 Spring 团队所不推荐的方式。比如：
+所谓基于 field 注入，就是在bean的变量上使用注解进行依赖注入。本质上是通过反射的方式直接注入到field。这是我平常开发中看的最多也是最熟悉的一种方式，同时，也正是 Spring 团队所<mark style="background: #FF5582A6;">不推荐</mark>的方式。比如：
 
 ```java
 @Autowired
@@ -235,7 +252,7 @@ public void setHelper(Helper helper) {
 }
 ```
 
-> 注：在 `Spring 4.3` 及以后的版本中，setter 上面的 `@Autowired` 注解是可以不写的。
+> 注：在 `Spring 4.3` 及以后的版本中，setter 上面的 `@Autowired` 注解是<mark style="background: #FF5582A6;">可以不写</mark>的。
 
 
 ### 3. 基于 constructor 注入
@@ -250,7 +267,7 @@ public HelpService(@Qualifier("svcB") Svc svc) {
 }
 ```
 
-> 在 `Spring 4.3` 及以后的版本中，如果这个类只有一个构造方法，那么这个构造方法上面也可以不写 `@Autowired` 注解
+> 在 `Spring 4.3` 及以后的版本中，如果这个类<mark style="background: #FF5582A6;">只有一个构造方法</mark>，那么这个构造方法上面也<mark style="background: #FF5582A6;">可以不写</mark> `@Autowired` 注解
 
 
 
@@ -311,6 +328,9 @@ Resource注解如果声明了name属性，则必须按照name查找对象，不�
 
 AOP:Aspect Oriented Programming 面向切面编程，通过预编译或运行期动态代理实现程序功能的统一维护的一种技术 
 
+每个业务方法，除了自身的<mark style="background: #FF5582A6;">业务逻辑</mark>，还需要<mark style="background: #FF5582A6;">安全检查</mark>、<mark style="background: #FF5582A6;">日志记录</mark>和<mark style="background: #FF5582A6;">事务处理</mark>等，如果没有AOP，就会出现大量重复的代码
+
+
 主要功能是：**日志记录**、**性能统计**、**安全控制**、**事务处理**、**异常处理**等
 
 ## AOP的实现方式 
@@ -321,9 +341,23 @@ AOP:Aspect Oriented Programming 面向切面编程，通过预编译或运行期
 2. 类加载器：在目标类被装载到JVM时，通过一个特殊的类加载器，对目标类的字节码重新“增强”；
 3. 运行期动态代理：目标对象和切面都是普通Java类，通过JVM的动态代理功能或者第三方库实现运行期动态织入。(JDK的动态代理、CGLib的动态代理）如SpringAOP、JbossAOP
 
-最简单的方式是第三种，<mark style="background: #FF5582A6;">Spring的AOP实现就是基于JVM的动态代理</mark>。由于J<mark style="background: #FF5582A6;">VM的动态代理要求必须实现接口</mark>，如果一个<mark style="background: #FF5582A6;">普通类</mark>没有业务接口，就需要通过[CGLIB](https://github.com/cglib/cglib)或者[Javassist](https://www.javassist.org/)这些第三方库实现。
+最简单的方式是第三种，<mark style="background: #FF5582A6;">Spring的AOP实现就是基于JVM的动态代理</mark>。由于<mark style="background: #FF5582A6;">JVM的动态代理要求必须实现接口</mark>，如果一个<mark style="background: #FF5582A6;">普通类</mark>没有业务接口，就需要通过[CGLIB](https://github.com/cglib/cglib)或者[Javassist](https://www.javassist.org/)这些第三方库实现。
+
+<mark style="background: #FF5582A6;">Spring Boot 2之后，默认使用CGLIB代理，不论被代理的类是否实现接口</mark>
 
 AOP技术看上去比较神秘，但实际上，它本质就是一个动态代理，让我们把一些常用功能如权限检查、日志、事务等，从每个业务方法中剥离出来。
 
+
+## 相关概念
+在AOP编程中，我们经常会遇到下面的概念：
+- Aspect：切面，即一个横跨多个核心逻辑的功能，或者称之为系统关注点；
+- Joinpoint：连接点，即定义在应用程序流程的何处插入切面的执行；
+- Pointcut：切入点，即一组连接点的集合；
+- Advice：增强，指特定连接点上执行的动作；
+- Introduction：引介，指为一个已有的Java对象动态地增加新的接口；
+- Weaving：织入，指将切面整合到程序的执行流程中；
+- Interceptor：拦截器，是一种实现增强的方式；
+- Target Object：目标对象，即真正执行业务的核心逻辑对象；
+- AOP Proxy：AOP代理，是客户端持有的增强后的对象引用。
 
 
