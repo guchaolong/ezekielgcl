@@ -5,6 +5,10 @@
       "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
     },
     {
+      "basename": "Gradle",
+      "path": "码农笔记/07-互联网工具/Gradle.md"
+    },
+    {
       "basename": "HomePage",
       "path": "HomePage.md"
     },
@@ -123,10 +127,6 @@
     {
       "basename": "2023-08-24-周四",
       "path": "个人成长/日记/2023-08-24-周四.md"
-    },
-    {
-      "basename": "Gradle",
-      "path": "码农笔记/07-互联网工具/Gradle.md"
     },
     {
       "basename": "Netty教程",

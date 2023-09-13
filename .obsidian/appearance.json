@@ -12,10 +12,12 @@
     "搜索框美化",
     "taskspage",
     "表格着色",
-    "awesome-brain-manager",
-    "h1h2-text-align-center",
+    "nav-labels-zh",
+    "网格背景",
     "Dataview Card",
-    "nav-labels-zh"
+    "h1h2-text-align-center",
+    "awesome-brain-manager",
+    "代码块不自动换行"
   ],
   "nativeMenus": true,
   "showViewHeader": true,

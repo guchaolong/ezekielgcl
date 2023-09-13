@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#优雅的代码",
+                "query": "Gradle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "41111949b8b524e5",
@@ -180,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 367.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,8 +203,9 @@
   },
   "active": "7f9a855445878a85",
   "lastOpenFiles": [
-    "HomePage.md",
+    "码农笔记/07-互联网工具/Gradle.md",
     "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
+    "HomePage.md",
     "Everything/Obsidian折腾记录.md",
     "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
@@ -227,7 +229,6 @@
     "码农笔记/01-框架源码/Spring/是的第三代.md",
     "码农笔记/01-框架源码/Spring/Spring.md",
     "码农笔记/Z-面试/找工作更多的是技巧.md",
-    "Index/index-日记.md",
     "码农笔记/F-Netty",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "md/algorithm",

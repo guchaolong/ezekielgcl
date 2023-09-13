@@ -51,24 +51,22 @@ Spring Framework主要包括几个模块：
 
 
 ## Spring体系结构
+
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913102000.png)
 
-
-
-## 核心容器
+### Core Container(核心容器)
 
 核心容器由 spring-core，spring-beans，spring-context，spring-context-support和spring-expression（SpEL，Spring 表达式语言，Spring Expression Language）等模块组成，它们的细节如下：
 
 - **spring-core** 模块提供了框架的基本组成部分，包括 <mark style="background: #FF5582A6;">IoC</mark> 和<mark style="background: #FF5582A6;">依赖注入</mark>功能。
-    
 - **spring-beans** 模块提供 <mark style="background: #FF5582A6;">BeanFactory</mark>，工厂模式的微妙实现，它移除了编码式单例的需要，并且可以把配置和依赖从实际编码逻辑中解耦。
-    
 - **context** 模块建立在由 **core**和 **beans** 模块的基础上建立起来的，它以一种类似于 JNDI 注册的方式访问对象。Context 模块继承自 Bean 模块，并且添加了国际化（比如，使用资源束）、事件传播、资源加载和透明地创建上下文（比如，通过 Servelet 容器）等功能。Context 模块也支持 Java EE 的功能，比如 EJB、JMX 和远程调用等。<mark style="background: #FF5582A6;">ApplicationContext</mark> 接口是 Context 模块的焦点。
 - **spring-context-support** 提供了对第三方集成到 Spring 上下文的支持，比如缓存（EhCache, Guava, JCache）、邮件（JavaMail）、调度（CommonJ, Quartz）、模板引擎（FreeMarker, JasperReports, Velocity）等。
-    
-- **spring-expression** 模块提供了强大的表达式语言，用于在运行时查询和操作对象图。它是 JSP2.1 规范中定义的统一表达式语言的扩展，支持 set 和 get 属性值、属性赋值、方法调用、访问数组集合及索引的内容、逻辑算术运算、命名变量、通过名字从 Spring IoC 容器检索对象，还支持列表的投影、选择以及聚合等。
+- **spring-expression** 模块提供了强大的<mark style="background: #FF5582A6;">表达式语言</mark>，用于在运行时查询和操作对象图。它是 JSP2.1 规范中定义的统一表达式语言的扩展，支持 set 和 get 属性值、属性赋值、方法调用、访问数组集合及索引的内容、逻辑算术运算、命名变量、通过名字从 Spring IoC 容器检索对象，还支持列表的投影、选择以及聚合等。
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103630.png)
 
-## 数据访问/集成
+
+### Data Access/Integration（数据访问/集成）
 
 数据访问/集成层包括 JDBC，ORM，OXM，JMS 和事务处理模块，它们的细节如下：
 
@@ -84,46 +82,79 @@ Spring Framework主要包括几个模块：
     
 - **事务**模块为实现特殊接口类及所有的 POJO 支持编程式和声明式事务管理。（注：编程式事务需要自己写 beginTransaction()、commit()、rollback() 等事务管理方法，声明式事务是通过注解或配置由 spring 自动处理，编程式事务粒度更细）
 
-## Web
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103130.png)
 
-Web 层由 Web，Web-MVC，Web-Socket 和 Web-Portlet 组成，它们的细节如下：
 
-- **Web** 模块提供面向 web 的基本功能和面向 web 的应用上下文，比如多部分（multipart）文件上传功能、使用 Servlet 监听器初始化 IoC 容器等。它还包括 HTTP 客户端以及 Spring 远程调用中与 web 相关的部分。
-    
-- **Web-MVC** 模块为 web 应用提供了模型视图控制（MVC）和 REST Web服务的实现。Spring 的 MVC 框架可以使领域模型代码和 web 表单完全地分离，且可以与 Spring 框架的其它所有功能进行集成。
-    
-- **Web-Socket** 模块为 WebSocket-based 提供了支持，而且在 web 应用程序中提供了客户端和服务器端之间通信的两种方式。
-    
-- **Web-Portlet** 模块提供了用于 Portlet 环境的 MVC 实现，并反映了 spring-webmvc 模块的功能。  
-    
 
-## Test模块
+### Web
+
+Spring 的 Web 层包括 Web、Servlet、WebSocket 和 Webflux 组件，具体介绍如下。
+
+- **Web 模块**：提供了基本的 Web 开发集成特性，例如多文件上传功能、使用的 Servlet 监听器的 IOC 容器初始化以及 Web 应用上下文。
+- **Servlet 模块**：提供了一个 Spring MVC Web 框架实现。Spring MVC 框架提供了基于注解的请求资源注入、更简单的数据绑定、数据验证等及一套非常易用的 JSP 标签，完全无缝与 Spring 其他技术协作。
+- **WebSocket 模块**：提供了简单的接口，用户只要实现响应的接口就可以快速的搭建 WebSocket Server，从而实现双向通讯。
+- **Webflux 模块**： Spring WebFlux 是 Spring Framework 5.x中引入的新的响应式web框架。与Spring MVC不同，它不需要Servlet API，是完全异步且非阻塞的，并且通过Reactor项目实现了Reactive Streams规范。Spring WebFlux 用于创建基于事件循环执行模型的完全异步且非阻塞的应用程序。
+
+此外Spring4.x中还有Portlet 模块，在Spring 5.x中已经移除
+- **Portlet 模块**：提供了在 Portlet 环境中使用 MVC 实现，类似 Web-Servlet 模块的功能。
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103456.png)
+
+### AOP、Aspects、Instrumentation和Messaging
+
+在 Core Container 之上是 AOP、Aspects 等模块，具体介绍如下：
+
+- **AOP 模块**：提供了面向切面编程实现，提供比如日志记录、权限控制、性能统计等通用功能和业务逻辑分离的技术，并且能动态的把这些功能添加到需要的代码中，这样各司其职，降低业务逻辑和通用功能的耦合。
+- **Aspects 模块**：提供与 AspectJ 的集成，是一个功能强大且成熟的面向切面编程（AOP）框架。
+- **Instrumentation 模块**：提供了类工具的支持和类加载器的实现，可以在特定的应用服务器中使用。
+- **messaging 模块**：Spring 4.0 以后新增了消息（Spring-messaging）模块，该模块提供了对消息传递体系结构和协议的支持。
+- **jcl 模块**： Spring 5.x中新增了日志框架集成的模块。
+
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103828.png)
+
+
+### Test模块
 
 Test 模块：Spring 支持 Junit 和 TestNG 测试框架，而且还额外提供了一些基于 Spring 的测试功能，比如在测试 Web 框架时，模拟 Http 请求的功能。
 
-## 其他
-
-还有其他一些重要的模块，像 AOP ，Aspects，Instrumentation，Web 和测试模块，它们的细节如下：
-
-- **AOP** 模块提供了面向方面（切面）的编程实现，允许你定义方法拦截器和切入点对代码进行干净地解耦，从而使实现功能的代码彻底的解耦出来。使用源码级的元数据，可以用类似于.Net属性的方式合并行为信息到代码中。
-    
-- **Aspects** 模块提供了与 **AspectJ** 的集成，这是一个功能强大且成熟的面向切面编程（AOP）框架。
-    
-- **Instrumentation** 模块在一定的应用服务器中提供了类 instrumentation 的支持和类加载器的实现。
-    
-- **Messaging** 模块为 STOMP 提供了支持作为在应用程序中 WebSocket 子协议的使用。它也支持一个注解编程模型，它是为了选路和处理来自 WebSocket 客户端的 STOMP 信息。
-    
-- **测试**模块支持对具有 JUnit 或 TestNG 框架的 Spring 组件的测试。
+包含Mock Objects, TestContext Framework, Spring MVC Test, WebTestClient。
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103945.png)
 
 
-# Spring IoC 容器
+
+# Spring的核心要点
+## 控制反转 - IOC
+- Spring框架管理这些Bean的创建工作，即由用户管理Bean转变为框架管理Bean，这个就叫**控制反转 - Inversion of Control (IoC)**
+- Spring 框架托管创建的Bean放在哪里呢？ 这便是**IoC Container**;
+- Spring 框架为了更好让用户配置Bean，必然会引入**不同方式来配置Bean？ 这便是xml配置，Java配置，注解配置**等支持
+- Spring 框架既然接管了Bean的生成，必然需要**管理整个Bean的生命周期**等；
+- 应用程序代码从Ioc Container中获取依赖的Bean，注入到应用程序中，这个过程叫 **依赖注入(Dependency Injection，DI)** ； 所以说控制反转是通过依赖注入实现的，其实它们是同一个概念的不同角度描述。通俗来说就是**IoC是设计思想，DI是实现方式**
+- 在依赖注入时，有哪些方式呢？这就是构造器方式，@Autowired, @Resource, @Qualifier... 同时Bean之间存在依赖（可能存在先后顺序问题，以及**循环依赖问题**等）
+## 面向切面 - AOP
+- Spring 框架通过定义切面, 通过拦截切点实现了不同业务模块的解耦，这个就叫**面向切面编程 - Aspect Oriented Programming (AOP)**
+- 为什么@Aspect注解使用的是aspectj的jar包呢？这就引出了**Aspect4J和Spring AOP的历史渊源**，只有理解了Aspect4J和Spring的渊源才能理解有些注解上的兼容设计
+- 如何支持**更多拦截方式**来实现解耦， 以满足更多场景需求呢？ 这就是@Around, @Pointcut... 等的设计
+- 那么Spring框架又是如何实现AOP的呢？ 这就引入**代理技术，分静态代理和动态代理**，动态代理又包含JDK代理和CGLIB代理等
+
+
+Spring设计的两个大的要点：IOC和AOP；从框架的设计角度而言，更为重要的是<mark style="background: #FF5582A6;">简化开发</mark>，最开始的<mark style="background: #FF5582A6;">xml配置</mark>,这种方式比较麻烦，然后就有了<mark style="background: #FF5582A6;">java配置</mark>方式（@Bean等注解）、<mark style="background: #FF5582A6;">注解配置方式</mark>（@Repository、@Service 等注解）、Springboot实际上通过 
+
+Springboot通过<mark style="background: #FF5582A6;">约定大于配置</mark>的方式，使用xx-starter统一的<mark style="background: #FF5582A6;">对Bean进行默认初始化</mark>，用户只需要很少的配置就可以进行开发了
+
+# IOC
+## 什么是IOC？
+Ioc—Inversion of Control，即“控制反转”，<mark style="background: #FF5582A6;">不是什么技术，而是一种设计思想</mark>。在Java开发中，Ioc意味着将你设计好的对象交给容器控制，而不是传统的在你的对象内部直接控制
+
+## IoC和DI是什么关系
+控制反转是通过依赖注入实现的，其实它们是同一个概念的不同角度描述。通俗来说就是<mark style="background: #FF5582A6;">IoC是设计思想，DI是实现方式</mark>。
+
+## Spring IoC 容器
 IOC 容器具有依赖注入功能的容器，它可以创建对象，IOC 容器负责实例化、定位、配置应用程序中的对象及建立这些对象间的依赖。通常new一个实例，控制权由程序员控制，而"控制反转"是指new实例工作不由程序员来做而是交给Spring容器来做。在Spring中<mark style="background: #FF5582A6;">BeanFactory</mark>是IOC容器的实际代表者
 
 Spring实现IOC容器的方式有两种
 1. <mark style="background: #FF5582A6;">BeanFactory</mark> 容器,spring框架的基础设施，<mark style="background: #FF5582A6;">面向spring本身</mark>
 2. <mark style="background: #FF5582A6;">ApplicationContext</mark> 容器,BeanFactory的子接口，<mark style="background: #FF5582A6;">面向开发者</mark>，几乎所有的场合都可以使用ApprlicationContext而非底层的BeanFactory
 
-## BeanFactory 容器
+### BeanFactory 容器
 这是一个最简单的容器，它主要的功能是为依赖注入 （DI） 提供支持，这个容器接口在 org.springframework.beans.factory.BeanFactory中被定义。BeanFactory 和相关的接口，比如BeanFactoryAware、DisposableBean、InitializingBean，仍旧保留在 Spring 中，主要目的是向后兼容已经存在的和那些 Spring 整合在一起的第三方框架。
 
 在 Spring 中，有大量对 BeanFactory 接口的实现。其中，最常被使用的是 **XmlBeanFactory** 类。这个容器从一个 XML 文件中读取配置元数据，由这些元数据来生成一个被配置化的系统或者应用。
@@ -131,7 +162,7 @@ Spring实现IOC容器的方式有两种
 
 在资源宝贵的移动设备或者基于 applet 的应用当中， BeanFactory 会被优先选择。否则，<mark style="background: #FF5582A6;">一般使用的是 ApplicationContext</mark>，除非你有更好的理由选择 BeanFactory
 
-## ApplicationContext 容器
+### ApplicationContext 容器
 ApplicationContext 是 BeanFactory 的子接口，也被称为 <mark style="background: #FF5582A6;">Spring 上下文</mark>。  
 
 ApplicationContext 是 spring 中<mark style="background: #FF5582A6;">较高级的容器</mark>。和 BeanFactory 类似，它可以加载配置文件中定义的 bean，将所有的 bean 集中在一起，当有请求的时候分配 bean。 另外，它增加了企业所需要的功能，比如，从属性文件中解析文本信息和将事件传递给所指定的监听器。
@@ -146,16 +177,105 @@ ApplicationContext 是 spring 中<mark style="background: #FF5582A6;">较高级�
     
 - **XmlWebApplicationContext**：该容器会在一个 <mark style="background: #FF5582A6;">web 应用程序</mark>的范围内加载在 XML 文件中已被定义的 bean。
 
-## BeanFactory和ApplicationContext的区别
+### BeanFactory和ApplicationContext的区别
 
 `BeanFactory`和`ApplicationContext`的区别在于，`BeanFactory`的实现是<mark style="background: #FF5582A6;">按需创建</mark>，即<mark style="background: #FF5582A6;">第一次获取Bean时才创建这个Bean</mark>，而`ApplicationContext`会<mark style="background: #FF5582A6;">一次性创建所有的Bean</mark>。实际上，`ApplicationContext`接口是从`BeanFactory`接口继承而来的，并且，`ApplicationContext`提供了一些<mark style="background: #FF5582A6;">额外的功能</mark>，包括<mark style="background: #FF5582A6;">国际化支持</mark>、<mark style="background: #FF5582A6;">事件</mark>和<mark style="background: #FF5582A6;">通知机制</mark>等。通常情况下，我们总是使用`ApplicationContext`，很少会考虑使用`BeanFactory`
 
 
-## Bean 定义
+## Bean 定义（Ioc 配置的三种方式）
 三个方法把配置元数据提供给 Spring 容器：
 - 基于 XML 的配置文件
+- 基于 Java 的配置（本质上就是把在XML上的配置声明转移到Java配置类中）
 - 基于注解的配置
-- 基于 Java 的配置
+
+### XML配置：
+顾名思义，就是将bean的信息配置.xml文件里，通过Spring加载文件为我们创建bean。这种方式出现很多早前的SSM项目中，将第三方类库或者一些配置工具类都以这种方式进行配置，主要原因是由于第三方类不支持Spring注解。
+
+- **优点**： 可以使用于<mark style="background: #FF5582A6;">任何场景</mark>，结构清晰，通俗易懂
+- **缺点**： <mark style="background: #FF5582A6;">配置繁琐</mark>，<mark style="background: #FF5582A6;">不易维护</mark>，枯燥无味，扩展性差
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- services -->
+    <bean id="userService" class="tech.pdai.springframework.service.UserServiceImpl">
+        <property name="userDao" ref="userDao"/>
+        <!-- additional collaborators and configuration for this bean go here -->
+    </bean>
+    <!-- more bean definitions for services go here -->
+</beans>
+```
+
+### Java配置：
+将类的创建交给我们配置的JavcConfig类来完成，Spring只负责维护和管理，采用纯Java创建方式。其本质上就是把在XML上的配置声明转移到Java配置类中
+
+- **优点**：适用于<mark style="background: #FF5582A6;">任何场景</mark>，配置方便，因为是纯Java代码，扩展性高，十分灵活
+- **缺点**：由于是采用Java类的方式，声明不明显，如果大量配置，<mark style="background: #FF5582A6;">可读性比较差</mark>
+
+1. 创建一个配置类， 添加<mark style="background: #FF5582A6;">@Configuration</mark>注解声明为配置类
+2. 创建方法，方法上加上<mark style="background: #FF5582A6;">@Bean</mark>，该方法用于创建实例并返回，该实例创建后会交给spring管理，方法名建议与实例名相同（首字母小写）。注：实例类不需要加任何注解
+```java
+/**
+ * @author 
+ */
+@Configuration
+public class BeansConfig {
+
+    /**
+     * @return user dao
+     */
+    @Bean("userDao")
+    public UserDaoImpl userDao() {
+        return new UserDaoImpl();
+    }
+
+    /**
+     * @return user service
+     */
+    @Bean("userService")
+    public UserServiceImpl userService() {
+        UserServiceImpl userService = new UserServiceImpl();
+        userService.setUserDao(userDao());
+        return userService;
+    }
+}
+```
+
+### 注解配置：
+通过在类上加注解的方式，来声明一个类交给Spring管理，Spring会自动扫描带有<mark style="background: #FF5582A6;">@Component</mark>，<mark style="background: #FF5582A6;">@Controller</mark>，<mark style="background: #FF5582A6;">@Service</mark>，<mark style="background: #FF5582A6;">@Repository</mark>这四个注解的类，然后帮我们创建并管理，前提是需要先配置Spring的注解扫描器。
+
+- **优点**：开发<mark style="background: #FF5582A6;">便捷</mark>，通俗易懂，方便维护。
+- **缺点**：具有<mark style="background: #FF5582A6;">局限性</mark>，对于一些第三方资源，无法添加注解。只能采用XML或JavaConfig的方式配置
+
+1. 对类添加@Component相关的注解，比如@Controller，@Service，@Repository
+2. 设置ComponentScan的basePackage, 比如`<context:component-scan base-package='tech.pdai.springframework'>`, 或者`@ComponentScan("tech.pdai.springframework")`注解，或者 `new AnnotationConfigApplicationContext("tech.pdai.springframework")`指定扫描的basePackage.
+```java
+/**
+ * @author pdai
+ */
+@Service
+public class UserServiceImpl {
+
+    /**
+     * user dao impl.
+     */
+    @Autowired
+    private UserDaoImpl userDao;
+
+    /**
+     * find user list.
+     *
+     * @return user list
+     */
+    public List<User> findUserList() {
+        return userDao.findUserList();
+    }
+
+}
+```
+
 
 ## Bean 作用域
 Spring 框架支持以下五个作用域，分别为 singleton、prototype、request、session 和 global session
@@ -240,8 +360,21 @@ private Svc svc;
 
 
 ### 2. 基于 setter 方法注入
+- **在XML配置方式中**，<mark style="background: #FF5582A6;">property</mark>都是setter方式注入，比如下面的xml:
+```xml
+    <bean id="userService" class="tech.pdai.springframework.service.UserServiceImpl">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+```
+本质上包含两步：
+1. 第一步，需要new UserServiceImpl()创建对象, 所以需要默认构造函数
+2. 第二步，调用setUserDao()函数注入userDao的值, 所以`UserServiceImpl`中需要setUserDao()函数
 
-通过对应变量的`setXXX()`方法以及在方法上面使用注解，来完成依赖注入。比如：
+> xml中的<mark style="background: #FF5582A6;">property</mark>，以及类中的<mark style="background: #FF5582A6;">setXXX</mark>函数
+
+
+
+- **在注解和Java配置方式下**，通过对应变量的<mark style="background: #FF5582A6;">setXXX()</mark>方法以及在方法上面使用注解，来完成依赖注入。比如：
 
 ```java
 private Helper helper;
@@ -252,10 +385,21 @@ public void setHelper(Helper helper) {
 }
 ```
 
-> 注：在 `Spring 4.3` 及以后的版本中，setter 上面的 `@Autowired` 注解是<mark style="background: #FF5582A6;">可以不写</mark>的。
+> 注：
+> 1. 在Spring3.x刚推出的时候，推荐使用注入的就是这种, 但是这种方式比较麻烦，所以在Spring4.x版本中推荐构造函数注入。
+> 2. 在 Spring 4.3及以后的版本中，setter 上面的 `@Autowired` 注解是<mark style="background: #FF5582A6;">可以不写</mark>的。
+
 
 
 ### 3. 基于 constructor 注入
+**在XML配置方式中**，`<constructor-arg>`是通过构造函数参数注入，比如下面的xml:
+```xml
+    <bean id="userService" class="tech.pdai.springframework.service.UserServiceImpl">
+        <constructor-arg name="userDao" ref="userDao"/>
+    </bean>
+```
+
+
 
 将各个必需的依赖全部放在带有注解构造方法的参数中，并在构造方法中完成对应变量的初始化，这种方式，就是基于构造方法的注入。比如：
 ```java

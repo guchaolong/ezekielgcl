@@ -1,7 +1,7 @@
 #Gradle
 
 # 安装、配置
-下载，解压，设置环境变量，在.zshrc文件中添加下面两行，然后`source ~/.zshrc`
+下载，解压，设置环境变量，在<mark style="background: #FF5582A6;">.zshrc</mark>文件中添加下面两行，然后`source ~/.zshrc`
 **export GRADLE_HOME=/Users/ezekiel/DevTool/gradle-7.6**
 **export PATH=$PATH:$GRADLE_HOME/bin**
 
@@ -28,8 +28,8 @@ Gradle Wrapper 实际上就是对 Gradle 的一层包装，用于解决实际开
 
 
 那如何使用 Gradle Wrapper 呢？ 
-项目中的gradlew、gradlew.cmd脚本用的就是wrapper中规定的gradle版本。
-而我们上面提到的gradle指令用的是本地gradle,所以gradle指令和gradlew指令所使用的gradle版本有可能是不一样的。 
+项目中的<mark style="background: #FF5582A6;">gradlew</mark>、<mark style="background: #FF5582A6;">gradlew.cmd</mark>脚本用的就是<mark style="background: #FF5582A6;">wrapper中规定的gradle版本</mark>。
+而我们上面提到的<mark style="background: #FF5582A6;">gradle</mark>指令用的是<mark style="background: #FF5582A6;">本地gradle</mark>,所以gradle指令和gradlew指令所使用的gradle版本有可能是不一样的。 
 gradlew、gradlew.cmd的使用方式与gradle使用方式完全一致，只不过把gradle指令换成了gradlew指令。 
 当然,我们也可在终端执行 gradlew 指令时，指定指定一些参数,来控制 Wrapper 的生成，比如依赖的版本等，如下：
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1688774360368-f763d2c1-303e-42c1-b858-d7969ed89057.png#averageHue=%23f8f8f7&clientId=u0499adff-59f9-4&from=paste&height=126&id=ud03c193d&originHeight=148&originWidth=837&originalType=binary&ratio=2&rotation=0&showTitle=false&size=56441&status=done&style=none&taskId=u6150407f-4dd9-4224-a1fe-989477c6776&title=&width=712.5)
