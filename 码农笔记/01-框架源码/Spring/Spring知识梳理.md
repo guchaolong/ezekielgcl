@@ -13,7 +13,7 @@ Spring 框架是一个<mark style="background: #FF5582A6;">轻量级</mark>的�
 >在Spring Framework基础上，又诞生了Spring Boot、Spring Cloud、Spring Data、Spring Security等一系列基于Spring Framework的项目
 
 
-## Spring 的主要特性和优势：
+## Spring的主要特性和优势：
 
 从Spring 框架的**特性**来看：
 
@@ -84,8 +84,6 @@ Spring Framework主要包括几个模块：
 
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103130.png)
 
-
-
 ### Web
 
 Spring 的 Web 层包括 Web、Servlet、WebSocket 和 Webflux 组件，具体介绍如下。
@@ -112,7 +110,7 @@ Spring 的 Web 层包括 Web、Servlet、WebSocket 和 Webflux 组件，具体�
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103828.png)
 
 
-### Test模块
+### Test
 
 Test 模块：Spring 支持 Junit 和 TestNG 测试框架，而且还额外提供了一些基于 Spring 的测试功能，比如在测试 Web 框架时，模拟 Http 请求的功能。
 
@@ -340,23 +338,41 @@ Bean 后置处理器允许在调用<mark style="background: #FF5582A6;">初始�
 
 ### 1. 基于 field 注入
 
-所谓基于 field 注入，就是在bean的变量上使用注解进行依赖注入。本质上是通过反射的方式直接注入到field。这是我平常开发中看的最多也是最熟悉的一种方式，同时，也正是 Spring 团队所<mark style="background: #FF5582A6;">不推荐</mark>的方式。比如：
+所谓基于 field 注入，就是在bean的变量上使用注解进行依赖注入。本质上是通过反射的方式直接注入到field。属性注入是我们最熟悉，也是日常开发中使用最多的一种注入方式，同时，也正是 Spring 团队所<mark style="background: #FF5582A6;">不推荐</mark>的方式。比如：
 
 ```java
-@Autowired
-private Svc svc;
+@RestController
+public class UserController {
+    // 属性对象
+    @Autowired
+    private UserService userService;
+
+    @RequestMapping("/add")
+    public UserInfo add(String username, String password) {
+        return userService.add(username, password);
+    }
+}
 ```
 
-好处:
-简洁，代码看起来很<mark style="background: #FF5582A6;">简单</mark>，通俗易懂。你的类可以专注于业务而不被依赖注入所污染。你只需要把`@Autowired`扔到变量之上就好了，不需要特殊的构造器或者set方法，依赖注入容器会提供你所需的依赖
+<mark style="background: #D2B3FFA6;">好处:</mark>
+属性注入最大的优点就是实现<mark style="background: #FF5582A6;">简单</mark>、使用简单，只需要给变量上添加一个注解（@Autowired），就可以在不 new 对象的情况下，直接获得注入的对象了（这就是 DI 的功能和魅力所在），所以它的优点就是使用简单
 
-坏处：
-基于 field 注入虽然简单，但是却会引发很多的问题。这些问题在我平常开发阅读项目代码的时候就经常遇见。
-* <mark style="background: #FF5582A6;">容易违背了单一职责原则</mark> 使用这种基于 field 注入的方式，添加依赖是很简单的，就算你的类中有十几个依赖你可能都觉得没有什么问题，普通的开发者很可能会无意识地给一个类添加很多的依赖。但是当使用构造器方式注入，到了某个特定的点，构造器中的参数变得太多以至于很明显地发现something is wrong。拥有太多的依赖通常意味着你的类要承担更多的责任，明显违背了单一职责原则
+<mark style="background: #D2B3FFA6;">坏处：</mark>
+然而，基于 field 注入虽然简单，但是却会引发很多的问题。这些问题在我平常开发阅读项目代码的时候就经常遇见，甚至编译器 Idea 都会提醒你“不建议使用此注入方式”
+属性注入的缺点主要包含以下 3 个：
 
-* <mark style="background: #FF5582A6;">依赖注入与容器本身耦合</mark> 依赖注入框架的核心思想之一就是受容器管理的类不应该去依赖容器所使用的依赖。换句话说，这个类应该是一个简单的POJO(Plain Ordinary Java Object)能够被单独实例化并且你也能为它提供它所需的依赖。 这个问题具体可以表现在：你的类和依赖容器强耦合，<mark style="background: #FF5582A6;">不能在容器外使用</mark>，你的类不能绕过反射（例如单元测试的时候）进行实例化，必须通过<mark style="background: #FF5582A6;">依赖容器才能实例化</mark>，这更像是集成测试
+* 功能性问题：一个<mark style="background: #FF5582A6;">不可变</mark>的对象（<mark style="background: #FF5582A6;">final</mark> 修饰的变量）；
+  原因也很简单：在 Java 中 final 对象（不可变）要么直接赋值，要么在构造方法中赋值，所以当使用属性注入 final 对象时，它不符合 Java 中 final 的使用规范，所以就不能注入成功了
 
-* 不能使用属性注入的方式构建不可变对象(<mark style="background: #FF5582A6;">final</mark> 修饰的变量)
+* 通用性问题：只能适应于 IoC 容器；
+  使用属性注入的方式只适用于 IoC 框架（容器），<mark style="background: #FF5582A6;">与容器本身耦合</mark>，<mark style="background: #FF5582A6;">不能在容器外使用</mark>，必须通过<mark style="background: #FF5582A6;">容器才能实例化</mark>，如果将属性注入的代码移植到其他非 IoC 的框架中，那么代码就无效了，所以属性注入的通用性不是很好。
+
+* 设计原则问题：更容易违背单一设计原则
+  使用属性注入的方式，因为使用起来很<mark style="background: #FF5582A6;">简单</mark>，所以开发者很容易在一个类中同时<mark style="background: #FF5582A6;">注入多个对象</mark>，而这些对象的注入<mark style="background: #FF5582A6;">是否有必要</mark>？是否符合程序设计中的<mark style="background: #FF5582A6;">单一职责原则</mark>？就变成了一个问题。但可以肯定的是，注入实现越简单，那么<mark style="background: #FF5582A6;">滥用它的概率也越大</mark>，所以出现违背单一职责原则的概率也越大。注意：这里强调的是违背设计原则（单一职责）的可能性，而不是一定会违背设计原则，二者有着本质的区别
+
+* **循环依赖的问题**：
+  使用<mark style="background: #FF5582A6;">field注入</mark>可能会导致<mark style="background: #FF5582A6;">循环依赖</mark>，即A里面注入B，B里面又注入A：如果使用<mark style="background: #FF5582A6;">构造器注入</mark>，在spring项目<mark style="background: #FF5582A6;">启动的时候</mark>，就会<mark style="background: #FF5582A6;">抛出异常</mark>：BeanCurrentlyInCreationException：Requested bean is currently in creation: Is there an unresolvable circular reference？从而提醒你避免循环依赖，如果是<mark style="background: #FF5582A6;">field注入</mark>的话，<mark style="background: #FF5582A6;">启动的时候不会报错</mark>，在<mark style="background: #FF5582A6;">使用</mark>那个bean的时候才会<mark style="background: #FF5582A6;">报错</mark>
+
 
 
 ### 2. 基于 setter 方法注入
@@ -377,17 +393,38 @@ private Svc svc;
 - **在注解和Java配置方式下**，通过对应变量的<mark style="background: #FF5582A6;">setXXX()</mark>方法以及在方法上面使用注解，来完成依赖注入。比如：
 
 ```java
-private Helper helper;
+@RestController
+public class UserController {
+    // Setter 注入
+    private UserService userService;
 
-@Autowired
-public void setHelper(Helper helper) {
-    this.helper = helper;
+    @Autowired
+    public void setUserService(UserService userService) {
+        this.userService = userService;
+    }
+
+    @RequestMapping("/add")
+    public UserInfo add(String username, String password) {
+        return userService.add(username, password);
+    }
 }
 ```
 
+优点：
+* 它<mark style="background: #FF5582A6;">完全符合单一职责的设计原则</mark>，因为每一个 Setter 只针对一个对象。
+* 这个依赖可以很方便的被<mark style="background: #FF5582A6;">改变</mark>或者<mark style="background: #FF5582A6;">重新注入</mark>
+
+缺点：
+但它的缺点也很明显，它的缺点主要体现在以下 2 点：
+* <mark style="background: #FF5582A6;">1.不能注入不可变对象</mark>（final 修饰的对象）；
+  ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230914000048.png)
+
+* 2.注入的对象<mark style="background: #FF5582A6;">可被修改</mark>
+  因为提供了 setXXX 的方法，意味着你可以在任何时候、在任何地方，通过调用 setXXX 的方法来改变注入对象，所以 Setter 注入的问题是，被注入的对象可能随时被修改
+
 > 注：
 > 1. 在Spring3.x刚推出的时候，推荐使用注入的就是这种, 但是这种方式比较麻烦，所以在Spring4.x版本中推荐构造函数注入。
-> 2. 在 Spring 4.3及以后的版本中，setter 上面的 `@Autowired` 注解是<mark style="background: #FF5582A6;">可以不写</mark>的。
+> 2. 在 Spring 4.3及以后的版本中，setter 上面的 @Autowired 注解是<mark style="background: #FF5582A6;">可以不写</mark>的。
 
 
 
@@ -398,36 +435,57 @@ public void setHelper(Helper helper) {
         <constructor-arg name="userDao" ref="userDao"/>
     </bean>
 ```
+> xml中用constructor-arg，`UserServiceImpl`中要申明<mark style="background: #FF5582A6;">构造函数</mark>
 
 
-
+- **在注解和Java配置方式下**
 将各个必需的依赖全部放在带有注解构造方法的参数中，并在构造方法中完成对应变量的初始化，这种方式，就是基于构造方法的注入。比如：
 ```java
-private final Svc svc;
+@RestController
+public class UserController {
+    // 构造方法注入
+    private UserService userService;
 
-@Autowired
-public HelpService(@Qualifier("svcB") Svc svc) {
-    this.svc = svc;
+    @Autowired
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
+
+    @RequestMapping("/add")
+    public UserInfo add(String username, String password) {
+        return userService.add(username, password);
+    }
 }
 ```
 
+> 在Spring4.x版本中推荐的注入方式就是这种
+> 
 > 在 `Spring 4.3` 及以后的版本中，如果这个类<mark style="background: #FF5582A6;">只有一个构造方法</mark>，那么这个构造方法上面也<mark style="background: #FF5582A6;">可以不写</mark> `@Autowired` 注解
 
+优点：
+构造方法注入相比于前两种注入方法，它<mark style="background: #FF5582A6;">可以注入不可变对象</mark>，并且<mark style="background: #FF5582A6;">它只会执行一次</mark>，也<mark style="background: #FF5582A6;">不存在像 Setter 注入那样，被注入的对象随时被修改的情况</mark>，它的优点有：
 
+- <mark style="background: #FF5582A6;">可注入不可变对象</mark>（<mark style="background: #FF5582A6;">final</mark> 修饰的变量）；
 
-## Spring 开发团队的建议
+- <mark style="background: #FF5582A6;">注入对象不会被修改；</mark>
+  构造方法注入不会像 Setter 注入那样，构造方法在对象创建时只会执行一次，因此它不存在注入对象被随时（调用）修改的情况
+  
+* <mark style="background: #FF5582A6;">依赖不为空</mark>（省去了我们对其检查）
+  当要实例化UserController的时候，由于自己实现了有参数的构造函数，所以不会调用默认构造函数，那么就需要Spring容器传入所需要的参数，所以就两种情况：1、有该类型的参数->传入，OK 。2：无该类型的参数->报错。
+  
+- <mark style="background: #FF5582A6;">注入对象会被完全初始化</mark>；
+  因为依赖对象是在构造方法中执行的，而构造方法是在对象创建之初执行的，因此被注入的对象在使用之前，会被完全初始化，这也是构造方法注入的优点之一
+ 
+  这个可以跟上面的依赖不为空结合起来，向构造器传参之前，要确保注入的内容不为空，那么肯定要调用依赖组件的构造方法完成实例化。而在Java类加载实例化的过程中，构造方法是最后一步（之前如果有父类先初始化父类，然后自己的成员变量，最后才是构造方法），所以返回来的都是初始化之后的状态
+  
+- <mark style="background: #FF5582A6;">通用性更好；不依赖IOC容器</mark>
+  构造方法和属性注入不同，构造方法注入可适用于任何环境，无论是 IoC 框架还是非 IoC 框架，构造方法注入的代码都是通用的，所以它的通用性更好
+  
+* <mark style="background: #FF5582A6;">循环依赖的问题</mark>：使用<mark style="background: #FF5582A6;">field注入</mark>可能会导致<mark style="background: #FF5582A6;">循环依赖</mark>，即A里面注入B，B里面又注入A：如果使用<mark style="background: #FF5582A6;">构造器注入</mark>，在spring项目<mark style="background: #FF5582A6;">启动的时候</mark>，就会<mark style="background: #FF5582A6;">抛出异常</mark>：BeanCurrentlyInCreationException：Requested bean is currently in creation: Is there an unresolvable circular reference？从而提醒你避免循环依赖，如果是<mark style="background: #FF5582A6;">field注入</mark>的话，<mark style="background: #FF5582A6;">启动的时候不会报错</mark>，在<mark style="background: #FF5582A6;">使用</mark>那个bean的时候才会<mark style="background: #FF5582A6;">报错</mark>
 
-- 强制依赖就用构造器方式
-- 可选、可变的依赖就用setter 注入
-
-可以在同一个类中使用这两种方法。<mark style="background: #FF5582A6;">构造器注入</mark>更适合强制性的注入旨在<mark style="background: #FF5582A6;">不变性</mark>，<mark style="background: #FF5582A6;">Setter注入</mark>更适合<mark style="background: #FF5582A6;">可变性</mark>的注入
-
-Spring 团队提倡使用基于构造方法的注入，因为这样一方面可以**将依赖注入到一个不可变的变量中 (注：`final` 修饰的变量)**，另一方面也可以**保证这些变量的值不会是 null**。此外，经过构造方法完成依赖注入的组件 (注：比如各个 `service`)，在被调用时可以**保证它们都完全准备好了**。与此同时，从代码质量的角度来看，**一个巨大的构造方法通常代表着出现了代码异味，这个类可能承担了过多的责任**。
-
-而对于基于 setter 的注入，他们是这么说的：
-基于 setter 的注入，则只应该被用于注入非必需的依赖，同时在类中应该对这个依赖提供一个合理的默认值。如果使用 setter 注入必需的依赖，那么将会有过多的 null 检查充斥在代码中。**使用 setter 注入的一个优点是，这个依赖可以很方便的被改变或者重新注入**。
-
-spring推荐使用setter方法和构造器注入Autowired的bean对象，因此IDEA等工具中私有属性使用Autowired注入会提示警告。setter方法和构造器注入的方式，可以让对象不依赖于spring而独立使用，更加灵活；私有属性则只能通过spring上下文自动注入，一旦注入失败，没有重新注入的方式
+Spring 开发团队的建议
+- <mark style="background: #FF5582A6;">强制依赖</mark>就用<mark style="background: #FF5582A6;">构造器</mark>方式
+- <mark style="background: #FF5582A6;">可选、可变的依赖</mark>就用<mark style="background: #FF5582A6;">setter</mark> 注入
 
 
 ## @Autowired, @Inject, @Resource  三个注解的区别
@@ -438,7 +496,7 @@ Spring 支持使用`@Autowired`, `@Resource`, `@Inject` 三个注解进行依
 `@Autowired`为Spring 框架提供的注解
 
 <mark style="background: #FF5582A6;">装配顺序</mark>：
-1. 优先<mark style="background: #FF5582A6;">byType</mark>，其次<mark style="background: #FF5582A6;">byName</mark>
+1. 优先<mark style="background: #FF5582A6;">byType</mark>(默认），其次<mark style="background: #FF5582A6;">byName</mark>
 2. @Autowired 和 <mark style="background: #FF5582A6;">@Qualifier</mark> 结合使用时，自动注入的策略就从 byType 转变成 <mark style="background: #FF5582A6;">byName</mark> 了，按照`@Qualifier`指定的`name`进行匹配，如果没有，则按照<mark style="background: #FF5582A6;">变量名</mark>进行匹配，匹配不到，则报错。`@Autowired(required=false)`(默认为`true`)，如果设置`required`为`false`，则注入失败时不会抛出异常 
 
 
@@ -466,16 +524,98 @@ Resource注解如果声明了name属性，则必须按照name查找对象，不�
 @Resource可以作用在变量、setter方法上, @Resource不能用于构造器注入
 
 
+4 总结：
+* @<mark style="background: #FF5582A6;">Autowired</mark>是<mark style="background: #FF5582A6;">Spring自带</mark>的，@<mark style="background: #FF5582A6;">Resource</mark>是<mark style="background: #FF5582A6;">JSR250</mark>规范实现的，@<mark style="background: #FF5582A6;">Inject</mark>是<mark style="background: #FF5582A6;">JSR330</mark>规范实现的
+
+* <mark style="background: #FF5582A6;">@Autowired、@Inject用法基本一样</mark>，不同的是<mark style="background: #FF5582A6;">@Inject没有required属性</mark>
+
+* <mark style="background: #FF5582A6;">@Autowired、@Inject</mark>是默认按照<mark style="background: #FF5582A6;">类型</mark>匹配的，<mark style="background: #FF5582A6;">@Resource</mark>是按照<mark style="background: #FF5582A6;">名称</mark>匹配的
+
+* <mark style="background: #FF5582A6;">@Autowired</mark>如果需要按照名称匹配需要和<mark style="background: #FF5582A6;">@Qualifier</mark>一起使用，<mark style="background: #FF5582A6;">@Inject</mark>和<mark style="background: #FF5582A6;">@Named</mark>一起使用，<mark style="background: #FF5582A6;">@Resource</mark>则通过<mark style="background: #FF5582A6;">name</mark>进行指定
+
+
 # AOP
+
+## 引入相关知识点
+- Spring 框架通过定义切面, 通过拦截切点实现了不同业务模块的解耦，这个就叫**面向切面编程 (AOP)**
+- 为什么@Aspect注解使用的是aspectj的jar包呢？这就引出了**Aspect4J和Spring AOP的历史渊源**，只有理解了Aspect4J和Spring的渊源才能理解有些注解上的兼容设计
+- 如何支持**更多拦截方式**来实现解耦， 以满足更多场景需求呢？ 这就是@Around, @Pointcut... 等的设计
+- 那么Spring框架又是如何实现AOP的呢？ 这就引入**代理技术，分静态代理和动态代理**，动态代理又包含JDK代理和CGLIB代理等
+
 
 ## 什么是AOP
 
-AOP:Aspect Oriented Programming 面向切面编程，通过预编译或运行期动态代理实现程序功能的统一维护的一种技术 
+AOP:Aspect Oriented Programming 面向切面编程，通过<mark style="background: #FF5582A6;">预编译</mark>或<mark style="background: #FF5582A6;">运行期动态代理</mark>实现程序功能的统一维护的一种技术 
 
 每个业务方法，除了自身的<mark style="background: #FF5582A6;">业务逻辑</mark>，还需要<mark style="background: #FF5582A6;">安全检查</mark>、<mark style="background: #FF5582A6;">日志记录</mark>和<mark style="background: #FF5582A6;">事务处理</mark>等，如果没有AOP，就会出现大量重复的代码
 
+AOP的理念：就是将分散在各个业务逻辑代码中相同的代码通过**横向切割**的方式抽取到一个独立的模块中！
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230914005556.png)
+
 
 主要功能是：**日志记录**、**性能统计**、**安全控制**、**事务处理**、**异常处理**等
+
+## 相关概念
+在AOP编程中，我们经常会遇到下面的概念：
+- **连接点（Jointpoint）**：表示需要在程序中插入横切关注点的扩展点，**连接点可能是类初始化、方法执行、方法调用、字段调用或处理异常等等**，Spring只支持方法执行连接点，在AOP中表示为**在哪里干**；
+
+- **切入点（Pointcut）**： 选择一组相关连接点的模式，即可以认为连接点的集合，Spring支持perl5正则表达式和AspectJ切入点模式，Spring默认使用AspectJ语法，在AOP中表示为**在哪里干的集合**；
+
+- **通知（Advice）**：在连接点上执行的行为，通知提供了在AOP中需要在切入点所选择的连接点处进行扩展现有行为的手段；包括前置通知（before advice）、后置通知(after advice)、环绕通知（around advice），在Spring中通过代理模式实现AOP，并通过拦截器模式以环绕连接点的拦截器链织入通知；在AOP中表示为**干什么**；
+
+- **方面/切面（Aspect）**：横切关注点的模块化，比如上边提到的日志组件。可以认为是通知、引入和切入点的组合；在Spring中可以使用Schema和<mark style="background: #FF5582A6;">@AspectJ</mark>方式进行组织实现；在AOP中表示为**在哪干和干什么集合**；
+
+- **引入（inter-type declaration）**：也称为内部类型声明，为已有的类添加额外新的字段或方法，Spring允许引入新的接口（必须对应一个实现）到所有被代理对象（目标对象）, 在AOP中表示为**干什么（引入什么）**；
+
+- **目标对象（Target Object）**：需要被织入横切关注点的对象，即该对象是切入点选择的对象，需要被通知的对象，从而也可称为被通知对象；由于Spring AOP 通过代理模式实现，从而这个对象永远是被代理对象，在AOP中表示为**对谁干**；
+
+- **织入（Weaving）**：把切面连接到其它的应用程序类型或者对象上，并创建一个被通知的对象。这些可以在编译时（例如使用AspectJ编译器），类加载时和运行时完成。Spring和其他纯Java AOP框架一样，在运行时完成织入。在AOP中表示为**怎么实现的**；
+
+- **AOP代理（AOP Proxy）**：AOP框架使用代理模式创建的对象，从而实现在连接点处插入通知（即应用切面），就是通过代理来对目标对象应用切面。在Spring中，AOP代理可以用JDK动态代理或CGLIB代理实现，而通过拦截器模型应用切面。在AOP中表示为**怎么实现的一种典型方式**
+
+
+通知类型：
+- **前置通知（Before advice）**：在某连接点之前执行的通知，但这个通知不能阻止连接点之前的执行流程（除非它抛出一个异常）。
+- **后置通知（After returning advice）**：在某连接点正常完成后执行的通知：例如，一个方法没有抛出任何异常，正常返回。 
+- **异常通知（After throwing advice）**：在方法抛出异常退出时执行的通知。
+- **最终通知（After (finally) advice）**：当某连接点退出的时候执行的通知（不论是正常返回还是异常退出）。
+- **环绕通知（Around Advice）**：包围一个连接点的通知，如方法调用。这是最强大的一种通知类型。环绕通知可以在方法调用前后完成自定义的行为。它也会选择是否继续执行连接点或直接返回它自己的返回值或抛出异常来结束执行
+
+把这些术语串联到一起，方便理解：
+
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230914011002.png)
+
+
+## Spring AOP和AspectJ是什么关系
+
+- **首先AspectJ是什么**？
+
+AspectJ是一个<mark style="background: #FF5582A6;">java实现</mark>的<mark style="background: #FF5582A6;">AOP框架</mark>，它能够对java代码进行AOP编译（一般在<mark style="background: #FF5582A6;">编译期</mark>进行），让java代码具有AspectJ的AOP功能（当然需要特殊的<mark style="background: #FF5582A6;">编译器</mark>）
+
+可以这样说AspectJ是目前实现AOP框架中<mark style="background: #FF5582A6;">最成熟</mark>，<mark style="background: #FF5582A6;">功能最丰富</mark>的语言，更幸运的是，AspectJ与java程序完全兼容，几乎是无缝关联，因此对于有java编程基础的工程师，上手和使用都非常容易。
+
+- **其次，为什么需要理清楚Spring AOP和AspectJ的关系**？
+
+我们看下@Aspect以及增强的几个注解，为什么不是Spring包，而是来源于aspectJ呢？
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230914012516.png)
+
+
+- **Spring AOP和AspectJ是什么关系**？
+
+1. AspectJ是更强的AOP框架，是实际意义的**AOP标准**；
+2. Spring为何不写类似AspectJ的框架？ Spring AOP使用纯Java实现, 它不需要专门的编译过程, 它一个**重要的原则就是无侵入性（non-invasiveness）**; Spring 小组完全有能力写类似的框架，只是Spring AOP从来没有打算通过提供一种全面的AOP解决方案来与AspectJ竞争。Spring的开发小组相信无论是基于代理（proxy-based）的框架如Spring AOP或者是成熟的框架如AspectJ都是很有价值的，他们之间应该是**互补而不是竞争的关系**。
+3. Spring小组喜欢@AspectJ注解风格更胜于Spring XML配置； 所以**在Spring 2.0使用了和AspectJ 5一样的注解，并使用AspectJ来做切入点解析和匹配**。**但是，AOP在运行时仍旧是纯的Spring AOP，并不依赖于AspectJ的编译器或者织入器（weaver）**。
+4. Spring 2.5对AspectJ的支持：在一些环境下，增加了对AspectJ的装载时编织支持，同时提供了一个新的bean切入点。
+
+
+AspectJ应用到java代码的过程（这个过程称为织入），对于<mark style="background: #FF5582A6;">织入</mark>这个概念，可以简单理解为aspect(切面)应用到目标函数(类)的过程
+
+对于这个过程，一般分为**动态织入**和**静态织入**：
+- <mark style="background: #FF5582A6;">动态织入</mark>的方式是在运行时动态将要增强的代码织入到目标类中，这样往往是通过动态代理技术完成的，如Java <mark style="background: #FF5582A6;">JDK的动态代理</mark>(Proxy，底层通过反射实现)或者<mark style="background: #FF5582A6;">CGLIB</mark>的动态代理(底层通过继承实现)，<mark style="background: #FF5582A6;">Spring AOP采用的就是基于运行时增强的代理技术</mark>
+- <mark style="background: #FF5582A6;">ApectJ</mark>采用的就是<mark style="background: #FF5582A6;">静态织入</mark>的方式。ApectJ主要采用的是<mark style="background: #FF5582A6;">编译期</mark>织入，在这个期间使用AspectJ的<mark style="background: #FF5582A6;">acj编译器</mark>(类似javac)把aspect类编译成class字节码后，在java目标类编译时织入，即先编译aspect类再编译目标类。
+  ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230914012828.png)
+
+
 
 ## AOP的实现方式 
 
@@ -492,16 +632,24 @@ AOP:Aspect Oriented Programming 面向切面编程，通过预编译或运行期
 AOP技术看上去比较神秘，但实际上，它本质就是一个动态代理，让我们把一些常用功能如权限检查、日志、事务等，从每个业务方法中剥离出来。
 
 
-## 相关概念
-在AOP编程中，我们经常会遇到下面的概念：
-- Aspect：切面，即一个横跨多个核心逻辑的功能，或者称之为系统关注点；
-- Joinpoint：连接点，即定义在应用程序流程的何处插入切面的执行；
-- Pointcut：切入点，即一组连接点的集合；
-- Advice：增强，指特定连接点上执行的动作；
-- Introduction：引介，指为一个已有的Java对象动态地增加新的接口；
-- Weaving：织入，指将切面整合到程序的执行流程中；
-- Interceptor：拦截器，是一种实现增强的方式；
-- Target Object：目标对象，即真正执行业务的核心逻辑对象；
-- AOP Proxy：AOP代理，是客户端持有的增强后的对象引用。
+## AOP的配置方式
+[Spring基础 - Spring核心之面向切面编程(AOP) | Java 全栈知识体系](https://pdai.tech/md/spring/spring-x-framework-aop.html)
 
+Spring AOP 支持对<mark style="background: #FF5582A6;">XML模式</mark>和基于<mark style="background: #FF5582A6;">@AspectJ注解</mark>的两种配置方式
+
+基于XML的声明式AspectJ存在一些不足，需要在Spring配置文件配置大量的代码信息，为了解决这个问题，Spring 使用了@AspectJ框架为AOP的实现提供了一套注解。
+
+|注解名称|解释|
+|---|---|
+|@Aspect|用来定义一个切面。|
+|@pointcut|用于定义切入点表达式。在使用时还需要定义一个包含名字和任意参数的方法签名来表示切入点名称，这个方法签名就是一个返回值为void，且方法体为空的普通方法。|
+|@Before|用于定义前置通知，相当于BeforeAdvice。在使用时，通常需要指定一个value属性值，该属性值用于指定一个切入点表达式(可以是已有的切入点，也可以直接定义切入点表达式)。|
+|@AfterReturning|用于定义后置通知，相当于AfterReturningAdvice。在使用时可以指定pointcut / value和returning属性，其中pointcut / value这两个属性的作用一样，都用于指定切入点表达式。|
+|@Around|用于定义环绕通知，相当于MethodInterceptor。在使用时需要指定一个value属性，该属性用于指定该通知被植入的切入点。|
+|@After-Throwing|用于定义异常通知来处理程序中未处理的异常，相当于ThrowAdvice。在使用时可指定pointcut / value和throwing属性。其中pointcut/value用于指定切入点表达式，而throwing属性值用于指定-一个形参名来表示Advice方法中可定义与此同名的形参，该形参可用于访问目标方法抛出的异常。|
+|@After|用于定义最终final 通知，不管是否异常，该通知都会执行。使用时需要指定一个value属性，该属性用于指定该通知被植入的切入点。|
+|@DeclareParents|用于定义引介通知，相当于IntroductionInterceptor (不要求掌握)。|
+
+
+Spring AOP的实现方式是动态织入，动态织入的方式是在运行时动态将要增强的代码织入到目标类中，这样往往是通过动态代理技术完成的；**如Java JDK的动态代理(Proxy，底层通过反射实现)或者CGLIB的动态代理(底层通过继承实现)**，Spring AOP采用的就是基于运行时增强的代理技术
 
