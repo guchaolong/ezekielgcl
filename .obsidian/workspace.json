@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "41111949b8b524e5",
@@ -181,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,13 +203,13 @@
   },
   "active": "7f9a855445878a85",
   "lastOpenFiles": [
-    "码农笔记/07-互联网工具/Gradle.md",
+    "未命名.md",
     "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
     "HomePage.md",
+    "码农笔记/07-互联网工具/Gradle.md",
     "Everything/Obsidian折腾记录.md",
     "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
-    "未命名.md",
     "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
     "码农笔记/00-Java基础/Java开发手册.md",
