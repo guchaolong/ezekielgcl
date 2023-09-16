@@ -445,6 +445,7 @@ m1芯片使用的是arm架构，而目前Oracle还没有推出适配Mac的arm架
 这个选择 .dmg 格式的 jdk 下载，然后直接安装就好了，这个**会自动配置好环境变量**，**不需要自己配置**
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1672921089633-144b0b5e-50c2-4913-b6e6-8a9efe3115e4.png#averageHue=%23113140&clientId=u21cf0cbf-b0db-4&from=paste&height=99&id=u9516a71b&originHeight=198&originWidth=1778&originalType=binary&ratio=1&rotation=0&showTitle=false&size=83751&status=done&style=none&taskId=uf82c2ecf-5c0e-4cf3-982b-45206ceb54a&title=&width=889)
 
+
 > 但是我自己配了一下
 > `~/.zshrc`文件后面加上两行,然后`source ~/.zshrc`让配置文件生效
 > export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home

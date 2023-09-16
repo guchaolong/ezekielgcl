@@ -1,24 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Spring知识梳理",
-      "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
+      "basename": "复习计划",
+      "path": "码农笔记/Z-面试/复习计划.md"
     },
     {
-      "basename": "快速总结",
-      "path": "码农笔记/B-设计模式/快速总结.md"
+      "basename": "Gradle",
+      "path": "码农笔记/07-互联网工具/Gradle.md"
+    },
+    {
+      "basename": "Linux命令积累",
+      "path": "码农笔记/D-Linux/Linux命令积累.md"
+    },
+    {
+      "basename": "Linux学习笔记",
+      "path": "码农笔记/D-Linux/Linux学习笔记.md"
+    },
+    {
+      "basename": "Mac zsh Item2命令",
+      "path": "码农笔记/D-Linux/Mac zsh Item2命令.md"
+    },
+    {
+      "basename": "Mac------工欲善其事 必先利其器",
+      "path": "Everything/Mac------工欲善其事 必先利其器.md"
     },
     {
       "basename": "23个设计模式总结",
       "path": "码农笔记/B-设计模式/23个设计模式总结.md"
     },
     {
-      "basename": "HomePage",
-      "path": "HomePage.md"
+      "basename": "Tomcat架构图",
+      "path": "码农笔记/03-性能调优/Tomcat/Tomcat架构图.md"
     },
     {
-      "basename": "Gradle",
-      "path": "码农笔记/07-互联网工具/Gradle.md"
+      "basename": "Spring知识梳理",
+      "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
+    },
+    {
+      "basename": "Tomcat 专题",
+      "path": "附件素材/码农/Tomcat 专题.pdf"
+    },
+    {
+      "basename": "Tomcat专题",
+      "path": "码农笔记/03-性能调优/Tomcat/Tomcat专题.md"
+    },
+    {
+      "basename": "Tomcat是一个Servlet容器？",
+      "path": "码农笔记/03-性能调优/Tomcat/Tomcat是一个Servlet容器？.md"
+    },
+    {
+      "basename": "Tomcat热部署与热加载",
+      "path": "码农笔记/03-性能调优/Tomcat/Tomcat热部署与热加载.md"
+    },
+    {
+      "basename": "Tomcat 性能调优",
+      "path": "码农笔记/03-性能调优/Tomcat/Tomcat 性能调优.md"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "码农笔记/03-性能调优/Tomcat/Tomcat.md"
+    },
+    {
+      "basename": "快速总结",
+      "path": "码农笔记/B-设计模式/快速总结.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
     },
     {
       "basename": "Obsidian折腾记录",
@@ -89,10 +137,6 @@
       "path": "Index/index-日记.md"
     },
     {
-      "basename": "Mac------工欲善其事 必先利其器",
-      "path": "Everything/Mac------工欲善其事 必先利其器.md"
-    },
-    {
       "basename": "2018-11-22-周四",
       "path": "个人成长/日记/2018-11-22-周四.md"
     },
@@ -103,10 +147,6 @@
     {
       "basename": "问题汇总",
       "path": "码农笔记/Z-面试/问题汇总.md"
-    },
-    {
-      "basename": "复习计划",
-      "path": "码农笔记/Z-面试/复习计划.md"
     },
     {
       "basename": "左神算法视频笔记",
@@ -159,42 +199,6 @@
     {
       "basename": "Hash索引",
       "path": "码农笔记/A-数据库/Hash索引.md"
-    },
-    {
-      "basename": "楚门的世界 The Truman Show",
-      "path": "个人成长/电影/楚门的世界 The Truman Show.md"
-    },
-    {
-      "basename": "2023-08-21-周一",
-      "path": "个人成长/日记/2023-08-21-周一.md"
-    },
-    {
-      "basename": "海蒂和爷爷 Heidi",
-      "path": "个人成长/电影/海蒂和爷爷 Heidi.md"
-    },
-    {
-      "basename": "Ps",
-      "path": "技能点/Ps.md"
-    },
-    {
-      "basename": "起名",
-      "path": "Everything/起名.md"
-    },
-    {
-      "basename": "数据结构基础",
-      "path": "码农笔记/C-算法与数据结构/数据结构基础.md"
-    },
-    {
-      "basename": "数据结构介绍",
-      "path": "码农笔记/C-算法与数据结构/数据结构介绍.md"
-    },
-    {
-      "basename": "IDEA",
-      "path": "码农笔记/07-互联网工具/IDEA.md"
-    },
-    {
-      "basename": "小技巧",
-      "path": "码农笔记/C-算法与数据结构/小技巧.md"
     }
   ],
   "omittedPaths": [],
