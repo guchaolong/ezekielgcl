@@ -1,10 +1,10 @@
 #Spring 
 
-# Spring概述 
+# Spring概述
+
 ## 什么是Spring框架
 
-
-Spring 是<mark style="background: #FF5582A6;">开源</mark>的，最受欢迎的<mark style="background: #FF5582A6;">企业级 Java 应用</mark>程序<mark style="background: #FF5582A6;">开发框架</mark>，它的目标是简化企业级应用开发。
+Spring 是<mark style="background: #FF5582A6;">开源</mark>的，最受欢迎的<mark style="background: #FF5582A6;">企业级 Java 应用</mark>程序<mark style="background: #FF5582A6;">开发框架</mark>，它的目标是<mark style="background: #FF5582A6;">简化</mark>企业级应用开发。
 
 Spring 框架是一个<mark style="background: #FF5582A6;">轻量级</mark>的框架，它的核心容器非常小巧，只包含少量的类和接口，但它提供了很多<mark style="background: #FF5582A6;">可扩展</mark>的模块，可以根据需求灵活选择使用。Spring 框架采用<mark style="background: #FF5582A6;">松耦合</mark>的设计，可以和其他框架和库<mark style="background: #FF5582A6;">无缝集成</mark>，例如 Hibernate、MyBatis、Struts 等。
 
@@ -21,11 +21,11 @@ Spring 框架是一个<mark style="background: #FF5582A6;">轻量级</mark>的�
 2. **控制反转**：IOC——Inversion of Control，指的是将<mark style="background: #FF5582A6;">对象的创建权</mark>交给 <mark style="background: #FF5582A6;">Spring</mark> 去创建。使用 Spring 之前，对象的创建都是由我们自己在代码中new创建。而使用 Spring 之后。对象的创建都是给了 Spring 框架
 3. **依赖注入**：DI——Dependency Injection，是指依赖的对象不需要手动调用 setXX 方法去设置，而是<mark style="background: #FF5582A6;">通过配置</mark>赋值。通过<mark style="background: #FF5582A6;">依赖注入</mark>的方式<mark style="background: #FF5582A6;">管理对象之间的依赖关系</mark>，减少了类之间的耦合。
 4. **面向切面编程**：Spring 框架提供了 AOP（面向切面编程）的支持，可以在<mark style="background: #FF5582A6;">不修改业务逻辑的情况下实现横切关注点</mark>的功能。
-5. **事务管理**：Spring 框架提供了事务管理的支持，可以<mark style="background: #FF5582A6;">统一管理多个数据源的事务</mark>。
-6. **Web 应用开发**：Spring 框架提供了 MVC（Model-View-Controller）的支持，可以方便地开发 Web 应用。
+5. **事务管理**：Spring 框架提供了<mark style="background: #FF5582A6;">事务管理</mark>的支持，可以<mark style="background: #FF5582A6;">统一管理多个数据源的事务</mark>。
+6. **Web 应用开发**：Spring 框架提供了 MVC（Model-View-Controller）的支持，可以方便地开发 <mark style="background: #FF5582A6;">Web</mark> 应用。
 7. **容易测试**：Spring 框架的松耦合设计和依赖注入的支持，可以方便地进行单元测试和集成测试
-8. **容器**：Spring 是一个容器，因为它包含并且管理应用对象的生命周期 
-9. **组件化**：Spring 实现了使用简单的组件配置组合成一个复杂的应用。在 Spring 中可以使用XML和Java注解组合这些对象。 
+8. **容器**：Spring 是一个<mark style="background: #FF5582A6;">容器</mark>，因为它包含并且管理应用对象的生命周期 
+9. **组件化**：Spring 实现了使用简单的组件配置组合成一个复杂的应用。在 Spring 中可以使用<mark style="background: #FF5582A6;">XML</mark>和<mark style="background: #FF5582A6;">Java注解</mark>组合这些对象。 
 10. **一站式**：在 IOC 和 AOP 的基础上可以整合各种企业应用的<mark style="background: #FF5582A6;">开源框架</mark>和优秀的<mark style="background: #FF5582A6;">第三方类库</mark>（实际上 Spring 自身也提供了表现层的 SpringMVC 和持久层的 Spring JDBC）
 
 从使用Spring 框架的**好处**看：
@@ -34,21 +34,10 @@ Spring 框架是一个<mark style="background: #FF5582A6;">轻量级</mark>的�
 - Spring 在一个单元模式中是有组织的。即使包和类的数量非常大，你只要担心你需要的，而其它的就可以忽略了。
 - Spring 不会让你白费力气做<mark style="background: #FF5582A6;">重复工作</mark>，它真正的利用了一些现有的技术，像 ORM 框架、日志框架、JEE、Quartz 和 JDK 计时器，其他视图技术。
 - 测试一个用 Spring 编写的应用程序很容易，因为环境相关的代码被移动到这个框架中。此外，通过使用 JavaBean-style POJOs，它在使用依赖注入注入测试数据时变得更容易。
-- Spring 的 web 框架是一个设计良好的 web MVC 框架，它为比如 Structs 或者其他工程上的或者不怎么受欢迎的 web 框架提供了一个很好的供替代的选择。MVC 模式导致应用程序的不同方面(输入逻辑，业务逻辑和UI逻辑)分离，同时提供这些元素之间的松散耦合。模型(Model)封装了应用程序数据，通常它们将由 POJO 类组成。视图(View)负责渲染模型数据，一般来说它生成客户端浏览器可以解释 HTML 输出。控制器(Controller)负责处理用户请求并构建适当的模型，并将其传递给视图进行渲染。
+- Spring 的 <mark style="background: #FF5582A6;">web 框架</mark>是一个设计良好的 web MVC 框架，它为比如 Structs 或者其他工程上的或者不怎么受欢迎的 web 框架提供了一个很好的供替代的选择。MVC 模式导致应用程序的不同方面(输入逻辑，业务逻辑和UI逻辑)分离，同时提供这些元素之间的松散耦合。模型(Model)封装了应用程序数据，通常它们将由 POJO 类组成。视图(View)负责渲染模型数据，一般来说它生成客户端浏览器可以解释 HTML 输出。控制器(Controller)负责处理用户请求并构建适当的模型，并将其传递给视图进行渲染。
 - Spring 对 <mark style="background: #FF5582A6;">JavaEE</mark> 开发中非常难用的一些 <mark style="background: #FF5582A6;">API</mark>（JDBC、JavaMail、远程调用等），都<mark style="background: #FF5582A6;">提供了封装</mark>，使这些API应用难度大大降低。
-- 轻量级的 IOC 容器往往是<mark style="background: #FF5582A6;">轻量</mark>级的，例如，特别是当与 EJB 容器相比的时候。这有利于在内存和 CPU 资源有限的计算机上开发和部署应用程序。
+- 轻量级的 IOC 容器往往是<mark style="background: #FF5582A6;">轻量</mark>级的，例如，特别是当与 EJB 容器相比的时候。这有利于在<mark style="background: #FF5582A6;">内存</mark>和 <mark style="background: #FF5582A6;">CPU</mark> 资源有限的计算机上开发和部署应用程序。
 - Spring 提供了一致的<mark style="background: #FF5582A6;">事务管理</mark>接口，可向下扩展到（使用一个单一的数据库，例如）本地事务并扩展到全局事务（例如，使用 JTA）
-
-
-
-Spring Framework主要包括几个模块：
-- 支持<mark style="background: #FF5582A6;">IoC</mark>和<mark style="background: #FF5582A6;">AOP</mark>的<mark style="background: #FF5582A6;">容器</mark>；
-- 支持<mark style="background: #FF5582A6;">JDBC</mark>和<mark style="background: #FF5582A6;">ORM</mark>的<mark style="background: #FF5582A6;">数据访问模块</mark>；
-- 支持<mark style="background: #FF5582A6;">声明式事务</mark>的模块；
-- 支持基于<mark style="background: #FF5582A6;">Servlet</mark>的MVC开发；
-- 支持基于<mark style="background: #FF5582A6;">Reactive</mark>的Web开发；
-- 以及集成<mark style="background: #FF5582A6;">JMS</mark>、<mark style="background: #FF5582A6;">JavaMail</mark>、<mark style="background: #FF5582A6;">JMX</mark>、缓存等其他模块
-
 
 ## Spring体系结构
 
@@ -56,35 +45,30 @@ Spring Framework主要包括几个模块：
 
 ### Core Container(核心容器)
 
-核心容器由 spring-core，spring-beans，spring-context，spring-context-support和spring-expression（SpEL，Spring 表达式语言，Spring Expression Language）等模块组成，它们的细节如下：
+Spring 的核心容器是<mark style="background: #FF5582A6;">其他模块</mark>建立的<mark style="background: #FF5582A6;">基础</mark>，由 Beans 模块、Core 核心模块、Context 上下文模块和 SpEL 表达式语言模块组成，没有这些核心容器，也不可能有 AOP、Web 等上层的功能。具体介绍如下 
 
-- **spring-core** 模块提供了框架的基本组成部分，包括 <mark style="background: #FF5582A6;">IoC</mark> 和<mark style="background: #FF5582A6;">依赖注入</mark>功能。
-- **spring-beans** 模块提供 <mark style="background: #FF5582A6;">BeanFactory</mark>，工厂模式的微妙实现，它移除了编码式单例的需要，并且可以把配置和依赖从实际编码逻辑中解耦。
-- **context** 模块建立在由 **core**和 **beans** 模块的基础上建立起来的，它以一种类似于 JNDI 注册的方式访问对象。Context 模块继承自 Bean 模块，并且添加了国际化（比如，使用资源束）、事件传播、资源加载和透明地创建上下文（比如，通过 Servelet 容器）等功能。Context 模块也支持 Java EE 的功能，比如 EJB、JMX 和远程调用等。<mark style="background: #FF5582A6;">ApplicationContext</mark> 接口是 Context 模块的焦点。
-- **spring-context-support** 提供了对第三方集成到 Spring 上下文的支持，比如缓存（EhCache, Guava, JCache）、邮件（JavaMail）、调度（CommonJ, Quartz）、模板引擎（FreeMarker, JasperReports, Velocity）等。
-- **spring-expression** 模块提供了强大的<mark style="background: #FF5582A6;">表达式语言</mark>，用于在运行时查询和操作对象图。它是 JSP2.1 规范中定义的统一表达式语言的扩展，支持 set 和 get 属性值、属性赋值、方法调用、访问数组集合及索引的内容、逻辑算术运算、命名变量、通过名字从 Spring IoC 容器检索对象，还支持列表的投影、选择以及聚合等。
+* Beans 模块：提供了框架的<mark style="background: #FF5582A6;">基础部分</mark>，包括<mark style="background: #FF5582A6;">控制反转</mark>和<mark style="background: #FF5582A6;">依赖注入</mark>。
+* Core 核心模块：封装了 Spring 框架的<mark style="background: #FF5582A6;">底层部分</mark>，包括<mark style="background: #FF5582A6;">资源访问</mark>、<mark style="background: #FF5582A6;">类型转换</mark>及一些<mark style="background: #FF5582A6;">常用工具类</mark>。
+* Context 上下文模块：建立在 Core 和 Beans 模块的基础之上，集成 Beans 模块功能并添加资源绑定、数据验证、国际化、Java EE 支持、容器生命周期、事件传播等。<mark style="background: #FF5582A6;">ApplicationContext</mark> 接口是上下文模块的<mark style="background: #FF5582A6;">焦点</mark>。
+* SpEL 模块：提供了强大的表达式语言支持，支持访问和修改属性值，方法调用，支持访问及修改数组、容器和索引器，命名变量，支持算数和逻辑运算，支持从 Spring 容器获取 Bean，它也支持列表投影、选择和一般的列表聚合等。
+
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103630.png)
 
 
 ### Data Access/Integration（数据访问/集成）
 
-数据访问/集成层包括 JDBC，ORM，OXM，JMS 和事务处理模块，它们的细节如下：
-
+数据访问/集成层包括 JDBC，ORM，OXM，JMS 和 Transactions 模块，它们的细节如下：
 （注：JDBC=Java Data Base Connectivity，ORM=Object Relational Mapping，OXM=Object XML Mapping，JMS=Java Message Service）  
 
-- **JDBC** 模块提供了 JDBC 抽象层，它消除了冗长的 JDBC 编码和对数据库供应商特定错误代码的解析。
-    
-- **ORM** 模块提供了对流行的对象关系映射 API 的集成，包括 JPA、JDO 和 Hibernate 等。通过此模块可以让这些 ORM 框架和 spring的其它功能整合，比如前面提及的事务管理。
-    
-- **OXM** 模块提供了对 OXM 实现的支持，比如 JAXB、Castor、XML Beans、JiBX、XStream 等。
-    
-- **JMS** 模块包含生产（produce）和消费（consume）消息的功能。从 Spring 4.1 开始，集成了 spring-messaging 模块。
-    
-- **事务**模块为实现特殊接口类及所有的 POJO 支持编程式和声明式事务管理。（注：编程式事务需要自己写 beginTransaction()、commit()、rollback() 等事务管理方法，声明式事务是通过注解或配置由 spring 自动处理，编程式事务粒度更细）
+* JDBC模块：提供了一个 <mark style="background: #FF5582A6;">JDBC</mark> 的<mark style="background: #FF5582A6;">样例模板</mark>，使用这些模板能消除<mark style="background: #FF5582A6;">传统冗长</mark>的 JDBC 编码还有必须的<mark style="background: #FF5582A6;">事务控制</mark>，而且能享受到 Spring 管理事务的好处。
+* ORM模块：<mark style="background: #FF5582A6;">提供与流行的“对象-关系”映射框架无缝集成的 API</mark>，包括JPA、JDO、Hibernate 和 MyBatis 等。而且还可以使用 Spring 事务管理，无需额外控制事务。
+* OXM模块：提供了一个支持 Object /XML 映射的抽象层实现，如 JAXB、Castor、XMLBeans、JiBX 和 XStream。将 Java 对象映射成 XML 数据，或者将XML 数据映射成 Java 对象。
+* JMS模块：指 Java 消息服务，提供一套 “消息生产者、消息消费者”模板用于更加简单的使用 JMS，JMS 用于用于在两个应用程序之间，或分布式系统中发送消息，进行异步通信。
+* Transactions 事务模块：支持编程和声明式事务管理
 
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103130.png)
 
-### Web
+### Web模块
 
 Spring 的 Web 层包括 Web、Servlet、WebSocket 和 Webflux 组件，具体介绍如下。
 
@@ -103,16 +87,16 @@ Spring 的 Web 层包括 Web、Servlet、WebSocket 和 Webflux 组件，具体�
 
 - **AOP 模块**：提供了面向切面编程实现，提供比如日志记录、权限控制、性能统计等通用功能和业务逻辑分离的技术，并且能动态的把这些功能添加到需要的代码中，这样各司其职，降低业务逻辑和通用功能的耦合。
 - **Aspects 模块**：提供与 AspectJ 的集成，是一个功能强大且成熟的面向切面编程（AOP）框架。
-- **Instrumentation 模块**：提供了类工具的支持和类加载器的实现，可以在特定的应用服务器中使用。
+- **Instrumentation 模块**：提供了<mark style="background: #FF5582A6;">类工具</mark>的支持和<mark style="background: #FF5582A6;">类加载器</mark>的实现，可以在特定的应用服务器中使用。
 - **messaging 模块**：Spring 4.0 以后新增了消息（Spring-messaging）模块，该模块提供了对消息传递体系结构和协议的支持。
 - **jcl 模块**： Spring 5.x中新增了日志框架集成的模块。
 
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103828.png)
 
 
-### Test
+### Test模块
 
-Test 模块：Spring 支持 Junit 和 TestNG 测试框架，而且还额外提供了一些基于 Spring 的测试功能，比如在测试 Web 框架时，模拟 Http 请求的功能。
+Test 模块：Spring 支持 <mark style="background: #FF5582A6;">Junit</mark> 和 <mark style="background: #FF5582A6;">TestNG</mark> 测试框架，而且还额外提供了一些基于 Spring 的测试功能，比如在测试 Web 框架时，模拟 Http 请求的功能。
 
 包含Mock Objects, TestContext Framework, Spring MVC Test, WebTestClient。
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103945.png)
@@ -121,20 +105,23 @@ Test 模块：Spring 支持 Junit 和 TestNG 测试框架，而且还额外提�
 
 # Spring的核心要点
 ## 控制反转 - IOC
-- Spring框架管理这些Bean的创建工作，即由用户管理Bean转变为框架管理Bean，这个就叫**控制反转 - Inversion of Control (IoC)**
+
+- Spring框架管理这些Bean的创建工作，即由<mark style="background: #FF5582A6;">用户管理Bean</mark>转变为<mark style="background: #FF5582A6;">框架管理Bean</mark>，这个就叫**控制反转 - Inversion of Control (IoC)**
 - Spring 框架托管创建的Bean放在哪里呢？ 这便是**IoC Container**;
 - Spring 框架为了更好让用户配置Bean，必然会引入**不同方式来配置Bean？ 这便是xml配置，Java配置，注解配置**等支持
 - Spring 框架既然接管了Bean的生成，必然需要**管理整个Bean的生命周期**等；
 - 应用程序代码从Ioc Container中获取依赖的Bean，注入到应用程序中，这个过程叫 **依赖注入(Dependency Injection，DI)** ； 所以说控制反转是通过依赖注入实现的，其实它们是同一个概念的不同角度描述。通俗来说就是**IoC是设计思想，DI是实现方式**
 - 在依赖注入时，有哪些方式呢？这就是构造器方式，@Autowired, @Resource, @Qualifier... 同时Bean之间存在依赖（可能存在先后顺序问题，以及**循环依赖问题**等）
+
 ## 面向切面 - AOP
+
 - Spring 框架通过定义切面, 通过拦截切点实现了不同业务模块的解耦，这个就叫**面向切面编程 - Aspect Oriented Programming (AOP)**
 - 为什么@Aspect注解使用的是aspectj的jar包呢？这就引出了**Aspect4J和Spring AOP的历史渊源**，只有理解了Aspect4J和Spring的渊源才能理解有些注解上的兼容设计
-- 如何支持**更多拦截方式**来实现解耦， 以满足更多场景需求呢？ 这就是@Around, @Pointcut... 等的设计
+- 如何支持**更多拦截方式**来实现解耦，以满足更多场景需求呢？ 这就是@Around, @Pointcut... 等的设计
 - 那么Spring框架又是如何实现AOP的呢？ 这就引入**代理技术，分静态代理和动态代理**，动态代理又包含JDK代理和CGLIB代理等
 
 
-Spring设计的两个大的要点：IOC和AOP；从框架的设计角度而言，更为重要的是<mark style="background: #FF5582A6;">简化开发</mark>，最开始的<mark style="background: #FF5582A6;">xml配置</mark>,这种方式比较麻烦，然后就有了<mark style="background: #FF5582A6;">java配置</mark>方式（@Bean等注解）、<mark style="background: #FF5582A6;">注解配置方式</mark>（@Repository、@Service 等注解）、Springboot实际上通过 
+Spring设计的两个大的要点：IOC和AOP；从框架的设计角度而言，更为重要的是<mark style="background: #FF5582A6;">简化开发</mark>，最开始的<mark style="background: #FF5582A6;">xml配置</mark>,这种方式比较麻烦，然后就有了<mark style="background: #FF5582A6;">java配置</mark>方式（@Bean等注解）、<mark style="background: #FF5582A6;">注解配置方式</mark>（@Repository、@Service 等注解）
 
 Springboot通过<mark style="background: #FF5582A6;">约定大于配置</mark>的方式，使用xx-starter统一的<mark style="background: #FF5582A6;">对Bean进行默认初始化</mark>，用户只需要很少的配置就可以进行开发了
 
@@ -177,14 +164,16 @@ ApplicationContext 是 spring 中<mark style="background: #FF5582A6;">较高级�
 
 ### BeanFactory和ApplicationContext的区别
 
-`BeanFactory`和`ApplicationContext`的区别在于，`BeanFactory`的实现是<mark style="background: #FF5582A6;">按需创建</mark>，即<mark style="background: #FF5582A6;">第一次获取Bean时才创建这个Bean</mark>，而`ApplicationContext`会<mark style="background: #FF5582A6;">一次性创建所有的Bean</mark>。实际上，`ApplicationContext`接口是从`BeanFactory`接口继承而来的，并且，`ApplicationContext`提供了一些<mark style="background: #FF5582A6;">额外的功能</mark>，包括<mark style="background: #FF5582A6;">国际化支持</mark>、<mark style="background: #FF5582A6;">事件</mark>和<mark style="background: #FF5582A6;">通知机制</mark>等。通常情况下，我们总是使用`ApplicationContext`，很少会考虑使用`BeanFactory`
+`BeanFactory`的实现是<mark style="background: #FF5582A6;">按需创建</mark>，即<mark style="background: #FF5582A6;">第一次获取Bean时才创建这个Bean</mark>
+
+而`ApplicationContext`会<mark style="background: #FF5582A6;">一次性创建所有的Bean</mark>。实际上，`ApplicationContext`接口是从`BeanFactory`接口继承而来的，并且，`ApplicationContext`提供了一些<mark style="background: #FF5582A6;">额外的功能</mark>，包括<mark style="background: #FF5582A6;">国际化支持</mark>、<mark style="background: #FF5582A6;">事件</mark>和<mark style="background: #FF5582A6;">通知机制</mark>等。通常情况下，我们总是使用`ApplicationContext`，很少会考虑使用`BeanFactory`
 
 
 ## Bean 定义（Ioc 配置的三种方式）
 三个方法把配置元数据提供给 Spring 容器：
-- 基于 XML 的配置文件
-- 基于 Java 的配置（本质上就是把在XML上的配置声明转移到Java配置类中）
-- 基于注解的配置
+- 基于 <mark style="background: #FF5582A6;">XML</mark> 的配置文件
+- 基于 Java 的配置（本质上就是把在XML上的配置声明转移到Java<mark style="background: #FF5582A6;">配置类</mark>中）
+- 基于<mark style="background: #FF5582A6;">注解</mark>的配置
 
 ### XML配置：
 顾名思义，就是将bean的信息配置.xml文件里，通过Spring加载文件为我们创建bean。这种方式出现很多早前的SSM项目中，将第三方类库或者一些配置工具类都以这种方式进行配置，主要原因是由于第三方类不支持Spring注解。
@@ -200,19 +189,17 @@ ApplicationContext 是 spring 中<mark style="background: #FF5582A6;">较高级�
     <!-- services -->
     <bean id="userService" class="tech.pdai.springframework.service.UserServiceImpl">
         <property name="userDao" ref="userDao"/>
-        <!-- additional collaborators and configuration for this bean go here -->
     </bean>
-    <!-- more bean definitions for services go here -->
 </beans>
 ```
 
 ### Java配置：
 将类的创建交给我们配置的JavcConfig类来完成，Spring只负责维护和管理，采用纯Java创建方式。其本质上就是把在XML上的配置声明转移到Java配置类中
 
-- **优点**：适用于<mark style="background: #FF5582A6;">任何场景</mark>，配置方便，因为是纯Java代码，扩展性高，十分灵活
+- **优点**：适用于<mark style="background: #FF5582A6;">任何场景</mark>，配置方便，因为是<mark style="background: #FF5582A6;">纯Java代码</mark>，<mark style="background: #FF5582A6;">扩展性高</mark>，十分<mark style="background: #FF5582A6;">灵活</mark>
 - **缺点**：由于是采用Java类的方式，声明不明显，如果大量配置，<mark style="background: #FF5582A6;">可读性比较差</mark>
 
-1. 创建一个配置类， 添加<mark style="background: #FF5582A6;">@Configuration</mark>注解声明为配置类
+1. 创建一个配置类， 添加<mark style="background: #FF5582A6;">@Configuration</mark>注解声明为<mark style="background: #FF5582A6;">配置类</mark>
 2. 创建方法，方法上加上<mark style="background: #FF5582A6;">@Bean</mark>，该方法用于创建实例并返回，该实例创建后会交给spring管理，方法名建议与实例名相同（首字母小写）。注：实例类不需要加任何注解
 ```java
 /**
@@ -245,7 +232,7 @@ public class BeansConfig {
 通过在类上加注解的方式，来声明一个类交给Spring管理，Spring会自动扫描带有<mark style="background: #FF5582A6;">@Component</mark>，<mark style="background: #FF5582A6;">@Controller</mark>，<mark style="background: #FF5582A6;">@Service</mark>，<mark style="background: #FF5582A6;">@Repository</mark>这四个注解的类，然后帮我们创建并管理，前提是需要先配置Spring的注解扫描器。
 
 - **优点**：开发<mark style="background: #FF5582A6;">便捷</mark>，通俗易懂，方便维护。
-- **缺点**：具有<mark style="background: #FF5582A6;">局限性</mark>，对于一些第三方资源，无法添加注解。只能采用XML或JavaConfig的方式配置
+- **缺点**：具有<mark style="background: #FF5582A6;">局限性</mark>，对于一些<mark style="background: #FF5582A6;">第三方资源</mark>，无法添加注解。只能采用XML或JavaConfig的方式配置
 
 1. 对类添加@Component相关的注解，比如@Controller，@Service，@Repository
 2. 设置ComponentScan的basePackage, 比如`<context:component-scan base-package='tech.pdai.springframework'>`, 或者`@ComponentScan("tech.pdai.springframework")`注解，或者 `new AnnotationConfigApplicationContext("tech.pdai.springframework")`指定扫描的basePackage.
@@ -280,18 +267,18 @@ Spring 框架支持以下五个作用域，分别为 singleton、prototype、req
 
 <mark style="background: #FF5582A6;">singleton</mark>：在spring IoC容器仅存在一个Bean实例，Bean以<mark style="background: #FF5582A6;">单例</mark>方式存在，是默认的作用域
 
-<mark style="background: #FF5582A6;">prototype</mark>：每次从容器中调用Bean时，都返回一个<mark style="background: #FF5582A6;">新的实例</mark>，即每次调用getBean()时，相当于执行newXxxBean()
+<mark style="background: #FF5582A6;">prototype</mark>：每次从容器中调用Bean时，都返回一个<mark style="background: #FF5582A6;">新的实例</mark>，即每次调用getBean()时，相当于执行<mark style="background: #D2B3FFA6;">newXxxBean()</mark>
 
-<mark style="background: #FF5582A6;">request</mark>：每次<mark style="background: #FF5582A6;">HTTP请求</mark>都会创建一个新的Bean，该作用域仅适用于WebApplicationContext环境
+<mark style="background: #FF5582A6;">request</mark>：每次<mark style="background: #FF5582A6;">HTTP请求</mark>都会创建一个新的Bean，该作用域仅适用于  <mark style="background: #D2B3FFA6;">WebApplicationContext</mark> 环境
 
-<mark style="background: #FF5582A6;">session</mark>:同一个<mark style="background: #FF5582A6;">HTTP Session</mark>共享一个Bean，不同Session使用不同的Bean，仅适用于WebApplicationContext环境 
+<mark style="background: #FF5582A6;">session</mark>:同一个<mark style="background: #FF5582A6;">HTTP Session</mark>共享一个Bean，不同Session使用不同的Bean，仅适用于 <mark style="background: #D2B3FFA6;">WebApplicationContext</mark> 环境 
 
-<mark style="background: #FF5582A6;">global-session</mark>:一般用于<mark style="background: #FF5582A6;">Portlet</mark>应用环境，该作用域仅适用于WebApplicationContext环境 
+<mark style="background: #FF5582A6;">global-session</mark>:一般用于<mark style="background: #FF5582A6;">Portlet</mark>应用环境，该作用域仅适用于 <mark style="background: #D2B3FFA6;">WebApplicationContext</mark> 环境 
 
 
-Singleton 是单例类型，就是在创建起容器时就同时自动创建了一个 bean 的对象，不管你是否使用，他都存在了，每次获取到的对象都是同一个对象。注意，Singleton 作用域是 Spring 中的缺省作用域
+Singleton 是<mark style="background: #FF5582A6;">单例类型</mark>，就是在创建起容器时就同时自动创建了一个 bean 的对象，不管你是否使用，他都存在了，每次获取到的对象都是同一个对象。注意，Singleton 作用域是 Spring 中的缺省作用域
 
-Prototype 是原型类型，它在我们创建容器的时候并没有实例化，而是当我们获取bean的时候才会去创建一个对象，而且我们每次获取到的对象都不是同一个对象,根据经验，对有状态的 bean 应该使用 prototype 作用域，而对无状态的bean则应该使用 singleton 作用域
+Prototype 是<mark style="background: #FF5582A6;">原型类型</mark>，它在我们创建容器的时候并没有实例化，而是当我们获取bean的时候才会去创建一个对象，而且我们每次获取到的对象都不是同一个对象,根据经验，对<mark style="background: #FF5582A6;">有状态</mark>的 bean 应该使用 prototype 作用域，而对<mark style="background: #FF5582A6;">无状态</mark>的bean则应该使用 singleton 作用域
 
 ## Bean 生命周期
 
@@ -316,13 +303,13 @@ Person()构造函数
 <mark style="background: #D2B3FFA6;">BeanNameAware</mark> setBeanName()  
 <mark style="background: #D2B3FFA6;">BeanFactoryAware</mark> setBeanFactory()
 
-<mark style="background: #FFB8EBA6;">BeanPostProcessor</mark>#postProcessBeforeInitialization
+<mark style="background: #FFB8EBA6;">BeanPostProcessor</mark>#postProcessBeforeInitialization()
 @<mark style="background: #BBFABBA6;">PostConstruct</mark> 注解的 自定义方法  
-<mark style="background: #BBFABBA6;">InitializingBean</mark>接口afterPropertiesSet()  
-<mark style="background: #FFB8EBA6;">BeanPostProcessor</mark>#postProcessAfterInitialization()！
+<mark style="background: #BBFABBA6;">InitializingBean</mark>接口 afterPropertiesSet() 方法
+<mark style="background: #FFB8EBA6;">BeanPostProcessor</mark>#postProcessAfterInitialization()
 
 @<mark style="background: #ADCCFFA6;">PreDestory</mark>注解自定义销毁方法
-<mark style="background: #ADCCFFA6;">DisposableBe</mark>an接口destroy（）
+<mark style="background: #ADCCFFA6;">DisposableBean</mark>接口destroy（）
 
 
 ## Bean 后置处理器
@@ -332,13 +319,13 @@ Bean 后置处理器允许在调用<mark style="background: #FF5582A6;">初始�
 # Spring依赖注入 DI
 
 **Spring 中有这么3种依赖注入的方式**：
-- 基于 field 注入（属性注入）
-- 基于 setter 注入
-- 基于 constructor 注入（构造器注入）
+- 基于 <mark style="background: #FF5582A6;">field</mark> 注入（属性注入）
+- 基于 <mark style="background: #FF5582A6;">setter</mark> 注入
+- 基于 <mark style="background: #FF5582A6;">constructor</mark> 注入（构造器注入）
 
 ### 1. 基于 field 注入
 
-所谓基于 field 注入，就是在bean的变量上使用注解进行依赖注入。本质上是通过反射的方式直接注入到field。属性注入是我们最熟悉，也是日常开发中使用最多的一种注入方式，同时，也正是 Spring 团队所<mark style="background: #FF5582A6;">不推荐</mark>的方式。比如：
+所谓基于 field 注入，就是在bean的变量上使用注解进行依赖注入。本质上是通过<mark style="background: #FF5582A6;">反射</mark>的方式直接注入到field。属性注入是我们<mark style="background: #FF5582A6;">最熟悉</mark>，也是日常开发中使用最多的一种注入方式，同时，也正是 Spring 团队所<mark style="background: #FF5582A6;">不推荐</mark>的方式。比如：
 
 ```java
 @RestController
@@ -362,13 +349,13 @@ public class UserController {
 属性注入的缺点主要包含以下 3 个：
 
 * 功能性问题：一个<mark style="background: #FF5582A6;">不可变</mark>的对象（<mark style="background: #FF5582A6;">final</mark> 修饰的变量）；
-  原因也很简单：在 Java 中 final 对象（不可变）要么直接赋值，要么在构造方法中赋值，所以当使用属性注入 final 对象时，它不符合 Java 中 final 的使用规范，所以就不能注入成功了
+  原因也很简单：在 Java 中 final 对象（不可变）<mark style="background: #FF5582A6;">要么直接赋值</mark>，<mark style="background: #FF5582A6;">要么在构造方法</mark>中赋值，所以当使用属性注入 final 对象时，它不符合 Java 中 final 的<mark style="background: #FF5582A6;">使用规范</mark>，所以就不能注入成功了
 
-* 通用性问题：只能适应于 IoC 容器；
-  使用属性注入的方式只适用于 IoC 框架（容器），<mark style="background: #FF5582A6;">与容器本身耦合</mark>，<mark style="background: #FF5582A6;">不能在容器外使用</mark>，必须通过<mark style="background: #FF5582A6;">容器才能实例化</mark>，如果将属性注入的代码移植到其他非 IoC 的框架中，那么代码就无效了，所以属性注入的通用性不是很好。
+* 通用性问题：只能适应于 <mark style="background: #FF5582A6;">IoC 容器</mark>；
+  使用属性注入的方式只适用于 IoC 框架（容器），<mark style="background: #FF5582A6;">与容器本身耦合</mark>，<mark style="background: #FF5582A6;">不能在容器外使用</mark>，必须通过<mark style="background: #FF5582A6;">容器才能实例化</mark>，如果将属性注入的代码移植到其他非 IoC 的框架中，那么代码就无效了，所以属性注入的通用性不是很好
 
-* 设计原则问题：更容易违背单一设计原则
-  使用属性注入的方式，因为使用起来很<mark style="background: #FF5582A6;">简单</mark>，所以开发者很容易在一个类中同时<mark style="background: #FF5582A6;">注入多个对象</mark>，而这些对象的注入<mark style="background: #FF5582A6;">是否有必要</mark>？是否符合程序设计中的<mark style="background: #FF5582A6;">单一职责原则</mark>？就变成了一个问题。但可以肯定的是，注入实现越简单，那么<mark style="background: #FF5582A6;">滥用它的概率也越大</mark>，所以出现违背单一职责原则的概率也越大。注意：这里强调的是违背设计原则（单一职责）的可能性，而不是一定会违背设计原则，二者有着本质的区别
+* 设计原则问题：更容易违背<mark style="background: #FF5582A6;">单一设计原则</mark>
+  使用属性注入的方式，<mark style="background: #FF5582A6;">因为</mark>使用起来很<mark style="background: #FF5582A6;">简单</mark>，所以开发者很<mark style="background: #FF5582A6;">容易</mark>在一个类中同时<mark style="background: #FF5582A6;">注入多个对象</mark>，而这些对象的注入<mark style="background: #FF5582A6;">是否有必要</mark>？是否符合程序设计中的<mark style="background: #FF5582A6;">单一职责原则</mark>？就变成了一个问题。但可以肯定的是，注入实现越简单，那么<mark style="background: #FF5582A6;">滥用它的概率也越大</mark>，所以出现违背单一职责原则的概率也越大。注意：这里强调的是违背设计原则（单一职责）的可能性，而不是一定会违背设计原则，二者有着本质的区别
 
 * **循环依赖的问题**：
   使用<mark style="background: #FF5582A6;">field注入</mark>可能会导致<mark style="background: #FF5582A6;">循环依赖</mark>，即A里面注入B，B里面又注入A：如果使用<mark style="background: #FF5582A6;">构造器注入</mark>，在spring项目<mark style="background: #FF5582A6;">启动的时候</mark>，就会<mark style="background: #FF5582A6;">抛出异常</mark>：BeanCurrentlyInCreationException：Requested bean is currently in creation: Is there an unresolvable circular reference？从而提醒你避免循环依赖，如果是<mark style="background: #FF5582A6;">field注入</mark>的话，<mark style="background: #FF5582A6;">启动的时候不会报错</mark>，在<mark style="background: #FF5582A6;">使用</mark>那个bean的时候才会<mark style="background: #FF5582A6;">报错</mark>
@@ -376,7 +363,7 @@ public class UserController {
 
 
 ### 2. 基于 setter 方法注入
-- **在XML配置方式中**，<mark style="background: #FF5582A6;">property</mark>都是setter方式注入，比如下面的xml:
+- **在XML配置方式中**，<mark style="background: #FF5582A6;">property</mark>都是<mark style="background: #FF5582A6;">setter</mark>方式注入，比如下面的xml:
 ```xml
     <bean id="userService" class="tech.pdai.springframework.service.UserServiceImpl">
         <property name="userDao" ref="userDao"/>
@@ -420,7 +407,7 @@ public class UserController {
   ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230914000048.png)
 
 * 2.注入的对象<mark style="background: #FF5582A6;">可被修改</mark>
-  因为提供了 setXXX 的方法，意味着你可以在任何时候、在任何地方，通过调用 setXXX 的方法来改变注入对象，所以 Setter 注入的问题是，被注入的对象可能随时被修改
+  因为提供了 <mark style="background: #FF5582A6;">setXXX</mark> 的方法，意味着你可以在任何时候、在任何地方，通过调用 setXXX 的方法来改变注入对象，所以 Setter 注入的问题是，被注入的对象可能<mark style="background: #FF5582A6;">随时被修改</mark>
 
 > 注：
 > 1. 在Spring3.x刚推出的时候，推荐使用注入的就是这种, 但是这种方式比较麻烦，所以在Spring4.x版本中推荐构造函数注入。
@@ -429,7 +416,7 @@ public class UserController {
 
 
 ### 3. 基于 constructor 注入
-**在XML配置方式中**，`<constructor-arg>`是通过构造函数参数注入，比如下面的xml:
+**在XML配置方式中**，`<constructor-arg>`是通过<mark style="background: #FF5582A6;">构造函数</mark>参数注入，比如下面的xml:
 ```xml
     <bean id="userService" class="tech.pdai.springframework.service.UserServiceImpl">
         <constructor-arg name="userDao" ref="userDao"/>
@@ -468,7 +455,7 @@ public class UserController {
 - <mark style="background: #FF5582A6;">可注入不可变对象</mark>（<mark style="background: #FF5582A6;">final</mark> 修饰的变量）；
 
 - <mark style="background: #FF5582A6;">注入对象不会被修改；</mark>
-  构造方法注入不会像 Setter 注入那样，构造方法在对象创建时只会执行一次，因此它不存在注入对象被随时（调用）修改的情况
+  构造方法注入不会像 Setter 注入那样，构造方法在对象创建时<mark style="background: #FF5582A6;">只会执行一次</mark>，因此它不存在注入对象被随时（调用）修改的情况
   
 * <mark style="background: #FF5582A6;">依赖不为空</mark>（省去了我们对其检查）
   当要实例化UserController的时候，由于自己实现了有参数的构造函数，所以不会调用默认构造函数，那么就需要Spring容器传入所需要的参数，所以就两种情况：1、有该类型的参数->传入，OK 。2：无该类型的参数->报错。
@@ -479,7 +466,7 @@ public class UserController {
   这个可以跟上面的依赖不为空结合起来，向构造器传参之前，要确保注入的内容不为空，那么肯定要调用依赖组件的构造方法完成实例化。而在Java类加载实例化的过程中，构造方法是最后一步（之前如果有父类先初始化父类，然后自己的成员变量，最后才是构造方法），所以返回来的都是初始化之后的状态
   
 - <mark style="background: #FF5582A6;">通用性更好；不依赖IOC容器</mark>
-  构造方法和属性注入不同，构造方法注入可适用于任何环境，无论是 IoC 框架还是非 IoC 框架，构造方法注入的代码都是通用的，所以它的通用性更好
+  构造方法和属性注入不同，构造方法注入可适用于任何环境，无论是 IoC 框架还是非 IoC 框架，构造方法注入的代码都是<mark style="background: #FF5582A6;">通用</mark>的，所以它的通用性更好
   
 * <mark style="background: #FF5582A6;">循环依赖的问题</mark>：使用<mark style="background: #FF5582A6;">field注入</mark>可能会导致<mark style="background: #FF5582A6;">循环依赖</mark>，即A里面注入B，B里面又注入A：如果使用<mark style="background: #FF5582A6;">构造器注入</mark>，在spring项目<mark style="background: #FF5582A6;">启动的时候</mark>，就会<mark style="background: #FF5582A6;">抛出异常</mark>：BeanCurrentlyInCreationException：Requested bean is currently in creation: Is there an unresolvable circular reference？从而提醒你避免循环依赖，如果是<mark style="background: #FF5582A6;">field注入</mark>的话，<mark style="background: #FF5582A6;">启动的时候不会报错</mark>，在<mark style="background: #FF5582A6;">使用</mark>那个bean的时候才会<mark style="background: #FF5582A6;">报错</mark>
 
@@ -531,22 +518,23 @@ Resource注解如果声明了name属性，则必须按照name查找对象，不�
 
 * <mark style="background: #FF5582A6;">@Autowired、@Inject</mark>是默认按照<mark style="background: #FF5582A6;">类型</mark>匹配的，<mark style="background: #FF5582A6;">@Resource</mark>是按照<mark style="background: #FF5582A6;">名称</mark>匹配的
 
-* <mark style="background: #FF5582A6;">@Autowired</mark>如果需要按照名称匹配需要和<mark style="background: #FF5582A6;">@Qualifier</mark>一起使用，<mark style="background: #FF5582A6;">@Inject</mark>和<mark style="background: #FF5582A6;">@Named</mark>一起使用，<mark style="background: #FF5582A6;">@Resource</mark>则通过<mark style="background: #FF5582A6;">name</mark>进行指定
+* <mark style="background: #FF5582A6;">@Autowired</mark>如果需要按照名称匹配需要和<mark style="background: #FF5582A6;">@Qualifier</mark>一起使用，<mark style="background: #FF5582A6;">@Inject</mark>和<mark style="background: #FF5582A6;">@Named</mark>一起使用
+
+* <mark style="background: #FF5582A6;">@Resource</mark>则通过<mark style="background: #FF5582A6;">name</mark>进行指定
 
 
 # AOP
 
 ## 什么是AOP
 
-AOP:Aspect Oriented Programming 面向切面编程，通过<mark style="background: #FF5582A6;">预编译</mark>或<mark style="background: #FF5582A6;">运行期动态代理</mark>实现程序功能的统一维护的一种技术 
+AOP:Aspect Oriented Programming 面向切面编程，通过<mark style="background: #FF5582A6;">预编译</mark>或<mark style="background: #FF5582A6;">运行期动态代理</mark>实现程序功能的统一维护的<mark style="background: #FF5582A6;">一种技术</mark> 
 
 每个业务方法，除了自身的<mark style="background: #FF5582A6;">业务逻辑</mark>，还需要<mark style="background: #FF5582A6;">安全检查</mark>、<mark style="background: #FF5582A6;">日志记录</mark>和<mark style="background: #FF5582A6;">事务处理</mark>等，如果没有AOP，就会出现大量重复的代码
 
-AOP又叫`面向切面编程`，旨在通过允许横切关注点的分离，提高`模块化`。通俗理解就是，将那些与业务无关，却为业务模块所共同调用的逻辑代码封装起来，形成一个切面，使原来的业务功能更加强大，即`增强`，并`减少重复代码`，`降低`模块间的`耦合度`，方便后期操作和维护
+旨在通过允许<mark style="background: #FF5582A6;">横切关注点</mark>的分离，提高模块化。通俗理解就是，将那些<mark style="background: #FF5582A6;">与业务无关</mark>，却为业务模块所共同调用的逻辑代码封装起来，形成一个<mark style="background: #FF5582A6;">切面</mark>，使原来的业务功能更加强大，即增强，并<mark style="background: #FF5582A6;">减少重复代码</mark>，降低模块间的<mark style="background: #FF5582A6;">耦合度</mark>，方便后期操作和维护
 
 AOP的理念：就是将分散在各个业务逻辑代码中相同的代码通过**横向切割**的方式抽取到一个独立的模块中！
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230914005556.png)
-
 
 主要功能是：**日志记录**、**性能统计**、**安全控制**、**事务处理**、**异常处理**等
 
@@ -554,15 +542,15 @@ AOP的理念：就是将分散在各个业务逻辑代码中相同的代码通�
 
 AOP实现的关键就在于AOP框架自动创建的AOP代理，AOP代理则可分为静态代理和动态代理两大类
 
-`静态代理`是指使用<mark style="background: #FF5582A6;">AOP框架</mark>提供的命令进行编译，从而在编译阶段就可生成 AOP 代理类，因此也称为`编译时增强`
+<mark style="background: #FF5582A6;">静态代理</mark>是指使用<mark style="background: #FF5582A6;">AOP框架</mark>提供的命令进行编译，从而在编译阶段就可生成 AOP 代理类，因此也称为编译时增强
 
-`动态代理`则在运行时借助于<mark style="background: #FF5582A6;">JDK动态代理</mark>、<mark style="background: #FF5582A6;">CGLIB</mark>等在内存中“临时”生成AOP动态代理类，因此也被称为`运行时增强`
+<mark style="background: #FF5582A6;">动态代理</mark>则在运行时借助于<mark style="background: #FF5582A6;">JDK动态代理</mark>、<mark style="background: #FF5582A6;">CGLIB</mark>等在内存中“临时”生成AOP动态代理类，因此也被称为运行时增强
 
 ## cglib和jdk动态代理的区别？ 
 
-- cglib动态代理：利用`ASM框架`，对代理对象类生成的class文件加载进来，通过<mark style="background: #FF5582A6;">修改其字节码</mark>生成`子类`来处理，对指定的类生成一个<mark style="background: #FF5582A6;">子类</mark>，覆盖其中的方法，并覆盖其中方法的增强，但是因为采用的是<mark style="background: #FF5582A6;">继承</mark>，所以该类或方法最好不要生成final，对于<mark style="background: #FF5582A6;">final类或方法</mark>，是<mark style="background: #FF5582A6;">无法继承</mark>的
+- cglib动态代理：利用ASM框架，对代理对象类生成的class文件加载进来，通过<mark style="background: #FF5582A6;">修改其字节码</mark>生成<mark style="background: #FF5582A6;">子类</mark>来处理，对指定的类生成一个<mark style="background: #FF5582A6;">子类</mark>，覆盖其中的方法，并覆盖其中方法的增强，但是因为采用的是<mark style="background: #FF5582A6;">继承</mark>，所以该类或方法最好不要生成final，对于<mark style="background: #FF5582A6;">final类或方法</mark>，是<mark style="background: #FF5582A6;">无法继承</mark>的
 
-- JDK动态代理：利用拦截器（必须实现InvocationHandler）加上<mark style="background: #FF5582A6;">反射</mark>机制生成一个`代理接口`的匿名类，在调用具体方法前调用InvokeHandler来处理，jdk动态代理只能对实现了<mark style="background: #FF5582A6;">接口</mark>的类生成代理，而不能针对类
+- JDK动态代理：利用拦截器（必须实现 <mark style="background: #FF5582A6;">InvocationHandler</mark>）加上<mark style="background: #FF5582A6;">反射</mark>机制生成一个代理接口的匿名类，在调用具体方法前调用InvokeHandler来处理，jdk动态代理只能对实现了<mark style="background: #FF5582A6;">接口</mark>的类生成代理，而不能针对类
 
 ## cglib和jdk动态代理使用场景
 
@@ -572,21 +560,23 @@ AOP实现的关键就在于AOP框架自动创建的AOP代理，AOP代理则可�
 
 ## cglib比jdk快
 
-- cglib底层是ASM字节码生成框架，但是<mark style="background: #FF5582A6;">字节码技术</mark>生成<mark style="background: #FF5582A6;">代理类</mark>，在JDL1.6之前比使用java反射的效率要高
+- cglib底层是ASM字节码生成框架，但是<mark style="background: #FF5582A6;">字节码技术</mark>生成<mark style="background: #FF5582A6;">代理类</mark>，在JDK1.6之前比使用java反射的效率要高
 - 在jdk6之后逐步对JDK动态代理进行了优化，在<mark style="background: #FF5582A6;">调用次数</mark>比较<mark style="background: #FF5582A6;">少</mark>时效率<mark style="background: #FF5582A6;">高于cglib代理效率</mark>
 - 只有在<mark style="background: #FF5582A6;">大量调用</mark>的时候<mark style="background: #FF5582A6;">cglib的效率高</mark>，但是在<mark style="background: #FF5582A6;">1.8的时候JDK的效率已高于cglib</mark>
 - Cglib不能对声明final的方法进行代理，因为cglib是动态生成代理对象，final关键字修饰的类不可变只能被引用不能被修改
 
 |区别|CGLIB|JDK动态代理|
 |---|---|---|
-|原理|`动态`生成一个要代理的`子类`，`子类重写`要代理的类的所有不是final的方法。在子类中采用方法拦截技术拦截所有的父类方法的调用，顺势织入横切逻辑，它比Java反射的jdk动态代理要`快`|JDK中的动态代理是通过反射类Proxy以及InvocationHandler回调接口实现的，但是JDK中所有要进行动态代理的类`必须`要实现一个`接口`，也就是说只能对该类所实现接口中定义的方法进行代理，这在实际编程中有一定的局限性，而且使用反射的效率`较慢`|
+|原理|<mark style="background: #FF5582A6;">动态</mark>生成一个要代理的<mark style="background: #FF5582A6;">子类</mark>，<mark style="background: #FF5582A6;">子类重写</mark>要代理的类的<mark style="background: #FF5582A6;">所有</mark>不是final的方法。在子类中采用方法拦截技术拦截所有的父类方法的调用，顺势织入横切逻辑，它比Java反射的jdk动态代理要<mark style="background: #FF5582A6;">快</mark>|JDK中的动态代理是通过反射类Proxy以及InvocationHandler回调接口实现的，但是JDK中所有要进行动态代理的类<mark style="background: #FF5582A6;">必须</mark>要实现一个<mark style="background: #FF5582A6;">接口</mark>，也就是说只能对该类所实现接口中定义的方法进行代理，这在实际编程中有一定的局限性，而且使用反射的效率<mark style="background: #FF5582A6;">较慢</mark>|
 |是否提供子类代理|是|否|
 |是否提供接口代理|是（可不用接口）|是（必须）|
 
 
 ## cglib和jdk动态代理的依赖：
 spring-core带有cglib依赖
+
 jdk环境就自带jdk动态代理需要的jar包
+
 所以，使用springboot或spring的时候，不需要引入其他依赖，使用@Aspect等注解的时候，底层还是使用cglib或者jdk动态代理（自动转换）
 
 
@@ -600,19 +590,13 @@ jdk环境就自带jdk动态代理需要的jar包
     - Spring AOP`支持注解`，在使用@Aspect注解创建和配置切面时将更加方便。
 
 
-- AspectJ是什么
-
-AspectJ是一个<mark style="background: #FF5582A6;">java实现</mark>的<mark style="background: #FF5582A6;">AOP框架</mark>，它能够对java代码进行AOP编译（一般在<mark style="background: #FF5582A6;">编译期</mark>进行），让java代码具有AspectJ的AOP功能（当然需要特殊的<mark style="background: #FF5582A6;">编译器</mark>）
-
-可以这样说AspectJ是目前实现AOP框架中<mark style="background: #FF5582A6;">最成熟</mark>，<mark style="background: #FF5582A6;">功能最丰富</mark>的语言，更幸运的是，AspectJ与java程序完全兼容，几乎是无缝关联，因此对于有java编程基础的工程师，上手和使用都非常容易。
-
-AspectJ是在编译期间将切面代码编译到目标代码的，属于静态代理，通过修改代码来实现
-
-AspectJ可以做Spring AOP干不了的事情，它是AOP编程的完全解决方案，AspectJ支持`所有切入点`，不仅仅是方法织入
-
-因为AspectJ在实际运行之前就完成了织入，所以说它生成的类是<mark style="background: #FF5582A6;">没有额外运行时开销</mark>的
-
-需要通过.aj文件来创建切面，并且需要使用ajc（<mark style="background: #FF5582A6;">Aspect编译器</mark>）来编译代码
+- AspectJ
+	- AspectJ是一个<mark style="background: #FF5582A6;">java实现</mark>的<mark style="background: #FF5582A6;">AOP框架</mark>，它能够对java代码进行AOP编译（一般在<mark style="background: #FF5582A6;">编译期</mark>进行），让java代码具有AspectJ的AOP功能（当然需要特殊的<mark style="background: #FF5582A6;">编译器</mark>）
+	- 可以这样说AspectJ是目前实现AOP框架中<mark style="background: #FF5582A6;">最成熟</mark>，<mark style="background: #FF5582A6;">功能最丰富</mark>的语言，更幸运的是，AspectJ与java程序完全兼容，几乎是无缝关联，因此对于有java编程基础的工程师，上手和使用都非常容易。 
+	- AspectJ是在<mark style="background: #FF5582A6;">编译期</mark>间将切面代码编译到目标代码的，属于静态代理，通过修改代码来实现 
+	- AspectJ可以做Spring AOP干不了的事情，它是AOP编程的<mark style="background: #FF5582A6;">完全解决方案</mark>，AspectJ支持<mark style="background: #FF5582A6;">所有切入点</mark>，不仅仅是方法织入 
+	- 因为AspectJ在实际运行之前就完成了织入，所以说它生成的类是<mark style="background: #FF5582A6;">没有额外运行时开销</mark>的
+	- 需要通过.aj文件来创建切面，并且需要使用ajc（<mark style="background: #FF5582A6;">Aspect编译器</mark>）来编译代码
 
 
 |Spring AOP|AspectJ|
@@ -646,14 +630,15 @@ AspectJ应用到java代码的过程（这个过程称为织入），对于<mark 
 - <mark style="background: #FF5582A6;">ApectJ</mark>采用的就是<mark style="background: #FF5582A6;">静态织入</mark>的方式。ApectJ主要采用的是<mark style="background: #FF5582A6;">编译期</mark>织入，在这个期间使用AspectJ的<mark style="background: #FF5582A6;">acj编译器</mark>(类似javac)把aspect类编译成class字节码后，在java目标类编译时织入，即先编译aspect类再编译目标类。
   ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230914012828.png)
 
+
 ## jdk动态代理，cglib，Spring AOP和Aspectj关系
 - Spring AOP和Aspectj是两种实现aop的框架
-- Spring AOP采用的是动态代理
+- Spring AOP采用的是<mark style="background: #FF5582A6;">动态代理</mark>
     - 动态代理有两种底层技术实现：
-        - jdk动态代理（默认有接口的目标类使用jdk动态代理）
-        - cglib（没有接口或有接口的目标类使用）
-    - Spring AOP采用了Aspectj包提供的注解，但是底层编译器和织入器并不是Aspectj
-- Aspectj采用的是静态代理
+        - <mark style="background: #FF5582A6;">jdk动态代理</mark>（默认<mark style="background: #FF5582A6;">有接口</mark>的目标类使用jdk动态代理）
+        - <mark style="background: #FF5582A6;">cglib</mark>（<mark style="background: #FF5582A6;">没有接口</mark>或有接口的目标类使用）
+    - Spring AOP采用了Aspectj包提供的注解，但是底层<mark style="background: #FF5582A6;">编译器</mark>和<mark style="background: #FF5582A6;">织入器</mark>并不是Aspectj
+- Aspectj采用的是<mark style="background: #FF5582A6;">静态代理</mark>
 
 
 ## 误区
