@@ -4,213 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "34f9ea8a954590dd",
+        "id": "d9a01661481ea9c3",
         "type": "tabs",
         "children": [
           {
-            "id": "7f9a855445878a85",
+            "id": "1b43364aca3448ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f082cbe5bfa65b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/03-性能调优/Tomcat/Tomcat.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cb61a835f6b2875",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/03-性能调优/Tomcat/Tomcat 性能调优.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85bdc436bbc4c7ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/03-性能调优/Tomcat/Tomcat架构图.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d042c2443499a0cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/03-性能调优/Tomcat/Tomcat热部署与热加载.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bcb6cc0c2586db4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/03-性能调优/Tomcat/Tomcat是一个Servlet容器？.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "970ac196a33b39ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/03-性能调优/Tomcat/Tomcat专题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "288a7cb2d61470d0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "附件素材/码农/Tomcat 专题.pdf"
-              }
-            }
-          },
-          {
-            "id": "a7b7e11f3c43dc6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/B-设计模式/23个设计模式总结.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fca054944698146",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/Mac------工欲善其事 必先利其器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4df816df1d4ac4af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Mac zsh Item2命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b6e1dd861a728b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Linux学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12b52c4681d8e8c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Linux命令积累.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2571a9ba0d70365",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/07-互联网工具/Gradle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e072cfc6f6be7ee3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/Z-面试/复习计划.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12e2f35c8aac99f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/B-设计模式/快速总结.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23f287c002b42e49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HomePage.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 14
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:VSCode",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -257,7 +62,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "41111949b8b524e5",
@@ -292,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/Z-面试/复习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/Z-面试/复习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -331,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "码农笔记/Z-面试/复习计划.md"
-              }
+              "state": {}
             }
           },
           {
@@ -379,8 +181,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e072cfc6f6be7ee3",
+  "active": "1b43364aca3448ff",
   "lastOpenFiles": [
+    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
+    "Index/index-电影清单.md",
+    "Index/index-码农笔记.md",
+    "码农笔记/07-互联网工具/VSCode.md",
+    "HomePage.md",
+    "Everything/Obsidian折腾记录.md",
+    "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
     "码农笔记/07-互联网工具/Gradle.md",
     "码农笔记/D-Linux/Linux命令积累.md",
     "码农笔记/D-Linux/Linux学习笔记.md",
@@ -388,7 +197,6 @@
     "Everything/Mac------工欲善其事 必先利其器.md",
     "码农笔记/B-设计模式/23个设计模式总结.md",
     "码农笔记/03-性能调优/Tomcat/Tomcat架构图.md",
-    "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
     "附件素材/码农/Tomcat 专题.pdf",
     "码农笔记/03-性能调优/Tomcat/Tomcat专题.md",
     "码农笔记/03-性能调优/Tomcat/Tomcat是一个Servlet容器？.md",
@@ -398,17 +206,11 @@
     "码农笔记/01-框架源码/Spring MVC",
     "码农笔记/B-设计模式/快速总结.md",
     "未命名.md",
-    "HomePage.md",
-    "Everything/Obsidian折腾记录.md",
     "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
-    "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
     "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
     "码农笔记/00-Java基础/Java开发手册.md",
     "码农笔记/00-Java基础/主内存与工作内存.md",
-    "码农笔记/00-Java基础/垃圾收集器.md",
-    "Template/码农笔记——Template 2.md",
-    "Template/码农笔记——Template.md",
     "码农笔记/F-Netty",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "md/algorithm",

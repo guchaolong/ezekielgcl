@@ -296,17 +296,17 @@ Prototype 是<mark style="background: #FF5582A6;">原型类型</mark>，它在�
 InstantiationAwareBeanPostProcessor作用于**实例化**阶段的前后，BeanPostProcessor作用于**初始化**阶段的前后
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230906110853.png)
 
-<mark style="background: #FF5582A6;">InstantiationAwareBeanPostProcessor</mark>#postProcessBeforeInstantiation
+<mark style="background: #FF5582A6;">InstantiationAwareBeanPostProcessor</mark>.postProcessBeforeInstantiation
 Person()构造函数
-<mark style="background: #FF5582A6;">InstantiationAwareBeanPostProcessor</mark>#postProcessAfterInstantiation
+<mark style="background: #FF5582A6;">InstantiationAwareBeanPostProcessor</mark>.postProcessAfterInstantiation
 
 <mark style="background: #D2B3FFA6;">BeanNameAware</mark> setBeanName()  
 <mark style="background: #D2B3FFA6;">BeanFactoryAware</mark> setBeanFactory()
 
-<mark style="background: #FFB8EBA6;">BeanPostProcessor</mark>#postProcessBeforeInitialization()
+<mark style="background: #FFB8EBA6;">BeanPostProcessor</mark>.postProcessBeforeInitialization()
 @<mark style="background: #BBFABBA6;">PostConstruct</mark> 注解的 自定义方法  
 <mark style="background: #BBFABBA6;">InitializingBean</mark>接口 afterPropertiesSet() 方法
-<mark style="background: #FFB8EBA6;">BeanPostProcessor</mark>#postProcessAfterInitialization()
+<mark style="background: #FFB8EBA6;">BeanPostProcessor</mark>.postProcessAfterInitialization()
 
 @<mark style="background: #ADCCFFA6;">PreDestory</mark>注解自定义销毁方法
 <mark style="background: #ADCCFFA6;">DisposableBean</mark>接口destroy（）

@@ -4,687 +4,159 @@ name: AnuPpuccin
 id: anuppuccin-theme-settings
 settings:
 
-# Workspace
-
-  -
-    id: anp-workspace-header
-    title: 工作空间
-    description: 背景，彩色边框，布局，侧边栏，选项卡，半透明，等等。
-    type: heading
-    level: 1
-    collapsed: true
-
-# Workspace :: Canvas
-
-  -
-    id: anp-canvas-header
-    title: 白板
-    description: Darken Canvas Background
-    type: heading
-    level: 2
-    collapsed: true
-  -
-    id: anp-canvas-dark-bg
-    title: 更暗的画布背景
-    type: class-toggle
-
-# Workspace :: Custom Background
-
-  -
-    id: anp-custom-background-header
-    title: 背景
-    description: 自定义工作区背景
-    type: heading
-    level: 2
-    collapsed: true
-  -
-    id: anp-background-image-toggle
-    title: 启用自定义背景（WIP）
-    description: 不兼容彩色框架
-    type: class-toggle
-
-# Workspace :: Custom Background :: Light Mode
-
-  -
-    id: anp-custom-background-light-header
-    title: 浅色模式
-    description: 
-    type: heading
-    level: 3
-    collapsed: true
-  -
-    id: anp-background-image-light
-    title: 自定义背景图片网址
-    description: '格式为： url("https://link-to-image.png")'
-    type: variable-text
-    default: url("https://link-to-image.png")
-  -
-    id: anp-custom-bg-brightness-light
-    title: 背景亮度
-    type: variable-number-slider
-    min: 0
-    max: 2
-    step: 0.05
-    default: 0.7
-  -
-    id: anp-custom-bg-blur-light
-    title: 背景模糊化
-    type: variable-number-slider
-    min: 0
-    max: 20
-    step: 1
-    default: 5
-    format: px
-  -
-    id: anp-custom-bg-card-fg-opacity-light
-    title: 容器不透明度
-    type: variable-number-slider
-    min: 0
-    max: 1
-    step: 0.05
-    default: 0.4
-
-# Workspace :: Custom Background :: Dark Mode
-
-  -
-    id: anp-custom-background-dark-header
-    title: 深色模式
-    description: 
-    type: heading
-    level: 3
-    collapsed: true
-  -
-    id: anp-background-image-dark
-    title: 自定义背景图像的网址
-    description: '格式化为： url("https://link-to-image.png")'
-    type: variable-text
-    default: url("https://link-to-image.png")
-  -
-    id: anp-custom-bg-brightness-dark
-    title: 背景亮度
-    type: variable-number-slider
-    min: 0
-    max: 1
-    step: 0.05
-    default: 0.7
-  -
-    id: anp-custom-bg-blur-dark
-    title: 背景模糊度
-    type: variable-number-slider
-    min: 0
-    max: 20
-    step: 1
-    default: 5
-    format: px
-  -
-    id: anp-custom-bg-card-fg-opacity-dark
-    title: 容器透明度
-    type: variable-number-slider
-    min: 0
-    max: 1
-    step: 0.05
-    default: 0.4
-
-# Workspace :: Colorful Frame
-
-  -
-    id: colorful-frame
-    title: 多彩边框
-    description: 
-    type: heading
-    level: 2
-    collapsed: true
-  -
-    id: anp-colorful-frame
-    title: "启用彩色边框（进行中）"
-    type: class-toggle
-  -
-    id: anp-colorful-frame-icon-toggle-light
-    title: "反转图标颜色 - 浅色"
-    type: class-toggle
-  -
-    id: anp-colorful-frame-icon-toggle-dark
-    title: "反转图标颜色 - 深色"
-    type: class-toggle
-  -
-    id: anp-colorful-frame-opacity
-    title: 彩色边框透明度
-    type: variable-number-slider
-    default: 1
-    min: 0
-    max: 1
-    step: 0.05
-  -
-    id: anp-colorful-frame-color
-    title: 自定义多彩框架颜色
-    type: variable-themed-color
-    format: "rgb-values"
-    opacity: false
-    default-light: '#'
-    default-dark: '#'
-    alt-format:
-      -
-        id: anp-colorful-frame-color-hsl
-        format: "hsl-values"
-
-# Workspace :: File Browser
-
-  -
-    id: anp-filebrowser-header
-    title: 文件栏
-    description: '启用/禁用文件栏元素'
-    type: heading
-    level: 2
-    collapsed: true
-  -
-    id: anp-collapse-folders
-    title: 为折叠指示器启用文件夹图标
-    type: class-toggle
-  -
-    id: anp-file-icons
-    title: 启用文件图标
-    type: class-toggle
-  -
-    id: anp-floating-header
-    title: 启用浮动库标题
-    type: class-toggle
-  -
-    id: anp-custom-vault-toggle
-    title: 启用自定义保险库标题
-    type: class-toggle
-  -
-    id: anp-file-label-align
-    title: 文件标签对齐
-    type: variable-select
-    default: "0"
-    options:
-      -
-        label: Right
-        value: 1
-      -
-        label: Left
-        value: 0
-
-# Workspace :: Rainbow Folders
-
-  -
-    id: anp-rainbow-section-header
-    title: 彩虹文件夹
-    description: 
-    type: heading
-    level: 2
-    collapsed: true
-  -
-    id: anuppuccin-url-custom-rainbow-colors
-    title: 自定义彩虹文件夹颜色片段
-    description: "通过[此链接](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/custom-rainbow-colors.css)下载代码片段。"
-    type: info-text
-    markdown: true
-  -
-    id: anp-alt-rainbow-style
-    title: 彩虹风格
-    type: class-select
-    allowEmpty: false
-    default: anp-default-rainbow
-    options:
-      - 
-        label: 无
-        value: anp-default-rainbow
-      - 
-        label: 【充满样式】
-        value: anp-full-rainbow-color-toggle
-      - 
-        label: 【简洁样式】
-        value: anp-simple-rainbow-color-toggle
-
-# Workspace :: Rainbow Folders :: Full Folder Settings
-
-  -
-    id: anp-full-rainbow-folder-settings
-    title: 【充满样式】文件夹设置
-    description: 
-    type: heading
-    level: 3
-    collapsed: true
-  -
-    id: anp-rainbow-file-toggle
-    title: 文件着色
-    desc: Recolors files to match the folders
-    type: class-toggle
-  -
-    id: anp-full-rainbow-text-color-toggle-light
-    title: 反转标题颜色（暗模式）
-    type: class-toggle
-  -
-    id: anp-full-rainbow-text-color-toggle-dark
-    title: 反转标题颜色（浅色模式）
-    type: class-toggle
-  -
-    id: anp-rainbow-folder-bg-opacity
-    title: 文件夹背景颜色的透明度
-    type: variable-number
-    default: 0.7
-
-# Workspace :: Rainbow Folders :: Simple Folder Settings
-
-  -
-    id: anp-simple-rainbow-folder-settings
-    title: 【简洁样式】文件夹设置
-    description: 
-    type: heading
-    level: 3
-    collapsed: true
-  -
-    id: anp-simple-rainbow-title-toggle
-    title: 启用标题重新着色
-    type: class-toggle
-  -
-    id: anp-simple-rainbow-icon-folder-toggle
-    title: 启用图标重新着色（适用于图标文件夹用户）
-    type: class-toggle
-  -
-    id: anp-simple-rainbow-indentation-toggle
-    title: 启用折叠缩进重新着色
-    type: class-toggle
-  -
-    id: anp-simple-rainbow-collapse-toggle
-    title: 启用折叠指示器
-    type: class-toggle
-  -
-    id: anp-simple-rainbow-icon-toggle
-    title: 启用圆形图案
-    type: class-toggle
-  -
-    id: anp-rainbow-subfolder-color-toggle
-    title: 启用子文件夹颜色继承
-    type: class-toggle
-
-
-# Workspace :: Status Bar
-
-  -
-    id: anp-status-bar-header
-    title: 状态栏
-    description: Select status bar style
-    type: heading
-    level: 2
-    collapsed: true
-  -
-    id: anp-status-bar-select
-    title: Status Bar Style
-    type: class-select
-    default: none
-    options:
-      -
-        label: Default
-        value: none
-      -
-        label: Floating
-        value: anp-floating-status-bar
-      -
-        label: Fixed
-        value: anp-fixed-status-bar
-
-# Workspace :: Tabs
-
-  -
-    id: anp-alt-tab-header
-    title: 选项卡
-    description: 
-    type: heading
-    level: 2
-    collapsed: true
-  -
-    id: anp-alt-tab-style
-    title: 选项卡样式
-    type: class-select
-    allowEmpty: false
-    default: anp-default-tab
-    options:
-      - 
-        label: 默认
-        value: anp-default-tab
-      - 
-        label: 深度
-        value: anp-depth-tab-toggle
-      - 
-        label: 极简主义
-        value: anp-mini-tab-toggle
-      - 
-        label: Safari风格（动画效果）
-        value: anp-alternate-tab-toggle
-      - 
-        label: Safari风格（原生）
-        value: anp-safari-tab-toggle
-  -
-    id: anp-alt-tab-custom-height
-    title: 自定义选项卡高度
-    type: variable-number
-    allowEmpty: false
-    default: 40
-    format: px
-  -
-    id: anp-disable-newtab-align
-    title: 禁用新建标签按钮的右对齐
-    type: class-toggle
-
-# Workspace :: Tabs :: Depth Tab Settings
-
-  -
-    id: anp-depth-tab-header
-    title: 深度选项卡设置
-    description: Only applies to inactive tabs
-    type: heading
-    level: 3
-    collapsed: true
-  -
-    id: anp-depth-tab-text-invert
-    title: 反转选项卡文字颜色
-    type: class-toggle
-  -
-    id: anp-depth-tab-opacity
-    title: 选项卡不透明度
-    type: variable-number-slider
-    default: 0.6
-    max: 1
-    min: 0
-    step: 0.1
-  -
-    id: anp-depth-tab-gap
-    title: 选项卡间距
-    type: variable-number
-    default: 10
-    format: px
-
-# Workspace :: Tabs :: Animated Safari-style Tab Settings
-
-  -
-    id: anp-safari-tab-header
-    title: Safari风格（动画效果）选项卡设置
-    description: 改编自github.com/chuckharmston的片段
-    type: heading
-    level: 3
-    collapsed: true
-  -
-    id: anp-safari-tab-radius
-    title: 选项卡半径
-    type: variable-number
-    default: 6
-    format: px
-  -
-    id: anp-safari-tab-gap
-    title: 标签间隔
-    type: variable-number
-    default: 10
-    format: px
-  -
-    id: anp-safari-border-width
-    title: 选项卡边框宽度
-    type: variable-number
-    default: 1
-    format: px
-
-# Workspace :: Tabs :: Vanilla Safari-style Tab Settings
-
-  -
-    id: anp-safari-vanilla-tab-header
-    title: 原生Safari风格的标签设置
-    description: 
-    type: heading
-    level: 3
-    collapsed: true
-  -
-    id: anp-safari-tab-animated
-    title: 启用 WIP 动画的 Safari 标签页。
-    type: class-toggle
-
-
-# Workspace :: Workspace Layout
-
-  -
-    id: anp-layout-header
-    title: 工作区布局
-    description: Workspace layout and arrangement
-    type: heading
-    level: 2
-    collapsed: true
-  -
-    id: anp-layout-select
-    title: 工作区布局变体
-    type: class-select
-    allowEmpty: false
-    default: none
-    options:
-      -
-        label: 默认
-        value: none
-      -
-        label: 边界
-        value: anp-border-layout
-      -
-        label: 卡片
-        value: anp-card-layout
-  -
-    id: anp-bg-fix
-    title: 应用颜色的背景修复
-    type: class-toggle
-  -
-    id: anp-hide-borders
-    title: 隐藏边框
-    type: class-toggle
-
-# Workspace :: Workspace Layout :: Card Layout
-
-  -
-    id: anp-layout-card
-    title: 卡片布局设置
-    description: 
-    type: heading
-    level: 3
-    collapsed: true
-  -
-    id: anp-card-radius
-    title: 卡片半径
-    type: variable-number
-    default: 16
-    format: px
-  -
-    id: anp-card-layout-padding
-    title: 卡片填充
-    type: variable-number
-    default: 10
-    format: px
-  -
-    id: anp-card-header-left-padding
-    title: 选项卡左填充
-    type: variable-number
-    default: 20
-    format: px
-  -
-    id: anp-card-shadows
-    title: 启用阴影
-    type: class-toggle
-  -
-    id: anp-card-layout-actions
-    title: 启用操作的卡片格式化功能
-    type: class-toggle
-  -
-    id: anp-card-layout-filebrowser
-    title: 启用卡片格式以供文件浏览器使用
-    type: class-toggle
-  -
-    id: anp-layout-border
-    title: 边框布局设置
-    description: 
-    type: heading
-    level: 3
-    collapsed: true
-  -
-    id: anp-border-radius
-    title: "边框布局半径"
-    type: variable-number
-    default: 16
-    format: px
-  -
-    id: anp-border-padding
-    title: 边框布局填充
-    type: variable-number
-    default: 20
-    format: px
-
 # Colors
 
   -
     id: anp-colors-section-header
-    title: 颜色
-    description: 主题强调与风格，颜色重写，扩展颜色方案
+    title: Colors
+    description: Theme Accent and Flavors, Color Overrides, Extended Color Schemes
     type: heading
     level: 1
     collapsed: true
   -
     id: anuppuccin-theme-light
-    title: 浅色主题风格
-    description: 选择您首选的浅色模式风格
+    title: Light Theme Flavor
+    description: Select your preferred light mode flavor
     type: class-select
     allowEmpty: false
     default: ctp-latte
     options:
       - 
-        label: 拿铁
+        label: Latte
         value: ctp-latte
       - 
-        label: 玫瑰松木色
+        label: Rosé Pine
         value: ctp-rosepine-light
   -
     id: anuppuccin-theme-dark
-    title: 深色主题风格
-    description: 选择您喜欢的深色模式口味
+    title: Dark Theme Flavor
+    description: Select your preferred dark mode flavor
     type: class-select
     allowEmpty: false
     default: ctp-mocha
     options:
       - 
-        label: 法式冰咖啡(浅米色)
+        label: Frappe
         value: ctp-frappe
       - 
-        label: 玛奇朵(浅棕色)
+        label: Macchiato
         value: ctp-macchiato
       - 
-        label: 摩卡(咖啡色)
+        label: Mocha
         value: ctp-mocha
       - 
-        label: 旧式摩卡
+        label: Mocha Old
         value: ctp-mocha-old
   -
     id: anuppuccin-light-theme-accents
-    title: 浅色主题强调色
-    description: 选择您喜欢的浅色主题强调色（如果未填写，则默认为暗色主题强调色）。
+    title: Light Theme Accent
+    description: Select your preferred light theme accent (Defaults to dark theme accent if left empty)
     type: class-select
     allowEmpty: true
     default: none
     options:
       - 
-        label: 玫瑰水
+        label: Rosewater
         value: ctp-accent-light-rosewater
       - 
-        label: 火烈鸟
+        label: Flamingo
         value: ctp-accent-light-flamingo
       - 
-        label: 粉色
+        label: Pink
         value: ctp-accent-light-pink
       - 
-        label: 紫罗兰
+        label: Mauve
         value: ctp-accent-light-mauve
       - 
-        label: 红色
+        label: Red
         value: ctp-accent-light-red
       - 
-        label: 褐红色
+        label: Maroon
         value: ctp-accent-light-maroon
       - 
-        label: 桃子
+        label: Peach
         value: ctp-accent-light-peach
       - 
-        label: 黄色
+        label: Yellow
         value: ctp-accent-light-yellow
       - 
-        label: 绿色
+        label: Green
         value: ctp-accent-light-green
       - 
-        label: 青蓝色
+        label: Teal
         value: ctp-accent-light-teal
       - 
-        label: 天空蓝
+        label: Sky
         value: ctp-accent-light-sky
       - 
-        label: 蓝宝石
+        label: Sapphire
         value: ctp-accent-light-sapphire
       - 
-        label: 蓝色
+        label: Blue
         value: ctp-accent-light-blue
       - 
-        label: 薰衣草
+        label: Lavender
         value: ctp-accent-light-lavender
   -
     id: anuppuccin-theme-accents
-    title: 深色主题强调色调
-    description: 选择您喜欢的风格
+    title: Dark Theme Accent
+    description: Select your preferred accent
     type: class-select
     allowEmpty: false
     default: ctp-accent-rosewater
     options:
       - 
-        label: 玫瑰水
+        label: Rosewater
         value: ctp-accent-rosewater
       - 
-        label: 火烈鸟
+        label: Flamingo
         value: ctp-accent-flamingo
       - 
-        label: 粉色
+        label: Pink
         value: ctp-accent-pink
       - 
-        label: 紫罗兰
+        label: Mauve
         value: ctp-accent-mauve
       - 
-        label: 红色
+        label: Red
         value: ctp-accent-red
       - 
-        label: 褐红色
+        label: Maroon
         value: ctp-accent-maroon
       - 
-        label: 桃子
+        label: Peach
         value: ctp-accent-peach
       - 
-        label: 黄色
+        label: Yellow
         value: ctp-accent-yellow
       - 
-        label: 绿色
+        label: Green
         value: ctp-accent-green
       - 
-        label: 青蓝色
+        label: Teal
         value: ctp-accent-teal
       - 
-        label: 天空蓝
+        label: Sky
         value: ctp-accent-sky
       - 
-        label: 蓝宝石
+        label: Sapphire
         value: ctp-accent-sapphire
       - 
-        label: 蓝色
+        label: Blue
         value: ctp-accent-blue
       - 
-        label: 薰衣草
+        label: Lavender
         value: ctp-accent-lavender
   -
     id: anuppuccin-accent-toggle
-    title: 强制定制风格
-    description: 强制使用配色方案特定的自定义强调颜色，而不是默认的黑曜石强调颜色
+    title: Force Custom Accents
+    description: Forces colorscheme-specific custom accents to be utilised instead of default obsidian accent
     type: class-toggle
     default: true
   -
     id: anuppuccin-url-extended-colorschemes
-    title: 扩展的颜色方案片段
-    description: "点击下载片段 [this link](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/extended-colorschemes.css)."
+    title: Extended Color Schemes Snippet
+    description: "Download the snippet by clicking on [this link](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/extended-colorschemes.css)."
     type: info-text
     markdown: true
 
@@ -692,126 +164,133 @@ settings:
 
   -
     id: anp-color-overrides-header
-    title: 颜色覆盖
+    title: Color Overrides
     description: 
     type: heading
     level: 2
     collapsed: true
   -
     id: ctp-custom-rosewater
-    title: 玫瑰水
+    title: Rosewater
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-flamingo
-    title: 火烈鸟
+    title: Flamingo
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-pink
-    title: 粉色
+    title: Pink
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-mauve
-    title: 紫罗兰
+    title: Mauve
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-red
-    title: 红色
+    title: Red
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'rgb-values'
+  -
+    id: ctp-custom-maroon
+    title: Maroon
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-peach
-    title: 桃色
+    title: Peach
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-yellow
-    title: 黄色
+    title: Yellow
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-green
-    title: 绿色
+    title: Green
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-teal
-    title: 青蓝色
+    title: Teal
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-sky
-    title: 天空蓝
+    title: Sky
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-sapphire
-    title: 蓝宝石
+    title: Sapphire
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-blue
-    title: 蓝色
+    title: Blue
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-lavender
-    title: 薰衣草
+    title: Lavender
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-text
-    title: 文本(重点1)
+    title: Text
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-subtext1
-    title: subtext1
+    title: Subtext 1
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-subtext0
-    title: subtext0
+    title: Subtext0
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-overlay2
-    title: 文本（重点2）
+    title: Overlay 2
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
@@ -825,35 +304,35 @@ settings:
     format: 'rgb-values'
   -
     id: ctp-custom-overlay0
-    title: 搜索建议框
+    title: Overlay 0
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-surface2
-    title: 搜索框
+    title: Surface 2
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-surface1
-    title: 焦点高亮
+    title: Surface 1
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-surface0
-    title: 各种线
+    title: Surface 0
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
     format: 'rgb-values'
   -
     id: ctp-custom-base
-    title: 背景框（重点3）
+    title: Base
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
@@ -867,7 +346,7 @@ settings:
     format: 'rgb-values'
   -
     id: ctp-custom-crust
-    title: 窗口标题栏等（重点4）
+    title: Crust
     type: variable-themed-color
     default-light: '#'
     default-dark: '#'
@@ -877,77 +356,80 @@ settings:
 
   -
     id: anp-editor-header
-    title: 文件编辑器和Markdown元素
-    description: 提示框（callouts）、复选框(checkboxes)、代码块、列表、 表格、标签, 等等.
+    title: File Editor & Markdown Elements
+    description: Callouts, Checkboxes, Codeblocks, Lists, Tables, Tags, etc.
     type: heading
     level: 1
     collapsed: true
   -
     id: anp-active-line
-    title: 活动行高亮显示
+    title: Active line highlight
     type: class-select
     allowEmpty: false
     default: anp-no-highlight
     options:
       -
-        label: 无
+        label: None
         value: anp-no-highlight
       -
-        label: 高亮
+        label: Highlight
         value: anp-current-line
       -
-        label: 高亮+边框
+        label: Highlight + Border
         value: anp-current-line-border
+      -
+        label: Border Only
+        value: anp-current-line-border-only
 
 # File Editor & Markdown Elements :: Callouts
   -
     id: anp-callout-header
-    title: Callouts（提示框）
-    description: callout样式、边框半径、自定义颜色
+    title: Callouts
+    description: Callout styles, border radius, custom colors
     type: heading
     level: 2
     collapsed: true
   -
     id: anp-callout-select
-    title: Callout 样式
+    title: Callout Style
     type: class-select
     default: none
     allowEmpty: false
     options:
       - 
-        label: 默认
+        label: Default
         value: none
       - 
-        label: 时尚
+        label: Sleek
         value: anp-callout-sleek
       - 
-        label: 块
+        label: Block
         value: anp-callout-block
       - 
-        label: 香草普通版
+        label: Vanilla Normal
         value: anp-callout-vanilla-normal
       - 
-        label: 香草Plus
+        label: Vanilla Plus
         value: anp-callout-vanilla-plus
   -
     id: anp-callout-color-toggle
-    title: 启用自定义callout颜色
+    title: Enable Custom Callout Colors
     type: class-toggle
   -
     id: callout-radius
-    title: Callout 半径
+    title: Callout Radius
     type: variable-number
     default: 4
     format: px
   -
     id: callout-title-padding
-    title: Callout 标题填充（padding:元素和边框之间的距离）
+    title: Callout Title Padding
     type: variable-text
     default: 8px
   -
     id: callout-title-opacity
-    title: Callout 标题背景透明度
-    description: 适用于时尚、香草和香草 Plus的样式
+    title: Callout Title Background Opacity
+    description: Applies to Sleek, Vanilla and Vanilla Plus callouts
     type: variable-number-slider
     default: 0.1
     min: 0
@@ -955,12 +437,12 @@ settings:
     step: 0.05
   -
     id: callout-content-padding
-    title: Callout 内容填充（padding:元素和边框之间的距离）
+    title: Callout Content Padding
     type: variable-text
     default: 8px
   -
     id: anp-callout-fold-position
-    title: Callout 折叠位置
+    title: Callout Fold Position
     type: variable-select
     default: '0'
     options:
@@ -975,37 +457,37 @@ settings:
 
   -
     id: anp-custom-checkboxes-header
-    title: Checkboxes(复选框）
-    description: 自定义复选框和对话框
+    title: Checkboxes
+    description: Custom checkboxes and speech bubbles
     type: heading
     level: 2
     collapsed: true
   -
     id: anp-custom-checkboxes
-    title: 启用自定义复选框
+    title: Enable Custom Checkboxes
     type: class-toggle
   -
     id: anp-speech-bubble
-    title: 启用聊天气泡
+    title: Enable Speech Bubbles
     type: class-toggle
 
 # File Editor & Markdown Elements :: Codeblocks
 
   -
     id: anp-codeblock-header
-    title: Codeblocks（代码块）
-    description: 代码块自动折行，行号标注。
+    title: Codeblocks
+    description: Codeblock wrapping, line numbering
     type: heading
     level: 2
     collapsed: true
   -
     id: anp-codeblock-numbers
-    title: 启用代码块编号
+    title: Enable Codeblock Numbering
     type: class-toggle
   -
     id: anp-codeblock-wrap-edit
-    title: 代码块换行（编辑模式）
-    description: 不支持带有语法突出显示的 Codeblocks。
+    title: Codeblock Line Wrap (Edit Mode)
+    description: Does not work for codeblocks with syntax highlighting
     type: class-select
     default: none
     options:
@@ -1017,8 +499,8 @@ settings:
         value: anp-codeblock-edit-nowrap
   -
     id: anp-codeblock-wrap-preview
-    title: 代码块自动换行（预览模式）
-    description: 不适用于具有语法高亮功能的 Codeblocks。
+    title: Codeblock Line Wrap (Preview Mode)
+    description: Does not work for codeblocks with syntax highlighting
     type: class-select
     default: none
     options:
@@ -1030,7 +512,7 @@ settings:
         value: anp-codeblock-preview-nowrap
   -
     id: anp-codeblock-wrap-hl-preview
-    title: 代码块语法高亮自动换行（预览模式）
+    title: Syntax Highlighted Codeblock Line Wrap (Preview Mode)
     type: class-select
     default: none
     options:
@@ -1042,7 +524,7 @@ settings:
         value: anp-codeblock-preview-hl-nowrap
   -
     id: anp-code-bg-color
-    title: 代码块背景颜色
+    title: Codeblock Background Color
     type: variable-themed-color
     allowEmpty: true
     format: hex
@@ -1051,7 +533,7 @@ settings:
     default-dark: '#'
   -
     id: anp-code-text-color
-    title: 代码块文本颜色
+    title: Codeblock Text Color
     type: variable-themed-color
     description: Applies to codeblocks without syntax highlighting
     allowEmpty: true
@@ -1060,84 +542,162 @@ settings:
     default-light: '#'
     default-dark: '#'
 
+# File Editor & Markdown Elements :: Embeds
+  -
+    id: anp-embed-header
+    title: Embeds
+    description: Maximum embed height
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: embed-max-height
+    title: Maximum embed height in px
+    type: variable-number
+    default: 200
+
 # File Editor & Markdown Elements :: Lists
 
   -
     id: anp-list-header
-    title: 列表
-    description: 样式，缩进，间距
+    title: Lists
+    description: Styling, indent, spacing
     type: heading
     level: 2
     collapsed: true
   -
     id: anp-list-toggle
-    title: 启用列表样式
+    title: Enable List Styling
     type: class-toggle
   -
     id: list-indent
-    title: 列表缩进
+    title: List Indent
     type: variable-number
     default: 2
     format: em
   -
     id: list-spacing
-    title: 列表间距
+    title: List Spacing
     type: variable-number
     default: 0.075
     format: em
+  -
+    id: list-marker-color
+    title: Unordered list bullet color
+    type: variable-themed-color
+    default-light: '#'
+    default-dark: '#'
+    format: 'hex'
+  -
+    id: list-numbered-style
+    title: Ordered list style
+    type: variable-select
+    default: decimal
+    options:
+      -
+        label: "Decimal"
+        value: decimal
+      -
+        label: "Decimal with leading zeroes"
+        value: decimal-leading-zero
+      -
+        label: "Lowercase alphabetical"
+        value: lower-alpha
+      -
+        label: "Uppercase alphabetical"
+        value: upper-alpha
+      -
+        label: "Lowercase Roman Numerals"
+        value: lower-roman
+      -
+        label: "Uppercase Roman Numerals"
+        value: upper-roman
+      -
+        label: "Lowercase Latin"
+        value: lower-latin
+      -
+        label: "Uppercase Latin"
+        value: upper-latin
+      -
+        label: "Lowercase Greek"
+        value: lower-greek
+      -
+        label: "Uppercase Greek"
+        value: upper-greek
+      -
+        label: "Hiragana"
+        value: hiragana
+      -
+        label: "Hiragana Iroha"
+        value: hiragana-iroha
+      -
+        label: "Katakana"
+        value: armenian
+      -
+        label: "Katakana Iroha"
+        value: katakana-iroha
+      -
+        label: "Armenian"
+        value: armenian
+      -
+        label: "CJK Ideographic"
+        value: cjk-ideographic
+      -
+        label: "Hebrew"
+        value: hebrew
 
 # File Editor & Markdown Elements :: Tables
 
   -
     id: anp-table-header
-    title: 表格
-    description: 表格宽度、对齐方式、表格元素高亮和对齐方式、边框宽度。
+    title: Tables
+    description: Table width, alignment, table element highlight and alignment, border width
     type: heading
     level: 2
     collapsed: true
   -
     id: anp-table-toggle
-    title: 启用表格样式化
+    title: Enable Table Styling
     type: class-toggle
   -
     id: anp-table-width
-    title: 启用自定义表格宽度
-    description: 使用 anp-table-width 适用于 YAML 语法。
+    title: Enable Custom Table Width
+    description: Use anp-table-width for yaml syntax
     type: class-toggle
   -
     id: anp-table-auto
-    title: 表格居中
-    description: 使用anp-table-auto适用于YAML语法。
+    title: Center Tables
+    description: Use anp-table-auto for yaml syntax
     type: class-toggle
   -
-    id: anp-th-highlight
-    title: <th> 表头高亮
+    id: anp-table-th-highlight
+    title: <th> Highlight
     type: class-toggle
   -
     id: anp-td-highlight
-    title: <td> 表格高亮
+    title: <td> Highlight
     type: class-select
     default: anp-td-none
     allowEmpty: false
     options:
       -
-        label: 无
-        value: anp-td-none
+        label: None
+        value: none
       -
-        label: 交替行
-        value: anp-td-alt-rows
+        label: Alternate Rows
+        value: anp-table-row-alt
       -
-        label: 交替列
-        value: anp-td-alt-cols
+        label: Alternate Columns
+        value: anp-table-col-alt
       -
-        label: 格子
-        value: anp-td-checkered
+        label: Checkered
+        value: anp-table-checkered
       -
-        label: 完整的
-        value: anp-td-full
+        label: Full
+        value: anp-table-full
   -
     id: anp-table-highlight-opacity
-    title: 高亮不透明度
+    title: Highlight Opacity
     default: 0.5
     type: variable-number-slider
     min: 0
@@ -1145,43 +705,43 @@ settings:
     step: 0.1
   -
     id: anp-table-align-th
-    title: <th>表头文字对齐
+    title: <th> Text Align
     type: variable-select
     default: center
     options:
       -
-        label: 左
+        label: Left
         value: left
       -
-        label: 居中
+        label: Center
         value: center
       -
-        label: 右
+        label: Right
         value: right
   -
     id: anp-table-align-td
-    title: <td>表格文字对齐
+    title: <td> Text Align
     type: variable-select
     default: center
     options:
       -
-        label: 左
+        label: Left
         value: left
       -
-        label: 居中
+        label: Center
         value: center
       -
-        label: 右
+        label: Right
         value: right
   -
     id: anp-table-thickness
-    title: 自定义表格边框宽度
+    title: Custom Table Border Width
     type: variable-number
     default: 2
     format: px
   -
     id: anp-table-width-pct
-    title: 自定义表格宽度
+    title: Custom Table Width
     type: variable-number
     default: 100
     format: "%"
@@ -1190,20 +750,20 @@ settings:
 
   -
     id: anp-tags-header
-    title: 标签
-    description: 标签的边框宽度和边框半径
+    title: Tags
+    description: Border Width and Border Radius of Tags
     type: heading
     level: 2
     collapsed: true
   -
     id: tag-border-width
-    title: 标签边框宽度
+    title: Tag Border Width
     type: variable-number
     default: 0
     format: px
   -
     id: tag-radius
-    title: 标签半径
+    title: Tag Radius
     type: variable-number-slider
     default: 2
     max: 2
@@ -1211,71 +771,34 @@ settings:
     step: 0.1
     format: em
 
-# File Editor & Markdown Elements :: blockquote
-
-  -
-    id: blockquote-style-change-options-folder
-    title: 2.3.4 Blockquote
-    title.zh: 2.3.4 引用框
-    type: heading
-    level: 3
-    collapsed: true
-  -
-    id: blockquote-style-change-options
-    title: Blockquote
-    title.zh: 引用框样式
-    type: class-select
-    allowEmpty: false
-    default: blockquote-style-default
-    options:
-      -
-        label: Default
-        value: blockquote-style-default
-      -
-        label: With quotation mark
-        value: blockquote-style-quotation-mark
-      -
-        label: Speech Bubble 1
-        value: blockquote-style-speech-bubble-one
-      -
-        label: Speech Bubble 2
-        value: blockquote-style-speech-bubble-two
-      -
-        label: Outline
-        value: blockquote-style-outline
-      -
-        label: Border left
-        value: blockquote-style-border-left
-
-
 # File Preview
 
   -
     id: anp-preview-header
-    title: 文件预览
-    description: 文件预览边界和自动换行宽度
+    title: File Preview
+    description: File Preview Margins and Word-Wrap Width
     type: heading
     level: 1
     collapsed: true
   -
     id: anp-toggle-preview
-    title: 启用自定义预览边距
+    title: Enable Custom Preview Margins
     type: class-toggle
   -
     id: file-margins
-    title: 文件边缘
+    title: File Margins
     type: variable-number
     default: 32
     format: px
   -
     id: anp-preview-width-pct
-    title: 预览宽度
+    title: Preview Width
     type: variable-number
     default: 80
     format: "%"
   -
     id: file-line-width
-    title: 最大预览宽度
+    title: Maximum Preview Width
     type: variable-number
     default: 700
     format: px
@@ -1284,8 +807,8 @@ settings:
 
   -
     id: anp-plugin-header
-    title: 集成功能
-    description: 看板, MAKE.md,最小化卡片片段, etc.
+    title: Integrations
+    description: Kanban, MAKE.md, Minimal Cards Snippet, etc.
     type: heading
     level: 1
     collapsed: true
@@ -1426,45 +949,45 @@ settings:
     collapsed: true
   -
     id: anp-snippet-minimal-cards-disc
-    title: 用法
-    description: "Minimal Cards是[Minimal](https://github.com/kepano/obsidian-minimal)的功能之一。AnuPpuccin没有默认包含这个片段，但您可以使用带有此主题的已编译版本。"
+    title: Usage
+    description: "Minimal Cards is a feature of [Minimal](https://github.com/kepano/obsidian-minimal). AnuPpuccin does not come compiled with the snippet, however you can use a compiled version with this theme."
     type: info-text
     markdown: true
   -
     id: anuppuccin-url-minimal-cards-snippet
-    title: 最小化卡片片段
-    description: "通过此链接从kepano的github下载代码片段，链接为https://github.com/kepano/obsidian-minimal/blob/master/src/scss/features/cards.scss。"
+    title: Minimal Cards Snippet
+    description: "Download the snippet from [kepano](https://github.com/kepano/)'s github via [this link](https://github.com/kepano/obsidian-minimal/blob/master/src/scss/features/cards.scss)."
     type: info-text
     markdown: true
   -
     id: cards-min-width
-    title: 卡片最小宽度
+    title: Card minimum width
     type: variable-text
     default: 180px
   -
     id: cards-max-width
-    title: 卡片最大宽度
-    description: 默认情况下，它会填充可用的宽度，接受有效的CSS单位。
+    title: Card maximum width
+    description: Default fills the available width, accepts valid CSS units
     type: variable-text
     default: 1fr
   -
     id: cards-mobile-width
-    title: 手机端最小卡片宽度
+    title: Card minimum width on mobile
     type: variable-text
     default: 120px
   -
     id: cards-padding
-    title: 卡片填充
+    title: Card padding
     type: variable-text
     default: 1.2em
   -
     id: cards-image-height
-    title: 卡片最大图像高度
+    title: Card maximum image height
     type: variable-text
     default: 400px
   -
     id: cards-border-width
-    title: 卡片边框宽度
+    title: Card border width
     type: variable-text
     default: 1px
 
@@ -1472,73 +995,73 @@ settings:
 
   -
     id: anp-misc-element-header
-    title: 其它的
-    description: 调色板转换，自定义元数据按钮
+    title: Miscellaneous
+    description: Color Palette Transition, Custom Metadata Button
     type: heading
     level: 1
     collapsed: true
   -
     id: anp-color-transition-toggle
-    title: 启用颜色过渡（进行中）
-    description: "切换调色板时添加了一个转换效果，看起来非常好看 :)"
+    title: Enable Color Transition (WIP)
+    description: "Adds a transition when switching palettes, looks really neat :)"
     type: class-toggle
   -
     id: anp-button-metadata-toggle
-    title: 启用自定义元数据按钮
+    title: Enable Custom Metadata Button
     type: class-toggle
   -
     id: anp-print
-    title: 启用打印样式
+    title: Enable Print Styling
     type: class-toggle
 
 # Show/Hide UI Elements
 
   -
     id: anp-show-hide-elements-header
-    title: 显示/隐藏用户界面元素
+    title: Show/Hide UI Elements
     description: Toggle Visibility of UI Elements
     type: heading
     level: 1
     collapsed: true
   -
     id: anp-autohide-titlebar
-    title: 自动隐藏标题栏
+    title: Autohide Title Bar
     type: class-toggle
   -
     id: anp-cursor
-    title: 指针光标
+    title: Pointer cursor
     type: variable-select
     default: pointer
     options:
       -
-        label: 指针
+        label: Pointer
         value: pointer
       -
-        label: 普通
+        label: Normal
         value: initial
   -
     id: anp-toggle-metadata
-    title: 隐藏元数据
+    title: Hide Metadata
     type: class-toggle
   -
     id: anp-toggle-scrollbars
-    title: 隐藏滚动条
+    title: Hide Scrollbars
     type: class-toggle
   -
     id: anp-hide-status-bar
-    title: 隐藏状态栏
+    title: Hide Status Bar
     type: class-toggle
   -
     id: anp-tooltip-toggle
-    title: 隐藏提示信息
+    title: Hide Tooltips
     type: class-toggle
 
 # Typography
 
   -
     id: anp-typography-header
-    title: 排版设计
-    description: 字体、标题、文本装饰等。
+    title: Typography
+    description: Fonts, Headings, Text Decoration, etc.
     type: heading
     level: 1
     collapsed: true
@@ -1547,7 +1070,7 @@ settings:
 
   -
     id: anp-font-families-header
-    title: 字体
+    title: Font Families
     description: 
     type: heading
     level: 2
@@ -1567,7 +1090,7 @@ settings:
 
   -
     id: anp-font-weight-header
-    title: 字重
+    title: Font Weights
     description: 
     type: heading
     level: 2
@@ -1712,32 +1235,32 @@ settings:
 
   -
     id: anp-header-header
-    title: 标题
+    title: Headings
     description: 
     type: heading
     level: 2
     collapsed: true
   -
     id: anp-header-color-toggle
-    title: 启用自定义标题颜色
+    title: Enable Custom Heading Colors
     type: class-toggle
   -
     id: anp-header-margin-toggle
-    title: 启用自定义标题边距
+    title: Enable Custom Heading Margin
     type: class-toggle
   -
     id: anp-header-divider-color-toggle
-    title: 从标题颜色继承分割线颜色
+    title: Inherit Divider Color from Heading Color
     type: class-toggle
   -
     id: anp-header-margin-value
-    title: 标题边距值
-    description: 尺寸单位为像素(px)
+    title: Heading margin value
+    description: Size unit is px
     type: variable-number-slider
     min: 0
     max: 30
     step: 2
-    default: 20
+    default: 15
     format: px
 
 # Typography :: Headings :: H1
@@ -2248,18 +1771,18 @@ settings:
 
   -
     id: anp-decor-header
-    title: 文字装饰
+    title: Text Decoration
     description: 
     type: heading
     level: 2
     collapsed: true
   -
     id: anp-decoration-toggle
-    title: 启用装饰颜色
+    title: Enable Decoration Colors
     type: class-toggle
   -
     id: anp-bold-custom
-    title: 加粗的颜色
+    title: Bold Color
     type: class-select
     allowEmpty: true
     default: anp-bold-red
@@ -2308,7 +1831,7 @@ settings:
         value: anp-bold-lavender
   -
     id: anp-italic-custom
-    title: 倾斜的颜色
+    title: Italic Color
     type: class-select
     allowEmpty: true
     default: anp-italic-green
@@ -2357,7 +1880,7 @@ settings:
         value: anp-italic-lavender
   -
     id: anp-highlight-custom
-    title: 高亮颜色
+    title: Highlight Color
     type: class-select
     allowEmpty: true
     default: anp-highlight-yellow
@@ -2405,8 +1928,630 @@ settings:
         label: Lavender
         value: anp-highlight-lavender
 
+# Workspace
 
+  -
+    id: anp-workspace-header
+    title: Workspace
+    description: Background, Colorful Frame, Layout, Sidebar, Tabs, Translucency, etc.
+    type: heading
+    level: 1
+    collapsed: true
 
+# Workspace :: Canvas
+
+  -
+    id: anp-canvas-header
+    title: Canvas
+    description: Darken Canvas Background
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anp-canvas-dark-bg
+    title: Darker Canvas Background
+    type: class-toggle
+
+# Workspace :: Custom Background
+
+  -
+    id: anp-custom-background-header
+    title: Background
+    description: Custom workspace backgrounds
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anp-background-image-toggle
+    title: Enable Custom Background (WIP)
+    description: Not compatible with colorful frame
+    type: class-toggle
+
+# Workspace :: Custom Background :: Light Mode
+
+  -
+    id: anp-custom-background-light-header
+    title: Light Mode
+    description: 
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: anp-background-image-light
+    title: Custom Background Image URL
+    description: 'Formatted as url("https://link-to-image.png")'
+    type: variable-text
+    default: url("https://link-to-image.png")
+  -
+    id: anp-custom-bg-brightness-light
+    title: Background brightness
+    type: variable-number-slider
+    min: 0
+    max: 2
+    step: 0.05
+    default: 0.7
+  -
+    id: anp-custom-bg-blur-light
+    title: Background blur
+    type: variable-number-slider
+    min: 0
+    max: 20
+    step: 1
+    default: 5
+    format: px
+  -
+    id: anp-custom-bg-card-fg-opacity-light
+    title: Container opacity
+    type: variable-number-slider
+    min: 0
+    max: 1
+    step: 0.05
+    default: 0.4
+
+# Workspace :: Custom Background :: Dark Mode
+
+  -
+    id: anp-custom-background-dark-header
+    title: Dark Mode
+    description: 
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: anp-background-image-dark
+    title: Custom Background Image URL
+    description: 'Formatted as url("https://link-to-image.png")'
+    type: variable-text
+    default: url("https://link-to-image.png")
+  -
+    id: anp-custom-bg-brightness-dark
+    title: Background brightness
+    type: variable-number-slider
+    min: 0
+    max: 1
+    step: 0.05
+    default: 0.7
+  -
+    id: anp-custom-bg-blur-dark
+    title: Background blur
+    type: variable-number-slider
+    min: 0
+    max: 20
+    step: 1
+    default: 5
+    format: px
+  -
+    id: anp-custom-bg-card-fg-opacity-dark
+    title: Container opacity
+    type: variable-number-slider
+    min: 0
+    max: 1
+    step: 0.05
+    default: 0.4
+
+# Workspace :: Colorful Frame
+
+  -
+    id: colorful-frame
+    title: Colorful Frame
+    description: 
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anp-colorful-frame
+    title: "Enable Colorful Frame (WIP)"
+    type: class-toggle
+  -
+    id: anp-colorful-frame-icon-toggle-light
+    title: "Invert Icon Colors - Light"
+    type: class-toggle
+  -
+    id: anp-colorful-frame-icon-toggle-dark
+    title: "Invert Icon Colors - Dark"
+    type: class-toggle
+  -
+    id: anp-colorful-frame-opacity
+    title: Colorful Frame Opacity
+    type: variable-number-slider
+    default: 1
+    min: 0
+    max: 1
+    step: 0.05
+  -
+    id: anp-colorful-frame-color
+    title: Custom Colorful Frame Color
+    type: variable-themed-color
+    format: "rgb-values"
+    opacity: false
+    default-light: '#'
+    default-dark: '#'
+    alt-format:
+      -
+        id: anp-colorful-frame-color-hsl
+        format: "hsl-values"
+
+# Workspace :: File Browser
+
+  -
+    id: anp-filebrowser-header
+    title: File Browser
+    description: 'Enable/Disable File Browser elements'
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anp-collapse-folders
+    title: Enable folder icons for collapse indicators
+    type: class-toggle
+  -
+    id: anp-file-icons
+    title: Enable file icons
+    type: class-toggle
+  -
+    id: anp-floating-header
+    title: Enable floating vault title
+    type: class-toggle
+  -
+    id: anp-custom-vault-toggle
+    title: Enable custom vault title
+    type: class-toggle
+  -
+    id: anp-file-label-align
+    title: File label alignment
+    type: variable-select
+    default: "0"
+    options:
+      -
+        label: Right
+        value: 1
+      -
+        label: Left
+        value: 0
+  -
+    id: anp-file-icon-align
+    title: File Icon Alignment
+    type: variable-select
+    default: '0'
+    format: px
+    options:
+      - 
+        label: Default
+        value: 0
+      - 
+        label: Aligned
+        value: -17
+
+# Workspace :: PDF Viewer
+
+  -
+    id: anp-pdf-viewer-header
+    title: PDF Viewer
+    description: 
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anp-pdf-blend-toggle-dark
+    title: Toggle PDF background blending - Dark Mode
+    desc: Blends PDF viewer background with obsidian background in dark mode
+    type: class-toggle
+  -
+    id: anp-pdf-blend-toggle-light
+    title: Toggle PDF background blending - Light Mode
+    desc: Blends PDF viewer background with obsidian background in light mode
+    type: class-toggle
+
+# Workspace :: Rainbow Folders
+
+  -
+    id: anp-rainbow-section-header
+    title: Rainbow Folders
+    description: 
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anuppuccin-url-custom-rainbow-colors
+    title: Custom rainbow folder colors snippet
+    description: "Download the snippet through [this link](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/custom-rainbow-colors.css)."
+    type: info-text
+    markdown: true
+  -
+    id: anp-alt-rainbow-style
+    title: Rainbow style
+    type: class-select
+    allowEmpty: false
+    default: anp-default-rainbow
+    options:
+      - 
+        label: None
+        value: anp-default-rainbow
+      - 
+        label: Full
+        value: anp-full-rainbow-color-toggle
+      - 
+        label: Simple
+        value: anp-simple-rainbow-color-toggle
+
+# Workspace :: Rainbow Folders :: Full Folder Settings
+
+  -
+    id: anp-full-rainbow-folder-settings
+    title: Full Folder Settings
+    description: 
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: anp-rainbow-file-toggle
+    title: File recolor toggle
+    desc: Recolors files to match the folders
+    type: class-toggle
+  -
+    id: anp-full-rainbow-text-color-toggle-light
+    title: Invert title colors (Dark Mode)
+    type: class-toggle
+  -
+    id: anp-full-rainbow-text-color-toggle-dark
+    title: Invert title colors (Light Mode)
+    type: class-toggle
+  -
+    id: anp-rainbow-folder-bg-opacity
+    title: Folder background color opacity
+    type: variable-number
+    default: 0.7
+
+# Workspace :: Rainbow Folders :: Simple Folder Settings
+
+  -
+    id: anp-simple-rainbow-folder-settings
+    title: Simple Folder Settings
+    description: 
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: anp-simple-rainbow-title-toggle
+    title: Enable title recolor
+    type: class-toggle
+  -
+    id: anp-simple-rainbow-icon-folder-toggle
+    title: Enable icon recolor (For icon folder users)
+    type: class-toggle
+  -
+    id: anp-simple-rainbow-indentation-toggle
+    title: Enable collapse indent recolor
+    type: class-toggle
+  -
+    id: anp-simple-rainbow-collapse-toggle
+    title: Enable collapse indicator
+    type: class-toggle
+  -
+    id: anp-simple-rainbow-icon-toggle
+    title: Enable circular file
+    type: class-toggle
+  -
+    id: anp-rainbow-subfolder-color-toggle
+    title: Enable subfolder color inheritance
+    type: class-toggle
+
+# Workspace :: Stacked Tabs
+
+  -
+    id: anp-stacked-tabs-header
+    title: Stacked Tabs
+    description: 
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anp-stacked-header-width
+    title: Stacked tabs header width
+    type: variable-number
+    default: 40
+    format: px
+  -
+    id: anp-tab-stacked-pane-width
+    title: Stacked tabs pane width multiplier
+    description: Multiplies the stack tab pane with which depends on file line width
+    type: variable-number
+    default: 1
+
+# Workspace :: Status Bar
+
+  -
+    id: anp-status-bar-header
+    title: Status Bar
+    description: Select status bar style
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anp-status-bar-select
+    title: Status Bar Style
+    type: class-select
+    default: none
+    options:
+      -
+        label: Default
+        value: none
+      -
+        label: Floating
+        value: anp-floating-status-bar
+      -
+        label: Fixed
+        value: anp-fixed-status-bar
+
+# Workspace :: Tabs
+
+  -
+    id: anp-alt-tab-header
+    title: Tabs
+    description: 
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anp-alt-tab-style
+    title: Tab style
+    type: class-select
+    allowEmpty: false
+    default: anp-default-tab
+    options:
+      - 
+        label: Default
+        value: anp-default-tab
+      - 
+        label: Depth
+        value: anp-depth-tab-toggle
+      - 
+        label: Minimalistic
+        value: anp-mini-tab-toggle
+      - 
+        label: Safari-style (Animated)
+        value: anp-alternate-tab-toggle
+      - 
+        label: Safari-style (Vanilla)
+        value: anp-safari-tab-toggle
+  -
+    id: anp-alt-tab-custom-height
+    title: Custom tab height
+    type: variable-number
+    allowEmpty: false
+    default: 40
+    format: px
+  -
+    id: anp-disable-newtab-align
+    title: Disable new tab button right alignment
+    type: class-toggle
+
+# Workspace :: Tabs :: Depth Tab Settings
+
+  -
+    id: anp-depth-tab-header
+    title: Depth Tab Settings
+    description: Only applies to inactive tabs
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: anp-depth-tab-text-invert
+    title: Invert tab text color
+    type: class-toggle
+  -
+    id: anp-depth-tab-opacity
+    title: Tab opacity
+    type: variable-number-slider
+    default: 0.6
+    max: 1
+    min: 0
+    step: 0.1
+  -
+    id: anp-depth-tab-gap
+    title: Tab gap
+    type: variable-number
+    default: 10
+    format: px
+
+# Workspace :: Tabs :: Animated Safari-style Tab Settings
+
+  -
+    id: anp-safari-tab-header
+    title: Animated Safari-style Tab Settings
+    description: Adapted from github.com/chuckharmston's snippets
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: anp-safari-tab-radius
+    title: Tab radius
+    type: variable-number
+    default: 6
+    format: px
+  -
+    id: anp-safari-tab-gap
+    title: Tab gap
+    type: variable-number
+    default: 10
+    format: px
+  -
+    id: anp-safari-border-width
+    title: Tab border width
+    type: variable-number
+    default: 1
+    format: px
+
+# Workspace :: Tabs :: Vanilla Safari-style Tab Settings
+
+  -
+    id: anp-safari-vanilla-tab-header
+    title: Vanilla Safari-style Tab Settings
+    description: 
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: anp-safari-tab-animated
+    title: Enable WIP animated safari tabs
+    type: class-toggle
+
+# Workspace :: Translucency
+
+  -
+    id: anp-translucency-header
+    title: Translucency
+    description: 
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anp-translucency-opacity
+    description: Drag to change background opacity
+    title: Window opacity
+    type: variable-number
+    default: 0.15
+
+# Workspace :: Workspace Layout
+
+  -
+    id: anp-layout-header
+    title: Workspace Layout
+    description: Workspace layout and arrangement
+    type: heading
+    level: 2
+    collapsed: true
+  -
+    id: anp-layout-select
+    title: Workspace Layout variant
+    type: class-select
+    allowEmpty: false
+    default: none
+    options:
+      -
+        label: Default
+        value: none
+      -
+        label: Border
+        value: anp-border-layout
+      -
+        label: Cards
+        value: anp-card-layout
+  -
+    id: anp-bg-fix
+    title: Background fix for applying colors
+    type: class-toggle
+  -
+    id: anp-hide-borders
+    title: Hide borders
+    type: class-toggle
+
+# Workspace :: Workspace Layout :: Card Layout
+
+  -
+    id: anp-layout-card
+    title: Card Layout Settings
+    description: 
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: anp-card-radius
+    title: Card radius
+    type: variable-number
+    default: 16
+    format: px
+  -
+    id: anp-card-layout-padding
+    title: Card padding
+    type: variable-number
+    default: 10
+    format: px
+  -
+    id: anp-card-header-left-padding
+    title: Tab left padding
+    type: variable-number
+    default: 20
+    format: px
+  -
+    id: anp-card-shadows
+    title: Enable shadows
+    type: class-toggle
+  -
+    id: anp-card-layout-actions
+    title: Enable card format for actions
+    type: class-toggle
+  -
+    id: anp-card-layout-filebrowser
+    title: Enable card format for file browser
+    type: class-toggle
+  -
+    id: anp-layout-border
+    title: Border Layout Settings
+    description: 
+    type: heading
+    level: 3
+    collapsed: true
+  -
+    id: anp-border-radius
+    title: Border Layout Radius
+    type: variable-number
+    default: 16
+    format: px
+  -
+    id: anp-border-padding
+    title: Border Layout Padding
+    type: variable-number
+    default: 20
+    format: px
+
+# Credits
+
+  -
+    id: anuppuccin-support
+    title: Support AnuPpuccin
+    description: If you like the theme, here are some ways to support development
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: anuppuccin-url-donate
+    title: Buy Me a Coffee
+    description: "[https://www.buymeacoffee.com/anubisnekhet](https://www.buymeacoffee.com/anubisnekhet)"
+    type: info-text
+    markdown: true
+  -
+    id: anuppuccin-url-star-repo
+    title: Star the Theme on GitHub
+    description: "[https://github.com/anubisnekhet/anuppuccin](https://github.com/anubisnekhet/anuppuccin)"
+    type: info-text
+    markdown: true
+  -
+    id: anuppuccin-url-submit-issue
+    title: Submit an Issue on GitHub
+    description: "[https://github.com/anubisnekhet/anuppuccin/issues](https://github.com/anubisnekhet/anuppuccin/issues)"
+    type: info-text
+    markdown: true
 
 */
 /*------------------Defining Colorschemes-------------------*/
@@ -3071,7 +3216,7 @@ body {
   --anp-rainbow-folder-collapse-border-custom: #00000044;
   --anp-preview-width-pct: 95%;
   --anp-preview-width-max: 800px;
-  --anp-header-margin-value: 10px;
+  --anp-header-margin-value: 15px;
   --anp-header-font: "Noto Serif";
   --tab-stacked-pane-width: calc(var(--anp-tab-stacked-pane-width, 1)*var(--file-line-width));
   --anp-table-width-pct: 100%;
@@ -3085,6 +3230,11 @@ body {
   --callout-title-padding: var(--size-4-2);
   --callout-content-padding: var(--size-4-2);
   --background-modifier-active: hsla(var(--color-accent-hsl), 0.1);
+  --pdf-background: var(--background-primary);
+  --pdf-dark-opacity: 1;
+  --pdf-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 8px transparent;
+  --pdf-sidebar-background: var(--background-primary);
+  --pdf-thumbnail-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 8px transparent;
 }
 body.theme-light {
   --anp-background-image: var(--anp-background-image-light);
@@ -3108,6 +3258,19 @@ body.theme-dark {
   border-left: 2px solid var(--interactive-accent);
   margin-left: -2px !important;
   background-color: rgba(var(--ctp-surface1), 0.4);
+}
+
+.anp-current-line-border-only .markdown-source-view .cm-active.cm-line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1.5rem;
+  width: 2px;
+  background-color: rgba(var(--interactive-accent-rgb), 0.3);
+}
+.anp-current-line-border-only .markdown-source-view .cm-focused .cm-active.cm-line::before {
+  background-color: var(--interactive-accent);
 }
 
 /*-Custom editor font-*/
@@ -3169,42 +3332,6 @@ body.theme-dark {
 
 .ͼp .cm-vim-panel {
   font-family: var(--font-monospace);
-}
-
-/*-LaTeX color implementation-*/
-/* Syntax highlighting */
-.cm-math.token.comment, .cm-math.token.prolog, .cm-math.token.doctype, .cm-math.token.cdata, .cm-math.cm-comment, .cm-math.cm-meta {
-  color: var(--code-comment);
-}
-.cm-math.token.namespace {
-  opacity: 0.7;
-}
-.cm-math.token.tag, .cm-math.token.constant, .cm-math.token.symbol, .cm-math.token.deleted, .cm-math.cm-tag {
-  color: var(--code-tag);
-}
-.cm-math.token.punctuation, .cm-math.cm-punctuation, .cm-math.cm-bracket, .cm-math.cm-hr {
-  color: var(--code-punctuation);
-}
-.cm-math.token.boolean, .cm-math.token.number, .cm-math.cm-number {
-  color: var(--code-value);
-}
-.cm-math.token.selector, .cm-math.token.attr-name, .cm-math.token.string, .cm-math.token.char, .cm-math.token.inserted, .cm-math.cm-qualifier, .cm-math.cm-string, .cm-math.cm-string-2 {
-  color: var(--code-string);
-}
-.cm-math.token.operator, .cm-math.cm-operator {
-  color: var(--code-operator);
-}
-.cm-math.token.entity, .cm-math.token.parameter, .cm-math.token.property, .cm-math.token.url, .cm-math.language-css .token.string, .cm-math.style .token.string, .cm-math.token.variable, .cm-math.cm-link, .cm-math.cm-variable, .cm-math.cm-variable-2, .cm-math.cm-variable-3 {
-  color: var(--code-property);
-}
-.cm-math.token.atrule, .cm-math.token.attr-value, .cm-math.token.builtin, .cm-math.token.function, .cm-math.token.class-name, .cm-math.token.property-access, .cm-math.cm-builtin, .cm-math.cm-property, .cm-math.cm-attribute, .cm-math.cm-type {
-  color: var(--code-function);
-}
-.cm-math.token.keyword, .cm-math.cm-keyword {
-  color: var(--code-keyword);
-}
-.cm-math.token.regex, .cm-math.token.important {
-  color: var(--code-important);
 }
 
 .workspace-tab-header,
@@ -3397,6 +3524,33 @@ input.slider,
     color: rgb(var(--ctp-text));
   }
 }
+.theme-dark.anp-pdf-blend-toggle-dark,
+.theme-light.anp-pdf-blend-toggle-light {
+  --pdf-background: var(--background-secondary);
+  --pdf-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 8px transparent;
+  --pdf-thumbnail-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 8px transparent;
+}
+.theme-dark.anp-pdf-blend-toggle-dark .pdf-viewer .canvasWrapper,
+.theme-dark.anp-pdf-blend-toggle-dark .pdf-thumbnail-view .thumbnailImage,
+.theme-light.anp-pdf-blend-toggle-light .pdf-viewer .canvasWrapper,
+.theme-light.anp-pdf-blend-toggle-light .pdf-thumbnail-view .thumbnailImage {
+  filter: invert(1) hue-rotate(180deg);
+  mix-blend-mode: screen;
+}
+.theme-dark.anp-pdf-blend-toggle-dark .pdf-viewer,
+.theme-light.anp-pdf-blend-toggle-light .pdf-viewer {
+  background-color: var(--pdf-background);
+}
+.theme-dark.anp-pdf-blend-toggle-dark .pdf-viewer .page,
+.theme-light.anp-pdf-blend-toggle-light .pdf-viewer .page {
+  background-color: var(--background-primary);
+  border-color: var(--pdf-background);
+}
+
+.textLayer ::selection {
+  background: var(--color-accent);
+}
+
 .canvas-card-menu {
   box-shadow: none;
   border: 1px solid var(--background-modifier-border);
@@ -3637,7 +3791,9 @@ body.is-translucent {
 .anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header {
   margin-top: calc(var(--title-bar-translate-y) * -1);
   position: relative;
-  transition: transform var(--title-bar-duration) var(--title-bar-delay), margin-right 0s calc(var(--title-bar-duration) + var(--title-bar-delay)), padding 0s calc(var(--title-bar-duration) + var(--title-bar-delay));
+  transition: transform var(--title-bar-duration) var(--title-bar-delay), margin-right 0s calc(var(--title-bar-duration) + var(--title-bar-delay)), margin-right 0s calc(var(--title-bar-duration) + var(--title-bar-delay)), margin-left 0s calc(var(--title-bar-duration) + var(--title-bar-delay)), padding 0s calc(var(--title-bar-duration) + var(--title-bar-delay));
+  margin-left: 80px;
+  margin-right: 80px;
 }
 .anp-autohide-titlebar:not(.is-mobile):not(.mod-macos) .workspace-tabs:is(.mod-top-right-space, .mod-top-left-space) .workspace-leaf-content .view-header {
   margin-right: calc(var(--title-bar-windows-fix) * var(--frame-right-space));
@@ -3655,21 +3811,26 @@ body.is-translucent {
 .anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header::before {
   bottom: calc(var(--title-bar-target-translate-y) * -1);
   content: "";
-  left: 0;
+  left: -80px;
   position: absolute;
   top: 0;
   transition: transform var(--title-bar-duration) var(--title-bar-delay);
-  width: 100%;
+  width: calc(100% + 160px);
 }
 .anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-content {
   transition: transform var(--title-bar-duration) var(--title-bar-delay);
 }
 .anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header:is(:hover, :focus-within)::before {
   transform: translateY(var(--title-bar-target-translate-y));
+  left: 0px;
+  width: 100%;
 }
 .anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header:is(:hover, :focus-within),
 .anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header:is(:hover, :focus-within) + .view-content {
+  transition: transform var(--title-bar-duration) var(--title-bar-delay), margin-right 0s, margin-left 0s, padding 0s calc(var(--title-bar-duration) + var(--title-bar-delay));
   transform: translateY(var(--title-bar-translate-y));
+  margin-left: 0;
+  margin-right: 0;
 }
 .anp-autohide-titlebar:not(.is-mobile) .workspace-leaf-content .view-header:not(:hover, :focus-within) .clickable-icon {
   app-region: drag;
@@ -3949,6 +4110,9 @@ body.anp-card-layout {
 body.anp-card-layout.anp-hide-borders {
   --tab-outline-color: transparent;
 }
+body.anp-card-layout.anp-hide-borders .menu {
+  border: 0px !important;
+}
 body.anp-card-layout .sidebar-toggle-button, body.anp-card-layout .workspace-tabs.mod-top {
   --tab-container-background: var(--card-background-color);
 }
@@ -4086,7 +4250,7 @@ body.anp-border-layout .workspace {
 body.anp-border-layout .workspace:not(.is-left-sidedock-open) .workspace-split.mod-vertical .workspace-tabs .workspace-tab-container {
   border-left: var(--border-border-style);
 }
-body.anp-border-layout .workspace:not(.is-left-sidedock-open) .workspace-split.mod-vertical .workspace-tabs.mod-top .workspace-tab-container {
+body.anp-border-layout .workspace:not(.is-left-sidedock-open) .workspace-split.mod-vertical .workspace-tabs.mod-top-left-space .workspace-tab-container {
   border-top-left-radius: var(--anp-border-radius, var(--radius-xl));
 }
 body.anp-border-layout .workspace:not(.is-left-sidedock-open) .workspace-split.mod-vertical .workspace-tabs:last-child .workspace-tab-container {
@@ -4193,6 +4357,9 @@ body.anp-border-layout .workspace-ribbon.mod-left:before {
 }
 body.anp-border-layout .workspace-ribbon.mod-left, body.anp-border-layout .workspace-ribbon.mod-left.is-focused {
   border-right-color: var(--card-background-color);
+}
+body.anp-border-layout.is-popout-window .workspace {
+  margin-left: var(--anp-border-padding, 20px);
 }
 
 .anp-bg-fix .workspace,
@@ -4483,14 +4650,6 @@ Support me: https://buymeacoffee.com/AnubisNekhet
   --text-highlight-bg: rgba(var(--anp-highlight-color, var(--ctp-yellow)), 0.2);
 }
 
-/*-Make it so that mark overwrites italic and bold colors-*/
-.markdown-rendered mark {
-  --italic-color: rgb(var(--ctp-text));
-  --bold-color: rgb(var(--ctp-text));
-  border-radius: 4px;
-  padding: 2px;
-}
-
 .markdown-rendered .internal-link {
   text-decoration-line: none;
 }
@@ -4500,6 +4659,12 @@ Support me: https://buymeacoffee.com/AnubisNekhet
 
 .cm-formatting-link-string {
   color: var(--text-normal);
+}
+
+.cm-hmd-internal-link {
+  --link-decoration: none;
+  --link-decoration-hover: none;
+  --link-decoration-active: none;
 }
 
 .external-link,
@@ -4540,23 +4705,6 @@ sup[data-footnote-id] {
 .internal-embed[alt*=seamless].markdown-embed:hover > .markdown-embed-title, .internal-embed[alt*=seamless].markdown-embed:hover > .markdown-embed-link {
   opacity: 1;
   transition: opacity 0.1s;
-}
-
-.frontmatter-section-data-item {
-  background-color: var(--background-secondary);
-  padding: 0 4px;
-  border: 1px solid var(--background-modifier-border);
-  border-radius: var(--radius-m);
-  font-family: var(--font-monospace);
-  font-size: 80%;
-}
-
-.frontmatter-container .frontmatter-section-label {
-  text-transform: uppercase;
-  font-size: 70%;
-}
-.frontmatter-container .frontmatter-section-label::first-letter {
-  font-size: 120%;
 }
 
 /*--------------HEADERS----------------*/
@@ -4985,9 +5133,38 @@ sup[data-footnote-id] {
   color: var(--h6-color);
 }
 
-.anp-header-toggle.anp-header-margin-toggle :is(h1, h2, h3, h4, h5, h6) {
+.anp-header-margin-toggle .cm-header-1, .anp-header-margin-toggle .markdown-preview-view h1 {
   margin-block-start: var(--anp-header-margin-value);
   margin-block-end: var(--anp-header-margin-value);
+}
+
+.anp-header-margin-toggle .cm-header-2, .anp-header-margin-toggle .markdown-preview-view h2 {
+  margin-block-start: var(--anp-header-margin-value);
+  margin-block-end: var(--anp-header-margin-value);
+}
+
+.anp-header-margin-toggle .cm-header-3, .anp-header-margin-toggle .markdown-preview-view h3 {
+  margin-block-start: var(--anp-header-margin-value);
+  margin-block-end: var(--anp-header-margin-value);
+}
+
+.anp-header-margin-toggle .cm-header-4, .anp-header-margin-toggle .markdown-preview-view h4 {
+  margin-block-start: var(--anp-header-margin-value);
+  margin-block-end: var(--anp-header-margin-value);
+}
+
+.anp-header-margin-toggle .cm-header-5, .anp-header-margin-toggle .markdown-preview-view h5 {
+  margin-block-start: var(--anp-header-margin-value);
+  margin-block-end: var(--anp-header-margin-value);
+}
+
+.anp-header-margin-toggle .cm-header-6, .anp-header-margin-toggle .markdown-preview-view h6 {
+  margin-block-start: var(--anp-header-margin-value);
+  margin-block-end: var(--anp-header-margin-value);
+}
+
+.cm-header {
+  display: inline-block;
 }
 
 .anp-editor-font-toggle .markdown-source-view:not(.is-live-preview) {
@@ -5006,20 +5183,20 @@ hr {
 }
 
 .anp-list-toggle div.el-ul > ul.has-list-bullet > li > ul.has-list-bullet > li > .list-bullet::after {
-  border: 1px solid var(--list-marker-color);
+  --list-bullet-border: 1px solid var(--list-marker-color);
   background-color: transparent;
   width: calc(var(--list-bullet-size) - 1px);
   height: calc(var(--list-bullet-size) - 1px);
 }
 .anp-list-toggle div.el-ul > ul.has-list-bullet > li > ul.has-list-bullet > li > ul.has-list-bullet > li > .list-bullet::after {
-  border-radius: 0;
+  --list-bullet-radius: 0;
   background-color: var(--list-marker-color);
 }
 .anp-list-toggle div.el-ul > ul.has-list-bullet > li > ul.has-list-bullet > li > ul.has-list-bullet > li > ul.has-list-bullet > li > .list-bullet::after {
   width: calc(var(--list-bullet-size) - 1px);
   height: calc(var(--list-bullet-size) - 1px);
-  border-radius: 0;
-  border: 1px solid var(--list-marker-color);
+  --list-bullet-radius: 0;
+  --list-bullet-border: 1px solid var(--list-marker-color);
   background-color: transparent;
 }
 
@@ -5034,12 +5211,18 @@ hr {
 .anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:first-child,
 .anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th,
 .anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:last-child,
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table,
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table td,
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table th,
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:first-child,
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th,
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:last-child,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview),
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) td,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) th,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) thead tr > th:first-child,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) thead tr > th,
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) thead tr > th:last-child,
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table,
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table td,
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table th,
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:first-child,
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th,
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:last-child,
 .anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview),
 .anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) td,
 .anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) th,
@@ -5052,10 +5235,14 @@ hr {
 .anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:first-child:not([align]),
 .anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:not([align]),
 .anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table thead tr > th:last-child:not([align]),
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table th:not([align]),
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:first-child:not([align]),
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:not([align]),
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:last-child:not([align]),
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) th:not([align]),
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) thead tr > th:first-child:not([align]),
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) thead tr > th:not([align]),
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) thead tr > th:last-child:not([align]),
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table th:not([align]),
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:first-child:not([align]),
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:not([align]),
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table thead tr > th:last-child:not([align]),
 .anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) th:not([align]),
 .anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:first-child:not([align]),
 .anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) thead tr > th:not([align]),
@@ -5063,7 +5250,8 @@ hr {
   text-align: var(--anp-table-align-th, center);
 }
 .anp-table-toggle .markdown-preview-view:not(.cards):not(.table-disable) table td:not([align]),
-.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) .anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table td:not([align]),
+.anp-table-toggle .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) td:not([align]),
+.anp-table-toggle .is-live-preview:not(.cards):not(.table-disable) table td:not([align]),
 .anp-table-toggle .is-live-preview.cards:not(.table-disable) table:not(.dataview) td:not([align]) {
   text-align: var(--anp-table-align-td, center);
 }
@@ -5072,27 +5260,76 @@ table.dataview.table-view-table > tbody > tr:hover {
   background-color: rgba(var(--ctp-surface1), 0.1) !important;
 }
 
-.anp-table-toggle.anp-th-highlight .markdown-preview-view:not(.cards):not(.table-disable) th, .anp-table-toggle.anp-th-highlight .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) th, .anp-table-toggle.anp-th-highlight .is-live-preview:not(.cards):not(.table-disable) th, .anp-table-toggle.anp-th-highlight .is-live-preview.cards:not(.table-disable) table:not(.dataview) th {
+.anp-table-toggle.anp-table-th-highlight .markdown-preview-view:not(.cards):not(.table-disable) th,
+.anp-table-toggle.anp-table-th-highlight .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) th,
+.anp-table-toggle.anp-table-th-highlight .is-live-preview:not(.cards):not(.table-disable) th,
+.anp-table-toggle.anp-table-th-highlight .is-live-preview.cards:not(.table-disable) table:not(.dataview) th {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-alt-rows .markdown-preview-view:not(.cards):not(.table-disable) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .is-live-preview:not(.cards):not(.table-disable) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-alt-rows .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td {
+
+.th-highlight.markdown-preview-view:not(.cards):not(.table-disable) th, .th-highlight.markdown-preview-view.cards:not(.table-disable) table:not(.dataview) th, .th-highlight.is-live-preview:not(.cards):not(.table-disable) th, .th-highlight.is-live-preview.cards:not(.table-disable) table:not(.dataview) th {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-alt-cols .markdown-preview-view:not(.cards):not(.table-disable) table tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .is-live-preview:not(.cards):not(.table-disable) table tr td:nth-child(2n), .anp-table-toggle.anp-td-alt-cols .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n) {
+
+.anp-table-toggle.anp-table-row-alt .markdown-preview-view:not(.cards):not(.table-disable) tr:nth-child(2n) td,
+.anp-table-toggle.anp-table-row-alt .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td,
+.anp-table-toggle.anp-table-row-alt .is-live-preview:not(.cards):not(.table-disable) tr:nth-child(2n) td,
+.anp-table-toggle.anp-table-row-alt .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards):not(.table-disable) table tr td:nth-child(2n),
-.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards):not(.table-disable) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n),
-.anp-table-toggle.anp-td-checkered .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards):not(.table-disable) table tr td:nth-child(2n),
-.anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards):not(.table-disable) table tr:nth-child(2n) td, .anp-table-toggle.anp-td-checkered .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n),
-.anp-table-toggle.anp-td-checkered .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td {
+
+.row-alt.markdown-preview-view:not(.cards):not(.table-disable) tr:nth-child(2n) td, .row-alt.markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td, .row-alt.is-live-preview:not(.cards):not(.table-disable) tr:nth-child(2n) td, .row-alt.is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-checkered .markdown-preview-view:not(.cards):not(.table-disable) table tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .is-live-preview:not(.cards):not(.table-disable) table tr:nth-child(2n) td:nth-child(2n), .anp-table-toggle.anp-td-checkered .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td:nth-child(2n) {
+
+.anp-table-toggle.anp-table-col-alt .markdown-preview-view:not(.cards):not(.table-disable) tr td:nth-child(2n),
+.anp-table-toggle.anp-table-col-alt .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n),
+.anp-table-toggle.anp-table-col-alt .is-live-preview:not(.cards):not(.table-disable) tr td:nth-child(2n),
+.anp-table-toggle.anp-table-col-alt .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n) {
+  background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
+}
+
+.col-alt.markdown-preview-view:not(.cards):not(.table-disable) tr td:nth-child(2n), .col-alt.markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n), .col-alt.is-live-preview:not(.cards):not(.table-disable) tr td:nth-child(2n), .col-alt.is-live-preview.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n) {
+  background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
+}
+
+.anp-table-toggle.anp-table-full .markdown-preview-view:not(.cards):not(.table-disable) td,
+.anp-table-toggle.anp-table-full .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) td,
+.anp-table-toggle.anp-table-full .is-live-preview:not(.cards):not(.table-disable) td,
+.anp-table-toggle.anp-table-full .is-live-preview.cards:not(.table-disable) table:not(.dataview) td {
+  background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
+}
+
+.table-full.markdown-preview-view:not(.cards):not(.table-disable) td, .table-full.markdown-preview-view.cards:not(.table-disable) table:not(.dataview) td, .table-full.is-live-preview:not(.cards):not(.table-disable) td, .table-full.is-live-preview.cards:not(.table-disable) table:not(.dataview) td {
+  background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
+}
+
+.anp-table-toggle.anp-table-checkered .markdown-preview-view:not(.cards):not(.table-disable) tr td:nth-child(2n),
+.anp-table-toggle.anp-table-checkered .markdown-preview-view:not(.cards):not(.table-disable) tr:nth-child(2n) td,
+.anp-table-toggle.anp-table-checkered .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n),
+.anp-table-toggle.anp-table-checkered .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td,
+.anp-table-toggle.anp-table-checkered .is-live-preview:not(.cards):not(.table-disable) tr td:nth-child(2n),
+.anp-table-toggle.anp-table-checkered .is-live-preview:not(.cards):not(.table-disable) tr:nth-child(2n) td,
+.anp-table-toggle.anp-table-checkered .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n),
+.anp-table-toggle.anp-table-checkered .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td {
+  background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
+}
+.anp-table-toggle.anp-table-checkered .markdown-preview-view:not(.cards):not(.table-disable) tr:nth-child(2n) td:nth-child(2n),
+.anp-table-toggle.anp-table-checkered .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td:nth-child(2n),
+.anp-table-toggle.anp-table-checkered .is-live-preview:not(.cards):not(.table-disable) tr:nth-child(2n) td:nth-child(2n),
+.anp-table-toggle.anp-table-checkered .is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td:nth-child(2n) {
   background-color: rgba(var(--ctp-crust), var(--anp-table-highlight-opacity, 0.5));
 }
-.anp-table-toggle.anp-td-full .markdown-preview-view:not(.cards):not(.table-disable) table td, .anp-table-toggle.anp-td-full .markdown-preview-view.cards:not(.table-disable) table:not(.dataview) td, .anp-table-toggle.anp-td-full .is-live-preview:not(.cards:not(.table-disable)) table td, .anp-table-toggle.anp-td-full .is-live-preview.cards:not(.table-disable) table:not(.dataview) td {
+
+.checkered.markdown-preview-view:not(.cards):not(.table-disable) tr td:nth-child(2n),
+.checkered.markdown-preview-view:not(.cards):not(.table-disable) tr:nth-child(2n) td, .checkered.markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n),
+.checkered.markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td, .checkered.is-live-preview:not(.cards):not(.table-disable) tr td:nth-child(2n),
+.checkered.is-live-preview:not(.cards):not(.table-disable) tr:nth-child(2n) td, .checkered.is-live-preview.cards:not(.table-disable) table:not(.dataview) tr td:nth-child(2n),
+.checkered.is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td {
   background-color: rgba(var(--ctp-mantle), var(--anp-table-highlight-opacity, 0.5));
+}
+.checkered.markdown-preview-view:not(.cards):not(.table-disable) tr:nth-child(2n) td:nth-child(2n), .checkered.markdown-preview-view.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td:nth-child(2n), .checkered.is-live-preview:not(.cards):not(.table-disable) tr:nth-child(2n) td:nth-child(2n), .checkered.is-live-preview.cards:not(.table-disable) table:not(.dataview) tr:nth-child(2n) td:nth-child(2n) {
+  background-color: rgba(var(--ctp-crust), var(--anp-table-highlight-opacity, 0.5));
 }
 
 .anp-table-auto.markdown-rendered:not(.cards):not(.table-disable) table,
@@ -5165,7 +5402,8 @@ body.rainbow-tags {
   --r7-color-light: rgba(var(--ctp-mauve), var(--rainbow-tags-opacity));
 }
 
-.anp-collapse-folders .nav-folder .nav-folder-collapse-indicator {
+.anp-collapse-folders .nav-folder .nav-folder-collapse-indicator,
+.anp-collapse-folders [data-type=bookmarks] .tree-item .collapse-icon {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 24' fill='none' stroke='currentColor' stroke-linejoin='round' stroke-linecap='round' stroke-width='2'%3E%3Cpath d='M6 14l1.45-2.9A2 2 0 0 1 9.24 10H22a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v2'/%3E%3C/svg%3E%0A");
   -webkit-mask-repeat: no-repeat;
   background-color: currentColor;
@@ -5173,12 +5411,12 @@ body.rainbow-tags {
   width: 17px;
   margin-right: 4px;
 }
-
-.anp-collapse-folders .nav-folder.is-collapsed .nav-folder-collapse-indicator {
+.anp-collapse-folders .nav-folder.is-collapsed .nav-folder-collapse-indicator,
+.anp-collapse-folders [data-type=bookmarks] .tree-item.is-collapsed .collapse-icon {
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 24' fill='none' stroke='currentColor' stroke-linejoin='round' stroke-linecap='round' stroke-width='2'%3E%3Cpath d='M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2z'/%3E%3Cpath d='M2 10h20' /%3E%3C/svg%3E%0A");
 }
-
-.anp-collapse-folders .nav-folder-collapse-indicator svg.svg-icon {
+.anp-collapse-folders .nav-folder-collapse-indicator svg.svg-icon,
+.anp-collapse-folders [data-type=bookmarks] .collapse-icon svg.svg-icon {
   color: transparent !important;
 }
 
@@ -5199,14 +5437,14 @@ body.rainbow-tags {
   --h4-font: var(--font-text);
   --h5-font: var(--font-text);
   --h6-font: var(--font-text);
-  --h1-color: var(--font-normal);
-  --h2-color: var(--font-normal);
-  --h3-color: var(--font-normal);
-  --h4-color: var(--font-normal);
-  --h5-color: var(--font-normal);
-  --h6-color: var(--font-normal);
-  --italic-color: var(--font-normal);
-  --bold-color: var(--font-normal);
+  --h1-color: var(--text-normal);
+  --h2-color: var(--text-normal);
+  --h3-color: var(--text-normal);
+  --h4-color: var(--text-normal);
+  --h5-color: var(--text-normal);
+  --h6-color: var(--text-normal);
+  --italic-color: var(--text-normal);
+  --bold-color: var(--text-normal);
 }
 
 .callout[data-callout=capacities-index] {
@@ -6145,8 +6383,6 @@ Icons were taken from Font Awesome: https://fontawesome.com/
   margin-inline-start: -15px;
   padding: 3px 10px !important;
   border-radius: 3px 10px 10px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
   max-width: fit-content;
   color: var(--text-normal);
   --bold-color: var(--text-normal);
@@ -6247,8 +6483,6 @@ Icons were taken from Font Awesome: https://fontawesome.com/
 /* Dirty Speech Bubble Fix */
 .anp-speech-bubble .HyperMD-task-line[data-task="0"], .anp-speech-bubble .HyperMD-task-line[data-task="1"], .anp-speech-bubble .HyperMD-task-line[data-task="2"], .anp-speech-bubble .HyperMD-task-line[data-task="3"], .anp-speech-bubble .HyperMD-task-line[data-task="4"], .anp-speech-bubble .HyperMD-task-line[data-task="5"], .anp-speech-bubble .HyperMD-task-line[data-task="6"], .anp-speech-bubble .HyperMD-task-line[data-task="7"], .anp-speech-bubble .HyperMD-task-line[data-task="8"], .anp-speech-bubble .HyperMD-task-line[data-task="9"] {
   text-indent: 0px !important;
-  margin-top: 8px !important;
-  margin-bottom: 8px !important;
 }
 
 .anp-speech-bubble [data-task="0"] {
@@ -6360,6 +6594,7 @@ None of the original code was used and the feature was implemented from scratch.
   height: 16px;
   width: 16px;
   margin-right: 5px;
+  margin-left: var(--anp-file-icon-align, 0px);
 }
 
 .anp-file-icons .nav-file .nav-file-title[data-path$=".md"]::before {
@@ -6502,41 +6737,53 @@ None of the original code was used and the feature was implemented from scratch.
 
 /*------------RAINBOW FOLDERS-------------*/
 /* Rainbow colors */
-.nav-folder-children > .nav-folder:nth-child(11n+2) {
+.nav-folder-children > .nav-folder:nth-child(11n+2),
+[data-type=bookmarks] .tree-item:nth-child(11n+2) {
   --rainbow-folder-color: var(--ctp-red);
 }
-.nav-folder-children > .nav-folder:nth-child(11n+3) {
+.nav-folder-children > .nav-folder:nth-child(11n+3),
+[data-type=bookmarks] .tree-item:nth-child(11n+3) {
   --rainbow-folder-color: var(--ctp-maroon);
 }
-.nav-folder-children > .nav-folder:nth-child(11n+4) {
+.nav-folder-children > .nav-folder:nth-child(11n+4),
+[data-type=bookmarks] .tree-item:nth-child(11n+4) {
   --rainbow-folder-color: var(--ctp-peach);
 }
-.nav-folder-children > .nav-folder:nth-child(11n+5) {
+.nav-folder-children > .nav-folder:nth-child(11n+5),
+[data-type=bookmarks] .tree-item:nth-child(11n+5) {
   --rainbow-folder-color: var(--ctp-yellow);
 }
-.nav-folder-children > .nav-folder:nth-child(11n+6) {
+.nav-folder-children > .nav-folder:nth-child(11n+6),
+[data-type=bookmarks] .tree-item:nth-child(11n+6) {
   --rainbow-folder-color: var(--ctp-green);
 }
-.nav-folder-children > .nav-folder:nth-child(11n+7) {
+.nav-folder-children > .nav-folder:nth-child(11n+7),
+[data-type=bookmarks] .tree-item:nth-child(11n+7) {
   --rainbow-folder-color: var(--ctp-teal);
 }
-.nav-folder-children > .nav-folder:nth-child(11n+8) {
+.nav-folder-children > .nav-folder:nth-child(11n+8),
+[data-type=bookmarks] .tree-item:nth-child(11n+8) {
   --rainbow-folder-color: var(--ctp-sky);
 }
-.nav-folder-children > .nav-folder:nth-child(11n+9) {
+.nav-folder-children > .nav-folder:nth-child(11n+9),
+[data-type=bookmarks] .tree-item:nth-child(11n+9) {
   --rainbow-folder-color: var(--ctp-sapphire);
 }
-.nav-folder-children > .nav-folder:nth-child(11n+10) {
+.nav-folder-children > .nav-folder:nth-child(11n+10),
+[data-type=bookmarks] .tree-item:nth-child(11n+10) {
   --rainbow-folder-color: var(--ctp-blue);
 }
-.nav-folder-children > .nav-folder:nth-child(11n+11) {
+.nav-folder-children > .nav-folder:nth-child(11n+11),
+[data-type=bookmarks] .tree-item:nth-child(11n+11) {
   --rainbow-folder-color: var(--ctp-lavender);
 }
-.nav-folder-children > .nav-folder:nth-child(11n+12) {
+.nav-folder-children > .nav-folder:nth-child(11n+12),
+[data-type=bookmarks] .tree-item:nth-child(11n+12) {
   --rainbow-folder-color: var(--ctp-mauve);
 }
 
-.anp-rainbow-subfolder-color-toggle .nav-folder.mod-root .nav-folder.nav-folder .nav-folder {
+.anp-rainbow-subfolder-color-toggle .nav-folder.mod-root .nav-folder.nav-folder .nav-folder,
+.anp-rainbow-subfolder-color-toggle [data-type=bookmarks] .tree-item .tree-item {
   --rainbow-folder-color: inherit;
 }
 
@@ -6616,13 +6863,14 @@ None of the original code was used and the feature was implemented from scratch.
 }
 
 /*-Simple rainbow theme-*/
-.anp-simple-rainbow-color-toggle.anp-simple-rainbow-title-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title {
+.anp-simple-rainbow-color-toggle.anp-simple-rainbow-title-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title,
+.anp-simple-rainbow-color-toggle.anp-simple-rainbow-title-toggle [data-type=bookmarks] > .view-content > div > .tree-item .tree-item-inner {
   transition: color 0.4s;
   color: rgba(var(--rainbow-folder-color), var(--anp-simple-rainbow-opacity, 1));
   --nav-item-background-hover: rgba(var(--rainbow-folder-color), 0.1);
   --nav-item-background-active: rgba(var(--rainbow-folder-color), 0.1) ;
 }
-.anp-simple-rainbow-color-toggle.anp-simple-rainbow-icon-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title:after {
+.anp-simple-rainbow-color-toggle.anp-simple-rainbow-icon-toggle .nav-folder.mod-root > .nav-folder-children > .nav-folder .nav-folder-title:after, .anp-simple-rainbow-color-toggle.anp-simple-rainbow-icon-toggle [data-type=bookmarks] > .view-content > div > .tree-item .tree-item-inner:after {
   transition: color 0.4s;
   color: rgba(var(--rainbow-folder-color), var(--anp-simple-rainbow-opacity, 1));
   content: "⬤";
@@ -6631,12 +6879,14 @@ None of the original code was used and the feature was implemented from scratch.
   top: 1px;
   opacity: 0.5;
 }
-.anp-simple-rainbow-color-toggle.anp-simple-rainbow-indentation-toggle .nav-folder.mod-root .nav-folder > .nav-folder-children {
+.anp-simple-rainbow-color-toggle.anp-simple-rainbow-indentation-toggle .nav-folder.mod-root .nav-folder > .nav-folder-children, .anp-simple-rainbow-color-toggle.anp-simple-rainbow-indentation-toggle [data-type=bookmarks] > .view-content > div > .tree-item .tree-item-children {
   transition: color 0.4s;
   border-color: rgba(var(--rainbow-folder-color), 0.5);
 }
 .anp-simple-rainbow-color-toggle.anp-simple-rainbow-collapse-toggle .tree-item-self .tree-item-icon {
   --icon-color: rgba(var(--rainbow-folder-color), var(--anp-simple-rainbow-opacity, 1));
+  --nav-collapse-icon-color: rgba(var(--rainbow-folder-color), var(--anp-simple-rainbow-opacity, 1));
+  --nav-collapse-icon-color-collapsed: rgba(var(--rainbow-folder-color), var(--anp-simple-rainbow-opacity, 1));
 }
 
 .modal {
@@ -7284,75 +7534,100 @@ None of the original code was used and the feature was implemented from scratch.
   padding-left: 8px;
 }
 
-.theme-dark .excalidraw, .theme-dark .excalidraw.theme--dark, .theme-light .excalidraw, .theme-light .excalidraw.theme--dark {
-  --button-destructive-bg-color: rgba(var(--ctp-red), 0.2);
-  --button-destructive-color: rgb(var(--ctp-red));
-  --button-gray-1: rgb(var(--ctp-base));
-  --button-gray-2: rgb(var(--ctp-mantle));
-  --button-gray-3: rgb(var(--ctp-crust));
-  --button-special-active-bg-color: rgb(var(--ctp-base));
-  --dialog-border-color: rgb(var(--ctp-surface1));
-  --focus-highlight-color: rgb(var(--ctp-accent, var(--ctp-teal)));
-  --icon-fill-color: var(--text-normal);
-  --icon-green-fill-color: rgb(var(--ctp-green));
-  --default-bg-color: rgb(var(--ctp-base));
-  --input-bg-color: rgb(var(--ctp-mantle));
-  --input-border-color: rgb(var(--ctp-surface1));
-  --input-hover-bg-color: rgb(var(--ctp-surface0));
-  --input-label-color: rgb(var(--ctp-text));
-  --island-bg-color: rgba(var(--ctp-base), 0.96);
-  --keybinding-color: rgb(var(--ctp-crust));
-  --link-color: var(--color-accent);
-  --overlay-bg-color: rgba(var(--ctp-base), 0.88);
-  --popup-bg-color: rgb(var(--ctp-base));
-  --popup-secondary-bg-color: rgb(var(--ctp-mantle));
-  --popup-text-color: rgb(var(--ctp-text));
-  --popup-text-inverted-color: rgb(var(--ctp-base));
-  --select-highlight-color: var(--color-accent);
-  --shadow-island: 0 0 0 1px rgba(var(--ctp-text), 0.01), 1px 1px 5px rgb(var(--ctp-text) / 12%);
-  --text-primary-color: rgb(var(--ctp-text));
-  --color-primary: var(--color-accent);
-  --color-primary-darker: var(--color-accent);
-  --color-primary-darkest: var(--color-accent);
-  --color-primary-light: rgb(var(--ctp-base));
+/* WIP, not implemented due to volatile excalidraw updates
+.theme-light .excalidraw.excalidraw-container:not(.theme--dark),
+.theme-dark .excalidraw.excalidraw-container.theme--dark {
+  --button-destructive-bg-color: #ffe3e3;
+  --button-destructive-color: #c92a2a;
+  --button-gray-1: #e9ecef;
+  --button-gray-2: #ced4da;
+  --button-gray-3: #adb5bd;
+  --button-special-active-bg-color: #ebfbee;
+  --dialog-border-color: var(--color-gray-20);
+  --dropdown-icon: url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"292.4\" height=\"292.4\" viewBox=\"0 0 292 292\"><path d=\"M287 197L159 69c-4-3-8-5-13-5s-9 2-13 5L5 197c-3 4-5 8-5 13s2 9 5 13c4 4 8 5 13 5h256c5 0 9-1 13-5s5-8 5-13-1-9-5-13z\"/></svg>");
+  --focus-highlight-color: #a5d8ff;
+  --icon-fill-color: var(--color-gray-80);
+  --icon-green-fill-color: #2b8a3e;
+  --default-bg-color: #ffffff;
+  --input-bg-color: #ffffff;
+  --input-border-color: #ced4da;
+  --input-hover-bg-color: #f1f3f5;
+  --input-label-color: #495057;
+  --island-bg-color: rgba(255, 255, 255, 0.96);
+  --keybinding-color: var(--color-gray-40);
+  --link-color: #1c7ed6;
+  --overlay-bg-color: rgba(255, 255, 255, 0.88);
+  --popup-bg-color: #ffffff;
+  --popup-secondary-bg-color: #f1f3f5;
+  --popup-text-color: #000000;
+  --popup-text-inverted-color: #ffffff;
+  --select-highlight-color: #339af0;
+  --shadow-island: 0px 7px 14px rgba(0, 0, 0, 0.05), 0px 0px 3.12708px rgba(0, 0, 0, 0.0798), 0px 0px 0.931014px rgba(0, 0, 0, 0.1702);
+  --button-hover-bg: var(--color-gray-10);
+  --default-border-color: var(--color-gray-30);
+  --default-button-size: 2rem;
+  --default-icon-size: 1rem;
+  --lg-button-size: 2.25rem;
+  --lg-icon-size: 1rem;
+  --editor-container-padding: 1rem;
+  --scrollbar-thumb: var(--button-gray-2);
+  --scrollbar-thumb-hover: var(--button-gray-3);
+  --modal-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  --avatar-border-color: var(--color-gray-20);
+  --sidebar-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  --sidebar-border-color: var(--color-gray-20);
+  --sidebar-bg-color: #fff;
+  --library-dropdown-shadow: 0px 15px 6px rgba(0, 0, 0, 0.01), 0px 8px 5px rgba(0, 0, 0, 0.05), 0px 4px 4px rgba(0, 0, 0, 0.09), 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  --space-factor: 0.25rem;
+  --text-primary-color: var(--color-gray-80);
+  --color-selection: var(--color-accent);
+  --color-icon-white: #ffffff;
+  --color-primary: var(--color-accent) !important;
+  --color-primary-darker: color-mix(in hsl, var(--color-accent), #000000, 70%) !important;
+  --color-primary-darkest: color-mix(in hsl, var(--color-accent), #000000) !important;
+  --color-primary-light: color-mix(in hsl, var(--color-accent), #FFFFFF) !important;
+  --color-primary-light-darker: color-mix(in hsl, var(--color-accent), var(--color-primary)) !important;
+  --color-gray-10: #f5f5f5;
+  --color-gray-20: #ebebeb;
+  --color-gray-30: #d6d6d6;
+  --color-gray-40: #b8b8b8;
+  --color-gray-50: #999999;
+  --color-gray-60: #7a7a7a;
+  --color-gray-70: #5c5c5c;
+  --color-gray-80: #3d3d3d;
+  --color-gray-85: #242424;
+  --color-gray-90: #1e1e1e;
+  --color-gray-100: #121212;
+  --color-warning: #fceeca;
+  --color-warning-dark: #f5c354;
+  --color-warning-darker: #f3ab2c;
+  --color-warning-darkest: #ec8b14;
+  --color-text-warning: var(--text-primary-color);
+  --color-danger: #db6965;
+  --color-danger-dark: #db6965;
+  --color-danger-darker: #d65550;
+  --color-danger-darkest: #d1413c;
+  --color-danger-text: black;
+  --color-danger-background: #fff0f0;
+  --color-danger-icon-background: #ffdad6;
+  --color-danger-color: #700000;
+  --color-danger-icon-color: #700000;
+  --color-warning-background: var(--color-warning);
+  --color-warning-icon-background: var(--color-warning-dark);
+  --color-warning-color: var(--text-primary-color);
+  --color-warning-icon-color: var(--text-primary-color);
+  --color-muted: var(--color-gray-30);
+  --color-muted-darker: var(--color-gray-60);
+  --color-muted-darkest: var(--color-gray-100);
+  --color-muted-background: var(--color-gray-80);
+  --color-muted-background-darker: var(--color-gray-100);
+  --color-promo: #e70078;
+  --color-success: #268029;
+  --color-success-lighter: #cafccc;
+  --border-radius-md: 0.375rem;
+  --border-radius-lg: 0.5rem;
 }
-
-.excalidraw-tooltip {
-  background: rgb(var(--ctp-crust)) !important;
-  color: var(--text-normal) !important;
-}
-
-.excalidraw .ToolIcon--plain,
-.excalidraw .reset-zoom-button,
-.excalidraw .ToolIcon[aria-label="Zoom in"],
-.excalidraw .ToolIcon[aria-label="Zoom out"],
-.excalidraw .ToolIcon[aria-label="Reset the canvas"] {
-  background-color: rgb(var(--ctp-crust)) !important;
-}
-.excalidraw .Dialog__titleContent {
-  font-family: var(--font-interface) !important;
-  font-variant-caps: normal;
-  --h2-color: var(--color-accent);
-}
-.excalidraw .confirm-dialog--confirm.ToolIcon_type_button {
-  background-color: rgb(var(--ctp-red)) !important;
-}
-.excalidraw .confirm-dialog--confirm.ToolIcon_type_button .ToolIcon__icon {
-  color: var(--background-primary) !important;
-}
-
-[data-type=excalidraw] .view-header {
-  margin: 0;
-}
-
-body .excalidraw .library-menu-items-container .library-actions--load, body .excalidraw .library-menu-items-container .library-actions--load:hover {
-  background-color: var(--color-accent);
-}
-
-.excalidraw h3 {
-  --h3-font: var(--font-interface);
-}
-
+*/
 .obsidian-icon-folder-icon {
   margin-top: -5px;
 }
@@ -7884,5 +8159,3 @@ body.theme-dark.theme-dark {
   padding-bottom: 0;
   padding-top: 0;
 }
-
-/*# sourceMappingURL=theme.css.map */

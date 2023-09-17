@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "二进制、原码、反码、补码",
+      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
+    },
+    {
+      "basename": "index-电影清单",
+      "path": "Index/index-电影清单.md"
+    },
+    {
+      "basename": "index-码农笔记",
+      "path": "Index/index-码农笔记.md"
+    },
+    {
+      "basename": "VSCode",
+      "path": "码农笔记/07-互联网工具/VSCode.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
+      "basename": "Obsidian折腾记录",
+      "path": "Everything/Obsidian折腾记录.md"
+    },
+    {
+      "basename": "Spring知识梳理",
+      "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
+    },
+    {
       "basename": "复习计划",
       "path": "码农笔记/Z-面试/复习计划.md"
     },
@@ -33,10 +61,6 @@
       "path": "码农笔记/03-性能调优/Tomcat/Tomcat架构图.md"
     },
     {
-      "basename": "Spring知识梳理",
-      "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
-    },
-    {
       "basename": "Tomcat 专题",
       "path": "附件素材/码农/Tomcat 专题.pdf"
     },
@@ -65,18 +89,6 @@
       "path": "码农笔记/B-设计模式/快速总结.md"
     },
     {
-      "basename": "HomePage",
-      "path": "HomePage.md"
-    },
-    {
-      "basename": "Obsidian折腾记录",
-      "path": "Everything/Obsidian折腾记录.md"
-    },
-    {
-      "basename": "二进制、原码、反码、补码",
-      "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
-    },
-    {
       "basename": "JVM之 方法区、永久代、元空间三者的区别",
       "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
     },
@@ -103,14 +115,6 @@
     {
       "basename": "码农笔记——Template",
       "path": "Template/码农笔记——Template.md"
-    },
-    {
-      "basename": "index-电影清单",
-      "path": "Index/index-电影清单.md"
-    },
-    {
-      "basename": "index-码农笔记",
-      "path": "Index/index-码农笔记.md"
     },
     {
       "basename": "Java基础知识",
@@ -195,10 +199,6 @@
     {
       "basename": "mysql梳理",
       "path": "码农笔记/A-数据库/mysql梳理.md"
-    },
-    {
-      "basename": "Hash索引",
-      "path": "码农笔记/A-数据库/Hash索引.md"
     }
   ],
   "omittedPaths": [],
