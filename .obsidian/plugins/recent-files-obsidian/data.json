@@ -5,6 +5,10 @@
       "path": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md"
     },
     {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
       "basename": "Spring知识梳理",
       "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "VSCode",
       "path": "码农笔记/07-互联网工具/VSCode.md"
-    },
-    {
-      "basename": "HomePage",
-      "path": "HomePage.md"
     },
     {
       "basename": "Obsidian折腾记录",
