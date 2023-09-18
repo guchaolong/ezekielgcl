@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cfc000f1e93e8eaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/Z-面试/问题汇总.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdde42c19ad61ce8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/Z-面试/复习计划.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md",
+                "file": "码农笔记/Z-面试/复习计划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md",
+                "file": "码农笔记/Z-面试/复习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md"
+                "file": "码农笔记/Z-面试/复习计划.md"
               }
             }
           },
@@ -201,10 +225,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "fc815f604640dd6f",
+  "active": "bdde42c19ad61ce8",
   "lastOpenFiles": [
-    "HomePage.md",
+    "码农笔记/Z-面试/问题汇总.md",
     "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md",
+    "HomePage.md",
     "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
     "码农笔记/01-框架源码/SpringBoot/SpringBoot知识梳理.md",
     "码农笔记/01-框架源码/SpringBoot/项目启动完成时----do something.md",
@@ -230,7 +255,6 @@
     "码农笔记/B-设计模式/快速总结.md",
     "未命名.md",
     "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
-    "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/F-Netty",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "md/algorithm",

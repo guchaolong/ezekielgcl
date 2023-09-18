@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "复习计划",
+      "path": "码农笔记/Z-面试/复习计划.md"
+    },
+    {
+      "basename": "问题汇总",
+      "path": "码农笔记/Z-面试/问题汇总.md"
+    },
+    {
       "basename": "SpringBoot常用注解",
       "path": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "Obsidian折腾记录",
       "path": "Everything/Obsidian折腾记录.md"
-    },
-    {
-      "basename": "复习计划",
-      "path": "码农笔记/Z-面试/复习计划.md"
     },
     {
       "basename": "Gradle",
@@ -159,10 +163,6 @@
     {
       "basename": "Markdown语法",
       "path": "Everything/Markdown语法.md"
-    },
-    {
-      "basename": "问题汇总",
-      "path": "码农笔记/Z-面试/问题汇总.md"
     },
     {
       "basename": "左神算法视频笔记",
