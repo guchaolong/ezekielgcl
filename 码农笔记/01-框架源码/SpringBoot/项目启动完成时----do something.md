@@ -20,3 +20,5 @@ _
 
 
 _[七种方式教你在SpringBoot初始化时搞点事情](https://mp.weixin.qq.com/s?__biz=Mzk0NjExMjU3Mg==&mid=2247484571&idx=1&sn=09cdbdce8439670f0657451f525d8897&chksm=c30a55c8f47ddcdea0c4c1d67eb42013d6eff6a41a28a75e9314855deb8ed99bfd0825efbe41&scene=178&cur_album_id=1582225248089866241#rd)_
+
+

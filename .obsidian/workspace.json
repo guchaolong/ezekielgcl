@@ -11,11 +11,52 @@
             "id": "1b43364aca3448ff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/01-框架源码/SpringBoot/项目启动完成时----do something.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f8891e6f0d27af3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56a7c329a29a9ef9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68c98000e2bb4705",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/01-框架源码/SpringBoot/SpringBoot知识梳理.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -45,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:VSCode",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -62,8 +103,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "41111949b8b524e5",
@@ -98,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +177,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md"
+              }
             }
           },
           {
@@ -161,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 408.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,15 +225,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1b43364aca3448ff",
+  "active": "8f8891e6f0d27af3",
   "lastOpenFiles": [
+    "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
+    "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md",
+    "码农笔记/01-框架源码/SpringBoot/SpringBoot知识梳理.md",
+    "码农笔记/01-框架源码/SpringBoot/项目启动完成时----do something.md",
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
     "Index/index-电影清单.md",
     "Index/index-码农笔记.md",
     "码农笔记/07-互联网工具/VSCode.md",
     "HomePage.md",
     "Everything/Obsidian折腾记录.md",
-    "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
     "码农笔记/07-互联网工具/Gradle.md",
     "码农笔记/D-Linux/Linux命令积累.md",
     "码农笔记/D-Linux/Linux学习笔记.md",
@@ -208,9 +255,6 @@
     "未命名.md",
     "码农笔记/01-框架源码/Spring/Spring bean的生命周期.md",
     "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
-    "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
-    "码农笔记/00-Java基础/Java开发手册.md",
-    "码农笔记/00-Java基础/主内存与工作内存.md",
     "码农笔记/F-Netty",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
     "md/algorithm",

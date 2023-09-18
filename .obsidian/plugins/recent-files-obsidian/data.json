@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "SpringBoot常用注解",
+      "path": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md"
+    },
+    {
+      "basename": "Spring知识梳理",
+      "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
+    },
+    {
+      "basename": "SpringBoot知识梳理",
+      "path": "码农笔记/01-框架源码/SpringBoot/SpringBoot知识梳理.md"
+    },
+    {
+      "basename": "项目启动完成时----do something",
+      "path": "码农笔记/01-框架源码/SpringBoot/项目启动完成时----do something.md"
+    },
+    {
       "basename": "二进制、原码、反码、补码",
       "path": "码农笔记/00-Java基础/二进制、原码、反码、补码.md"
     },
@@ -23,10 +39,6 @@
     {
       "basename": "Obsidian折腾记录",
       "path": "Everything/Obsidian折腾记录.md"
-    },
-    {
-      "basename": "Spring知识梳理",
-      "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
     },
     {
       "basename": "复习计划",
@@ -187,18 +199,6 @@
     {
       "basename": "Spring框架中的设计模式",
       "path": "码农笔记/B-设计模式/Spring框架中的设计模式.md"
-    },
-    {
-      "basename": "2023-08-23-周三",
-      "path": "个人成长/日记/2023-08-23-周三.md"
-    },
-    {
-      "basename": "IO、NIO、AIO、Netty",
-      "path": "码农笔记/00-Java基础/IO、NIO、AIO、Netty.md"
-    },
-    {
-      "basename": "mysql梳理",
-      "path": "码农笔记/A-数据库/mysql梳理.md"
     }
   ],
   "omittedPaths": [],
