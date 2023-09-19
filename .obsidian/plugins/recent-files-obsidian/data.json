@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "springcloudalibaba全解",
+      "path": "附件素材/码农/springcloudalibaba全解.pdf"
+    },
+    {
+      "basename": "微服务框架介绍",
+      "path": "码农笔记/05-微服务系列/微服务框架介绍.md"
+    },
+    {
+      "basename": "()",
+      "path": "().md"
+    },
+    {
+      "basename": "项目架构演变",
+      "path": "码农笔记/06-项目实战/项目架构演变.md"
+    },
+    {
+      "basename": "链式处理",
+      "path": "码农笔记/06-项目实战/链式处理.md"
+    },
+    {
+      "basename": "重构",
+      "path": "码农笔记/06-项目实战/重构.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "码农笔记/04-分布式框架/Redis/Redis.md"
+    },
+    {
+      "basename": "tiling-3-vip-Redis",
+      "path": "码农笔记/04-分布式框架/Redis/tiling-3-vip-Redis.md"
+    },
+    {
+      "basename": "Netty教程",
+      "path": "码农笔记/F-Netty/Netty教程.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "码农笔记/E-Docker/Docker.md"
+    },
+    {
       "basename": "复习计划",
       "path": "码农笔记/Z-面试/复习计划.md"
     },
@@ -137,10 +177,6 @@
       "path": "码农笔记/00-Java基础/Java基础知识.md"
     },
     {
-      "basename": "Docker",
-      "path": "码农笔记/E-Docker/Docker.md"
-    },
-    {
       "basename": "GC和GC Tuning",
       "path": "码农笔记/00-Java基础/GC和GC Tuning.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "Markdown语法",
       "path": "Everything/Markdown语法.md"
-    },
-    {
-      "basename": "左神算法视频笔记",
-      "path": "码农笔记/C-算法与数据结构/左神算法视频笔记.md"
-    },
-    {
-      "basename": "排序算法",
-      "path": "码农笔记/C-算法与数据结构/排序算法.md"
-    },
-    {
-      "basename": "常用算法",
-      "path": "码农笔记/C-算法与数据结构/常用算法.md"
-    },
-    {
-      "basename": "宽带 网速 光猫 路由器 网速 ......",
-      "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
-    },
-    {
-      "basename": "科学上网翻墙VPN机场外网",
-      "path": "Everything/科学上网翻墙VPN机场外网.md"
-    },
-    {
-      "basename": "2023-08-27-周日",
-      "path": "个人成长/日记/2023-08-27-周日.md"
-    },
-    {
-      "basename": "2023-08-24-周四",
-      "path": "个人成长/日记/2023-08-24-周四.md"
-    },
-    {
-      "basename": "Netty教程",
-      "path": "码农笔记/F-Netty/Netty教程.md"
-    },
-    {
-      "basename": "Spring框架中的设计模式",
-      "path": "码农笔记/B-设计模式/Spring框架中的设计模式.md"
     }
   ],
   "omittedPaths": [],
