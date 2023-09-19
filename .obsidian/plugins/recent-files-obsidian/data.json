@@ -5,6 +5,14 @@
       "path": "附件素材/码农/springcloudalibaba全解.pdf"
     },
     {
+      "basename": "架构演变过程",
+      "path": "码农笔记/05-微服务系列/架构演变过程.md"
+    },
+    {
+      "basename": "Spring Cloud",
+      "path": "码农笔记/05-微服务系列/Spring Cloud.md"
+    },
+    {
       "basename": "微服务框架介绍",
       "path": "码农笔记/05-微服务系列/微服务框架介绍.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "index-日记",
       "path": "Index/index-日记.md"
-    },
-    {
-      "basename": "2018-11-22-周四",
-      "path": "个人成长/日记/2018-11-22-周四.md"
-    },
-    {
-      "basename": "Markdown语法",
-      "path": "Everything/Markdown语法.md"
     }
   ],
   "omittedPaths": [],
