@@ -234,6 +234,8 @@ ssh-keygen -t rsa -C guclno1@qq.com
 #打开id_rsa.pub文件，复制里面的内容，贴到github里
 ```
 ## Homebrew
+#Homebrew
+
 Homebrew是一款Mac OS平台下的**软件包管理**工具，拥有安装、卸载、更新、查看、搜索等很多实用的功能。简单的一条指令，就可以实现包管理，而不用你关心各种依赖和文件路径的情况，十分方便快捷
 [M1芯片Mac上Homebrew安装教程](https://zhuanlan.zhihu.com/p/341831809)
 1 安装命令
@@ -507,4 +509,7 @@ vscode切换中英文
 > 方式1：`command + shift + p` 打开命令控制台，选择“更改语言模式” change language mode，在输入对应的格式（比如json)
 > 方式2: `command + k`,  松开（不要继续按着command），再按 `m` , 在输入对应格式（如json）
 
+
+## nginx
+dockr安装 nginx,参考：[[Nginx]]
 

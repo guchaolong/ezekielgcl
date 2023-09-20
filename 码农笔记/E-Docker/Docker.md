@@ -109,3 +109,67 @@ docker 采用 CS架构模式，docker client和 docker daemon之间通过Socket 
 
 # docker命令
 ![DockerCheatSheet-ByGeekHour.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1688758721004-92cbf7c4-68ba-4027-b3d0-aa99dc3b1841.png#averageHue=%23d6dace&clientId=u15850ca0-de8c-4&from=ui&id=u9e30037d&originHeight=6220&originWidth=6590&originalType=binary&ratio=2&rotation=0&showTitle=false&size=4006862&status=done&style=none&taskId=ub9a10f8a-91ec-4df6-851c-647e97c70fd&title=)
+
+
+# docker国内加速镜像
+
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230920163714.png)
+
+`docker info`查看，最后面有 Registry Mirrors 信息
+
+
+
+# Docker 进入容器，并在容器内执行命令
+* 语法：
+**docker exec** [OPTIONS] CONTAINER COMMAND [ARG...]
+
+
+* OPTIONS 参数说明：
+-i: 让容器的标准输入（STDIN）始终保持打开，即使没有输入任何指令（没有附加）
+-t: 分配一个终端，这样我们就可以使用命令来操作
+-d: 分离模式，让命令在后台（指的是宿主后台）运行。
+–user：指定用户运行，当我们需要 root 用户权限时可以指定。
+
+【注】一般使用 `-it` 就足够了。
+
+* COMMAND 参数：
+`command` 指的是 `shell` 的类型，常见的有 `bash`、`sh`、`zsh`，但是 `Linux` 系统大多数默认的是 `bash` 类型，新版 `Mac OS` 系统的话，默认的不再是 `bash` ，而是 `zsh`。
+
+
+
+
+* 查看正在运行的容器
+
+```
+docker ps
+```
+
+执行结果如下：
+
+**CONTAINER ID **     IMAGE         COMMAND               CREATED          STATUS            PORTS                **NAMES**
+
+**91af26862191**      nginx     "/docker-entrypoint.…"   7 hours ago       Up 2 hours       0.0.0.0:80->80/tcp     **webserver**
+
+* 使用 exec 进入容器
+
+```
+docker exec -it webserver bash 
+# 或 
+docker exec -it 91af26862191 bash 
+```
+
+就可以进入到容器内部的命令行界面。
+
+如果需要`root`权限的话，可以指定 `root` 用户进入容器：
+
+```
+docker exec -it --user root webserver bash
+# 或
+docker exec -it --user root 91af26862191 bash
+```
+
+【注】`webserver` 与 `91af26862191` 都是容器的唯一标识，所以用哪个都可以。
+
+一般容器里面的 `Linux` 是精简版的，没有 `less 、cat 、vim/vi` 等命令，如果需要的话可以自己安装，默认自带 `APT` 命令。
+
+【注】如果是学习使用可以选择在容器内部安装其他命令，`如果是正式环境的话推荐把各个容器的配置文件映射到宿主机器上（也就是装 Docker 的机器）方便维护`。

@@ -36,3 +36,5 @@ User user = restTemplate.getForObject("http://localhost/user/8", User.class);
 * 消费者：向Eureka<mark style="background: #FF5582A6;">订阅</mark>服务，Eureka会将对应服务的所有提供者地址列表发送给消费者，并且定期更新 
 * 心跳(续约)：提供者定期通过http方式向Eureka<mark style="background: #FF5582A6;">刷新</mark>自己的<mark style="background: #FF5582A6;">状态</mark>
 
+
+
