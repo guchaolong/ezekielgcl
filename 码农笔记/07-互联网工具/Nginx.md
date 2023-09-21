@@ -1,3 +1,6 @@
+
+#nginx
+
 # docker安装 nginx 并挂载
 
 `docker search nginx`
@@ -8,9 +11,11 @@
 `docker run -d --name nginx -p 8080:80 nginx`
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230920180410.png)
 >参数说明：
->--name nginx-test：容器名称。  
--p 8080:80： 端口进行映射，将本地 8080 端口映射到容器内部的 80 端口。  
--d nginx： 设置容器在在后台一直运行
+--name 为容器起一个名字
+-p 8080:80： 端口进行映射，格式为`宿主机端口:容器端口`，将本地 8080 端口映射到容器内部的 80 端口。  
+-d 表示容器在后台运行
+最后第一个字段为 image 名称
+
 
 验证：
 http://localhost:8080/
@@ -18,8 +23,7 @@ http://localhost:8080/
 
 上面我们通过将<mark style="background: #FF5582A6;">本地8080端口</mark>映射到docker<mark style="background: #FF5582A6;">容器的80端口</mark>上实现了nginx的访问。
 
-一般为了方便修改和配置，我们将配置文件挂载到本地磁盘上
-
+首先明确的是容器中的文件内容是可以被修改的，但是**一旦容器重启，所有写入到容器中的，针对数据文件、配置文件的修改都将丢失**。所以为了保存容器的运行状态，执行结果，我们需要将容器内的一些重要的数据文件、日志文件、配置文件映射到宿主机上
 
 >docker拉取下来的nginx配置文件路径一般情况下是：  
 日志文件位置：/var/log/nginx  
@@ -76,3 +80,11 @@ docker run -d --name nginx -p 8080:80 \
 查看挂载情况：
 `docker inspect nginx | grep Mounts -A 200`
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230920185132.png)
+
+
+docker进入 nginx 容器
+`docker exec -it nginx bash`
+
+退出容器：输入`exit`
+
+在客户端也可以操作，很方便

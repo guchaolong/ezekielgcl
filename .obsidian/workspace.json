@@ -4,81 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c2fac9728c0c0fa7",
+        "id": "0211aefac570ee70",
         "type": "tabs",
         "children": [
           {
-            "id": "9ae3ec8673b87f4e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "附件素材/码农/springcloudalibaba全解.pdf"
-              }
-            }
-          },
-          {
-            "id": "3aed5b5d27687610",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/05-微服务系列/微服务框架介绍.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6dd72af6d8797008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/05-微服务系列/Spring Cloud.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7797347b7ff51fc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5080b30e14298dbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/E-Docker/Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d96f22b48ec2790d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/Y-前端/前端基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ef920e1b8663bb8",
+            "id": "4beb12c386d24b4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,31 +20,7 @@
             }
           },
           {
-            "id": "2e7779de45970f37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Linux命令积累.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebd39fd1f090a191",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Linux学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10754c9af74579e0",
+            "id": "a1bb47deb69c3642",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -126,31 +32,7 @@
             }
           },
           {
-            "id": "b8e84fde943f282c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "081d8f27b762802f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Kali Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ce9d70cc00f2328",
+            "id": "8aa51d2fd012074b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,43 +44,55 @@
             }
           },
           {
-            "id": "7ab8a20a3ef62b42",
+            "id": "9d800802ddee06c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Everything/Mac------工欲善其事 必先利其器.md",
+                "file": "码农笔记/D-Linux/Kali Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c5bbe486fefca580",
+            "id": "6d622522c59598fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md",
+                "file": "码农笔记/D-Linux/Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "03f80d809a792a34",
+            "id": "cfd895d1d65df607",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/05-微服务系列/架构演变过程.md",
+                "file": "码农笔记/D-Linux/Linux命令积累.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d94b3258faf3a1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/D-Linux/Linux学习笔记.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -228,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mac",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -280,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/Mac------工欲善其事 必先利其器.md",
+                "file": "码农笔记/D-Linux/Linux学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/Mac------工欲善其事 必先利其器.md",
+                "file": "码农笔记/D-Linux/Linux学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -320,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/Mac------工欲善其事 必先利其器.md"
+                "file": "码农笔记/D-Linux/Linux学习笔记.md"
               }
             }
           },
@@ -347,7 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -367,20 +261,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "7ab8a20a3ef62b42",
+  "active": "5d94b3258faf3a1b",
   "lastOpenFiles": [
-    "码农笔记/Y-前端/前端基础.md",
-    "码农笔记/E-Docker/Docker.md",
-    "码农笔记/07-互联网工具/Nginx.md",
-    "码农笔记/D-Linux/速学150个Linux常用命令.md",
-    "Everything/Mac------工欲善其事 必先利其器.md",
-    "码农笔记/D-Linux/Kali Linux.md",
-    "码农笔记/D-Linux/Linux.md",
-    "码农笔记/D-Linux/Mac zsh Item2命令.md",
-    "码农笔记/D-Linux/Linux学习笔记.md",
     "码农笔记/D-Linux/Linux命令积累.md",
-    "().md",
+    "码农笔记/D-Linux/Linux.md",
+    "码农笔记/D-Linux/Kali Linux.md",
+    "码农笔记/D-Linux/速学150个Linux常用命令.md",
+    "码农笔记/D-Linux/Mac zsh Item2命令.md",
+    "Everything/Mac------工欲善其事 必先利其器.md",
+    "码农笔记/E-Docker/Docker.md",
     "码农笔记/05-微服务系列/Spring Cloud Alibaba.md",
+    "码农笔记/07-互联网工具/Nginx.md",
+    "码农笔记/Y-前端/前端基础.md",
+    "码农笔记/D-Linux/Linux学习笔记.md",
+    "().md",
     "码农笔记/05-微服务系列/Nacos.md",
     "码农笔记/05-微服务系列/Spring Cloud.md",
     "附件素材/码农/springcloudalibaba全解.pdf",

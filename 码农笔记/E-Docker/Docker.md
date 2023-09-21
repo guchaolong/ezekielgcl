@@ -173,3 +173,5 @@ docker exec -it --user root 91af26862191 bash
 一般容器里面的 `Linux` 是精简版的，没有 `less 、cat 、vim/vi` 等命令，如果需要的话可以自己安装，默认自带 `APT` 命令。
 
 【注】如果是学习使用可以选择在容器内部安装其他命令，`如果是正式环境的话推荐把各个容器的配置文件映射到宿主机器上（也就是装 Docker 的机器）方便维护`。
+
+java ­Dserver.port=8858 ­-jar

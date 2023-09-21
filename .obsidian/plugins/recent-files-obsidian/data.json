@@ -1,38 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Mac------工欲善其事 必先利其器",
-      "path": "Everything/Mac------工欲善其事 必先利其器.md"
-    },
-    {
-      "basename": "前端基础",
-      "path": "码农笔记/Y-前端/前端基础.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "码农笔记/E-Docker/Docker.md"
-    },
-    {
-      "basename": "Nginx",
-      "path": "码农笔记/07-互联网工具/Nginx.md"
-    },
-    {
-      "basename": "速学150个Linux常用命令",
-      "path": "码农笔记/D-Linux/速学150个Linux常用命令.md"
-    },
-    {
-      "basename": "Kali Linux",
-      "path": "码农笔记/D-Linux/Kali Linux.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "码农笔记/D-Linux/Linux.md"
-    },
-    {
-      "basename": "Mac zsh Item2命令",
-      "path": "码农笔记/D-Linux/Mac zsh Item2命令.md"
-    },
-    {
       "basename": "Linux学习笔记",
       "path": "码农笔记/D-Linux/Linux学习笔记.md"
     },
@@ -41,8 +9,40 @@
       "path": "码农笔记/D-Linux/Linux命令积累.md"
     },
     {
+      "basename": "Linux",
+      "path": "码农笔记/D-Linux/Linux.md"
+    },
+    {
+      "basename": "Kali Linux",
+      "path": "码农笔记/D-Linux/Kali Linux.md"
+    },
+    {
+      "basename": "速学150个Linux常用命令",
+      "path": "码农笔记/D-Linux/速学150个Linux常用命令.md"
+    },
+    {
+      "basename": "Mac zsh Item2命令",
+      "path": "码农笔记/D-Linux/Mac zsh Item2命令.md"
+    },
+    {
+      "basename": "Mac------工欲善其事 必先利其器",
+      "path": "Everything/Mac------工欲善其事 必先利其器.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "码农笔记/E-Docker/Docker.md"
+    },
+    {
       "basename": "Spring Cloud Alibaba",
       "path": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md"
+    },
+    {
+      "basename": "Nginx",
+      "path": "码农笔记/07-互联网工具/Nginx.md"
+    },
+    {
+      "basename": "前端基础",
+      "path": "码农笔记/Y-前端/前端基础.md"
     },
     {
       "basename": "Spring Cloud",
