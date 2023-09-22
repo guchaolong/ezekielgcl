@@ -414,3 +414,54 @@ git add是把修改提到暂存区，commit是将修改提交到分支
 	# 生成一个可供发布的压缩包
 	$ git archives
 	
+
+
+
+# 本地项目新项目推送到 github
+## 方式一
+github上新建 repository
+比如：springcloudalibaba
+
+然后在本地把它克隆下来：
+`git clone git@github.com:guchaolong/springcloudalibaba.git`
+
+然后把.git文件夹复制到本地项目中
+
+然后在本地项目中执行
+```
+git add .
+git commit -m"first commit"
+git push origin main
+```
+
+## 方式二
+```
+1.初始化本地仓库
+git init
+
+2.新建一个记录提交操作的文档
+touch README.md
+
+3.添加README文件
+git add README.md
+
+4.添加所有项目
+git add .
+
+5.检查状态 如果都是绿的 证明成功
+git status
+
+6.提交到要地仓库，并写一些注释
+git commit -m "first commit"
+
+7.连接远程仓库并建了一个名叫：origin的别名
+git remote add origin git@github.com:youname/Test.git
+
+8.将本地仓库的东西提交到地址是origin的地址，master分支下
+git push -u origin master
+```
+
+
+这个方法中，git init默认是 master 分支，github 新建项目默认是 main 分支,要让分支名称对应才能 push 上去
+修改 git 的默认分支`git config --global init.defaultBranch main`
+或者 github 上加上 master分支

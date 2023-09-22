@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "Git总结",
+      "path": "码农笔记/07-互联网工具/Git总结.md"
+    },
+    {
+      "basename": "JMeter",
+      "path": "码农笔记/07-互联网工具/JMeter.md"
+    },
+    {
+      "basename": "Spring Cloud Alibaba",
+      "path": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md"
+    },
+    {
+      "basename": "Spring Cloud",
+      "path": "码农笔记/05-微服务系列/Spring Cloud.md"
+    },
+    {
+      "basename": "微服务框架介绍",
+      "path": "码农笔记/05-微服务系列/微服务框架介绍.md"
+    },
+    {
+      "basename": "Nginx",
+      "path": "码农笔记/07-互联网工具/Nginx.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "码农笔记/E-Docker/Docker.md"
+    },
+    {
+      "basename": "Tomcat 专题",
+      "path": "附件素材/码农/Tomcat 专题.pdf"
+    },
+    {
+      "basename": "mysql梳理",
+      "path": "码农笔记/A-数据库/mysql梳理.md"
+    },
+    {
+      "basename": "Tomcat 性能调优",
+      "path": "码农笔记/03-性能调优/Tomcat/Tomcat 性能调优.md"
+    },
+    {
+      "basename": "并发编程——汇总",
+      "path": "码农笔记/02-并发编程/并发编程——汇总.md"
+    },
+    {
+      "basename": "IDEA",
+      "path": "码农笔记/07-互联网工具/IDEA.md"
+    },
+    {
+      "basename": "Mac------工欲善其事 必先利其器",
+      "path": "Everything/Mac------工欲善其事 必先利其器.md"
+    },
+    {
       "basename": "Linux学习笔记",
       "path": "码农笔记/D-Linux/Linux学习笔记.md"
     },
@@ -25,40 +77,12 @@
       "path": "码农笔记/D-Linux/Mac zsh Item2命令.md"
     },
     {
-      "basename": "Mac------工欲善其事 必先利其器",
-      "path": "Everything/Mac------工欲善其事 必先利其器.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "码农笔记/E-Docker/Docker.md"
-    },
-    {
-      "basename": "Spring Cloud Alibaba",
-      "path": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md"
-    },
-    {
-      "basename": "Nginx",
-      "path": "码农笔记/07-互联网工具/Nginx.md"
-    },
-    {
       "basename": "前端基础",
       "path": "码农笔记/Y-前端/前端基础.md"
     },
     {
-      "basename": "Spring Cloud",
-      "path": "码农笔记/05-微服务系列/Spring Cloud.md"
-    },
-    {
       "basename": "springcloudalibaba全解",
       "path": "附件素材/码农/springcloudalibaba全解.pdf"
-    },
-    {
-      "basename": "架构演变过程",
-      "path": "码农笔记/05-微服务系列/架构演变过程.md"
-    },
-    {
-      "basename": "微服务框架介绍",
-      "path": "码农笔记/05-微服务系列/微服务框架介绍.md"
     },
     {
       "basename": "项目架构演变",
@@ -145,10 +169,6 @@
       "path": "码农笔记/03-性能调优/Tomcat/Tomcat架构图.md"
     },
     {
-      "basename": "Tomcat 专题",
-      "path": "附件素材/码农/Tomcat 专题.pdf"
-    },
-    {
       "basename": "Tomcat专题",
       "path": "码农笔记/03-性能调优/Tomcat/Tomcat专题.md"
     },
@@ -159,10 +179,6 @@
     {
       "basename": "Tomcat热部署与热加载",
       "path": "码农笔记/03-性能调优/Tomcat/Tomcat热部署与热加载.md"
-    },
-    {
-      "basename": "Tomcat 性能调优",
-      "path": "码农笔记/03-性能调优/Tomcat/Tomcat 性能调优.md"
     },
     {
       "basename": "Tomcat",
@@ -183,22 +199,6 @@
     {
       "basename": "Java开发手册",
       "path": "码农笔记/00-Java基础/Java开发手册.md"
-    },
-    {
-      "basename": "主内存与工作内存",
-      "path": "码农笔记/00-Java基础/主内存与工作内存.md"
-    },
-    {
-      "basename": "垃圾收集器",
-      "path": "码农笔记/00-Java基础/垃圾收集器.md"
-    },
-    {
-      "basename": "码农笔记——Template 2",
-      "path": "Template/码农笔记——Template 2.md"
-    },
-    {
-      "basename": "码农笔记——Template",
-      "path": "Template/码农笔记——Template.md"
     }
   ],
   "omittedPaths": [],
