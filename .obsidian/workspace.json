@@ -4,107 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "0211aefac570ee70",
+        "id": "8f546298be377dcf",
         "type": "tabs",
         "children": [
           {
-            "id": "4beb12c386d24b4a",
+            "id": "1ee4a10d242e0416",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/07-互联网工具/Nginx.md",
+                "file": "码农笔记/A-数据库/mysql梳理.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a1bb47deb69c3642",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Mac zsh Item2命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8aa51d2fd012074b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/速学150个Linux常用命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d800802ddee06c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Kali Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d622522c59598fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cfd895d1d65df607",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/D-Linux/Linux命令积累.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d94b3258faf3a1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/Mac------工欲善其事 必先利其器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7eeedab6eb87b49a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/07-互联网工具/JMeter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "250465b4efff1920",
+            "id": "6ef11a7a8164253d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -114,103 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "73aba951de54f8ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/03-性能调优/Tomcat/Tomcat 性能调优.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87bc762009b801a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/07-互联网工具/Nginx.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35321bc4ba4697ef",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "附件素材/码农/Tomcat 专题.pdf"
-              }
-            }
-          },
-          {
-            "id": "7c0a791218f84055",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/05-微服务系列/微服务框架介绍.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "acd81f1e56081991",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/E-Docker/Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42b1df0766f02079",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/05-微服务系列/Spring Cloud.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ccc6acf7aacc7ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7b671662dbe60eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/07-互联网工具/IDEA.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -379,20 +201,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "250465b4efff1920",
+  "active": "6ef11a7a8164253d",
   "lastOpenFiles": [
+    "码农笔记/A-数据库/mysql梳理.md",
+    "码农笔记/07-互联网工具/Nginx.md",
     "码农笔记/07-互联网工具/JMeter.md",
+    "码农笔记/07-互联网工具/IDEA.md",
+    "码农笔记/07-互联网工具/Gradle.md",
+    "码农笔记/07-互联网工具/Git总结.md",
     "码农笔记/05-微服务系列/Spring Cloud Alibaba.md",
     "码农笔记/05-微服务系列/Spring Cloud.md",
     "码农笔记/05-微服务系列/微服务框架介绍.md",
     "码农笔记/05-微服务系列/架构演变过程.md",
-    "码农笔记/07-互联网工具/Nginx.md",
     "码农笔记/E-Docker/Docker.md",
     "附件素材/码农/Tomcat 专题.pdf",
-    "码农笔记/A-数据库/mysql梳理.md",
     "码农笔记/03-性能调优/Tomcat/Tomcat 性能调优.md",
     "码农笔记/02-并发编程/并发编程——汇总.md",
-    "码农笔记/07-互联网工具/IDEA.md",
     "Everything/Mac------工欲善其事 必先利其器.md",
     "码农笔记/D-Linux/Linux学习笔记.md",
     "码农笔记/D-Linux/Linux命令积累.md",
@@ -407,7 +231,6 @@
     "码农笔记/06-项目实战/项目架构演变.md",
     "码农笔记/06-项目实战/链式处理.md",
     "码农笔记/06-项目实战/重构.md",
-    "码农笔记/04-分布式框架/Redis/Redis.md",
     "码农笔记/01-框架源码/Spring MVC",
     "码农笔记/F-Netty",
     "附件素材/码农/二哥的 Java 进阶之路暗黑版.pdf",
