@@ -1,4 +1,5 @@
-#Gradle
+#Gradle 
+
 
 # 安装、配置
 下载，解压，设置环境变量，在<mark style="background: #FF5582A6;">.zshrc</mark>文件中添加下面两行，然后`source ~/.zshrc`

@@ -1,5 +1,7 @@
 #Spring 
 
+
+
 # Spring概述
 
 ## 什么是Spring框架
@@ -56,6 +58,7 @@ Spring 的核心容器是<mark style="background: #FF5582A6;">其他模块</mark
 
 
 ## Data Access/Integration（数据访问/集成）
+
 
 数据访问/集成层包括 JDBC，ORM，OXM，JMS 和 Transactions 模块，它们的细节如下：
 （注：JDBC=Java Data Base Connectivity，ORM=Object Relational Mapping，OXM=Object XML Mapping，JMS=Java Message Service）  
@@ -126,10 +129,14 @@ Spring设计的两个大的要点：IOC和AOP；从框架的设计角度而言�
 Springboot通过<mark style="background: #FF5582A6;">约定大于配置</mark>的方式，使用xx-starter统一的<mark style="background: #FF5582A6;">对Bean进行默认初始化</mark>，用户只需要很少的配置就可以进行开发了
 
 # IOC
+
 ## 什么是IOC？
+
 Ioc—Inversion of Control，即“控制反转”，<mark style="background: #FF5582A6;">不是什么技术，而是一种设计思想</mark>。在Java开发中，Ioc意味着将你设计好的对象交给容器控制，而不是传统的在你的对象内部直接控制
 
 ## IoC和DI是什么关系
+
+反攻倒算
 控制反转是通过依赖注入实现的，其实它们是同一个概念的不同角度描述。通俗来说就是<mark style="background: #FF5582A6;">IoC是设计思想，DI是实现方式</mark>
 
 ## Spring IoC 容器
@@ -138,10 +145,10 @@ IOC 容器具有依赖注入功能的容器，它可以创建对象，IOC 容器
 Spring实现IOC容器的方式有两种
 1. <mark style="background: #FF5582A6;">BeanFactory</mark> 容器,spring框架的基础设施，<mark style="background: #FF5582A6;">面向spring本身</mark>
 2. <mark style="background: #FF5582A6;">ApplicationContext</mark> 容器,BeanFactory的子接口，<mark style="background: #FF5582A6;">面向开发者</mark>，几乎所有的场合都可以使用ApprlicationContext而非底层的BeanFactory
-3. 
+
 
 ### BeanFactory 容器
-这是一个最简单的容器，它主要的功能是为依赖注入 （DI） 提供支持，这个容器接口在 org.springframework.beans.factory.BeanFactory中被定义。BeanFactory 和相关的接口，比如BeanFactoryAware、DisposableBean、InitializingBean，仍旧保留在 Spring 中，主要目的是向后兼容已经存在的和那些 Spring 整合在一起的第三方框架。
+这是一个最简单的容器，它主要的功能是为依赖注入 （DI） 提供支持，这个容器接口在`org.springframework.beans.factory.BeanFactory`中被定义。BeanFactory 和相关的接口，比如BeanFactoryAware、DisposableBean、InitializingBean，仍旧保留在 Spring 中，主要目的是向后兼容已经存在的和那些 Spring 整合在一起的第三方框架。
 
 在 Spring 中，有大量对 BeanFactory 接口的实现。其中，最常被使用的是 **XmlBeanFactory** 类。这个容器从一个 XML 文件中读取配置元数据，由这些元数据来生成一个被配置化的系统或者应用。
 
@@ -264,6 +271,7 @@ public class UserServiceImpl {
 
 
 ## Bean 作用域
+
 Spring 框架支持以下五个作用域，分别为 singleton、prototype、request、session 和 global session
 
 <mark style="background: #FF5582A6;">singleton</mark>：在spring IoC容器仅存在一个Bean实例，Bean以<mark style="background: #FF5582A6;">单例</mark>方式存在，是默认的作用域
@@ -572,6 +580,7 @@ AOP实现的关键就在于AOP框架自动创建的AOP代理，AOP代理则可�
 |是否提供接口代理|是（可不用接口）|是（必须）|
 
 
+
 ## cglib和jdk动态代理的依赖：
 spring-core带有cglib依赖
 
@@ -687,7 +696,9 @@ Spring AOP的实现方式是动态织入，动态织入的方式是在运行时�
 
 
 ## 相关概念
+
 在AOP编程中，我们经常会遇到下面的概念：
+
 - **连接点（Jointpoint）**：表示需要在程序中插入横切关注点的扩展点，**连接点可能是类初始化、方法执行、方法调用、字段调用或处理异常等等**，Spring只支持方法执行连接点，在AOP中表示为**在哪里干**；
 
 - **切入点（Pointcut）**： 选择一组相关连接点的模式，即可以认为连接点的集合，Spring支持perl5正则表达式和AspectJ切入点模式，Spring默认使用AspectJ语法，在AOP中表示为**在哪里干的集合**；
@@ -715,5 +726,4 @@ Spring AOP的实现方式是动态织入，动态织入的方式是在运行时�
 把这些术语串联到一起，方便理解：
 
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230914011002.png)
-
 

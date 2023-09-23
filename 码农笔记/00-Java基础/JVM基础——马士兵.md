@@ -31,8 +31,9 @@ hotspot从8开始，不再支持免费升级了，要进行收费了
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1682012330910-d6335dff-4fe1-4ca6-94a9-98dece248934.png#averageHue=%23927914&clientId=uc48cf5aa-a7c5-4&from=paste&height=425&id=uc2dc92b2&originHeight=608&originWidth=1177&originalType=binary&ratio=2&rotation=0&showTitle=false&size=294780&status=done&style=none&taskId=ua0c19616-da69-41f2-8668-e3df5446e1b&title=&width=823.5)
 
 # 二、ClassFileFormat
-> 面试不太会问到，当作兴趣了解
-> 
+
+>面试不太会问到，当作兴趣了解
+
 
 `javap`是jdk自带的反解析工具。它的作用就是根据class字节码文件，反解析出当前类对应的code区（汇编指令）、本地变量表、异常表和代码行偏移量映射表、常量池等等信息。
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1682019838056-588da14f-bd76-405a-878d-3ce69d590eae.png#averageHue=%23303030&clientId=u70bc0c89-c77e-4&from=paste&height=362&id=u0d40baa7&originHeight=724&originWidth=1727&originalType=binary&ratio=2&rotation=0&showTitle=false&size=158293&status=done&style=none&taskId=uf43e51a9-cb78-4f17-84f7-1807298ed2b&title=&width=863.5)

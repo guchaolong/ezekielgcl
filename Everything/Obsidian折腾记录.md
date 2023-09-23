@@ -106,7 +106,6 @@ action https://forum.obsidian.md/
 和editing toolbar中的设置高亮重复，但是这个更符合操作习惯
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230803042526.png)
 
-
 ## 命令设置——commander
 可以设置左边栏的命令，状态栏等等
 也可以自定义宏，比如，打开style setting ,然后用<mark style="background: #BBFABBA6;">hover edit</mark>转换为悬浮窗口，然后cmd + p，输入fss，就能直接调用这两个命令了，或者也可以给设置快捷键
@@ -172,8 +171,7 @@ working copy中点+号，`Clone repository`把GitHub上的仓库克隆下来
 ## CSS
 
 ➤ CSS 代码段：
-[GitHub - deathau/obsidian-snippets](https://github.com/deathau/obsidian-snippets)
-[GitHub - kmaasrud/awesome-obsidian: 🕶️ Awesome stuff for Obsidian](https://github.com/kmaasrud/awesome-obsidian#css-tweaks)
+
 
 从别人的库中copy了一些CSS样式
 
@@ -184,6 +182,7 @@ working copy中点+号，`Clone repository`把GitHub上的仓库克隆下来
 * 文件浏览、大纲，同级之间直线连接
   文件浏览器和大纲窗格在最新的 Obsidian 中还是没有显示关系连线，在以后的升级中 Obsidian 有可能会增加这个功能，因为当文件浏览器中的文件很多的时候，或者大纲窗格显示的笔记标题级别很多的时候，关系连线能够帮助我们快速看清元素之间的关系。在 Obsidian 官方还没有提供这个功能前，我们先用几句 CSS 享受这个功能 
   
+dgfgsssdsf,dsgfagh,dgasssssdfsfdsfsafsafsa,gdsajajgksgjkfds带上伐反倒是给对方 第三关撒个Englishf,dffsa发发撒发发股份第三个身高多少反倒是收到货电风扇 Englishsfdsaggdfsg
 
 # 快捷键
 
@@ -248,7 +247,15 @@ cmd+i，变为*倾斜字体
 ## 有序列表
 
 1. no1
+	1. sdf
+	2. gsdgs
+		1. gdf
+		2. rrt
 2. no2
+3. fdsf
+	1. gdsgf
+		1. dgfsdfg
+		2. dftr
 
 ## 无序列表
 
@@ -269,6 +276,18 @@ cmd+i，变为*倾斜字体
 >>第2层，2个>
 >>>第3层，3个>
 >>第2层，2个>
+
+
+
+
+
+#English
+
+[[Spring知识梳理]]
+
+[哔哩哔哩 (゜-゜)つロ 干杯\~-bilibili](https://www.bilibili.com/)
+
+
 
 
 ## 代码块
@@ -327,9 +346,6 @@ String str = "hello"
 
 ### quote, cite
 > [!quote] 引用，引用
-
-
-
 
 
 

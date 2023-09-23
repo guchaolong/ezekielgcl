@@ -5,10 +5,10 @@
       "name": "码农笔记",
       "type": "Template",
       "command": true,
-      "templatePath": "Template/码农笔记——Template 2.md",
+      "templatePath": "Template/码农笔记——Template.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{VALUE:Title}}"
+        "format": "{{VALUE:title}}"
       },
       "folder": {
         "enabled": true,
