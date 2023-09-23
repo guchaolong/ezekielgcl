@@ -13,5 +13,5 @@
 跳出中括号：`shift+]`**
 
 
-大小写切换：cmd + shift + u
+大小写切换：`cmd + shift + u`
 

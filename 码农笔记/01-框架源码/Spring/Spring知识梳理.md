@@ -39,11 +39,11 @@ Spring 框架是一个<mark style="background: #FF5582A6;">轻量级</mark>的�
 - 轻量级的 IOC 容器往往是<mark style="background: #FF5582A6;">轻量</mark>级的，例如，特别是当与 EJB 容器相比的时候。这有利于在<mark style="background: #FF5582A6;">内存</mark>和 <mark style="background: #FF5582A6;">CPU</mark> 资源有限的计算机上开发和部署应用程序。
 - Spring 提供了一致的<mark style="background: #FF5582A6;">事务管理</mark>接口，可向下扩展到（使用一个单一的数据库，例如）本地事务并扩展到全局事务（例如，使用 JTA）
 
-## Spring体系结构
+# Spring体系结构
 
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913102000.png)
 
-### Core Container(核心容器)
+## Core Container(核心容器)
 
 Spring 的核心容器是<mark style="background: #FF5582A6;">其他模块</mark>建立的<mark style="background: #FF5582A6;">基础</mark>，由 Beans 模块、Core 核心模块、Context 上下文模块和 SpEL 表达式语言模块组成，没有这些核心容器，也不可能有 AOP、Web 等上层的功能。具体介绍如下 
 
@@ -55,7 +55,7 @@ Spring 的核心容器是<mark style="background: #FF5582A6;">其他模块</mark
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103630.png)
 
 
-### Data Access/Integration（数据访问/集成）
+## Data Access/Integration（数据访问/集成）
 
 数据访问/集成层包括 JDBC，ORM，OXM，JMS 和 Transactions 模块，它们的细节如下：
 （注：JDBC=Java Data Base Connectivity，ORM=Object Relational Mapping，OXM=Object XML Mapping，JMS=Java Message Service）  
@@ -68,7 +68,7 @@ Spring 的核心容器是<mark style="background: #FF5582A6;">其他模块</mark
 
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103130.png)
 
-### Web模块
+## Web模块
 
 Spring 的 Web 层包括 Web、Servlet、WebSocket 和 Webflux 组件，具体介绍如下。
 
@@ -81,7 +81,7 @@ Spring 的 Web 层包括 Web、Servlet、WebSocket 和 Webflux 组件，具体�
 - **Portlet 模块**：提供了在 Portlet 环境中使用 MVC 实现，类似 Web-Servlet 模块的功能。
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103456.png)
 
-### AOP、Aspects、Instrumentation和Messaging
+## AOP、Aspects、Instrumentation和Messaging
 
 在 Core Container 之上是 AOP、Aspects 等模块，具体介绍如下：
 
@@ -94,13 +94,12 @@ Spring 的 Web 层包括 Web、Servlet、WebSocket 和 Webflux 组件，具体�
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103828.png)
 
 
-### Test模块
+## Test模块
 
 Test 模块：Spring 支持 <mark style="background: #FF5582A6;">Junit</mark> 和 <mark style="background: #FF5582A6;">TestNG</mark> 测试框架，而且还额外提供了一些基于 Spring 的测试功能，比如在测试 Web 框架时，模拟 Http 请求的功能。
 
 包含Mock Objects, TestContext Framework, Spring MVC Test, WebTestClient。
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230913103945.png)
-
 
 
 # Spring的核心要点
@@ -112,6 +111,7 @@ Test 模块：Spring 支持 <mark style="background: #FF5582A6;">Junit</mark> �
 - Spring 框架既然接管了Bean的生成，必然需要**管理整个Bean的生命周期**等；
 - 应用程序代码从Ioc Container中获取依赖的Bean，注入到应用程序中，这个过程叫 **依赖注入(Dependency Injection，DI)** ； 所以说控制反转是通过依赖注入实现的，其实它们是同一个概念的不同角度描述。通俗来说就是**IoC是设计思想，DI是实现方式**
 - 在依赖注入时，有哪些方式呢？这就是构造器方式，@Autowired, @Resource, @Qualifier... 同时Bean之间存在依赖（可能存在先后顺序问题，以及**循环依赖问题**等）
+- 
 
 ## 面向切面 - AOP
 
@@ -130,7 +130,7 @@ Springboot通过<mark style="background: #FF5582A6;">约定大于配置</mark>�
 Ioc—Inversion of Control，即“控制反转”，<mark style="background: #FF5582A6;">不是什么技术，而是一种设计思想</mark>。在Java开发中，Ioc意味着将你设计好的对象交给容器控制，而不是传统的在你的对象内部直接控制
 
 ## IoC和DI是什么关系
-控制反转是通过依赖注入实现的，其实它们是同一个概念的不同角度描述。通俗来说就是<mark style="background: #FF5582A6;">IoC是设计思想，DI是实现方式</mark>。
+控制反转是通过依赖注入实现的，其实它们是同一个概念的不同角度描述。通俗来说就是<mark style="background: #FF5582A6;">IoC是设计思想，DI是实现方式</mark>
 
 ## Spring IoC 容器
 IOC 容器具有依赖注入功能的容器，它可以创建对象，IOC 容器负责实例化、定位、配置应用程序中的对象及建立这些对象间的依赖。通常new一个实例，控制权由程序员控制，而"控制反转"是指new实例工作不由程序员来做而是交给Spring容器来做。在Spring中<mark style="background: #FF5582A6;">BeanFactory</mark>是IOC容器的实际代表者
@@ -138,6 +138,7 @@ IOC 容器具有依赖注入功能的容器，它可以创建对象，IOC 容器
 Spring实现IOC容器的方式有两种
 1. <mark style="background: #FF5582A6;">BeanFactory</mark> 容器,spring框架的基础设施，<mark style="background: #FF5582A6;">面向spring本身</mark>
 2. <mark style="background: #FF5582A6;">ApplicationContext</mark> 容器,BeanFactory的子接口，<mark style="background: #FF5582A6;">面向开发者</mark>，几乎所有的场合都可以使用ApprlicationContext而非底层的BeanFactory
+3. 
 
 ### BeanFactory 容器
 这是一个最简单的容器，它主要的功能是为依赖注入 （DI） 提供支持，这个容器接口在 org.springframework.beans.factory.BeanFactory中被定义。BeanFactory 和相关的接口，比如BeanFactoryAware、DisposableBean、InitializingBean，仍旧保留在 Spring 中，主要目的是向后兼容已经存在的和那些 Spring 整合在一起的第三方框架。
@@ -495,7 +496,6 @@ Spring 支持使用`@Autowired`, `@Resource`, `@Inject` 三个注解进行依
 @Inject是根据<mark style="background: #FF5582A6;">类型</mark>进行自动装配的，如果需要按名称进行装配，则需要配合<mark style="background: #FF5582A6;">@Named</mark>
 @Inject可以作用在变量、setter方法、构造函数上，和@Autowired一样
 @Named("xxx") 中的 xxx是 Bean 的名称，所以 @Inject和 @Named结合使用时，自动注入的策略就从 byType 转变成 byName 了
-
 
 
 3 @Resource
