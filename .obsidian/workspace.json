@@ -11,8 +11,48 @@
             "id": "c365b69869006490",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72728ba1873b83e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/05-微服务系列/Spring Cloud.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a066eb58fe0db4dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/05-微服务系列/微服务框架介绍.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27bf6873ddcf51d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md"
+              }
             }
           },
           {
@@ -166,8 +210,11 @@
   },
   "active": "c365b69869006490",
   "lastOpenFiles": [
-    "HomePage.md",
     "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
+    "码农笔记/05-微服务系列/微服务框架介绍.md",
+    "码农笔记/05-微服务系列/Spring Cloud.md",
+    "码农笔记/05-微服务系列/Spring Cloud Alibaba.md",
+    "HomePage.md",
     "码农笔记/00-Java基础/JVM基础——马士兵.md",
     "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/Y-前端/前端基础.md",
@@ -190,9 +237,6 @@
     "Everything/Markdown语法.md",
     "码农笔记/07-互联网工具/Git总结.md",
     "Everything/Mac------工欲善其事 必先利其器.md",
-    "Everything/Win------装机必备软件.md",
-    "个人成长/日记/2023-09-23-周六.md",
-    "Template/码农笔记——Template 1.md",
     "sdf",
     "附件素材/码农/Tomcat 专题.pdf",
     "附件素材/码农/springcloudalibaba全解.pdf",
