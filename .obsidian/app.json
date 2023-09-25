@@ -8,5 +8,6 @@
   "showIndentGuide": true,
   "legacyEditor": false,
   "propertiesInDocument": "visible",
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "spellcheck": false
 }
