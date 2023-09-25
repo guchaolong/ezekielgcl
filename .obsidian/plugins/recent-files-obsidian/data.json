@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "IDEA",
+      "path": "码农笔记/07-互联网工具/IDEA.md"
+    },
+    {
+      "basename": "Full GC怎么查",
+      "path": "码农笔记/00-Java基础/Full GC怎么查.md"
+    },
+    {
+      "basename": "LAZADA",
+      "path": "码农笔记/Z-面试/LAZADA.md"
+    },
+    {
+      "basename": "Lazada云原生",
+      "path": "码农笔记/Z-面试/Lazada云原生.md"
+    },
+    {
+      "basename": "复习计划",
+      "path": "码农笔记/Z-面试/复习计划.md"
+    },
+    {
+      "basename": "SpringBoot常用注解",
+      "path": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md"
+    },
+    {
+      "basename": "Spring Cloud Alibaba",
+      "path": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md"
+    },
+    {
       "basename": "HomePage",
       "path": "HomePage.md"
     },
@@ -165,40 +193,12 @@
       "path": "码农笔记/Z-面试/问题汇总.md"
     },
     {
-      "basename": "复习计划",
-      "path": "码农笔记/Z-面试/复习计划.md"
-    },
-    {
       "basename": "SpringBoot知识梳理",
       "path": "码农笔记/01-框架源码/SpringBoot/SpringBoot知识梳理.md"
     },
     {
-      "basename": "SpringBoot常用注解",
-      "path": "码农笔记/01-框架源码/SpringBoot/SpringBoot常用注解.md"
-    },
-    {
       "basename": "微服务框架介绍",
       "path": "码农笔记/05-微服务系列/微服务框架介绍.md"
-    },
-    {
-      "basename": "程序员的未来：工作和学习都要依赖AI了？",
-      "path": "码农笔记/X-AI/程序员的未来：工作和学习都要依赖AI了？.md"
-    },
-    {
-      "basename": "左神算法视频笔记",
-      "path": "码农笔记/C-算法与数据结构/左神算法视频笔记.md"
-    },
-    {
-      "basename": "dataview",
-      "path": "附件素材/dataview/dataview.md"
-    },
-    {
-      "basename": "IDEA",
-      "path": "码农笔记/07-互联网工具/IDEA.md"
-    },
-    {
-      "basename": "Spring Cloud",
-      "path": "码农笔记/05-微服务系列/Spring Cloud.md"
     }
   ],
   "omittedPaths": [],

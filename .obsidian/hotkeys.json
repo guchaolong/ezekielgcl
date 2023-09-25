@@ -7,68 +7,12 @@
       "key": "Insert"
     }
   ],
-  "highlightr-plugin:Red": [
+  "editor:toggle-highlight": [
     {
       "modifiers": [
         "Ctrl"
       ],
       "key": "1"
-    }
-  ],
-  "highlightr-plugin:Purple": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "2"
-    }
-  ],
-  "highlightr-plugin:Pink": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "3"
-    }
-  ],
-  "highlightr-plugin:Green": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "4"
-    }
-  ],
-  "highlightr-plugin:Blue": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "5"
-    }
-  ],
-  "highlightr-plugin:Cyan": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "6"
-    }
-  ],
-  "highlightr-plugin:Grey": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "7"
-    }
-  ],
-  "highlightr-plugin:Orange": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "8"
     }
   ]
 }
