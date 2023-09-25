@@ -73,6 +73,7 @@ redmart、digital、preSale、sof、sellerId、channel
 
 
 # 技术栈
+[阿里云文档-阿里云文档中心-阿里云帮助中心-阿里云，领先的云计算服务提供商](https://help.aliyun.com/?spm=a2c4g.120868.0.0.6bca2ee06Amy1p)
 
 ## 云原生
 [[Lazada云原生]]
