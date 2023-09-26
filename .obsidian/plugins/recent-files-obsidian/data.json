@@ -5,6 +5,34 @@
       "path": "码农笔记/Z-面试/LAZADA.md"
     },
     {
+      "basename": "JVM之 类加载过程",
+      "path": "码农笔记/00-Java基础/JVM之 类加载过程.md"
+    },
+    {
+      "basename": "JVM之 方法区、永久代、元空间三者的区别",
+      "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
+    },
+    {
+      "basename": "Java内存区域和内存模型（JMM）",
+      "path": "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md"
+    },
+    {
+      "basename": "联合索引-最左匹配原则",
+      "path": "码农笔记/A-数据库/联合索引-最左匹配原则.md"
+    },
+    {
+      "basename": "mysql梳理",
+      "path": "码农笔记/A-数据库/mysql梳理.md"
+    },
+    {
+      "basename": "Hash索引",
+      "path": "码农笔记/A-数据库/Hash索引.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
       "basename": "Lazada云原生",
       "path": "码农笔记/Z-面试/Lazada云原生.md"
     },
@@ -29,20 +57,12 @@
       "path": "码农笔记/05-微服务系列/Spring Cloud Alibaba.md"
     },
     {
-      "basename": "HomePage",
-      "path": "HomePage.md"
-    },
-    {
       "basename": "Spring知识梳理",
       "path": "码农笔记/01-框架源码/Spring/Spring知识梳理.md"
     },
     {
       "basename": "JVM基础——马士兵",
       "path": "码农笔记/00-Java基础/JVM基础——马士兵.md"
-    },
-    {
-      "basename": "JVM之 方法区、永久代、元空间三者的区别",
-      "path": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
     },
     {
       "basename": "前端基础",
@@ -87,10 +107,6 @@
     {
       "basename": "项目启动完成时----do something",
       "path": "码农笔记/01-框架源码/SpringBoot/项目启动完成时----do something.md"
-    },
-    {
-      "basename": "Java内存区域和内存模型（JMM）",
-      "path": "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md"
     },
     {
       "basename": "Java基础知识",
@@ -183,22 +199,6 @@
     {
       "basename": "并发编程专题-图灵三期",
       "path": "码农笔记/02-并发编程/并发编程专题-图灵三期.md"
-    },
-    {
-      "basename": "并发编程-马士兵",
-      "path": "码农笔记/02-并发编程/并发编程-马士兵.md"
-    },
-    {
-      "basename": "问题汇总",
-      "path": "码农笔记/Z-面试/问题汇总.md"
-    },
-    {
-      "basename": "SpringBoot知识梳理",
-      "path": "码农笔记/01-框架源码/SpringBoot/SpringBoot知识梳理.md"
-    },
-    {
-      "basename": "微服务框架介绍",
-      "path": "码农笔记/05-微服务系列/微服务框架介绍.md"
     }
   ],
   "omittedPaths": [],

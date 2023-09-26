@@ -18,6 +18,66 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7ad1abe13735498e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ede7b3bffe0a374f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3df32c5779f198b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/00-Java基础/JVM之 类加载过程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8de60d79ca7a2a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/A-数据库/Hash索引.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93adb0b67efb9e9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/A-数据库/联合索引-最左匹配原则.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -160,7 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 407.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,9 +240,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "435d8e411d59a363",
+  "active": "b288e8fca591ce9f",
   "lastOpenFiles": [
+    "码农笔记/00-Java基础/JVM之 类加载过程.md",
+    "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
+    "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
     "码农笔记/Z-面试/LAZADA.md",
+    "码农笔记/A-数据库/联合索引-最左匹配原则.md",
+    "码农笔记/A-数据库/mysql梳理.md",
+    "码农笔记/A-数据库/Hash索引.md",
+    "HomePage.md",
     "码农笔记/Z-面试/Lazada云原生.md",
     "码农笔记/07-互联网工具/IDEA.md",
     "码农笔记/00-Java基础/Full GC怎么查.md",
@@ -192,9 +259,7 @@
     "码农笔记/01-框架源码/Spring/Spring知识梳理.md",
     "码农笔记/05-微服务系列/微服务框架介绍.md",
     "码农笔记/05-微服务系列/Spring Cloud.md",
-    "HomePage.md",
     "码农笔记/00-Java基础/JVM基础——马士兵.md",
-    "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/Y-前端/前端基础.md",
     "码农笔记/Z-面试/找工作更多的是技巧.md",
     "Everything/起名.md",
@@ -203,11 +268,6 @@
     "码农笔记/00-Java基础/二进制、原码、反码、补码.md",
     "码农笔记/C-算法与数据结构/排序算法.md",
     "码农笔记/C-算法与数据结构/常用算法.md",
-    "码农笔记/00-Java基础/GC和GC Tuning.md",
-    "Everything/Obsidian折腾记录.md",
-    "码农笔记/01-框架源码/SpringBoot/项目启动完成时----do something.md",
-    "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
-    "码农笔记/00-Java基础/Java基础知识.md",
     "6gdg",
     "sdf",
     "附件素材/码农/Tomcat 专题.pdf",
