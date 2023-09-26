@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "35dfbaa7f14e4750",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/04-分布式框架/RocketMQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7ad1abe13735498e",
             "type": "leaf",
             "state": {
@@ -79,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/Z-面试/LAZADA.md",
+                "file": "码农笔记/04-分布式框架/RocketMQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/Z-面试/LAZADA.md",
+                "file": "码农笔记/04-分布式框架/RocketMQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -193,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/Z-面试/LAZADA.md"
+                "file": "码农笔记/04-分布式框架/RocketMQ.md"
               }
             }
           },
@@ -240,12 +253,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b288e8fca591ce9f",
+  "active": "35dfbaa7f14e4750",
   "lastOpenFiles": [
+    "码农笔记/Z-面试/LAZADA.md",
     "码农笔记/00-Java基础/JVM之 类加载过程.md",
     "码农笔记/00-Java基础/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/00-Java基础/Java内存区域和内存模型（JMM）.md",
-    "码农笔记/Z-面试/LAZADA.md",
     "码农笔记/A-数据库/联合索引-最左匹配原则.md",
     "码农笔记/A-数据库/mysql梳理.md",
     "码农笔记/A-数据库/Hash索引.md",

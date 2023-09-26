@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "RocketMQ",
+      "path": "码农笔记/04-分布式框架/RocketMQ.md"
+    },
+    {
       "basename": "LAZADA",
       "path": "码农笔记/Z-面试/LAZADA.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "2023-08-12-周六",
       "path": "个人成长/日记/2023-08-12-周六.md"
-    },
-    {
-      "basename": "RocketMQ",
-      "path": "码农笔记/04-分布式框架/RocketMQ.md"
     },
     {
       "basename": "Zookeeper",
