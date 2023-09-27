@@ -76,8 +76,7 @@
 [https://www.jianshu.com/p/989d3b06a49d](https://www.jianshu.com/p/989d3b06a49d) 
 8.  分配担保：（不重要）
 YGC期间 survivor区空间不够了 空间担保直接进入老年代
-参考：[https://cloud.tencent.com/developer/article/1082730](https://cloud.tencent.com/developer/article/1082730) 
-
+参考：[JVM内存分配担保机制-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1082730)
 #### 5.常见的垃圾回收器
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1681973740008-1a7c75d1-a833-4767-9165-2d571ac0e4bd.png#averageHue=%231b231d&clientId=u91fbcbbd-99a1-4&from=paste&height=376&id=dKVOH&originHeight=751&originWidth=1643&originalType=binary&ratio=2&rotation=0&showTitle=false&size=971581&status=done&style=none&taskId=ued13868d-5ad1-4a9a-8d0d-162859fcfa5&title=&width=821.5)
 

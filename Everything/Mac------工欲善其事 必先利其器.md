@@ -480,7 +480,7 @@ mvn -v
 `./zshrc`配置环境变量，加上
 ```shell
 export GRADLE_HOME=/Users/ezekiel/DevTool/gradle-7.6
-export GRADLE_USER_HOME=/Users/ezekiel/DevTool/gradle-repository
+export GRADLE_USER_HOME=/Users/ezekiel/DevTool/gradle_user_home
 export PATH=$PATH:$GRADLE_HOME/bin
 ```
 `source ~/.zshrc`
