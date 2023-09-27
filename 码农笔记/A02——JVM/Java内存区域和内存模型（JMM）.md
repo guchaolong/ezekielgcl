@@ -40,20 +40,17 @@ java内存区域（运行时数据区）和java内存模型（JMM）是两个不
 JDK1.8（含）之后：
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230808035349.png)
 
-我们可以把它们分为两个类型的区域，一种是线程私有的，另一种是线程共享的
+我们可以把它们分为==两个类型的区域==，一种是==线程私有==的，另一种是==线程共享==的
+
 
 更详细的图:
 
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/20230808035426.png)
-jdk1.7开始，字符串常量池，静态变量移除出永久代，保存在堆中。
-
+jdk1.7开始，**字符串常量池**，**静态变量**移除出永久代，保存在堆中。
 
 
 
 [[JVM之 方法区、永久代、元空间三者的区别]]
-
-
-
 
 
 Java内存模型(Java Memory Model简称<mark style="background: #FF5582A6;">JMM</mark>)是一种抽象的概念，并不真实存在，它描

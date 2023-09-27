@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "0-目录",
-      "path": "码农笔记/01-图灵五期/0-目录.md"
-    },
-    {
-      "basename": "微服务框架介绍",
-      "path": "码农笔记/微服务框架介绍.md"
-    },
-    {
-      "basename": "Zookeeper",
-      "path": "码农笔记/Zookeeper.md"
-    },
-    {
-      "basename": "RocketMQ",
-      "path": "码农笔记/RocketMQ.md"
-    },
-    {
-      "basename": "JVM基础——马士兵",
-      "path": "码农笔记/A-Java基础/JVM基础——马士兵.md"
-    },
-    {
-      "basename": "Java内存区域和内存模型（JMM）",
-      "path": "码农笔记/A-Java基础/Java内存区域和内存模型（JMM）.md"
-    },
-    {
-      "basename": "JVM之 类加载过程",
-      "path": "码农笔记/A-Java基础/JVM之 类加载过程.md"
-    },
-    {
-      "basename": "JVM之 方法区、永久代、元空间三者的区别",
-      "path": "码农笔记/A-Java基础/JVM之 方法区、永久代、元空间三者的区别.md"
-    },
-    {
-      "basename": "Java开发手册",
-      "path": "码农笔记/A-Java基础/Java开发手册.md"
-    },
-    {
-      "basename": "Java基础知识",
-      "path": "码农笔记/A-Java基础/Java基础知识.md"
-    },
-    {
-      "basename": "java基础",
-      "path": "码农笔记/A-Java基础/java基础.md"
-    },
-    {
-      "basename": "IO、NIO、AIO、Netty",
-      "path": "码农笔记/A-Java基础/IO、NIO、AIO、Netty.md"
-    },
-    {
-      "basename": "主内存与工作内存",
-      "path": "码农笔记/A-Java基础/主内存与工作内存.md"
-    },
-    {
       "basename": "Full GC怎么查",
-      "path": "码农笔记/A-Java基础/Full GC怎么查.md"
-    },
-    {
-      "basename": "并发编程专题-图灵三期",
-      "path": "码农笔记/01-图灵五期/2-并发编程/并发编程专题-图灵三期.md"
-    },
-    {
-      "basename": "并发编程——汇总",
-      "path": "码农笔记/01-图灵五期/2-并发编程/并发编程——汇总.md"
-    },
-    {
-      "basename": "并发编程-马士兵",
-      "path": "码农笔记/01-图灵五期/2-并发编程/并发编程-马士兵.md"
-    },
-    {
-      "basename": "Spring知识梳理",
-      "path": "码农笔记/Spring/Spring知识梳理.md"
-    },
-    {
-      "basename": "GC和GC Tuning",
-      "path": "码农笔记/A-Java基础/GC和GC Tuning.md"
+      "path": "码农笔记/A03——GC/Full GC怎么查.md"
     },
     {
       "basename": "垃圾收集器",
-      "path": "码农笔记/A-Java基础/垃圾收集器.md"
+      "path": "码农笔记/A03——GC/垃圾收集器.md"
+    },
+    {
+      "basename": "Nacos",
+      "path": "码农笔记/C00——微服务/SpringCloud Alibaba/Nacos.md"
+    },
+    {
+      "basename": "sentinel",
+      "path": "码农笔记/C00——微服务/SpringCloud Alibaba/sentinel.md"
+    },
+    {
+      "basename": "微服务框架介绍",
+      "path": "码农笔记/C00——微服务/微服务框架介绍.md"
+    },
+    {
+      "basename": "Spring Cloud",
+      "path": "码农笔记/C00——微服务/Spring Cloud.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "码农笔记/C10——分布式框架/Redis/Redis.md"
+    },
+    {
+      "basename": "Spring知识梳理",
+      "path": "码农笔记/A20——Spring/Spring知识梳理.md"
+    },
+    {
+      "basename": "IO、NIO、AIO、Netty",
+      "path": "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md"
     },
     {
       "basename": "二进制、原码、反码、补码",
-      "path": "码农笔记/A-Java基础/二进制、原码、反码、补码.md"
+      "path": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md"
     },
     {
-      "basename": "Tomcat专题",
-      "path": "码农笔记/Tomcat/Tomcat专题.md"
+      "basename": "Java开发手册",
+      "path": "码农笔记/A00——Java基础/Java开发手册.md"
     },
     {
-      "basename": "Tomcat是一个Servlet容器？",
-      "path": "码农笔记/Tomcat/Tomcat是一个Servlet容器？.md"
+      "basename": "Java基础知识",
+      "path": "码农笔记/A00——Java基础/Java基础知识.md"
     },
     {
-      "basename": "Tomcat热部署与热加载",
-      "path": "码农笔记/Tomcat/Tomcat热部署与热加载.md"
+      "basename": "Java内存区域和内存模型（JMM）",
+      "path": "码农笔记/A02——JVM/Java内存区域和内存模型（JMM）.md"
     },
     {
-      "basename": "Tomcat架构图",
-      "path": "码农笔记/Tomcat/Tomcat架构图.md"
+      "basename": "JVM之 方法区、永久代、元空间三者的区别",
+      "path": "码农笔记/A02——JVM/JVM之 方法区、永久代、元空间三者的区别.md"
     },
     {
-      "basename": "Tomcat 性能调优",
-      "path": "码农笔记/Tomcat/Tomcat 性能调优.md"
+      "basename": "GitHub 上标星 115k+ 的 Java 教程",
+      "path": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
     },
     {
-      "basename": "Tomcat",
-      "path": "码农笔记/Tomcat/Tomcat.md"
+      "basename": "阿里巴巴Java开发手册2022最新版(黄山版)",
+      "path": "附件素材/码农/阿里巴巴Java开发手册2022最新版(黄山版).pdf"
     },
     {
-      "basename": "项目启动完成时----do something",
-      "path": "码农笔记/SpringBoot/项目启动完成时----do something.md"
+      "basename": "JVM基础——马士兵",
+      "path": "码农笔记/A02——JVM/JVM基础——马士兵.md"
+    },
+    {
+      "basename": "HomePage",
+      "path": "HomePage.md"
+    },
+    {
+      "basename": "主内存与工作内存",
+      "path": "码农笔记/A04——多线程并发/主内存与工作内存.md"
+    },
+    {
+      "basename": "GC和GC Tuning",
+      "path": "码农笔记/A03——GC/GC和GC Tuning.md"
+    },
+    {
+      "basename": "JVM之 类加载过程",
+      "path": "码农笔记/A02——JVM/JVM之 类加载过程.md"
+    },
+    {
+      "basename": "并发编程专题-图灵三期",
+      "path": "码农笔记/A04——多线程并发/并发编程专题-图灵三期.md"
+    },
+    {
+      "basename": "并发编程——汇总",
+      "path": "码农笔记/A04——多线程并发/并发编程——汇总.md"
+    },
+    {
+      "basename": "并发编程-马士兵",
+      "path": "码农笔记/A04——多线程并发/并发编程-马士兵.md"
+    },
+    {
+      "basename": "起名",
+      "path": "Everything/起名.md"
+    },
+    {
+      "basename": "Win——DIY PC",
+      "path": "Everything/Win——DIY PC.md"
+    },
+    {
+      "basename": "Win——装机必备软件",
+      "path": "Everything/Win——装机必备软件.md"
+    },
+    {
+      "basename": "Mac——工欲善其事 必先利其器",
+      "path": "Everything/Mac——工欲善其事 必先利其器.md"
+    },
+    {
+      "basename": "宽带 网速 光猫 路由器 网速 ......",
+      "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
+    },
+    {
+      "basename": "科学上网翻墙VPN机场外网",
+      "path": "Everything/科学上网翻墙VPN机场外网.md"
+    },
+    {
+      "basename": "重构",
+      "path": "码农笔记/S10——解决方案/重构.md"
+    },
+    {
+      "basename": "项目架构演变",
+      "path": "码农笔记/S10——解决方案/项目架构演变.md"
+    },
+    {
+      "basename": "链式处理",
+      "path": "码农笔记/S10——解决方案/链式处理.md"
     },
     {
       "basename": "超简单的6种防止数据重复提交的方法",
-      "path": "码农笔记/01-图灵五期/6-项目实战/超简单的6种防止数据重复提交的方法.md"
+      "path": "码农笔记/S10——解决方案/超简单的6种防止数据重复提交的方法.md"
     },
     {
-      "basename": "23个设计模式总结",
-      "path": "码农笔记/B-设计模式/23个设计模式总结.md"
+      "basename": "程序员的未来：工作和学习都要依赖AI了？",
+      "path": "码农笔记/Z10——AI/程序员的未来：工作和学习都要依赖AI了？.md"
     },
     {
-      "basename": "快速总结",
-      "path": "码农笔记/B-设计模式/快速总结.md"
+      "basename": "0-目录",
+      "path": "码农笔记/X00——图灵五期/0-目录.md"
     },
     {
-      "basename": "Spring框架中的设计模式",
-      "path": "码农笔记/B-设计模式/Spring框架中的设计模式.md"
+      "basename": "排序算法",
+      "path": "码农笔记/K00——算法与数据结构/排序算法.md"
     },
     {
-      "basename": "联合索引-最左匹配原则",
-      "path": "码农笔记/D-数据库/联合索引-最左匹配原则.md"
+      "basename": "常用算法",
+      "path": "码农笔记/K00——算法与数据结构/常用算法.md"
     },
     {
-      "basename": "VSCode",
-      "path": "码农笔记/01-图灵五期/7-互联网工具/VSCode.md"
+      "basename": "RocketMQ",
+      "path": "码农笔记/C10——分布式框架/RocketMQ.md"
     },
     {
-      "basename": "Nginx",
-      "path": "码农笔记/01-图灵五期/7-互联网工具/Nginx.md"
+      "basename": "Linux学习笔记",
+      "path": "码农笔记/H10——Linux/Linux学习笔记.md"
     },
     {
-      "basename": "JMeter",
-      "path": "码农笔记/01-图灵五期/7-互联网工具/JMeter.md"
+      "basename": "速学150个Linux常用命令",
+      "path": "码农笔记/H10——Linux/速学150个Linux常用命令.md"
     },
     {
-      "basename": "IDEA",
-      "path": "码农笔记/01-图灵五期/7-互联网工具/IDEA.md"
-    },
-    {
-      "basename": "Gradle",
-      "path": "码农笔记/01-图灵五期/7-互联网工具/Gradle.md"
-    },
-    {
-      "basename": "Git总结",
-      "path": "码农笔记/01-图灵五期/7-互联网工具/Git总结.md"
+      "basename": "Kali Linux",
+      "path": "码农笔记/H10——Linux/Kali Linux.md"
     },
     {
       "basename": "Docker",
-      "path": "码农笔记/E-Docker/Docker.md"
+      "path": "码农笔记/H20——Docker/Docker.md"
     },
     {
-      "basename": "2023-08-16-周三",
-      "path": "个人成长/日记/2023-08-16-周三.md"
+      "basename": "23个设计模式总结",
+      "path": "码农笔记/K20——设计模式/23个设计模式总结.md"
     },
     {
-      "basename": "计算机网络",
-      "path": "码农笔记/H-计算机网络/计算机网络.md"
-    },
-    {
-      "basename": "LAZADA",
-      "path": "码农笔记/Z-面试/LAZADA.md"
-    },
-    {
-      "basename": "Mac------工欲善其事 必先利其器",
-      "path": "Everything/Mac------工欲善其事 必先利其器.md"
-    },
-    {
-      "basename": "Mac zsh Item2命令",
-      "path": "码农笔记/D-Linux/Mac zsh Item2命令.md"
-    },
-    {
-      "basename": "Linux命令积累",
-      "path": "码农笔记/D-Linux/Linux命令积累.md"
-    },
-    {
-      "basename": "复习计划",
-      "path": "码农笔记/Z-面试/复习计划.md"
-    },
-    {
-      "basename": "问题汇总",
-      "path": "码农笔记/Z-面试/问题汇总.md"
+      "basename": "Zookeeper",
+      "path": "码农笔记/C10——分布式框架/Zookeeper.md"
     },
     {
       "basename": "mysql梳理",
-      "path": "码农笔记/D-数据库/mysql梳理.md"
+      "path": "码农笔记/A10——Mysql/mysql梳理.md"
     },
     {
       "basename": "Hash索引",
-      "path": "码农笔记/D-数据库/Hash索引.md"
+      "path": "码农笔记/A10——Mysql/Hash索引.md"
+    },
+    {
+      "basename": "联合索引-最左匹配原则",
+      "path": "码农笔记/A10——Mysql/联合索引-最左匹配原则.md"
+    },
+    {
+      "basename": "项目启动完成时do something",
+      "path": "码农笔记/A30——SpringBoot/项目启动完成时do something.md"
+    },
+    {
+      "basename": "tiling-3-vip-Redis",
+      "path": "码农笔记/C10——分布式框架/Redis/tiling-3-vip-Redis.md"
     }
   ],
   "omittedPaths": [],
