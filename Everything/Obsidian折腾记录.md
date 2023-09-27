@@ -101,6 +101,10 @@ action https://forum.obsidian.md/
 ## 悬浮目录——floating toc
 开启后，在style setting中设置风格样式，但是因为我关闭了**缩减栏宽**，悬浮目录不好看，所以不开启
 
+## 文件定位在目录——Reveal Active File Button
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202309280536556.png)
+
+
 ## 设置文本高亮颜色——Highlight
 选中文字，然后右键，highlight，设置颜色
 和editing toolbar中的设置高亮重复，但是这个更符合操作习惯

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6408493a08019944",
+        "id": "9e8770e3a95cfea4",
         "type": "tabs",
         "children": [
           {
-            "id": "4b0743b188e8706c",
+            "id": "c3a3e478d0415ab3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -89,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/A03——GC/Full GC怎么查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/A03——GC/Full GC怎么查.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -128,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "码农笔记/A03——GC/Full GC怎么查.md"
-              }
+              "state": {}
             }
           },
           {
@@ -176,8 +172,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "435d8e411d59a363",
+  "active": "c3a3e478d0415ab3",
   "lastOpenFiles": [
+    "Everything/Mac——工欲善其事 必先利其器.md",
+    "码农笔记/A10——Mysql/mysql梳理.md",
+    "Everything/Obsidian折腾记录.md",
     "码农笔记/A03——GC/垃圾收集器.md",
     "码农笔记/C00——微服务/SpringCloud Alibaba/Nacos.md",
     "码农笔记/C00——微服务/SpringCloud Alibaba/sentinel.md",
@@ -205,9 +204,6 @@
     "码农笔记/A03——GC/GC和GC Tuning.md",
     "码农笔记/A03——GC/Full GC怎么查.md",
     "码农笔记/A03——GC",
-    "码农笔记/A02——JVM/JVM之 类加载过程.md",
-    "码农笔记/A04——多线程并发/并发编程专题-图灵三期.md",
-    "码农笔记/A04——多线程并发/并发编程——汇总.md",
     "码农笔记/A04——多线程并发",
     "码农笔记/A02——JVM",
     "码农笔记/S10——解决方案",

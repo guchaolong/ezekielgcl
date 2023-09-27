@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Mac——工欲善其事 必先利其器",
+      "path": "Everything/Mac——工欲善其事 必先利其器.md"
+    },
+    {
+      "basename": "mysql梳理",
+      "path": "码农笔记/A10——Mysql/mysql梳理.md"
+    },
+    {
+      "basename": "Obsidian折腾记录",
+      "path": "Everything/Obsidian折腾记录.md"
+    },
+    {
       "basename": "Full GC怎么查",
       "path": "码农笔记/A03——GC/Full GC怎么查.md"
     },
@@ -109,10 +121,6 @@
       "path": "Everything/Win——装机必备软件.md"
     },
     {
-      "basename": "Mac——工欲善其事 必先利其器",
-      "path": "Everything/Mac——工欲善其事 必先利其器.md"
-    },
-    {
       "basename": "宽带 网速 光猫 路由器 网速 ......",
       "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
     },
@@ -181,10 +189,6 @@
       "path": "码农笔记/C10——分布式框架/Zookeeper.md"
     },
     {
-      "basename": "mysql梳理",
-      "path": "码农笔记/A10——Mysql/mysql梳理.md"
-    },
-    {
       "basename": "Hash索引",
       "path": "码农笔记/A10——Mysql/Hash索引.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "项目启动完成时do something",
       "path": "码农笔记/A30——SpringBoot/项目启动完成时do something.md"
-    },
-    {
-      "basename": "tiling-3-vip-Redis",
-      "path": "码农笔记/C10——分布式框架/Redis/tiling-3-vip-Redis.md"
     }
   ],
   "omittedPaths": [],
