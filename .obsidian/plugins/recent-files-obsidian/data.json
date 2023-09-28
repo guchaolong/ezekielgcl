@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "目录",
+      "path": "码农笔记/X00——图灵五期/目录.md"
+    },
+    {
+      "basename": "Tomcat",
+      "path": "码农笔记/A40——Tomcat/Tomcat.md"
+    },
+    {
       "basename": "问题汇总",
       "path": "码农笔记/Y00——面试/问题汇总.md"
     },
@@ -161,10 +169,6 @@
       "path": "码农笔记/Z10——AI/程序员的未来：工作和学习都要依赖AI了？.md"
     },
     {
-      "basename": "0-目录",
-      "path": "码农笔记/X00——图灵五期/0-目录.md"
-    },
-    {
       "basename": "排序算法",
       "path": "码农笔记/K00——算法与数据结构/排序算法.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "23个设计模式总结",
       "path": "码农笔记/K20——设计模式/23个设计模式总结.md"
-    },
-    {
-      "basename": "Zookeeper",
-      "path": "码农笔记/C10——分布式框架/Zookeeper.md"
     }
   ],
   "omittedPaths": [],
