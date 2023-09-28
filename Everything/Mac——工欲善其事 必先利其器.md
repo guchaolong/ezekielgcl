@@ -14,6 +14,8 @@
 `command + ,`
 ## 访达里显示文件路径
 `option + command + p`
+## 访达里，一键展开/收起目录
+`cmd + a` 全选，然后 `cmd + →`展开， `cmd + ←`收起
 
 ## F1～F12
 安装snipaste的时候都试了一遍

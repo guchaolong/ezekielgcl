@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9e8770e3a95cfea4",
+        "id": "6315a612afd0b0c5",
         "type": "tabs",
         "children": [
           {
-            "id": "c3a3e478d0415ab3",
+            "id": "e02b8ccfc8da5a59",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -172,9 +172,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c3a3e478d0415ab3",
+  "active": "e02b8ccfc8da5a59",
   "lastOpenFiles": [
+    "码农笔记/Y00——面试/问题汇总.md",
+    "码农笔记/Y00——面试/快速笔记.md",
     "Everything/Mac——工欲善其事 必先利其器.md",
+    "码农笔记/Y00——面试/复习计划.md",
     "码农笔记/A10——Mysql/mysql梳理.md",
     "Everything/Obsidian折腾记录.md",
     "码农笔记/A03——GC/垃圾收集器.md",
@@ -200,9 +203,6 @@
     "码农笔记/A02——JVM/JVM基础——马士兵.md",
     "HomePage.md",
     "码农笔记/J10——Netty/Netty教程.md",
-    "码农笔记/A04——多线程并发/主内存与工作内存.md",
-    "码农笔记/A03——GC/GC和GC Tuning.md",
-    "码农笔记/A03——GC/Full GC怎么查.md",
     "码农笔记/A03——GC",
     "码农笔记/A04——多线程并发",
     "码农笔记/A02——JVM",
