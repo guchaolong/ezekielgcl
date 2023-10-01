@@ -41,29 +41,35 @@ RedisInsight：
 
 
 
-# String
-```
-127.0.0.1:6379> set name guchaolong
-OK
-127.0.0.1:6379> get name
-"guchaolong"
-127.0.0.1:6379> set Name GCL
-OK
-127.0.0.1:6379> get Name
-"GCL"
-127.0.0.1:6379>
-127.0.0.1:6379> set age 25
-OK
-127.0.0.1:6379> get age
-"25"
-127.0.0.1:6379> exists name
-(integer) 1
-127.0.0.1:6379> del name
-(integer) 1
-127.0.0.1:6379> exists name
-(integer) 0
-127.0.0.1:6379>
-127.0.0.1:6379>
-```
+# 常用命令
+Redis命令行大全：
+[[RedisCheatSheet-ByGeekHour.pdf]]
 
+## String
+
+`set k1`
+
+`get k1
+`
+`exists k1`  k1是否存在
+
+`keys *`   查看所有key
+
+`del k1`   删除k1
+
+`fulshall`   删除所有key
+
+`ttl k1 `  查看k1的过期时间，返回-1 表示没有设置过期时间,返回 -2 表示已经过期
+
+`expire k1 10`  设置k1 的过期时间为 10s
+
+`setex k2 6 guchao`   设置 k2值为 guchao,过期时间为 6s
+
+`setnx name long`   只有当 name 不存在时才设置为 long,如果存在了，则不做任何操作
+
+如果设置 value 为中，get 的时候会显示成 16 进制
+如果要看中文，则 `quit` 退出客户端，再执行`redis-cli --raw`  --raw 表示以原始的形式显示内容
+
+
+## List
 
