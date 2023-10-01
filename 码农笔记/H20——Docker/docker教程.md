@@ -2,10 +2,6 @@
 #Docker
 
 
-```bash
-service docker start    //启动docker
-```
-
 # 相关文章
 [Docker 入门终极指南，别再说不会用Docker了！](https://mp.weixin.qq.com/s/9LHd9FTdaiZqwUOuyIafpg)
 

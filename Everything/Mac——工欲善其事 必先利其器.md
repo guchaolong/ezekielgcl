@@ -513,5 +513,5 @@ vscode切换中英文
 
 
 ## nginx
-dockr安装 nginx,参考：[[Nginx]]
+dockr安装 nginx,参考：[[docker安装nginx并挂载]]
 

@@ -1,8 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis简单教程",
+      "path": "码农笔记/C10——分布式框架/Redis/Redis简单教程.md"
+    },
+    {
+      "basename": "docker安装单机redis",
+      "path": "码农笔记/H20——Docker/docker安装单机redis.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "码农笔记/C10——分布式框架/Redis/Redis.md"
+    },
+    {
+      "basename": "mysql梳理",
+      "path": "码农笔记/A10——Mysql/mysql梳理.md"
+    },
+    {
+      "basename": "docker安装nginx并挂载",
+      "path": "码农笔记/H20——Docker/docker安装nginx并挂载.md"
+    },
+    {
+      "basename": "docker安装centos7",
+      "path": "码农笔记/H20——Docker/docker安装centos7.md"
+    },
+    {
+      "basename": "docker教程",
+      "path": "码农笔记/H20——Docker/docker教程.md"
+    },
+    {
+      "basename": "tiling-3-vip-Redis",
+      "path": "码农笔记/C10——分布式框架/Redis/tiling-3-vip-Redis.md"
+    },
+    {
+      "basename": "VSCode",
+      "path": "码农笔记/L10——互联网工具/VSCode.md"
+    },
+    {
+      "basename": "Git总结",
+      "path": "码农笔记/L10——互联网工具/Git总结.md"
+    },
+    {
+      "basename": "Gradle",
+      "path": "码农笔记/L10——互联网工具/Gradle.md"
+    },
+    {
+      "basename": "IDEA",
+      "path": "码农笔记/L10——互联网工具/IDEA.md"
+    },
+    {
+      "basename": "JMeter",
+      "path": "码农笔记/L10——互联网工具/JMeter.md"
+    },
+    {
       "basename": "目录",
       "path": "码农笔记/X00——图灵五期/目录.md"
+    },
+    {
+      "basename": "Java开发手册",
+      "path": "码农笔记/A00——Java基础/Java开发手册.md"
+    },
+    {
+      "basename": "JVM基础——马士兵",
+      "path": "码农笔记/A02——JVM/JVM基础——马士兵.md"
+    },
+    {
+      "basename": "JVM之 方法区、永久代、元空间三者的区别",
+      "path": "码农笔记/A02——JVM/JVM之 方法区、永久代、元空间三者的区别.md"
+    },
+    {
+      "basename": "Spring知识梳理",
+      "path": "码农笔记/A20——Spring/Spring知识梳理.md"
     },
     {
       "basename": "Tomcat",
@@ -23,10 +91,6 @@
     {
       "basename": "复习计划",
       "path": "码农笔记/Y00——面试/复习计划.md"
-    },
-    {
-      "basename": "mysql梳理",
-      "path": "码农笔记/A10——Mysql/mysql梳理.md"
     },
     {
       "basename": "Obsidian折腾记录",
@@ -57,24 +121,12 @@
       "path": "码农笔记/C00——微服务/Spring Cloud.md"
     },
     {
-      "basename": "Redis",
-      "path": "码农笔记/C10——分布式框架/Redis/Redis.md"
-    },
-    {
-      "basename": "Spring知识梳理",
-      "path": "码农笔记/A20——Spring/Spring知识梳理.md"
-    },
-    {
       "basename": "IO、NIO、AIO、Netty",
       "path": "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md"
     },
     {
       "basename": "二进制、原码、反码、补码",
       "path": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md"
-    },
-    {
-      "basename": "Java开发手册",
-      "path": "码农笔记/A00——Java基础/Java开发手册.md"
     },
     {
       "basename": "Java基础知识",
@@ -85,20 +137,12 @@
       "path": "码农笔记/A02——JVM/Java内存区域和内存模型（JMM）.md"
     },
     {
-      "basename": "JVM之 方法区、永久代、元空间三者的区别",
-      "path": "码农笔记/A02——JVM/JVM之 方法区、永久代、元空间三者的区别.md"
-    },
-    {
       "basename": "GitHub 上标星 115k+ 的 Java 教程",
       "path": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
     },
     {
       "basename": "阿里巴巴Java开发手册2022最新版(黄山版)",
       "path": "附件素材/码农/阿里巴巴Java开发手册2022最新版(黄山版).pdf"
-    },
-    {
-      "basename": "JVM基础——马士兵",
-      "path": "码农笔记/A02——JVM/JVM基础——马士兵.md"
     },
     {
       "basename": "HomePage",
@@ -155,50 +199,6 @@
     {
       "basename": "项目架构演变",
       "path": "码农笔记/S10——解决方案/项目架构演变.md"
-    },
-    {
-      "basename": "链式处理",
-      "path": "码农笔记/S10——解决方案/链式处理.md"
-    },
-    {
-      "basename": "超简单的6种防止数据重复提交的方法",
-      "path": "码农笔记/S10——解决方案/超简单的6种防止数据重复提交的方法.md"
-    },
-    {
-      "basename": "程序员的未来：工作和学习都要依赖AI了？",
-      "path": "码农笔记/Z10——AI/程序员的未来：工作和学习都要依赖AI了？.md"
-    },
-    {
-      "basename": "排序算法",
-      "path": "码农笔记/K00——算法与数据结构/排序算法.md"
-    },
-    {
-      "basename": "常用算法",
-      "path": "码农笔记/K00——算法与数据结构/常用算法.md"
-    },
-    {
-      "basename": "RocketMQ",
-      "path": "码农笔记/C10——分布式框架/RocketMQ.md"
-    },
-    {
-      "basename": "Linux学习笔记",
-      "path": "码农笔记/H10——Linux/Linux学习笔记.md"
-    },
-    {
-      "basename": "速学150个Linux常用命令",
-      "path": "码农笔记/H10——Linux/速学150个Linux常用命令.md"
-    },
-    {
-      "basename": "Kali Linux",
-      "path": "码农笔记/H10——Linux/Kali Linux.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "码农笔记/H20——Docker/Docker.md"
-    },
-    {
-      "basename": "23个设计模式总结",
-      "path": "码农笔记/K20——设计模式/23个设计模式总结.md"
     }
   ],
   "omittedPaths": [],
