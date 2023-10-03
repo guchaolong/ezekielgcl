@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Mac——工欲善其事 必先利其器",
+      "path": "Everything/Mac——工欲善其事 必先利其器.md"
+    },
+    {
+      "basename": "Java基础知识",
+      "path": "码农笔记/A00——Java基础/Java基础知识.md"
+    },
+    {
+      "basename": "RocketMQ",
+      "path": "码农笔记/C10——分布式框架/RocketMQ.md"
+    },
+    {
+      "basename": "Zookeeper",
+      "path": "码农笔记/C10——分布式框架/Zookeeper.md"
+    },
+    {
+      "basename": "二进制、原码、反码、补码",
+      "path": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md"
+    },
+    {
+      "basename": "问题汇总",
+      "path": "码农笔记/Y00——面试/问题汇总.md"
+    },
+    {
+      "basename": "LAZADA",
+      "path": "码农笔记/Y00——面试/LAZADA.md"
+    },
+    {
+      "basename": "找工作更多的是技巧",
+      "path": "码农笔记/Y00——面试/找工作更多的是技巧.md"
+    },
+    {
+      "basename": "快速笔记",
+      "path": "码农笔记/Y00——面试/快速笔记.md"
+    },
+    {
+      "basename": "复习计划",
+      "path": "码农笔记/Y00——面试/复习计划.md"
+    },
+    {
       "basename": "Redis简单教程",
       "path": "码农笔记/C10——分布式框架/Redis/Redis简单教程.md"
     },
@@ -77,22 +117,6 @@
       "path": "码农笔记/A40——Tomcat/Tomcat.md"
     },
     {
-      "basename": "问题汇总",
-      "path": "码农笔记/Y00——面试/问题汇总.md"
-    },
-    {
-      "basename": "快速笔记",
-      "path": "码农笔记/Y00——面试/快速笔记.md"
-    },
-    {
-      "basename": "Mac——工欲善其事 必先利其器",
-      "path": "Everything/Mac——工欲善其事 必先利其器.md"
-    },
-    {
-      "basename": "复习计划",
-      "path": "码农笔记/Y00——面试/复习计划.md"
-    },
-    {
       "basename": "Obsidian折腾记录",
       "path": "Everything/Obsidian折腾记录.md"
     },
@@ -123,14 +147,6 @@
     {
       "basename": "IO、NIO、AIO、Netty",
       "path": "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md"
-    },
-    {
-      "basename": "二进制、原码、反码、补码",
-      "path": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md"
-    },
-    {
-      "basename": "Java基础知识",
-      "path": "码农笔记/A00——Java基础/Java基础知识.md"
     },
     {
       "basename": "Java内存区域和内存模型（JMM）",
@@ -183,22 +199,6 @@
     {
       "basename": "Win——装机必备软件",
       "path": "Everything/Win——装机必备软件.md"
-    },
-    {
-      "basename": "宽带 网速 光猫 路由器 网速 ......",
-      "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
-    },
-    {
-      "basename": "科学上网翻墙VPN机场外网",
-      "path": "Everything/科学上网翻墙VPN机场外网.md"
-    },
-    {
-      "basename": "重构",
-      "path": "码农笔记/S10——解决方案/重构.md"
-    },
-    {
-      "basename": "项目架构演变",
-      "path": "码农笔记/S10——解决方案/项目架构演变.md"
     }
   ],
   "omittedPaths": [],
