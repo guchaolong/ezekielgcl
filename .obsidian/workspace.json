@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -202,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md",
+                "file": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md",
+                "file": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -242,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md"
+                "file": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md"
               }
             }
           },
@@ -289,8 +289,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "539f8724bdb5ef01",
+  "active": "2bf1e9ae1161bbba",
   "lastOpenFiles": [
+    "Everything/Mac——工欲善其事 必先利其器.md",
     "码农笔记/A00——Java基础/Java基础知识.md",
     "码农笔记/C10——分布式框架/RocketMQ.md",
     "码农笔记/C10——分布式框架/Zookeeper.md",
@@ -317,7 +318,6 @@
     "码农笔记/X00——图灵五期/目录.md",
     "码农笔记/A00——Java基础/Java开发手册.md",
     "码农笔记/A02——JVM/JVM基础——马士兵.md",
-    "码农笔记/A02——JVM/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/C00——微服务/SpringCloud Alibaba",
     "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
     "附件素材/码农/阿里巴巴Java开发手册2022最新版(黄山版).pdf",
