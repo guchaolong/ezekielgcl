@@ -4,131 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3b5def8087c0064e",
+        "id": "889d87115ad4dda5",
         "type": "tabs",
         "children": [
           {
-            "id": "d29549fd54779415",
+            "id": "93cb38638eddbde8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/Y00——面试/复习计划.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac1f201b526a365a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/Y00——面试/快速笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89e203d5c68d5ae8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/Y00——面试/问题汇总.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bf1e9ae1161bbba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0af0b32822640e2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/C10——分布式框架/RocketMQ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "262b1934cd480875",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/A00——Java基础/Java基础知识.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "539f8724bdb5ef01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06ba47714fda2cb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/C10——分布式框架/Zookeeper.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a1fbb7daecb9244",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/Y00——面试/找工作更多的是技巧.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da198b09343e72fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/Y00——面试/LAZADA.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 219.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -202,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -241,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md"
-              }
+              "state": {}
             }
           },
           {
@@ -269,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -289,13 +172,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "2bf1e9ae1161bbba",
+  "active": "93cb38638eddbde8",
   "lastOpenFiles": [
+    "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
     "Everything/Mac——工欲善其事 必先利其器.md",
     "码农笔记/A00——Java基础/Java基础知识.md",
     "码农笔记/C10——分布式框架/RocketMQ.md",
     "码农笔记/C10——分布式框架/Zookeeper.md",
-    "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
     "码农笔记/Y00——面试/问题汇总.md",
     "码农笔记/Y00——面试/LAZADA.md",
     "码农笔记/Y00——面试/找工作更多的是技巧.md",
