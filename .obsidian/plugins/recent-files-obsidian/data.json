@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Mac——工欲善其事 必先利其器",
+      "path": "Everything/Mac——工欲善其事 必先利其器.md"
+    },
+    {
+      "basename": "Obsidian折腾记录",
+      "path": "Everything/Obsidian折腾记录.md"
+    },
+    {
+      "basename": "Markdown语法",
+      "path": "Everything/Markdown语法.md"
+    },
+    {
+      "basename": "起名",
+      "path": "Everything/起名.md"
+    },
+    {
+      "basename": "宽带 网速 光猫 路由器 网速 ......",
+      "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
+    },
+    {
+      "basename": "科学上网翻墙VPN机场外网",
+      "path": "Everything/科学上网翻墙VPN机场外网.md"
+    },
+    {
       "basename": "二进制、原码、反码、补码",
       "path": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md"
     },
     {
-      "basename": "Mac——工欲善其事 必先利其器",
-      "path": "Everything/Mac——工欲善其事 必先利其器.md"
+      "basename": "IO、NIO、AIO、Netty",
+      "path": "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md"
+    },
+    {
+      "basename": "快速总结",
+      "path": "码农笔记/K20——设计模式/快速总结.md"
+    },
+    {
+      "basename": "23个设计模式总结",
+      "path": "码农笔记/K20——设计模式/23个设计模式总结.md"
     },
     {
       "basename": "Java基础知识",
@@ -117,10 +149,6 @@
       "path": "码农笔记/A40——Tomcat/Tomcat.md"
     },
     {
-      "basename": "Obsidian折腾记录",
-      "path": "Everything/Obsidian折腾记录.md"
-    },
-    {
       "basename": "Full GC怎么查",
       "path": "码农笔记/A03——GC/Full GC怎么查.md"
     },
@@ -143,10 +171,6 @@
     {
       "basename": "Spring Cloud",
       "path": "码农笔记/C00——微服务/Spring Cloud.md"
-    },
-    {
-      "basename": "IO、NIO、AIO、Netty",
-      "path": "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md"
     },
     {
       "basename": "Java内存区域和内存模型（JMM）",
@@ -175,30 +199,6 @@
     {
       "basename": "JVM之 类加载过程",
       "path": "码农笔记/A02——JVM/JVM之 类加载过程.md"
-    },
-    {
-      "basename": "并发编程专题-图灵三期",
-      "path": "码农笔记/A04——多线程并发/并发编程专题-图灵三期.md"
-    },
-    {
-      "basename": "并发编程——汇总",
-      "path": "码农笔记/A04——多线程并发/并发编程——汇总.md"
-    },
-    {
-      "basename": "并发编程-马士兵",
-      "path": "码农笔记/A04——多线程并发/并发编程-马士兵.md"
-    },
-    {
-      "basename": "起名",
-      "path": "Everything/起名.md"
-    },
-    {
-      "basename": "Win——DIY PC",
-      "path": "Everything/Win——DIY PC.md"
-    },
-    {
-      "basename": "Win——装机必备软件",
-      "path": "Everything/Win——装机必备软件.md"
     }
   ],
   "omittedPaths": [],

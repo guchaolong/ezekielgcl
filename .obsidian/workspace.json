@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "889d87115ad4dda5",
+        "id": "4b5448f1b4589bd2",
         "type": "tabs",
         "children": [
           {
-            "id": "93cb38638eddbde8",
+            "id": "b30e7b3ca04f1eac",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Everything/Mac——工欲善其事 必先利其器.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Everything/Mac——工欲善其事 必先利其器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Everything/Mac——工欲善其事 必先利其器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Everything/Mac——工欲善其事 必先利其器.md"
+              }
             }
           },
           {
@@ -172,10 +180,18 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "93cb38638eddbde8",
+  "active": "435d8e411d59a363",
   "lastOpenFiles": [
-    "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
+    "Everything/Obsidian折腾记录.md",
+    "Everything/Markdown语法.md",
     "Everything/Mac——工欲善其事 必先利其器.md",
+    "Everything/起名.md",
+    "Everything/宽带 网速 光猫 路由器 网速 .......md",
+    "Everything/科学上网翻墙VPN机场外网.md",
+    "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
+    "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md",
+    "码农笔记/K20——设计模式/快速总结.md",
+    "码农笔记/K20——设计模式/23个设计模式总结.md",
     "码农笔记/A00——Java基础/Java基础知识.md",
     "码农笔记/C10——分布式框架/RocketMQ.md",
     "码农笔记/C10——分布式框架/Zookeeper.md",
@@ -193,14 +209,6 @@
     "码农笔记/H20——Docker/docker安装centos7.md",
     "码农笔记/H20——Docker/docker教程.md",
     "码农笔记/C10——分布式框架/Redis/tiling-3-vip-Redis.md",
-    "码农笔记/L10——互联网工具/VSCode.md",
-    "码农笔记/L10——互联网工具/Git总结.md",
-    "码农笔记/L10——互联网工具/Gradle.md",
-    "码农笔记/L10——互联网工具/IDEA.md",
-    "码农笔记/L10——互联网工具/JMeter.md",
-    "码农笔记/X00——图灵五期/目录.md",
-    "码农笔记/A00——Java基础/Java开发手册.md",
-    "码农笔记/A02——JVM/JVM基础——马士兵.md",
     "码农笔记/C00——微服务/SpringCloud Alibaba",
     "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
     "附件素材/码农/阿里巴巴Java开发手册2022最新版(黄山版).pdf",
