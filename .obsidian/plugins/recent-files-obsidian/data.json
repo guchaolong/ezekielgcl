@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Mac——工欲善其事 必先利其器",
-      "path": "Everything/Mac——工欲善其事 必先利其器.md"
+      "basename": "Win——DIY PC",
+      "path": "Everything/Win——DIY PC.md"
+    },
+    {
+      "basename": "科学上网翻墙VPN机场外网",
+      "path": "Everything/科学上网翻墙VPN机场外网.md"
     },
     {
       "basename": "Obsidian折腾记录",
       "path": "Everything/Obsidian折腾记录.md"
+    },
+    {
+      "basename": "Mac——工欲善其事 必先利其器",
+      "path": "Everything/Mac——工欲善其事 必先利其器.md"
     },
     {
       "basename": "Markdown语法",
@@ -19,10 +27,6 @@
     {
       "basename": "宽带 网速 光猫 路由器 网速 ......",
       "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
-    },
-    {
-      "basename": "科学上网翻墙VPN机场外网",
-      "path": "Everything/科学上网翻墙VPN机场外网.md"
     },
     {
       "basename": "二进制、原码、反码、补码",
@@ -195,10 +199,6 @@
     {
       "basename": "GC和GC Tuning",
       "path": "码农笔记/A03——GC/GC和GC Tuning.md"
-    },
-    {
-      "basename": "JVM之 类加载过程",
-      "path": "码农笔记/A02——JVM/JVM之 类加载过程.md"
     }
   ],
   "omittedPaths": [],
