@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "f53390e4a9f1cdfa",
+        "id": "02dadc5371c661db",
         "type": "tabs",
         "children": [
           {
-            "id": "f3acff3f1356f28b",
+            "id": "37ed77327883ee45",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -172,12 +172,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "f3acff3f1356f28b",
+  "active": "37ed77327883ee45",
   "lastOpenFiles": [
+    "Everything/Mac——工欲善其事 必先利其器.md",
     "Everything/Win——DIY PC.md",
     "Everything/科学上网翻墙VPN机场外网.md",
     "Everything/Obsidian折腾记录.md",
-    "Everything/Mac——工欲善其事 必先利其器.md",
     "Everything/Markdown语法.md",
     "Everything/起名.md",
     "Everything/宽带 网速 光猫 路由器 网速 .......md",
