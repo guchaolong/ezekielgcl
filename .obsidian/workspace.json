@@ -14,8 +14,17 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "565b96981588dd00",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Photo",
+                "query": "tag:#JMM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,8 +182,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "37ed77327883ee45",
+  "active": "565b96981588dd00",
   "lastOpenFiles": [
+    "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md",
     "Everything/Mac——工欲善其事 必先利其器.md",
     "Everything/Win——DIY PC.md",
     "Everything/科学上网翻墙VPN机场外网.md",
@@ -182,7 +193,6 @@
     "Everything/起名.md",
     "Everything/宽带 网速 光猫 路由器 网速 .......md",
     "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
-    "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md",
     "码农笔记/K20——设计模式/快速总结.md",
     "码农笔记/K20——设计模式/23个设计模式总结.md",
     "码农笔记/A00——Java基础/Java基础知识.md",
