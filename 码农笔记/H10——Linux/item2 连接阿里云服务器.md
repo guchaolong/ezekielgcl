@@ -26,7 +26,7 @@ AuthorizedKeysFile .ssh/authorized_keys
 `ssh-copy-id -i ~/.ssh/id_rsa.pub root@120.24.58.36`
 是因为没有设置服务器实例的密码，在阿里云控制台上设置一下密码
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311040041074.png)
-然后重启服务器
+然后**重启**服务器
 
 
 
@@ -34,12 +34,18 @@ AuthorizedKeysFile .ssh/authorized_keys
 2 种连接方式：
 
 
-方式一：
+方式一：使用ssh
+```
+1. `# 默认使用 22 端口连接服务器`
+2. `ssh root@120.24.58.36``
+3. `# 使用 -p 参数指定端口连接服务器`
+4. `ssh root@120.24.58.36` -p 23`
+```
 item2 中执行命令`ssh root@120.24.58.36`，输入密码，就能连上服务器了
 
 
 
-方式二：
+方式二：使用ssh密钥
 服务器上有个文件 /root/.ssh/authorized_keys，最开始的时候里面什么都没有
 
 本机/Users/ezekiel/.ssh里有公钥私钥（之前生成过）
@@ -65,4 +71,39 @@ IdentityFile ~/.ssh/id_rsa ###本机私钥地址
 然后使用命令`ssh aliyun`,就连接上了
 
 
-使用`exit`即可退出 ssh
+# 保持 ssh 连接
+用iTerm2进行ssh时，空闲了一段时间就会断掉了
+
+有多种解决办法:
+
+1. 修改服务器端`vim /etc/ssh/sshd_config`
+```
+ClientAliveInterval 600 ###数值是秒 可以随意设置
+ClientAliveCountMax 10 ###如果发现客户端没有响应，则判断一次超时，参数设置是允许超时次数
+```
+
+
+2. 修改ssh配置，间隔60s发送一个no-op包 `vim ~/.ssh/config`（我采用的）
+```
+Host *
+    Port 22
+    User root
+    ServerAliveInterval 60
+    ConnectTimeout 0
+    TCPKeepAlive yes
+```
+
+
+ 3. 修改 item2 配置,每隔60s发送一个字符
+ 这个办法的副作用也是有的，比如iTerm2会出现一些并不想输入的字符、vim会有些多余字符插入等等
+ ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311040146691.png)
+
+
+
+4. 客户端进行SSH连接时，直接在命令里加上这个参数即可（推荐！）：
+````
+ssh -o TCPKeepAlive=yes -o ServerAliveInterval=300 root@120.24.58.36
+````
+
+# 退出
+使用`exit`命令即可退出 ssh
