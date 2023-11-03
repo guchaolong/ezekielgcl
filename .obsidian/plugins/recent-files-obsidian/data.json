@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "item2 连接阿里云服务器",
+      "path": "码农笔记/H10——Linux/item2 连接阿里云服务器.md"
+    },
+    {
+      "basename": "Linux学习笔记",
+      "path": "码农笔记/H10——Linux/Linux学习笔记.md"
+    },
+    {
+      "basename": "Linux命令积累",
+      "path": "码农笔记/H10——Linux/Linux命令积累.md"
+    },
+    {
       "basename": "IO、NIO、AIO、Netty",
       "path": "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "阿里巴巴Java开发手册2022最新版(黄山版)",
       "path": "附件素材/码农/阿里巴巴Java开发手册2022最新版(黄山版).pdf"
-    },
-    {
-      "basename": "HomePage",
-      "path": "HomePage.md"
-    },
-    {
-      "basename": "主内存与工作内存",
-      "path": "码农笔记/A04——多线程并发/主内存与工作内存.md"
-    },
-    {
-      "basename": "GC和GC Tuning",
-      "path": "码农笔记/A03——GC/GC和GC Tuning.md"
     }
   ],
   "omittedPaths": [],
