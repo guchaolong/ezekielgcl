@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "搞钱",
-      "path": "Everything/搞钱.md"
+      "basename": "录制主播视频上传B站",
+      "path": "Everything/搞钱/录制主播视频上传B站.md"
     },
     {
-      "basename": "Linux学习笔记",
-      "path": "码农笔记/H10——Linux/Linux学习笔记.md"
+      "basename": "视频直播推流",
+      "path": "Everything/搞钱/视频直播推流.md"
+    },
+    {
+      "basename": "Mac——工欲善其事 必先利其器",
+      "path": "Everything/Mac——工欲善其事 必先利其器.md"
     },
     {
       "basename": "Mac zsh Item2命令",
@@ -17,6 +21,14 @@
       "path": "码农笔记/H10——Linux/Linux命令积累.md"
     },
     {
+      "basename": "Linux学习笔记",
+      "path": "码农笔记/H10——Linux/Linux学习笔记.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "码农笔记/H10——Linux/Linux.md"
+    },
+    {
       "basename": "速学150个Linux常用命令",
       "path": "码农笔记/H10——Linux/速学150个Linux常用命令.md"
     },
@@ -25,24 +37,24 @@
       "path": "码农笔记/H10——Linux/item2 连接阿里云服务器.md"
     },
     {
-      "basename": "Linux",
-      "path": "码农笔记/H10——Linux/Linux.md"
+      "basename": "Kali Linux",
+      "path": "码农笔记/H10——Linux/Kali Linux.md"
+    },
+    {
+      "basename": "宽带 网速 光猫 路由器 网速 ......",
+      "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
+    },
+    {
+      "basename": "科学上网翻墙VPN机场外网",
+      "path": "Everything/科学上网翻墙VPN机场外网.md"
     },
     {
       "basename": "IO、NIO、AIO、Netty",
       "path": "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md"
     },
     {
-      "basename": "Mac——工欲善其事 必先利其器",
-      "path": "Everything/Mac——工欲善其事 必先利其器.md"
-    },
-    {
       "basename": "Win——DIY PC",
       "path": "Everything/Win——DIY PC.md"
-    },
-    {
-      "basename": "科学上网翻墙VPN机场外网",
-      "path": "Everything/科学上网翻墙VPN机场外网.md"
     },
     {
       "basename": "Obsidian折腾记录",
@@ -55,10 +67,6 @@
     {
       "basename": "起名",
       "path": "Everything/起名.md"
-    },
-    {
-      "basename": "宽带 网速 光猫 路由器 网速 ......",
-      "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
     },
     {
       "basename": "二进制、原码、反码、补码",
@@ -191,14 +199,6 @@
     {
       "basename": "Nacos",
       "path": "码农笔记/C00——微服务/SpringCloud Alibaba/Nacos.md"
-    },
-    {
-      "basename": "sentinel",
-      "path": "码农笔记/C00——微服务/SpringCloud Alibaba/sentinel.md"
-    },
-    {
-      "basename": "微服务框架介绍",
-      "path": "码农笔记/C00——微服务/微服务框架介绍.md"
     }
   ],
   "omittedPaths": [],

@@ -5,7 +5,6 @@
 
 > 每天学一点Linux
 
-
 ### 特点
 
 免费、开源、安全、高效、稳定、处理高并发非常强悍
@@ -275,7 +274,7 @@ tar -zxvf ff.tar.gz						将ff解压到当前目录
 
 ```bash
 ls -ahl				查看文件所有者
-chown zeki ./f2.txt	将f2.txt的所有者跟改为zeki这个用户
+chown zeki ./f2.txt	将f2.txt的所有者更改为zeki这个用户
 ```
 
 ### 任务调度

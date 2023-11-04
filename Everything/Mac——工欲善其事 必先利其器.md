@@ -452,8 +452,12 @@ m1芯片使用的是arm架构，而目前Oracle还没有推出适配Mac的arm架
 
 > 但是我自己配了一下
 > `~/.zshrc`文件后面加上两行,然后`source ~/.zshrc`让配置文件生效
-> export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
-> export PATH=$JAVA_HOME/bin:$PATH
+```
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
 
 再查看环境变量：
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1672922265939-bd0236da-6b41-4087-bb60-439ec2c33348.png#averageHue=%23142a32&clientId=u21cf0cbf-b0db-4&from=paste&height=145&id=ub85f4248&originHeight=290&originWidth=3424&originalType=binary&ratio=1&rotation=0&showTitle=false&size=498001&status=done&style=none&taskId=uffca2da9-860d-45fc-9c43-3cb2d667fce&title=&width=1712)
@@ -514,4 +518,51 @@ vscode切换中英文
 
 ## nginx
 dockr安装 nginx,参考：[[docker安装nginx并挂载]]
+
+
+## python3 和 pip3
+我一直没有主打安装过 Python，所以电脑上没有 Python 和 pip
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050556793.png)
+
+但是居然有 Python3和 pip3, 不知道是什么时候装上去的，pip3是装 item2 的时候有装过，Python3 不知道什么时候装的，可能是 VSCode 扩展的时候装上的吧
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050557929.png)
+
+
+## linux-command 命令手册
+参考: [GitHub - jaywcjlove/linux-command: Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux](https://github.com/jaywcjlove/linux-command)
+
+之前已经安装过 dash版，Alfred 版
+
+Alfred 版是通过Workflows 实现的，通过输入关键词`lc`触发，挺方便的
+
+再安装个命令行版的，参考：[GitHub - chenjiandongx/how: 📝 Impressive Linux commands cheat sheet (Python).](https://github.com/chenjiandongx/how)
+
+执行`pip3 install how`的时候出现错误：
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050612926.png)
+
+按照提示，执行`/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip`升级 pip
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050616877.png)
+
+再按照提示，pip, pip3 and pip3.9都没有加入到 PATH 环境变量中
+
+接下来，先`pip3 uninstall how`删除之前没安装成功的,然后再加入到环境变量中
+```
+echo 'export PATH=/Users/ezekiel/Library/Python/3.9/bin:$PATH' >> ~/.zshrc
+source ~/.zshrc
+```
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050643656.png)
+
+添加到环境变量后 pip pip3都有了
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050648227.png)
+
+接着安装 `how` 这个命令行工具
+`pip install how`
+
+查看 arch 这个命令的使用手册：
+`how arch`
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050652975.png)
+
+>Note: 建议第一次使用 `how` 时先初始化所有的命令文档，`how -i`，该命令会将 [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) 的 .md 文档下载到 `~/.command` 本地路径下。不过这个操作不是必须的，因为如果 `how some-command` 在本地路径中查询不到的话，会尝试先向远程地址下载
+
+
 

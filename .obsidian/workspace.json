@@ -4,96 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "02dadc5371c661db",
+        "id": "726f10ebfca994a1",
         "type": "tabs",
         "children": [
           {
-            "id": "37ed77327883ee45",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "a12f0b5f927d79ae",
+            "id": "f4a5251b795d59da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Everything/搞钱.md",
+                "file": "Everything/搞钱/视频直播推流.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a21f99f23a2b9039",
+            "id": "b8376c98aba88fe5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "码农笔记/H10——Linux/Linux学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "89bf19d137e05654",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H10——Linux/item2 连接阿里云服务器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32caa6b12fd72ed9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H10——Linux/Linux命令积累.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "304d0164d6eed0db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H10——Linux/Mac zsh Item2命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9dd16c0284b02f32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H10——Linux/Linux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc4821a26946f82b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H10——Linux/速学150个Linux常用命令.md",
+                "file": "Everything/搞钱/录制主播视频上传B站.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "行号",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -174,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/搞钱.md",
+                "file": "Everything/搞钱/录制主播视频上传B站.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/搞钱.md",
+                "file": "Everything/搞钱/录制主播视频上传B站.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -214,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/搞钱.md"
+                "file": "Everything/搞钱/录制主播视频上传B站.md"
               }
             }
           },
@@ -241,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 395.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,24 +193,27 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a12f0b5f927d79ae",
+  "active": "b8376c98aba88fe5",
   "lastOpenFiles": [
-    "码农笔记/H10——Linux/Linux学习笔记.md",
+    "Everything/搞钱/视频直播推流.md",
+    "Everything/Mac——工欲善其事 必先利其器.md",
     "码农笔记/H10——Linux/Mac zsh Item2命令.md",
     "码农笔记/H10——Linux/Linux命令积累.md",
+    "码农笔记/H10——Linux/Linux学习笔记.md",
+    "码农笔记/H10——Linux/Linux.md",
     "码农笔记/H10——Linux/速学150个Linux常用命令.md",
     "码农笔记/H10——Linux/item2 连接阿里云服务器.md",
-    "Everything/搞钱.md",
-    "码农笔记/H10——Linux/Linux.md",
+    "码农笔记/H10——Linux/Kali Linux.md",
+    "Everything/搞钱/录制主播视频上传B站.md",
+    "Everything/搞钱",
+    "Everything/宽带 网速 光猫 路由器 网速 .......md",
+    "Everything/科学上网翻墙VPN机场外网.md",
     "码农笔记/item2 连接阿里云.md",
     "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md",
-    "Everything/Mac——工欲善其事 必先利其器.md",
     "Everything/Win——DIY PC.md",
-    "Everything/科学上网翻墙VPN机场外网.md",
     "Everything/Obsidian折腾记录.md",
     "Everything/Markdown语法.md",
     "Everything/起名.md",
-    "Everything/宽带 网速 光猫 路由器 网速 .......md",
     "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
     "码农笔记/K20——设计模式/快速总结.md",
     "码农笔记/K20——设计模式/23个设计模式总结.md",
@@ -287,8 +222,6 @@
     "码农笔记/C10——分布式框架/Zookeeper.md",
     "码农笔记/Y00——面试/问题汇总.md",
     "码农笔记/Y00——面试/LAZADA.md",
-    "码农笔记/Y00——面试/找工作更多的是技巧.md",
-    "码农笔记/Y00——面试/快速笔记.md",
     "附件素材/码农/RedisCheatSheet-ByGeekHour.pdf",
     "码农笔记/C00——微服务/SpringCloud Alibaba",
     "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
@@ -298,7 +231,6 @@
     "码农笔记/A02——JVM",
     "码农笔记/S10——解决方案",
     "码农笔记/C10——分布式框架",
-    "码农笔记/A50——MyBatis",
     "附件素材/icons/Health & Medical/heart-fill.svg",
     "附件素材/icons/Finance/water-flash-line.svg",
     "附件素材/icons/Finance/water-flash-fill.svg",

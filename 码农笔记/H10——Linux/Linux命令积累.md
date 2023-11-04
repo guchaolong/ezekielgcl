@@ -1,17 +1,5 @@
 
 #Linux 
-
-
-# 不同的发行版
-基于Red Hat的：
-比如centos，注重稳定性和安全，主要用于生产环境，适用于服务器环境，比如，虚拟机安装的时候都没有界面，只有命令行，使用的是基于RPM的YUM软件包管理器
-
-基于Debian的：
-比如Ubuntu 、kali，注重用户友好性，桌面环境，也有命令行，更适用于个人，使用DPKG 机制的APT软件包管理
-
-> 主要学习centos，因为用户界面有win和macos了，再学了服务器环境的centos
-
-
 # arch 显示当前主机硬件架构类型
 # cd
 ```shell
@@ -110,12 +98,15 @@ Ubuntu:	`apt install tldr`
 CentOs:	`yum install tldr`
 
 # vim
-vim a.txt
+`vim a.txt`
+
 查找关键字`:/abcds`  按`n`显示下一个
+
 显示行号`:set nu`，取消行号`:set nonu`
 光标移到开始位置`gg`
 光标移到结束位置`G`
-移到第 12 行`输入数字 12，然后按 shift+g`
+光标移到第 12 行`输入数字 12，然后按 shift+g`
+
 保存为b.txt  `:w b.txt `
 保存并退出 `:wq`
 不保存(无论修改与否)， 强制退出`:q! `
