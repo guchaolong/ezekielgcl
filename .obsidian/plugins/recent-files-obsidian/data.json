@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "item2 连接阿里云服务器",
-      "path": "码农笔记/H10——Linux/item2 连接阿里云服务器.md"
+      "basename": "搞钱",
+      "path": "Everything/搞钱.md"
     },
     {
       "basename": "Linux学习笔记",
       "path": "码农笔记/H10——Linux/Linux学习笔记.md"
     },
     {
+      "basename": "Mac zsh Item2命令",
+      "path": "码农笔记/H10——Linux/Mac zsh Item2命令.md"
+    },
+    {
       "basename": "Linux命令积累",
       "path": "码农笔记/H10——Linux/Linux命令积累.md"
+    },
+    {
+      "basename": "速学150个Linux常用命令",
+      "path": "码农笔记/H10——Linux/速学150个Linux常用命令.md"
+    },
+    {
+      "basename": "item2 连接阿里云服务器",
+      "path": "码农笔记/H10——Linux/item2 连接阿里云服务器.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "码农笔记/H10——Linux/Linux.md"
     },
     {
       "basename": "IO、NIO、AIO、Netty",
@@ -183,22 +199,6 @@
     {
       "basename": "微服务框架介绍",
       "path": "码农笔记/C00——微服务/微服务框架介绍.md"
-    },
-    {
-      "basename": "Spring Cloud",
-      "path": "码农笔记/C00——微服务/Spring Cloud.md"
-    },
-    {
-      "basename": "Java内存区域和内存模型（JMM）",
-      "path": "码农笔记/A02——JVM/Java内存区域和内存模型（JMM）.md"
-    },
-    {
-      "basename": "GitHub 上标星 115k+ 的 Java 教程",
-      "path": "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf"
-    },
-    {
-      "basename": "阿里巴巴Java开发手册2022最新版(黄山版)",
-      "path": "附件素材/码农/阿里巴巴Java开发手册2022最新版(黄山版).pdf"
     }
   ],
   "omittedPaths": [],

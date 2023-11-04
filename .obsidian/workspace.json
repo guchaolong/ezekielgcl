@@ -21,7 +21,79 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Everything/搞钱.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a21f99f23a2b9039",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/H10——Linux/Linux学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89bf19d137e05654",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "码农笔记/H10——Linux/item2 连接阿里云服务器.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32caa6b12fd72ed9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/H10——Linux/Linux命令积累.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "304d0164d6eed0db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/H10——Linux/Mac zsh Item2命令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dd16c0284b02f32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/H10——Linux/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc4821a26946f82b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "码农笔记/H10——Linux/速学150个Linux常用命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 322.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -102,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "码农笔记/H10——Linux/item2 连接阿里云服务器.md",
+                "file": "Everything/搞钱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "码农笔记/H10——Linux/item2 连接阿里云服务器.md",
+                "file": "Everything/搞钱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "码农笔记/H10——Linux/item2 连接阿里云服务器.md"
+                "file": "Everything/搞钱.md"
               }
             }
           },
@@ -191,10 +263,14 @@
   },
   "active": "a12f0b5f927d79ae",
   "lastOpenFiles": [
-    "码农笔记/H10——Linux/item2 连接阿里云服务器.md",
     "码农笔记/H10——Linux/Linux学习笔记.md",
-    "码农笔记/item2 连接阿里云.md",
+    "码农笔记/H10——Linux/Mac zsh Item2命令.md",
     "码农笔记/H10——Linux/Linux命令积累.md",
+    "码农笔记/H10——Linux/速学150个Linux常用命令.md",
+    "码农笔记/H10——Linux/item2 连接阿里云服务器.md",
+    "Everything/搞钱.md",
+    "码农笔记/H10——Linux/Linux.md",
+    "码农笔记/item2 连接阿里云.md",
     "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md",
     "Everything/Mac——工欲善其事 必先利其器.md",
     "Everything/Win——DIY PC.md",
@@ -213,11 +289,7 @@
     "码农笔记/Y00——面试/LAZADA.md",
     "码农笔记/Y00——面试/找工作更多的是技巧.md",
     "码农笔记/Y00——面试/快速笔记.md",
-    "码农笔记/Y00——面试/复习计划.md",
-    "码农笔记/C10——分布式框架/Redis/Redis简单教程.md",
     "附件素材/码农/RedisCheatSheet-ByGeekHour.pdf",
-    "码农笔记/H20——Docker/docker安装单机redis.md",
-    "码农笔记/C10——分布式框架/Redis/Redis.md",
     "码农笔记/C00——微服务/SpringCloud Alibaba",
     "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
     "附件素材/码农/阿里巴巴Java开发手册2022最新版(黄山版).pdf",
