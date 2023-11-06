@@ -520,13 +520,6 @@ vscode切换中英文
 dockr安装 nginx,参考：[[docker安装nginx并挂载]]
 
 
-## python3 和 pip3
-我一直没有主打安装过 Python，所以电脑上没有 Python 和 pip
-![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050556793.png)
-
-但是居然有 Python3和 pip3, 不知道是什么时候装上去的，pip3是装 item2 的时候有装过，Python3 不知道什么时候装的，可能是 VSCode 扩展的时候装上的吧
-![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050557929.png)
-
 
 ## linux-command 命令手册
 参考: [GitHub - jaywcjlove/linux-command: Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux](https://github.com/jaywcjlove/linux-command)
@@ -565,4 +558,44 @@ source ~/.zshrc
 >Note: 建议第一次使用 `how` 时先初始化所有的命令文档，`how -i`，该命令会将 [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) 的 .md 文档下载到 `~/.command` 本地路径下。不过这个操作不是必须的，因为如果 `how some-command` 在本地路径中查询不到的话，会尝试先向远程地址下载
 
 
+
+
+## python3 和 pip3
+我一直没有主打安装过 Python，所以电脑上没有 Python 和 pip
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050556793.png)
+
+
+但是居然有 Python3和 pip3, 版本是 3.9
+不知道是什么时候装上去的，pip3是装 item2 的时候有装过，Python3 不知道什么时候装的，可能是 VSCode 扩展的时候装上的吧
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050557929.png)
+然后弄 Linux-command 命令手册的时候，更新过 pip,修改过环境变量，当前使用的是 3.9 版本
+
+准备装个新的版本：3.10
+
+安装 Python3.10
+[Python Releases for macOS | Python.org](https://www.python.org/downloads/macos/)下载3.10.10版本
+双击 pkg 安装包，安装完成后会有两个东西
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311070306552.png)
+
+然后现在有两个版本了，3.9 和 3.10，当前使用的是 3.9
+3.10 在/Library/Frameworks/Python.framework/Versions/3.10 下面
+3.9 在/Users/ezekiel/Library/Python/3.9 下面
+
+之前在 linux-command 的时候，环境变量就是设置成了/Users/ezekiel/Library/Python/3.9，所以当前使用的是 3.9
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311070304707.png)
+
+然后配置环境变量，Python 用 3.10，并且给 python3取个别名，这样输入`python` 、`pip`就不会报错了
+```
+vim .zshrc
+
+export PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:${PATH}"
+alias python="/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10"
+
+source ~/.zshrc
+```
+
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311070417373.png)
+
+因为Python3自带安装 pip3, 当环境变量 Python 版本换成 3.10 后
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311070455938.png)
 
