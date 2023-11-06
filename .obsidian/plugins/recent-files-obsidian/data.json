@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "录制主播视频上传B站",
-      "path": "Everything/搞钱/录制主播视频上传B站.md"
+      "basename": "02-部署biliup自动录播程序",
+      "path": "Everything/搞钱/02-部署biliup自动录播程序.md"
     },
     {
-      "basename": "视频直播推流",
-      "path": "Everything/搞钱/视频直播推流.md"
+      "basename": "01-视频直播推流",
+      "path": "Everything/搞钱/01-视频直播推流.md"
+    },
+    {
+      "basename": "Obsidian折腾记录",
+      "path": "Everything/Obsidian折腾记录.md"
     },
     {
       "basename": "Mac——工欲善其事 必先利其器",
@@ -55,10 +59,6 @@
     {
       "basename": "Win——DIY PC",
       "path": "Everything/Win——DIY PC.md"
-    },
-    {
-      "basename": "Obsidian折腾记录",
-      "path": "Everything/Obsidian折腾记录.md"
     },
     {
       "basename": "Markdown语法",

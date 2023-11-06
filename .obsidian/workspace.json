@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Everything/搞钱/视频直播推流.md",
+                "file": "Everything/搞钱/01-视频直播推流.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Everything/搞钱/录制主播视频上传B站.md",
+                "file": "Everything/搞钱/02-部署biliup自动录播程序.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/搞钱/录制主播视频上传B站.md",
+                "file": "Everything/搞钱/02-部署biliup自动录播程序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/搞钱/录制主播视频上传B站.md",
+                "file": "Everything/搞钱/02-部署biliup自动录播程序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/搞钱/录制主播视频上传B站.md"
+                "file": "Everything/搞钱/02-部署biliup自动录播程序.md"
               }
             }
           },
@@ -195,7 +195,9 @@
   },
   "active": "b8376c98aba88fe5",
   "lastOpenFiles": [
-    "Everything/搞钱/视频直播推流.md",
+    "Everything/搞钱/01-视频直播推流.md",
+    "Everything/搞钱/02-部署biliup自动录播程序.md",
+    "Everything/Obsidian折腾记录.md",
     "Everything/Mac——工欲善其事 必先利其器.md",
     "码农笔记/H10——Linux/Mac zsh Item2命令.md",
     "码农笔记/H10——Linux/Linux命令积累.md",
@@ -204,14 +206,12 @@
     "码农笔记/H10——Linux/速学150个Linux常用命令.md",
     "码农笔记/H10——Linux/item2 连接阿里云服务器.md",
     "码农笔记/H10——Linux/Kali Linux.md",
-    "Everything/搞钱/录制主播视频上传B站.md",
     "Everything/搞钱",
     "Everything/宽带 网速 光猫 路由器 网速 .......md",
     "Everything/科学上网翻墙VPN机场外网.md",
     "码农笔记/item2 连接阿里云.md",
     "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md",
     "Everything/Win——DIY PC.md",
-    "Everything/Obsidian折腾记录.md",
     "Everything/Markdown语法.md",
     "Everything/起名.md",
     "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
