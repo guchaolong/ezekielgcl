@@ -566,7 +566,7 @@ source ~/.zshrc
 
 
 但是居然有 Python3和 pip3, 版本是 3.9
-不知道是什么时候装上去的，pip3是装 item2 的时候有装过，Python3 不知道什么时候装的，可能是 VSCode 扩展的时候装上的吧
+不知道是什么时候装上去的，pip3是装 item2 的时候有装过，Python3.9可能也是这个时候装上去的吧，或者是 VSCode 扩展的时候装上的？
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050557929.png)
 然后弄 Linux-command 命令手册的时候，更新过 pip,修改过环境变量，当前使用的是 3.9 版本
 
@@ -594,8 +594,21 @@ alias python="/Library/Frameworks/Python.framework/Versions/3.10/bin/python3.10"
 source ~/.zshrc
 ```
 
-![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311070417373.png)
-
 因为Python3自带安装 pip3, 当环境变量 Python 版本换成 3.10 后
+
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311070455938.png)
 
+退出 item2 重新打开，$PATH中就没有 3.9 了，版本也全都变成 3.10 了
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311071319156.png)
+
+pip安装的包放在哪里？
+比如查看how安装在哪里，`pip3 show how`
+![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311071333318.png)
+可以看到 3.10 版本的 pip3 安装的包放在/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages下
+
+3.9 版本的 pip3 安装的放在
+/Users/ezekiel/Library/Python/3.9/lib/python/site-packages 下
+
+好像如果pip版本不同，用 pip 安装的东西，切换 pip之后会用不了，比如我之前用 3.9 版本的 pip3 安装了 how, 环境变量切换到 3.10 之后就用不了了，这个估计是因为 3.9版本的pip3下载的包是放在3.9的 Python 下，切换成 3.10 之后，3.9 就不在环境变量里了，所以就会出现 how 这种命令用不了的情况
+
+在 3.10 版本下也装一次`pip3 install how`就可以了
