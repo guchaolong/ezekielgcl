@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "码农笔记/H10——Linux/Linux学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "824ef7f55af65628",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Everything/Mac——工欲善其事 必先利其器.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "43aaa329cd50e474",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Everything/搞钱/01-视频直播推流.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37b8b5b01348033b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Everything/搞钱/02-部署biliup自动录播程序.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -93,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md",
+                "file": "Everything/搞钱/02-部署biliup自动录播程序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md",
+                "file": "Everything/搞钱/02-部署biliup自动录播程序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md"
+                "file": "Everything/搞钱/02-部署biliup自动录播程序.md"
               }
             }
           },
@@ -180,13 +217,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "435d8e411d59a363",
+  "active": "37b8b5b01348033b",
   "lastOpenFiles": [
+    "Everything/搞钱/01-视频直播推流.md",
+    "码农笔记/H10——Linux/Linux学习笔记.md",
     "Everything/Mac——工欲善其事 必先利其器.md",
     "码农笔记/H10——Linux/Linux命令积累.md",
-    "码农笔记/H10——Linux/Linux学习笔记.md",
     "Everything/搞钱/02-部署biliup自动录播程序.md",
-    "Everything/搞钱/01-视频直播推流.md",
     "Everything/Obsidian折腾记录.md",
     "码农笔记/H10——Linux/Mac zsh Item2命令.md",
     "码农笔记/H10——Linux/Linux.md",

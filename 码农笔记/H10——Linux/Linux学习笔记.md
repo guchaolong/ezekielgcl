@@ -77,7 +77,7 @@ n      			遍历匹配到的关键字(下一个)
 ```bash
 vim /etc/profile
 gg     			最首行
-G      			最尾行
+G（就是 shift +g)      			最尾行
 
 :set nu  		显示行号
 然后输入行号 如34

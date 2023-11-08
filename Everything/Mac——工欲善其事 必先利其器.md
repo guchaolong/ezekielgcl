@@ -407,7 +407,7 @@ source .zshrc
 cd ~/.oh-my-zsh/custom/plugins/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 vi ~/.zshrc
-#在git后面加上 zsh-syntax-highlighting
+#找到plugins，git后面加上 zsh-syntax-highlighting
 #在最后一行加上 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zshrc
 ```
@@ -422,7 +422,7 @@ source ~/.zshrc
 > 添加web-search插件，输入`baidu adfsdf`就会打开百度，搜索关键词adfsdf
 
 ![截屏2023-01-04 04.16.04.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1672777017868-635a09a5-afca-44db-8c51-27cb8eb9c488.png#averageHue=%23214152&clientId=uecf1408a-192f-4&from=ui&id=u5ffde1d2&originHeight=248&originWidth=1506&originalType=binary&ratio=1&rotation=0&showTitle=false&size=119759&status=done&style=none&taskId=uae598c66-e080-417b-9269-3f8dde41b02&title=)
-补全命令的字体不太清晰，与背景颜色太过相近，其实可以自己调整一下字体颜色
+补全命令的字体不太清晰bb，与背景颜色太过相近，其实可以自己调整一下字体颜色
 Preferences -> Profiles -> Colors 中有Foreground是标准字体颜色，ANSI Colors中Bright的第一个是补全的字体颜色
 ![截屏2023-01-04 04.24.31.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1672777474572-c69e2865-1c56-4702-99d5-eac2ec7506e5.png#averageHue=%231c3641&clientId=uecf1408a-192f-4&from=drop&id=u16e55441&originHeight=228&originWidth=1356&originalType=binary&ratio=1&rotation=0&showTitle=false&size=93010&status=done&style=none&taskId=u8279e6d0-1b76-4575-a6a6-78db7ce1a68&title=)
 默认
@@ -566,9 +566,10 @@ source ~/.zshrc
 
 
 但是居然有 Python3和 pip3, 版本是 3.9
-不知道是什么时候装上去的，pip3是装 item2 的时候有装过，Python3.9可能也是这个时候装上去的吧，或者是 VSCode 扩展的时候装上的？
+不知道是什么时候装上去的，pip3是装 item2 的时候有装过，Python3.9可能也是这个时候装上去的吧，要么就是 VSCode 扩展的时候装上的？是装在了
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311050557929.png)
-然后弄 Linux-command 命令手册的时候，更新过 pip,修改过环境变量，当前使用的是 3.9 版本
+
+然后弄 Linux-command 命令手册的时候，更新过 pip,修改过环境变量，使用的是 3.9 版本，`export PATH=/Users/ezekiel/Library/Python/3.9/bin:$PATH`
 
 准备装个新的版本：3.10
 
@@ -606,9 +607,9 @@ pip安装的包放在哪里？
 ![image.png](https://raw.githubusercontent.com/guchaolong/articleImgs/master/202311071333318.png)
 可以看到 3.10 版本的 pip3 安装的包放在/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages下
 
-3.9 版本的 pip3 安装的放在
+3.9 版本的 pip3 安装的包放在
 /Users/ezekiel/Library/Python/3.9/lib/python/site-packages 下
 
-好像如果pip版本不同，用 pip 安装的东西，切换 pip之后会用不了，比如我之前用 3.9 版本的 pip3 安装了 how, 环境变量切换到 3.10 之后就用不了了，这个估计是因为 3.9版本的pip3下载的包是放在3.9的 Python 下，切换成 3.10 之后，3.9 就不在环境变量里了，所以就会出现 how 这种命令用不了的情况
+好像如果pip版本不同，用 pip 安装的东西，切换 pip之后会用不了，比如我之前用 3.9 版本的 pip3 安装了 how, 环境变量切换到 3.10 之后就用不了了，这个估计是因为 3.9版本的pip3下载的包是放在3.9的 Python 下，切换成 3.10 之后，3.9 就不在环境变量里了，所以就会出现 how 这种命令用不了的情况，因为how 是放在对应版本的 Python 目录下的，得放到环境变量中，运行的时候才能找得到
 
-在 3.10 版本下也装一次`pip3 install how`就可以了
+解决：在 3.10 版本下也装一次`pip3 install how`就可以了
