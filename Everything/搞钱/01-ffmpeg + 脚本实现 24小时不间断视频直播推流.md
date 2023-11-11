@@ -253,14 +253,17 @@ config.json
 {
   "version": "2.0.0",
   "resource": {
-    "lists": [""],
+    "lists": ["/root/video_live/video"],
     "extensions": ["mp4","flv"]
   },
   "output": {
     "lists": [
       {
-        "path": ""
-      }
+        "path": "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_416668132_25985004&key=723c92d2798a859c3ebe621d06470420&schedule=rtmp&pflag=1"
+      },
+    {
+        "path": "rtmp://sendtc3.douyu.com/live/11907720ruRJcKCD?wsSecret=acdf1aad426162d8429e243ec388a0f5&wsTime=654f595a&wsSeek=off&wm=0&tw=0&roirecognition=0&record=flv&origin=tct&txHost=sendtc3.douyu.com"
+      },
     ],
     "reconnect_internal": 5
   },
@@ -272,4 +275,3 @@ config.json
   }
 }
 ```
-
