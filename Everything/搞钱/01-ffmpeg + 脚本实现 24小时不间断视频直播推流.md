@@ -225,8 +225,51 @@ chmod 777 live.sh
 
 
 
+---
 
+以上是使用 ffmpeg + 脚本实现的
 
+下面介绍另一种推流方法，使用工具kplayer
+文档：
+[Docker部署KPlayer，实现24小时无人直播(B站、斗鱼、虎牙等)](https://blog.fanjunyang.zone/archives/docker-live-stream)
+[KPlayer文档](https://docs.kplayer.net/v0.5.8/quick/install.html)
 
+```
+# 安装
+curl -fsSL get.kplayer.net | bash
 
+cd kplayer
+
+./kplayer
+
+./kplayer play start --daemon
+
+./kplayer play stop
+
+```
+
+config.json
+```json
+{
+  "version": "2.0.0",
+  "resource": {
+    "lists": [""],
+    "extensions": ["mp4","flv"]
+  },
+  "output": {
+    "lists": [
+      {
+        "path": ""
+      }
+    ],
+    "reconnect_internal": 5
+  },
+  "play": {
+    "fill_strategy": "ratio",
+    "skip_invalid_resource": true,
+    "cache_on": true,
+    "play_model": "loop"
+  }
+}
+```
 

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Everything/搞钱/01-视频直播推流.md",
+                "file": "Everything/搞钱/01-ffmpeg + 脚本实现 24小时不间断视频直播推流.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 200
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/搞钱/01-视频直播推流.md",
+                "file": "Everything/搞钱/01-ffmpeg + 脚本实现 24小时不间断视频直播推流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/搞钱/01-视频直播推流.md",
+                "file": "Everything/搞钱/01-ffmpeg + 脚本实现 24小时不间断视频直播推流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/搞钱/01-视频直播推流.md"
+                "file": "Everything/搞钱/01-ffmpeg + 脚本实现 24小时不间断视频直播推流.md"
               }
             }
           },
@@ -219,8 +219,9 @@
   },
   "active": "43aaa329cd50e474",
   "lastOpenFiles": [
+    "Everything/搞钱/未命名.md",
+    "Everything/搞钱/01-ffmpeg + 脚本实现 24小时不间断视频直播推流.md",
     "Everything/Mac——工欲善其事 必先利其器.md",
-    "Everything/搞钱/01-视频直播推流.md",
     "Everything/搞钱/02-部署biliup自动录播程序.md",
     "码农笔记/H10——Linux/Linux学习笔记.md",
     "码农笔记/H10——Linux/Linux命令积累.md",
@@ -245,7 +246,6 @@
     "码农笔记/C10——分布式框架/RocketMQ.md",
     "码农笔记/C10——分布式框架/Zookeeper.md",
     "码农笔记/Y00——面试/问题汇总.md",
-    "码农笔记/Y00——面试/LAZADA.md",
     "附件素材/码农/RedisCheatSheet-ByGeekHour.pdf",
     "码农笔记/C00——微服务/SpringCloud Alibaba",
     "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
