@@ -54,7 +54,12 @@ item2
 地址栏直接 bd + 空格或 g + 空格，再输入要搜的内容
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/663445/1689200062020-9da9ca1c-e414-42bc-9aa5-505db0d02d6c.png#averageHue=%23fefefe&clientId=ufaa9a811-599e-4&from=paste&height=147&id=ud9b74821&originHeight=294&originWidth=737&originalType=binary&ratio=2&rotation=0&showTitle=false&size=20305&status=done&style=none&taskId=ucd4694dd-2e7a-40cc-a4a3-163090581c3&title=&width=368.5)
 
-# 
+## 启动台中的多余图标删不掉
+有时候软件卸载了，启动台中还有图标，删不掉，访达中也找不到
+
+比如 Adobe，启动台中有个"卸载 Adobe Photoshop 2023“的文稿，老是删不掉（往废纸篓拖没用）
+
+解决：把图标往程序坞拖，然后就能删掉了
 # 四、Mac设备
 ## 内存
 > 发现 mac 内存占用特别严重，idea就占 4G 以上
