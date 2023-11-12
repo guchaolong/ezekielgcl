@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md",
+                "file": "Everything/视频剪辑/剪映.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md",
+                "file": "Everything/视频剪辑/剪映.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md",
+                "file": "Everything/视频剪辑/剪映.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md"
+                "file": "Everything/视频剪辑/剪映.md"
               }
             }
           },
@@ -219,10 +219,12 @@
   },
   "active": "43aaa329cd50e474",
   "lastOpenFiles": [
+    "Everything/Mac——工欲善其事 必先利其器.md",
+    "Everything/视频剪辑/剪映.md",
+    "Everything/视频剪辑",
     "码农笔记/H10——Linux/Linux学习笔记.md",
     "Everything/搞钱/01-ffmpeg + 脚本实现 24小时不间断视频直播推流.md",
     "Everything/搞钱/未命名.md",
-    "Everything/Mac——工欲善其事 必先利其器.md",
     "Everything/搞钱/02-部署biliup自动录播程序.md",
     "码农笔记/H10——Linux/Linux命令积累.md",
     "Everything/Obsidian折腾记录.md",
@@ -245,7 +247,6 @@
     "码农笔记/A00——Java基础/Java基础知识.md",
     "码农笔记/C10——分布式框架/RocketMQ.md",
     "码农笔记/C10——分布式框架/Zookeeper.md",
-    "码农笔记/Y00——面试/问题汇总.md",
     "附件素材/码农/RedisCheatSheet-ByGeekHour.pdf",
     "码农笔记/C00——微服务/SpringCloud Alibaba",
     "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",
@@ -254,7 +255,6 @@
     "码农笔记/A04——多线程并发",
     "码农笔记/A02——JVM",
     "码农笔记/S10——解决方案",
-    "码农笔记/C10——分布式框架",
     "附件素材/icons/Health & Medical/heart-fill.svg",
     "附件素材/icons/Finance/water-flash-line.svg",
     "附件素材/icons/Finance/water-flash-fill.svg",
