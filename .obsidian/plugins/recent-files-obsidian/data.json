@@ -1,16 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "剪映",
-      "path": "Everything/视频剪辑/剪映.md"
-    },
-    {
-      "basename": "Mac——工欲善其事 必先利其器",
-      "path": "Everything/Mac——工欲善其事 必先利其器.md"
-    },
-    {
-      "basename": "Linux学习笔记",
-      "path": "码农笔记/H10——Linux/Linux学习笔记.md"
+      "basename": "UP主",
+      "path": "Everything/搞钱/UP主.md"
     },
     {
       "basename": "01-ffmpeg + 脚本实现 24小时不间断视频直播推流",
@@ -19,6 +11,18 @@
     {
       "basename": "02-部署biliup自动录播程序",
       "path": "Everything/搞钱/02-部署biliup自动录播程序.md"
+    },
+    {
+      "basename": "Mac——工欲善其事 必先利其器",
+      "path": "Everything/Mac——工欲善其事 必先利其器.md"
+    },
+    {
+      "basename": "剪映",
+      "path": "Everything/视频剪辑/剪映.md"
+    },
+    {
+      "basename": "Linux学习笔记",
+      "path": "码农笔记/H10——Linux/Linux学习笔记.md"
     },
     {
       "basename": "Linux命令积累",
@@ -195,10 +199,6 @@
     {
       "basename": "Full GC怎么查",
       "path": "码农笔记/A03——GC/Full GC怎么查.md"
-    },
-    {
-      "basename": "垃圾收集器",
-      "path": "码农笔记/A03——GC/垃圾收集器.md"
     }
   ],
   "omittedPaths": [],

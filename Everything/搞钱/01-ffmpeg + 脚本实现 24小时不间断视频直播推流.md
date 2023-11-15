@@ -226,6 +226,7 @@ chmod 777 live.sh
 
 
 ---
+# kplayer
 
 以上是使用 ffmpeg + 脚本实现的
 
@@ -240,10 +241,13 @@ curl -fsSL get.kplayer.net | bash
 
 cd kplayer
 
+# 查看版本
 ./kplayer
 
+# 后台运行
 ./kplayer play start --daemon
 
+# 停止
 ./kplayer play stop
 
 ```
