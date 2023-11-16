@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "165bce5e64bf2c00",
+        "id": "dcdaf9e20b02f0f8",
         "type": "tabs",
         "children": [
           {
-            "id": "ca1197432f0fcdaa",
+            "id": "9ca04da3f8862c2f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H10——Linux/Linux学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "824ef7f55af65628",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/Mac——工欲善其事 必先利其器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37b8b5b01348033b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/搞钱/02-部署biliup自动录播程序.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bbf002e15043439",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/搞钱/UP主.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Pr",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -114,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 226.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -130,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/搞钱/UP主.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/搞钱/UP主.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -169,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Everything/搞钱/UP主.md"
-              }
+              "state": {}
             }
           },
           {
@@ -197,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 229.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,16 +172,16 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "5bbf002e15043439",
+  "active": "9ca04da3f8862c2f",
   "lastOpenFiles": [
-    "Everything/搞钱/01-ffmpeg + 脚本实现 24小时不间断视频直播推流.md",
     "Everything/搞钱/UP主.md",
-    "Everything/搞钱/02-部署biliup自动录播程序.md",
+    "码农笔记/H10——Linux/Linux学习笔记.md",
     "Everything/Mac——工欲善其事 必先利其器.md",
+    "Everything/搞钱/01- 陪伴型24小时不间断视频直播推流.md",
+    "Everything/搞钱/02-部署biliup自动录播程序.md",
+    "码农笔记/H10——Linux/Linux命令积累.md",
     "Everything/视频剪辑/剪映.md",
     "Everything/视频剪辑",
-    "码农笔记/H10——Linux/Linux学习笔记.md",
-    "码农笔记/H10——Linux/Linux命令积累.md",
     "Everything/Obsidian折腾记录.md",
     "码农笔记/H10——Linux/Mac zsh Item2命令.md",
     "码农笔记/H10——Linux/Linux.md",
