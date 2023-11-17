@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Faker",
+      "path": "Everything/搞钱/Faker.md"
+    },
+    {
       "basename": "UP主",
       "path": "Everything/搞钱/UP主.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Tomcat",
       "path": "码农笔记/A40——Tomcat/Tomcat.md"
-    },
-    {
-      "basename": "Full GC怎么查",
-      "path": "码农笔记/A03——GC/Full GC怎么查.md"
     }
   ],
   "omittedPaths": [],
