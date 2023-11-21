@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Everything/搞钱/Faker.md",
+                "file": "Everything/搞钱/Pr2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/搞钱/Faker.md",
+                "file": "Everything/搞钱/Pr2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/搞钱/Faker.md",
+                "file": "Everything/搞钱/Pr2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/搞钱/Faker.md"
+                "file": "Everything/搞钱/Pr2023.md"
               }
             }
           },
@@ -194,6 +194,8 @@
   },
   "active": "9ca04da3f8862c2f",
   "lastOpenFiles": [
+    "Everything/搞钱/麦克阿瑟.md",
+    "Everything/搞钱/Pr2023.md",
     "Everything/搞钱/自媒体运营.md",
     "Everything/搞钱/Faker.md",
     "码农笔记/H10——Linux/Linux学习笔记.md",
@@ -220,8 +222,6 @@
     "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
     "码农笔记/K20——设计模式/快速总结.md",
     "码农笔记/K20——设计模式/23个设计模式总结.md",
-    "码农笔记/A00——Java基础/Java基础知识.md",
-    "码农笔记/C10——分布式框架/RocketMQ.md",
     "附件素材/码农/RedisCheatSheet-ByGeekHour.pdf",
     "码农笔记/C00——微服务/SpringCloud Alibaba",
     "附件素材/码农/GitHub 上标星 115k+ 的 Java 教程.pdf",

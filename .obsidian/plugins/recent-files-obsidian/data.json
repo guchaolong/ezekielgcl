@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Faker",
-      "path": "Everything/搞钱/Faker.md"
+      "basename": "Pr2023",
+      "path": "Everything/搞钱/Pr2023.md"
+    },
+    {
+      "basename": "麦克阿瑟",
+      "path": "Everything/搞钱/麦克阿瑟.md"
     },
     {
       "basename": "自媒体运营",
       "path": "Everything/搞钱/自媒体运营.md"
+    },
+    {
+      "basename": "Faker",
+      "path": "Everything/搞钱/Faker.md"
     },
     {
       "basename": "Linux学习笔记",
@@ -191,14 +199,6 @@
     {
       "basename": "JVM之 方法区、永久代、元空间三者的区别",
       "path": "码农笔记/A02——JVM/JVM之 方法区、永久代、元空间三者的区别.md"
-    },
-    {
-      "basename": "Spring知识梳理",
-      "path": "码农笔记/A20——Spring/Spring知识梳理.md"
-    },
-    {
-      "basename": "Tomcat",
-      "path": "码农笔记/A40——Tomcat/Tomcat.md"
     }
   ],
   "omittedPaths": [],
