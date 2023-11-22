@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "奥德彪",
+      "path": "Everything/搞钱/奥德彪.md"
+    },
+    {
       "basename": "麦克阿瑟",
       "path": "Everything/搞钱/麦克阿瑟.md"
+    },
+    {
+      "basename": "男生减速带",
+      "path": "Everything/搞钱/男生减速带.md"
+    },
+    {
+      "basename": "AI 工具",
+      "path": "Everything/搞钱/AI 工具.md"
     },
     {
       "basename": "自媒体运营",
       "path": "Everything/搞钱/自媒体运营.md"
     },
     {
-      "basename": "Pr2023",
-      "path": "Everything/搞钱/Pr2023.md"
-    },
-    {
       "basename": "Faker",
       "path": "Everything/搞钱/Faker.md"
+    },
+    {
+      "basename": "Pr2023",
+      "path": "Everything/搞钱/Pr2023.md"
     },
     {
       "basename": "Linux学习笔记",
@@ -187,18 +199,6 @@
     {
       "basename": "目录",
       "path": "码农笔记/X00——图灵五期/目录.md"
-    },
-    {
-      "basename": "Java开发手册",
-      "path": "码农笔记/A00——Java基础/Java开发手册.md"
-    },
-    {
-      "basename": "JVM基础——马士兵",
-      "path": "码农笔记/A02——JVM/JVM基础——马士兵.md"
-    },
-    {
-      "basename": "JVM之 方法区、永久代、元空间三者的区别",
-      "path": "码农笔记/A02——JVM/JVM之 方法区、永久代、元空间三者的区别.md"
     }
   ],
   "omittedPaths": [],
