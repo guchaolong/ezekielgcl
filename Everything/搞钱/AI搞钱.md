@@ -21,3 +21,15 @@ AI数字内容创造者
 
 不露脸不拍视频的博主
 
+# AI生图放到短视频平台
+
+GPT负责思路文案、Midjourney 生图
+
+https://www.youtube.com/watch?v=qElwHVPToX4&ab_channel=%E4%B8%83%E4%B8%83%E8%A1%8C%E9%8A%B7%E7%AD%86%E8%A8%98
+
+
+
+
+
+
+

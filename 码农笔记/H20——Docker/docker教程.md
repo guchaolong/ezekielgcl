@@ -117,8 +117,7 @@ docker 采用 CS架构模式，docker client和 docker daemon之间通过Socket 
 
 # Docker 进入容器，并在容器内执行命令
 * 语法：
-**docker exec** [OPTIONS] CONTAINER COMMAND [ARG...]
-
+`docker exec [OPTIONS] CONTAINER COMMAND [ARG...]`
 
 * OPTIONS 参数说明：
 -i: 让容器的标准输入（STDIN）始终保持打开，即使没有输入任何指令（没有附加）
@@ -132,19 +131,11 @@ docker 采用 CS架构模式，docker client和 docker daemon之间通过Socket 
 `command` 指的是 `shell` 的类型，常见的有 `bash`、`sh`、`zsh`，但是 `Linux` 系统大多数默认的是 `bash` 类型，新版 `Mac OS` 系统的话，默认的不再是 `bash` ，而是 `zsh`。
 
 
-
-
 * 查看正在运行的容器
 
 ```
 docker ps
 ```
-
-执行结果如下：
-
-**CONTAINER ID **     IMAGE         COMMAND               CREATED          STATUS            PORTS                **NAMES**
-
-**91af26862191**      nginx     "/docker-entrypoint.…"   7 hours ago       Up 2 hours       0.0.0.0:80->80/tcp     **webserver**
 
 * 使用 exec 进入容器
 
