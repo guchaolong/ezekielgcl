@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux学习笔记",
+      "path": "码农笔记/H10——Linux/Linux学习笔记.md"
+    },
+    {
       "basename": "自媒体运营",
       "path": "Everything/搞钱/自媒体运营.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "docker安装nginx并挂载",
       "path": "码农笔记/H20——Docker/docker安装nginx并挂载.md"
-    },
-    {
-      "basename": "Linux学习笔记",
-      "path": "码农笔记/H10——Linux/Linux学习笔记.md"
     },
     {
       "basename": "Mac——工欲善其事 必先利其器",
