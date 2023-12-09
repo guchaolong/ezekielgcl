@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "股票",
+      "path": "Everything/理财/股票.md"
+    },
+    {
+      "basename": "JVM基础——马士兵",
+      "path": "码农笔记/A02——JVM/JVM基础——马士兵.md"
+    },
+    {
+      "basename": "JVM之 方法区、永久代、元空间三者的区别",
+      "path": "码农笔记/A02——JVM/JVM之 方法区、永久代、元空间三者的区别.md"
+    },
+    {
+      "basename": "JVM之 类加载过程",
+      "path": "码农笔记/A02——JVM/JVM之 类加载过程.md"
+    },
+    {
+      "basename": "Java内存区域和内存模型（JMM）",
+      "path": "码农笔记/A02——JVM/Java内存区域和内存模型（JMM）.md"
+    },
+    {
       "basename": "LOL",
       "path": "Everything/搞钱/LOL.md"
     },
@@ -71,10 +91,6 @@
     {
       "basename": "Linux命令积累",
       "path": "码农笔记/H10——Linux/Linux命令积累.md"
-    },
-    {
-      "basename": "剪映",
-      "path": "Everything/视频剪辑/剪映.md"
     },
     {
       "basename": "Obsidian折腾记录",
@@ -179,14 +195,6 @@
     {
       "basename": "VSCode",
       "path": "码农笔记/L10——互联网工具/VSCode.md"
-    },
-    {
-      "basename": "Git总结",
-      "path": "码农笔记/L10——互联网工具/Git总结.md"
-    },
-    {
-      "basename": "Gradle",
-      "path": "码农笔记/L10——互联网工具/Gradle.md"
     }
   ],
   "omittedPaths": [],

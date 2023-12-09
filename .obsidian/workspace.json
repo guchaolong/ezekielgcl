@@ -4,167 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "dcdaf9e20b02f0f8",
+        "id": "c621236f4eff744b",
         "type": "tabs",
         "children": [
           {
-            "id": "5bdbf1b51915723b",
+            "id": "dddc7aeef2e15a45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Everything/搞钱/自媒体运营.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75a4321c621d04a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/搞钱/清洁解压.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c191ff65baf39b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/搞钱/LOL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63506bb698493aa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H20——Docker/Linux上安装 docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "172476afe293d2a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/搞钱/AI搞钱.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7410f118ff481a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H20——Docker/docker教程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7cf5db675f143b98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/搞钱/麦克阿瑟.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a300c8e7a3bbb7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H20——Docker/docker安装nginx并挂载.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a55461885a2a0e56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H20——Docker/docker安装单机redis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa749356cc86be2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H20——Docker/docker安装centos7.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "956e33e66ecc2c80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/C10——分布式框架/Redis/Redis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "820c057f17c01915",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/搞钱/奥德彪.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32761f3e9ca2cc72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "码农笔记/H10——Linux/Linux.md",
+                "file": "Everything/理财/股票.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/搞钱/LOL.md",
+                "file": "Everything/理财/股票.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/搞钱/LOL.md",
+                "file": "Everything/理财/股票.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -278,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/搞钱/LOL.md"
+                "file": "Everything/理财/股票.md"
               }
             }
           },
@@ -325,15 +180,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9c191ff65baf39b1",
+  "active": "435d8e411d59a363",
   "lastOpenFiles": [
+    "Everything/理财/股票.md",
+    "Everything/视频剪辑/剪映.md",
+    "码农笔记/A02——JVM/JVM基础——马士兵.md",
+    "码农笔记/A02——JVM/JVM之 方法区、永久代、元空间三者的区别.md",
+    "码农笔记/A02——JVM/JVM之 类加载过程.md",
+    "码农笔记/A02——JVM/Java内存区域和内存模型（JMM）.md",
+    "Everything/搞钱/LOL.md",
+    "Everything/理财",
     "Everything/搞钱/清洁解压.md",
     "Everything/搞钱/奥德彪.md",
     "Everything/搞钱/男生减速带.md",
     "Everything/搞钱/麦克阿瑟.md",
     "Everything/搞钱/程序员冷笑话.md",
     "Everything/搞钱/自媒体运营.md",
-    "Everything/搞钱/LOL.md",
     "码农笔记/H10——Linux/Linux学习笔记.md",
     "Everything/搞钱/Faker.md",
     "Everything/搞钱/Pr2023.md",
@@ -347,13 +209,7 @@
     "码农笔记/H20——Docker/docker安装centos7.md",
     "码农笔记/C10——分布式框架/Redis/Redis.md",
     "码农笔记/H20——Docker/docker安装nginx并挂载.md",
-    "Everything/Mac——工欲善其事 必先利其器.md",
-    "Everything/搞钱/02-部署biliup自动录播程序.md",
-    "码农笔记/H10——Linux/Linux命令积累.md",
-    "Everything/视频剪辑/剪映.md",
     "Everything/视频剪辑",
-    "Everything/Obsidian折腾记录.md",
-    "码农笔记/H10——Linux/Mac zsh Item2命令.md",
     "Everything/搞钱",
     "附件素材/码农/RedisCheatSheet-ByGeekHour.pdf",
     "码农笔记/C00——微服务/SpringCloud Alibaba",
@@ -362,7 +218,6 @@
     "码农笔记/A03——GC",
     "码农笔记/A04——多线程并发",
     "码农笔记/A02——JVM",
-    "码农笔记/S10——解决方案",
     "附件素材/icons/Health & Medical/heart-fill.svg",
     "附件素材/icons/Finance/water-flash-line.svg",
     "附件素材/icons/Finance/water-flash-fill.svg",
