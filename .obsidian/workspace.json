@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c621236f4eff744b",
+        "id": "286231a4a12bbc69",
         "type": "tabs",
         "children": [
           {
-            "id": "dddc7aeef2e15a45",
+            "id": "26ffa63bf49b7f63",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything/理财/股票.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 278.5
   },
   "right": {
     "id": "1c96c6369c5a413a",
@@ -93,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything/理财/股票.md",
+                "file": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything/理财/股票.md",
+                "file": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything/理财/股票.md"
+                "file": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md"
               }
             }
           },
@@ -182,18 +178,25 @@
   },
   "active": "435d8e411d59a363",
   "lastOpenFiles": [
-    "Everything/理财/股票.md",
-    "Everything/视频剪辑/剪映.md",
+    "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md",
+    "码农笔记/A00——Java基础/二进制、原码、反码、补码.md",
     "码农笔记/A02——JVM/JVM基础——马士兵.md",
+    "码农笔记/A02——JVM/Java内存区域和内存模型（JMM）.md",
+    "Everything/理财/股票.md",
+    "Everything/科学上网翻墙VPN机场外网.md",
+    "码农笔记/Z10——AI/程序员的未来：工作和学习都要依赖AI了？.md",
+    "码农笔记/X00——图灵五期/目录.md",
+    "Index/index-码农笔记.md",
+    "Index/index-电影清单.md",
+    "Everything/搞钱/麦克阿瑟.md",
+    "Everything/搞钱/奥德彪.md",
+    "Everything/搞钱/LOL.md",
+    "Everything/视频剪辑/剪映.md",
     "码农笔记/A02——JVM/JVM之 方法区、永久代、元空间三者的区别.md",
     "码农笔记/A02——JVM/JVM之 类加载过程.md",
-    "码农笔记/A02——JVM/Java内存区域和内存模型（JMM）.md",
-    "Everything/搞钱/LOL.md",
     "Everything/理财",
     "Everything/搞钱/清洁解压.md",
-    "Everything/搞钱/奥德彪.md",
     "Everything/搞钱/男生减速带.md",
-    "Everything/搞钱/麦克阿瑟.md",
     "Everything/搞钱/程序员冷笑话.md",
     "Everything/搞钱/自媒体运营.md",
     "码农笔记/H10——Linux/Linux学习笔记.md",
@@ -202,13 +205,6 @@
     "Everything/搞钱/AI 工具.md",
     "Everything/搞钱/AI搞钱.md",
     "Everything/搞钱/01- 陪伴型24小时不间断视频直播推流.md",
-    "码农笔记/H20——Docker/Linux上安装 docker.md",
-    "码农笔记/H20——Docker/docker教程.md",
-    "码农笔记/H10——Linux/Linux.md",
-    "码农笔记/H20——Docker/docker安装单机redis.md",
-    "码农笔记/H20——Docker/docker安装centos7.md",
-    "码农笔记/C10——分布式框架/Redis/Redis.md",
-    "码农笔记/H20——Docker/docker安装nginx并挂载.md",
     "Everything/视频剪辑",
     "Everything/搞钱",
     "附件素材/码农/RedisCheatSheet-ByGeekHour.pdf",

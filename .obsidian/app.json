@@ -7,7 +7,7 @@
   "attachmentFolderPath": "附件素材",
   "showIndentGuide": true,
   "legacyEditor": false,
-  "propertiesInDocument": "visible",
+  "propertiesInDocument": "hidden",
   "defaultViewMode": "source",
   "spellcheck": false
 }

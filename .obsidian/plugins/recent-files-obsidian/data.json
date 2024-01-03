@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "股票",
-      "path": "Everything/理财/股票.md"
+      "basename": "二进制、原码、反码、补码",
+      "path": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md"
+    },
+    {
+      "basename": "IO、NIO、AIO、Netty",
+      "path": "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md"
     },
     {
       "basename": "JVM基础——马士兵",
       "path": "码农笔记/A02——JVM/JVM基础——马士兵.md"
+    },
+    {
+      "basename": "Java内存区域和内存模型（JMM）",
+      "path": "码农笔记/A02——JVM/Java内存区域和内存模型（JMM）.md"
+    },
+    {
+      "basename": "股票",
+      "path": "Everything/理财/股票.md"
+    },
+    {
+      "basename": "科学上网翻墙VPN机场外网",
+      "path": "Everything/科学上网翻墙VPN机场外网.md"
+    },
+    {
+      "basename": "程序员的未来：工作和学习都要依赖AI了？",
+      "path": "码农笔记/Z10——AI/程序员的未来：工作和学习都要依赖AI了？.md"
+    },
+    {
+      "basename": "目录",
+      "path": "码农笔记/X00——图灵五期/目录.md"
+    },
+    {
+      "basename": "index-码农笔记",
+      "path": "Index/index-码农笔记.md"
+    },
+    {
+      "basename": "index-电影清单",
+      "path": "Index/index-电影清单.md"
+    },
+    {
+      "basename": "麦克阿瑟",
+      "path": "Everything/搞钱/麦克阿瑟.md"
+    },
+    {
+      "basename": "奥德彪",
+      "path": "Everything/搞钱/奥德彪.md"
+    },
+    {
+      "basename": "LOL",
+      "path": "Everything/搞钱/LOL.md"
     },
     {
       "basename": "JVM之 方法区、永久代、元空间三者的区别",
@@ -17,24 +61,8 @@
       "path": "码农笔记/A02——JVM/JVM之 类加载过程.md"
     },
     {
-      "basename": "Java内存区域和内存模型（JMM）",
-      "path": "码农笔记/A02——JVM/Java内存区域和内存模型（JMM）.md"
-    },
-    {
-      "basename": "LOL",
-      "path": "Everything/搞钱/LOL.md"
-    },
-    {
       "basename": "清洁解压",
       "path": "Everything/搞钱/清洁解压.md"
-    },
-    {
-      "basename": "奥德彪",
-      "path": "Everything/搞钱/奥德彪.md"
-    },
-    {
-      "basename": "麦克阿瑟",
-      "path": "Everything/搞钱/麦克阿瑟.md"
     },
     {
       "basename": "自媒体运营",
@@ -117,14 +145,6 @@
       "path": "Everything/宽带 网速 光猫 路由器 网速 .......md"
     },
     {
-      "basename": "科学上网翻墙VPN机场外网",
-      "path": "Everything/科学上网翻墙VPN机场外网.md"
-    },
-    {
-      "basename": "IO、NIO、AIO、Netty",
-      "path": "码农笔记/A00——Java基础/IO、NIO、AIO、Netty.md"
-    },
-    {
       "basename": "Win——DIY PC",
       "path": "Everything/Win——DIY PC.md"
     },
@@ -135,10 +155,6 @@
     {
       "basename": "起名",
       "path": "Everything/起名.md"
-    },
-    {
-      "basename": "二进制、原码、反码、补码",
-      "path": "码农笔记/A00——Java基础/二进制、原码、反码、补码.md"
     },
     {
       "basename": "快速总结",
@@ -183,18 +199,6 @@
     {
       "basename": "Redis简单教程",
       "path": "码农笔记/C10——分布式框架/Redis/Redis简单教程.md"
-    },
-    {
-      "basename": "mysql梳理",
-      "path": "码农笔记/A10——Mysql/mysql梳理.md"
-    },
-    {
-      "basename": "tiling-3-vip-Redis",
-      "path": "码农笔记/C10——分布式框架/Redis/tiling-3-vip-Redis.md"
-    },
-    {
-      "basename": "VSCode",
-      "path": "码农笔记/L10——互联网工具/VSCode.md"
     }
   ],
   "omittedPaths": [],
